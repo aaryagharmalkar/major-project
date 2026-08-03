@@ -1,0 +1,207 @@
+<docx-template document-type="FIR">
+Fir
+# First Information Report
+
+## Case Summary
+### Case Id
+- CASE_001
+
+### Crime Category
+- Theft
+
+### F I R Number
+- FIR/001/2024
+
+### F I R Date
+- 2024-01-10
+
+### Incident Date
+- 2024-01-09
+
+### Incident Time
+- 22:30:00
+
+### Police Station
+- Shivaji Nagar
+
+### District
+- Pune
+
+### State
+- Maharashtra
+
+### Location
+- Lane 4, Shivajinagar
+
+
+## Header
+### Fir Number
+- FIR/001/2024
+
+### Registration Date
+- 2024-01-10
+
+### Police Station
+- Shivaji Nagar
+
+### District
+- Pune
+
+### State
+- Maharashtra
+
+
+## Registration Details
+### Crime Category
+- Theft
+
+### Offence Description
+- Theft of a motorcycle from the victim's residence.
+
+### Incident Date
+- 2024-01-09
+
+### Incident Time
+- 22:30:00
+
+### Place Of Occurrence
+- Lane 4, Shivajinagar
+
+
+## Complainant
+### Person
+#### Person Id
+- V001
+
+#### Full Name
+- Asha Rao
+
+#### Age
+- 29
+
+#### Gender
+- Female
+
+#### Occupation
+- Teacher
+
+#### Address
+- Lane 4, Shivajinagar
+
+#### Phone
+- 9999999999
+
+
+
+## Accused
+### Item 1
+#### Person
+##### Person Id
+- A001
+
+##### Full Name
+- Ravi Sharma
+
+##### Age
+- 35
+
+##### Gender
+- Male
+
+##### Occupation
+- Mechanic
+
+##### Address
+- Kothrud
+
+##### Phone
+- 8888888888
+
+
+#### Aliases
+- None
+
+#### Charges
+- Theft
+
+
+
+
+## Investigation Details
+### Officer
+#### Name
+- Officer Nair
+
+#### Rank
+- API
+
+#### Buckle Number
+- B-101
+
+#### Police Station
+- Shivaji Nagar
+
+#### Phone
+- 6666666666
+
+
+### Witnesses
+#### Item 1
+##### Person Id
+- W001
+
+##### Full Name
+- Meera Rao
+
+##### Age
+- 24
+
+##### Gender
+- Female
+
+##### Occupation
+- Student
+
+##### Address
+- Shivajinagar
+
+##### Phone
+- 7777777777
+
+##### Relationship To Case
+- Neighbor
+
+##### Statement Summary
+- Saw the accused near the residence shortly before the theft.
+
+##### Is Hostile
+- False
+
+
+
+### Evidence
+- None
+
+### Applicable Sections
+- None
+
+
+## Narrative
+### Complaint Summary
+- Asha Rao reported the incident registered as FIR/001/2024 at Shivaji Nagar, Pune, Maharashtra, concerning a theft allegation at Lane 4, Shivajinagar.
+
+### Occurrence Narrative
+- Theft of a motorcycle from the victim's residence.
+
+### Registration Notes
+- The FIR was registered on 2024-01-10 under the supervision of Officer Nair, API, at Shivaji Nagar.
+
+
+## Attachments
+### Continuation Notes
+- Continuation for FIR FIR/001/2024. Additional narrative details may be attached as required.
+
+### Signatures
+- Prepared by Officer Nair, API. Buckle number: B-101.
+
+</docx-template>

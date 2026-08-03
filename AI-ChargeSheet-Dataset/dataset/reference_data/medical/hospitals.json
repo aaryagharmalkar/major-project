@@ -1,0 +1,1502 @@
+﻿[
+    {
+        "name":  "District Hospital, Mumbai",
+        "city":  "Mumbai",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Pune",
+        "city":  "Pune",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Nagpur",
+        "city":  "Nagpur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Nashik",
+        "city":  "Nashik",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Thane",
+        "city":  "Thane",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Aurangabad",
+        "city":  "Aurangabad",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Solapur",
+        "city":  "Solapur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Kolhapur",
+        "city":  "Kolhapur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Amravati",
+        "city":  "Amravati",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Nanded",
+        "city":  "Nanded",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Jalgaon",
+        "city":  "Jalgaon",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Ahmednagar",
+        "city":  "Ahmednagar",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Latur",
+        "city":  "Latur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Akola",
+        "city":  "Akola",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Dhule",
+        "city":  "Dhule",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Chandrapur",
+        "city":  "Chandrapur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Beed",
+        "city":  "Beed",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Parbhani",
+        "city":  "Parbhani",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Sangli",
+        "city":  "Sangli",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Satara",
+        "city":  "Satara",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Ratnagiri",
+        "city":  "Ratnagiri",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Panvel",
+        "city":  "Panvel",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Vasai-Virar",
+        "city":  "Vasai-Virar",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Bhiwandi",
+        "city":  "Bhiwandi",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Malegaon",
+        "city":  "Malegaon",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Ulhasnagar",
+        "city":  "Ulhasnagar",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Pimpri-Chinchwad",
+        "city":  "Pimpri-Chinchwad",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "District Hospital, Ahmedabad",
+        "city":  "Ahmedabad",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Surat",
+        "city":  "Surat",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Vadodara",
+        "city":  "Vadodara",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Rajkot",
+        "city":  "Rajkot",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Bhavnagar",
+        "city":  "Bhavnagar",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Jamnagar",
+        "city":  "Jamnagar",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Gandhinagar",
+        "city":  "Gandhinagar",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Junagadh",
+        "city":  "Junagadh",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Anand",
+        "city":  "Anand",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Bharuch",
+        "city":  "Bharuch",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Vapi",
+        "city":  "Vapi",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Mehsana",
+        "city":  "Mehsana",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "District Hospital, Bengaluru",
+        "city":  "Bengaluru",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "District Hospital, Mysuru",
+        "city":  "Mysuru",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "District Hospital, Mangaluru",
+        "city":  "Mangaluru",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "District Hospital, Hubballi",
+        "city":  "Hubballi",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "District Hospital, Belagavi",
+        "city":  "Belagavi",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "District Hospital, Chennai",
+        "city":  "Chennai",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "District Hospital, Coimbatore",
+        "city":  "Coimbatore",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "District Hospital, Madurai",
+        "city":  "Madurai",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "District Hospital, Tiruchirappalli",
+        "city":  "Tiruchirappalli",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "District Hospital, Salem",
+        "city":  "Salem",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "District Hospital, Hyderabad",
+        "city":  "Hyderabad",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "District Hospital, Warangal",
+        "city":  "Warangal",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "District Hospital, Karimnagar",
+        "city":  "Karimnagar",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "District Hospital, Khammam",
+        "city":  "Khammam",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "District Hospital, Visakhapatnam",
+        "city":  "Visakhapatnam",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "District Hospital, Vijayawada",
+        "city":  "Vijayawada",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "District Hospital, Guntur",
+        "city":  "Guntur",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "District Hospital, Tirupati",
+        "city":  "Tirupati",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "District Hospital, Kolkata",
+        "city":  "Kolkata",
+        "state":  "West Bengal"
+    },
+    {
+        "name":  "District Hospital, Howrah",
+        "city":  "Howrah",
+        "state":  "West Bengal"
+    },
+    {
+        "name":  "District Hospital, Durgapur",
+        "city":  "Durgapur",
+        "state":  "West Bengal"
+    },
+    {
+        "name":  "District Hospital, Patna",
+        "city":  "Patna",
+        "state":  "Bihar"
+    },
+    {
+        "name":  "District Hospital, Gaya",
+        "city":  "Gaya",
+        "state":  "Bihar"
+    },
+    {
+        "name":  "District Hospital, Lucknow",
+        "city":  "Lucknow",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "District Hospital, Kanpur",
+        "city":  "Kanpur",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "District Hospital, Agra",
+        "city":  "Agra",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "District Hospital, Varanasi",
+        "city":  "Varanasi",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "District Hospital, Bhopal",
+        "city":  "Bhopal",
+        "state":  "Madhya Pradesh"
+    },
+    {
+        "name":  "District Hospital, Indore",
+        "city":  "Indore",
+        "state":  "Madhya Pradesh"
+    },
+    {
+        "name":  "District Hospital, Gwalior",
+        "city":  "Gwalior",
+        "state":  "Madhya Pradesh"
+    },
+    {
+        "name":  "District Hospital, Jaipur",
+        "city":  "Jaipur",
+        "state":  "Rajasthan"
+    },
+    {
+        "name":  "District Hospital, Jodhpur",
+        "city":  "Jodhpur",
+        "state":  "Rajasthan"
+    },
+    {
+        "name":  "District Hospital, Ludhiana",
+        "city":  "Ludhiana",
+        "state":  "Punjab"
+    },
+    {
+        "name":  "District Hospital, Amritsar",
+        "city":  "Amritsar",
+        "state":  "Punjab"
+    },
+    {
+        "name":  "District Hospital, Gurugram",
+        "city":  "Gurugram",
+        "state":  "Haryana"
+    },
+    {
+        "name":  "District Hospital, Faridabad",
+        "city":  "Faridabad",
+        "state":  "Haryana"
+    },
+    {
+        "name":  "District Hospital, Kochi",
+        "city":  "Kochi",
+        "state":  "Kerala"
+    },
+    {
+        "name":  "District Hospital, Kozhikode",
+        "city":  "Kozhikode",
+        "state":  "Kerala"
+    },
+    {
+        "name":  "District Hospital, Guwahati",
+        "city":  "Guwahati",
+        "state":  "Assam"
+    },
+    {
+        "name":  "District Hospital, Dibrugarh",
+        "city":  "Dibrugarh",
+        "state":  "Assam"
+    },
+    {
+        "name":  "District Hospital, Ranchi",
+        "city":  "Ranchi",
+        "state":  "Jharkhand"
+    },
+    {
+        "name":  "District Hospital, Jamshedpur",
+        "city":  "Jamshedpur",
+        "state":  "Jharkhand"
+    },
+    {
+        "name":  "District Hospital, Raipur",
+        "city":  "Raipur",
+        "state":  "Chhattisgarh"
+    },
+    {
+        "name":  "District Hospital, Bilaspur",
+        "city":  "Bilaspur",
+        "state":  "Chhattisgarh"
+    },
+    {
+        "name":  "District Hospital, Panaji",
+        "city":  "Panaji",
+        "state":  "Goa"
+    },
+    {
+        "name":  "District Hospital, Margao",
+        "city":  "Margao",
+        "state":  "Goa"
+    },
+    {
+        "name":  "District Hospital, Shimla",
+        "city":  "Shimla",
+        "state":  "Himachal Pradesh"
+    },
+    {
+        "name":  "District Hospital, Dehradun",
+        "city":  "Dehradun",
+        "state":  "Uttarakhand"
+    },
+    {
+        "name":  "District Hospital, Srinagar",
+        "city":  "Srinagar",
+        "state":  "Jammu and Kashmir"
+    },
+    {
+        "name":  "District Hospital, Jammu",
+        "city":  "Jammu",
+        "state":  "Jammu and Kashmir"
+    },
+    {
+        "name":  "District Hospital, Gangtok",
+        "city":  "Gangtok",
+        "state":  "Sikkim"
+    },
+    {
+        "name":  "District Hospital, Agartala",
+        "city":  "Agartala",
+        "state":  "Tripura"
+    },
+    {
+        "name":  "District Hospital, Shillong",
+        "city":  "Shillong",
+        "state":  "Meghalaya"
+    },
+    {
+        "name":  "District Hospital, Aizawl",
+        "city":  "Aizawl",
+        "state":  "Mizoram"
+    },
+    {
+        "name":  "District Hospital, Imphal",
+        "city":  "Imphal",
+        "state":  "Manipur"
+    },
+    {
+        "name":  "District Hospital, Kohima",
+        "city":  "Kohima",
+        "state":  "Nagaland"
+    },
+    {
+        "name":  "District Hospital, Itanagar",
+        "city":  "Itanagar",
+        "state":  "Arunachal Pradesh"
+    },
+    {
+        "name":  "District Hospital, Puducherry",
+        "city":  "Puducherry",
+        "state":  "Puducherry"
+    },
+    {
+        "name":  "District Hospital, Port Blair",
+        "city":  "Port Blair",
+        "state":  "Andaman and Nicobar Islands"
+    },
+    {
+        "name":  "District Hospital, Silvassa",
+        "city":  "Silvassa",
+        "state":  "Dadra and Nagar Haveli and Daman and Diu"
+    },
+    {
+        "name":  "District Hospital, Daman",
+        "city":  "Daman",
+        "state":  "Dadra and Nagar Haveli and Daman and Diu"
+    },
+    {
+        "name":  "Civil Hospital, Mumbai",
+        "city":  "Mumbai",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Pune",
+        "city":  "Pune",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Nagpur",
+        "city":  "Nagpur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Nashik",
+        "city":  "Nashik",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Thane",
+        "city":  "Thane",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Aurangabad",
+        "city":  "Aurangabad",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Solapur",
+        "city":  "Solapur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Kolhapur",
+        "city":  "Kolhapur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Amravati",
+        "city":  "Amravati",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Nanded",
+        "city":  "Nanded",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Jalgaon",
+        "city":  "Jalgaon",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Ahmednagar",
+        "city":  "Ahmednagar",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Latur",
+        "city":  "Latur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Akola",
+        "city":  "Akola",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Dhule",
+        "city":  "Dhule",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Chandrapur",
+        "city":  "Chandrapur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Beed",
+        "city":  "Beed",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Parbhani",
+        "city":  "Parbhani",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Sangli",
+        "city":  "Sangli",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Satara",
+        "city":  "Satara",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Ratnagiri",
+        "city":  "Ratnagiri",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Panvel",
+        "city":  "Panvel",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Vasai-Virar",
+        "city":  "Vasai-Virar",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Bhiwandi",
+        "city":  "Bhiwandi",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Malegaon",
+        "city":  "Malegaon",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Ulhasnagar",
+        "city":  "Ulhasnagar",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Pimpri-Chinchwad",
+        "city":  "Pimpri-Chinchwad",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "Civil Hospital, Ahmedabad",
+        "city":  "Ahmedabad",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Surat",
+        "city":  "Surat",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Vadodara",
+        "city":  "Vadodara",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Rajkot",
+        "city":  "Rajkot",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Bhavnagar",
+        "city":  "Bhavnagar",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Jamnagar",
+        "city":  "Jamnagar",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Gandhinagar",
+        "city":  "Gandhinagar",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Junagadh",
+        "city":  "Junagadh",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Anand",
+        "city":  "Anand",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Bharuch",
+        "city":  "Bharuch",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Vapi",
+        "city":  "Vapi",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Mehsana",
+        "city":  "Mehsana",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "Civil Hospital, Bengaluru",
+        "city":  "Bengaluru",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "Civil Hospital, Mysuru",
+        "city":  "Mysuru",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "Civil Hospital, Mangaluru",
+        "city":  "Mangaluru",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "Civil Hospital, Hubballi",
+        "city":  "Hubballi",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "Civil Hospital, Belagavi",
+        "city":  "Belagavi",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "Civil Hospital, Chennai",
+        "city":  "Chennai",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "Civil Hospital, Coimbatore",
+        "city":  "Coimbatore",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "Civil Hospital, Madurai",
+        "city":  "Madurai",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "Civil Hospital, Tiruchirappalli",
+        "city":  "Tiruchirappalli",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "Civil Hospital, Salem",
+        "city":  "Salem",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "Civil Hospital, Hyderabad",
+        "city":  "Hyderabad",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "Civil Hospital, Warangal",
+        "city":  "Warangal",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "Civil Hospital, Karimnagar",
+        "city":  "Karimnagar",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "Civil Hospital, Khammam",
+        "city":  "Khammam",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "Civil Hospital, Visakhapatnam",
+        "city":  "Visakhapatnam",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Vijayawada",
+        "city":  "Vijayawada",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Guntur",
+        "city":  "Guntur",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Tirupati",
+        "city":  "Tirupati",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Kolkata",
+        "city":  "Kolkata",
+        "state":  "West Bengal"
+    },
+    {
+        "name":  "Civil Hospital, Howrah",
+        "city":  "Howrah",
+        "state":  "West Bengal"
+    },
+    {
+        "name":  "Civil Hospital, Durgapur",
+        "city":  "Durgapur",
+        "state":  "West Bengal"
+    },
+    {
+        "name":  "Civil Hospital, Patna",
+        "city":  "Patna",
+        "state":  "Bihar"
+    },
+    {
+        "name":  "Civil Hospital, Gaya",
+        "city":  "Gaya",
+        "state":  "Bihar"
+    },
+    {
+        "name":  "Civil Hospital, Lucknow",
+        "city":  "Lucknow",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Kanpur",
+        "city":  "Kanpur",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Agra",
+        "city":  "Agra",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Varanasi",
+        "city":  "Varanasi",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Bhopal",
+        "city":  "Bhopal",
+        "state":  "Madhya Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Indore",
+        "city":  "Indore",
+        "state":  "Madhya Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Gwalior",
+        "city":  "Gwalior",
+        "state":  "Madhya Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Jaipur",
+        "city":  "Jaipur",
+        "state":  "Rajasthan"
+    },
+    {
+        "name":  "Civil Hospital, Jodhpur",
+        "city":  "Jodhpur",
+        "state":  "Rajasthan"
+    },
+    {
+        "name":  "Civil Hospital, Ludhiana",
+        "city":  "Ludhiana",
+        "state":  "Punjab"
+    },
+    {
+        "name":  "Civil Hospital, Amritsar",
+        "city":  "Amritsar",
+        "state":  "Punjab"
+    },
+    {
+        "name":  "Civil Hospital, Gurugram",
+        "city":  "Gurugram",
+        "state":  "Haryana"
+    },
+    {
+        "name":  "Civil Hospital, Faridabad",
+        "city":  "Faridabad",
+        "state":  "Haryana"
+    },
+    {
+        "name":  "Civil Hospital, Kochi",
+        "city":  "Kochi",
+        "state":  "Kerala"
+    },
+    {
+        "name":  "Civil Hospital, Kozhikode",
+        "city":  "Kozhikode",
+        "state":  "Kerala"
+    },
+    {
+        "name":  "Civil Hospital, Guwahati",
+        "city":  "Guwahati",
+        "state":  "Assam"
+    },
+    {
+        "name":  "Civil Hospital, Dibrugarh",
+        "city":  "Dibrugarh",
+        "state":  "Assam"
+    },
+    {
+        "name":  "Civil Hospital, Ranchi",
+        "city":  "Ranchi",
+        "state":  "Jharkhand"
+    },
+    {
+        "name":  "Civil Hospital, Jamshedpur",
+        "city":  "Jamshedpur",
+        "state":  "Jharkhand"
+    },
+    {
+        "name":  "Civil Hospital, Raipur",
+        "city":  "Raipur",
+        "state":  "Chhattisgarh"
+    },
+    {
+        "name":  "Civil Hospital, Bilaspur",
+        "city":  "Bilaspur",
+        "state":  "Chhattisgarh"
+    },
+    {
+        "name":  "Civil Hospital, Panaji",
+        "city":  "Panaji",
+        "state":  "Goa"
+    },
+    {
+        "name":  "Civil Hospital, Margao",
+        "city":  "Margao",
+        "state":  "Goa"
+    },
+    {
+        "name":  "Civil Hospital, Shimla",
+        "city":  "Shimla",
+        "state":  "Himachal Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Dehradun",
+        "city":  "Dehradun",
+        "state":  "Uttarakhand"
+    },
+    {
+        "name":  "Civil Hospital, Srinagar",
+        "city":  "Srinagar",
+        "state":  "Jammu and Kashmir"
+    },
+    {
+        "name":  "Civil Hospital, Jammu",
+        "city":  "Jammu",
+        "state":  "Jammu and Kashmir"
+    },
+    {
+        "name":  "Civil Hospital, Gangtok",
+        "city":  "Gangtok",
+        "state":  "Sikkim"
+    },
+    {
+        "name":  "Civil Hospital, Agartala",
+        "city":  "Agartala",
+        "state":  "Tripura"
+    },
+    {
+        "name":  "Civil Hospital, Shillong",
+        "city":  "Shillong",
+        "state":  "Meghalaya"
+    },
+    {
+        "name":  "Civil Hospital, Aizawl",
+        "city":  "Aizawl",
+        "state":  "Mizoram"
+    },
+    {
+        "name":  "Civil Hospital, Imphal",
+        "city":  "Imphal",
+        "state":  "Manipur"
+    },
+    {
+        "name":  "Civil Hospital, Kohima",
+        "city":  "Kohima",
+        "state":  "Nagaland"
+    },
+    {
+        "name":  "Civil Hospital, Itanagar",
+        "city":  "Itanagar",
+        "state":  "Arunachal Pradesh"
+    },
+    {
+        "name":  "Civil Hospital, Puducherry",
+        "city":  "Puducherry",
+        "state":  "Puducherry"
+    },
+    {
+        "name":  "Civil Hospital, Port Blair",
+        "city":  "Port Blair",
+        "state":  "Andaman and Nicobar Islands"
+    },
+    {
+        "name":  "Civil Hospital, Silvassa",
+        "city":  "Silvassa",
+        "state":  "Dadra and Nagar Haveli and Daman and Diu"
+    },
+    {
+        "name":  "Civil Hospital, Daman",
+        "city":  "Daman",
+        "state":  "Dadra and Nagar Haveli and Daman and Diu"
+    },
+    {
+        "name":  "General Hospital, Mumbai",
+        "city":  "Mumbai",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Pune",
+        "city":  "Pune",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Nagpur",
+        "city":  "Nagpur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Nashik",
+        "city":  "Nashik",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Thane",
+        "city":  "Thane",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Aurangabad",
+        "city":  "Aurangabad",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Solapur",
+        "city":  "Solapur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Kolhapur",
+        "city":  "Kolhapur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Amravati",
+        "city":  "Amravati",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Nanded",
+        "city":  "Nanded",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Jalgaon",
+        "city":  "Jalgaon",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Ahmednagar",
+        "city":  "Ahmednagar",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Latur",
+        "city":  "Latur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Akola",
+        "city":  "Akola",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Dhule",
+        "city":  "Dhule",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Chandrapur",
+        "city":  "Chandrapur",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Beed",
+        "city":  "Beed",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Parbhani",
+        "city":  "Parbhani",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Sangli",
+        "city":  "Sangli",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Satara",
+        "city":  "Satara",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Ratnagiri",
+        "city":  "Ratnagiri",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Panvel",
+        "city":  "Panvel",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Vasai-Virar",
+        "city":  "Vasai-Virar",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Bhiwandi",
+        "city":  "Bhiwandi",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Malegaon",
+        "city":  "Malegaon",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Ulhasnagar",
+        "city":  "Ulhasnagar",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Pimpri-Chinchwad",
+        "city":  "Pimpri-Chinchwad",
+        "state":  "Maharashtra"
+    },
+    {
+        "name":  "General Hospital, Ahmedabad",
+        "city":  "Ahmedabad",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Surat",
+        "city":  "Surat",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Vadodara",
+        "city":  "Vadodara",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Rajkot",
+        "city":  "Rajkot",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Bhavnagar",
+        "city":  "Bhavnagar",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Jamnagar",
+        "city":  "Jamnagar",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Gandhinagar",
+        "city":  "Gandhinagar",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Junagadh",
+        "city":  "Junagadh",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Anand",
+        "city":  "Anand",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Bharuch",
+        "city":  "Bharuch",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Vapi",
+        "city":  "Vapi",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Mehsana",
+        "city":  "Mehsana",
+        "state":  "Gujarat"
+    },
+    {
+        "name":  "General Hospital, Bengaluru",
+        "city":  "Bengaluru",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "General Hospital, Mysuru",
+        "city":  "Mysuru",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "General Hospital, Mangaluru",
+        "city":  "Mangaluru",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "General Hospital, Hubballi",
+        "city":  "Hubballi",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "General Hospital, Belagavi",
+        "city":  "Belagavi",
+        "state":  "Karnataka"
+    },
+    {
+        "name":  "General Hospital, Chennai",
+        "city":  "Chennai",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "General Hospital, Coimbatore",
+        "city":  "Coimbatore",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "General Hospital, Madurai",
+        "city":  "Madurai",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "General Hospital, Tiruchirappalli",
+        "city":  "Tiruchirappalli",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "General Hospital, Salem",
+        "city":  "Salem",
+        "state":  "Tamil Nadu"
+    },
+    {
+        "name":  "General Hospital, Hyderabad",
+        "city":  "Hyderabad",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "General Hospital, Warangal",
+        "city":  "Warangal",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "General Hospital, Karimnagar",
+        "city":  "Karimnagar",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "General Hospital, Khammam",
+        "city":  "Khammam",
+        "state":  "Telangana"
+    },
+    {
+        "name":  "General Hospital, Visakhapatnam",
+        "city":  "Visakhapatnam",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "General Hospital, Vijayawada",
+        "city":  "Vijayawada",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "General Hospital, Guntur",
+        "city":  "Guntur",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "General Hospital, Tirupati",
+        "city":  "Tirupati",
+        "state":  "Andhra Pradesh"
+    },
+    {
+        "name":  "General Hospital, Kolkata",
+        "city":  "Kolkata",
+        "state":  "West Bengal"
+    },
+    {
+        "name":  "General Hospital, Howrah",
+        "city":  "Howrah",
+        "state":  "West Bengal"
+    },
+    {
+        "name":  "General Hospital, Durgapur",
+        "city":  "Durgapur",
+        "state":  "West Bengal"
+    },
+    {
+        "name":  "General Hospital, Patna",
+        "city":  "Patna",
+        "state":  "Bihar"
+    },
+    {
+        "name":  "General Hospital, Gaya",
+        "city":  "Gaya",
+        "state":  "Bihar"
+    },
+    {
+        "name":  "General Hospital, Lucknow",
+        "city":  "Lucknow",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "General Hospital, Kanpur",
+        "city":  "Kanpur",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "General Hospital, Agra",
+        "city":  "Agra",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "General Hospital, Varanasi",
+        "city":  "Varanasi",
+        "state":  "Uttar Pradesh"
+    },
+    {
+        "name":  "General Hospital, Bhopal",
+        "city":  "Bhopal",
+        "state":  "Madhya Pradesh"
+    },
+    {
+        "name":  "General Hospital, Indore",
+        "city":  "Indore",
+        "state":  "Madhya Pradesh"
+    },
+    {
+        "name":  "General Hospital, Gwalior",
+        "city":  "Gwalior",
+        "state":  "Madhya Pradesh"
+    },
+    {
+        "name":  "General Hospital, Jaipur",
+        "city":  "Jaipur",
+        "state":  "Rajasthan"
+    },
+    {
+        "name":  "General Hospital, Jodhpur",
+        "city":  "Jodhpur",
+        "state":  "Rajasthan"
+    },
+    {
+        "name":  "General Hospital, Ludhiana",
+        "city":  "Ludhiana",
+        "state":  "Punjab"
+    },
+    {
+        "name":  "General Hospital, Amritsar",
+        "city":  "Amritsar",
+        "state":  "Punjab"
+    },
+    {
+        "name":  "General Hospital, Gurugram",
+        "city":  "Gurugram",
+        "state":  "Haryana"
+    },
+    {
+        "name":  "General Hospital, Faridabad",
+        "city":  "Faridabad",
+        "state":  "Haryana"
+    },
+    {
+        "name":  "General Hospital, Kochi",
+        "city":  "Kochi",
+        "state":  "Kerala"
+    },
+    {
+        "name":  "General Hospital, Kozhikode",
+        "city":  "Kozhikode",
+        "state":  "Kerala"
+    },
+    {
+        "name":  "General Hospital, Guwahati",
+        "city":  "Guwahati",
+        "state":  "Assam"
+    },
+    {
+        "name":  "General Hospital, Dibrugarh",
+        "city":  "Dibrugarh",
+        "state":  "Assam"
+    },
+    {
+        "name":  "General Hospital, Ranchi",
+        "city":  "Ranchi",
+        "state":  "Jharkhand"
+    },
+    {
+        "name":  "General Hospital, Jamshedpur",
+        "city":  "Jamshedpur",
+        "state":  "Jharkhand"
+    },
+    {
+        "name":  "General Hospital, Raipur",
+        "city":  "Raipur",
+        "state":  "Chhattisgarh"
+    },
+    {
+        "name":  "General Hospital, Bilaspur",
+        "city":  "Bilaspur",
+        "state":  "Chhattisgarh"
+    },
+    {
+        "name":  "General Hospital, Panaji",
+        "city":  "Panaji",
+        "state":  "Goa"
+    },
+    {
+        "name":  "General Hospital, Margao",
+        "city":  "Margao",
+        "state":  "Goa"
+    },
+    {
+        "name":  "General Hospital, Shimla",
+        "city":  "Shimla",
+        "state":  "Himachal Pradesh"
+    },
+    {
+        "name":  "General Hospital, Dehradun",
+        "city":  "Dehradun",
+        "state":  "Uttarakhand"
+    },
+    {
+        "name":  "General Hospital, Srinagar",
+        "city":  "Srinagar",
+        "state":  "Jammu and Kashmir"
+    },
+    {
+        "name":  "General Hospital, Jammu",
+        "city":  "Jammu",
+        "state":  "Jammu and Kashmir"
+    },
+    {
+        "name":  "General Hospital, Gangtok",
+        "city":  "Gangtok",
+        "state":  "Sikkim"
+    },
+    {
+        "name":  "General Hospital, Agartala",
+        "city":  "Agartala",
+        "state":  "Tripura"
+    },
+    {
+        "name":  "General Hospital, Shillong",
+        "city":  "Shillong",
+        "state":  "Meghalaya"
+    },
+    {
+        "name":  "General Hospital, Aizawl",
+        "city":  "Aizawl",
+        "state":  "Mizoram"
+    },
+    {
+        "name":  "General Hospital, Imphal",
+        "city":  "Imphal",
+        "state":  "Manipur"
+    },
+    {
+        "name":  "General Hospital, Kohima",
+        "city":  "Kohima",
+        "state":  "Nagaland"
+    },
+    {
+        "name":  "General Hospital, Itanagar",
+        "city":  "Itanagar",
+        "state":  "Arunachal Pradesh"
+    },
+    {
+        "name":  "General Hospital, Puducherry",
+        "city":  "Puducherry",
+        "state":  "Puducherry"
+    },
+    {
+        "name":  "General Hospital, Port Blair",
+        "city":  "Port Blair",
+        "state":  "Andaman and Nicobar Islands"
+    },
+    {
+        "name":  "General Hospital, Silvassa",
+        "city":  "Silvassa",
+        "state":  "Dadra and Nagar Haveli and Daman and Diu"
+    },
+    {
+        "name":  "General Hospital, Daman",
+        "city":  "Daman",
+        "state":  "Dadra and Nagar Haveli and Daman and Diu"
+    }
+]
