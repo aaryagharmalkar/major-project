@@ -98,9 +98,21 @@ class ReferenceDataLoader:
             raise ReferenceDataFormatError(f"Reference path is not a file: '{resolved_path}'.")
 
         try:
-            raw_text = resolved_path.read_text(encoding="utf-8")
+            # Reference JSON may have been saved by Windows editors with a
+            # UTF-8 byte-order mark. ``utf-8-sig`` accepts ordinary UTF-8 as
+            # well as that BOM-prefixed form without changing the data.
+            raw_text = resolved_path.read_text(encoding="utf-8-sig")
         except OSError as exc:
             raise ReferenceDataError(f"Failed to read reference file '{resolved_path}': {exc}") from exc
+
+        if not raw_text.strip() and resolved_path.parent.parent == self._reference_root:
+            fallback_path = self._reference_root / resolved_path.name
+            if fallback_path.is_file() and fallback_path.resolve() != resolved_path:
+                raw_text = fallback_path.read_text(encoding="utf-8-sig")
+                logger.warning(
+                    "Using root-level fallback reference data for empty file '%s'.",
+                    resolved_path,
+                )
 
         if not raw_text.strip():
             raise ReferenceDataFormatError(f"Reference file is empty: '{resolved_path}'.")
