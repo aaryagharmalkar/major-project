@@ -1,0 +1,174 @@
+// dummy_case/site_plan.json
+{
+  "site_plan": {
+    "plan_id": "SP/PSRKP/0452/2024",
+    "date_prepared": "2024-10-16",
+    "prepared_by": "Inspector Suresh Chandra, IO",
+    "drawn_to_scale": "Scale 1:200 (1cm = 2m)",
+    "orientation": "North at top of drawing",
+    "legend": {
+      "symbols": {
+        "circle_filled": "Impact point",
+        "rectangle_red": "Bajaj Pulsar DL2SBP1234 - Final position",
+        "rectangle_white": "Honda Activa DL5SCT5678 - Final position",
+        "dashed_line_pulsar": "Pre-impact path of Pulsar",
+        "dashed_line_activa": "Pre-impact path of Activa",
+        "wavy_line_skid": "Skid mark (4.2m)",
+        "star_red": "Blood stain location",
+        "triangle_camera": "CCTV Camera locations",
+        "circle_streetlight": "Street light poles",
+        "shaded_building": "St. Stephen's Hospital",
+        "square_atm": "Canara Bank ATM",
+        "square_shop": "Joshi Tea Stall",
+        "dotted_divider": "Road divider",
+        "solid_zebra": "Zebra crossing",
+        "thick_stopline": "Stop line",
+        "crossed_signal": "Non-functional traffic signal"
+      }
+    },
+    "road_geometry": {
+      "road_1": {
+        "name": "Shankar Road",
+        "direction": "Runs North-East to South-West",
+        "width": 12.5,
+        "lanes": "Two lanes each direction, divided by concrete divider",
+        "divider": {
+          "type": "Concrete, raised, 0.15m height, 0.8m width",
+          "start": "Continuous from 500m SW to junction, gap of 12m at junction for crossing"
+        },
+        "shoulder": "0.5m on each side",
+        "footpath": "2.0m on both sides"
+      },
+      "road_2": {
+        "name": "Rajinder Nagar Main Road",
+        "direction": "Approaches junction from South, continues as Old Rajinder Nagar Road to East",
+        "width": 10.0,
+        "lanes": "One lane each direction",
+        "divider": "None",
+        "footpath": "1.5m on both sides"
+      },
+      "junction_type": "T-junction (Three-arm intersection)",
+      "junction_angle": "Road 2 meets Road 1 at approximately 85 degrees"
+    },
+    "road_markings": {
+      "zebra_crossing": {
+        "location": "Across Road 2 at junction mouth",
+        "width": 4.0,
+        "stripes": "12 stripes, white paint, faded but visible",
+        "condition": "Fair, repainting needed"
+      },
+      "stop_line": {
+        "location": "On Shankar Road, before junction",
+        "distance_from_junction": "5.0m from junction edge",
+        "width": "300mm",
+        "color": "White",
+        "condition": "Visible"
+      },
+      "lane_markings": "Dashed white lines on Shankar Road, faded on Road 2",
+      "give_way_signs": "Present on Road 2 approach"
+    },
+    "traffic_signal_details": {
+      "location": "Center of junction, overhead on gantry",
+      "type": "3-color LED (Red, Amber, Green)",
+      "status_at_time_of_accident": "Non-functional (confirmed by multiple sources)",
+      "last_functional": "12-10-2024 (3 days before accident)",
+      "complaint_filed": "Yes, by Traffic Constable Asif on 13-10-2024 to Traffic Circle Office",
+      "manual_control": "Traffic Constable deployed for manual regulation"
+    },
+    "lighting_infrastructure": {
+      "street_lights": [
+        {
+          "pole_id": "SP/23/RJN",
+          "type": "LED, 150W",
+          "height": "9m",
+          "location": "North corner of junction",
+          "distance_from_impact": 15,
+          "status": "Functional"
+        },
+        {
+          "pole_id": "SP/24/RJN",
+          "type": "LED, 150W",
+          "location": "South side Shankar Road, 40m from junction",
+          "status": "Functional"
+        },
+        {
+          "pole_id": "SP/25/RJN",
+          "type": "LED, 150W",
+          "location": "On Road 2, 20m from junction",
+          "status": "Non-functional"
+        },
+        {
+          "pole_id": "SP/26/RJN",
+          "type": "Sodium Vapor, 250W",
+          "location": "East side, Old Rajinder Nagar Road, 30m from junction",
+          "status": "Functional"
+        },
+        {
+          "pole_id": "SP/27/RJN",
+          "type": "LED, 150W",
+          "location": "Shankar Road North, 60m from junction",
+          "status": "Non-functional"
+        },
+        {
+          "pole_id": "SP/28/RJN",
+          "type": "LED, 150W",
+          "location": "Shankar Road South, 70m from junction",
+          "status": "Functional"
+        }
+      ],
+      "overall_lighting": "Moderate - 4 of 6 lights functioning in 100m radius"
+    },
+    "landmarks_and_references": [
+      {
+        "landmark": "St. Stephen's Hospital Gate 2",
+        "location": "North side, 30m from junction center",
+        "coordinates": "28.6381, 77.1923"
+      },
+      {
+        "landmark": "Canara Bank ATM",
+        "location": "South side, Shankar Road, 50m from junction",
+        "coordinates": "28.6375, 77.1924"
+      },
+      {
+        "landmark": "Joshi Tea Stall (Shop No. 7)",
+        "location": "South-East corner, 35m from junction",
+        "coordinates": "28.6377, 77.1926"
+      },
+      {
+        "landmark": "Bus Stop",
+        "location": "Shankar Road North, 80m from junction, opposite hospital",
+        "coordinates": "28.6384, 77.1921"
+      },
+      {
+        "landmark": "Electric Pole SP/23/RJN",
+        "location": "North corner of junction, 15m from impact point",
+        "coordinates": "28.6379, 77.1923"
+      }
+    ],
+    "measurements_from_reference_points": {
+      "reference_1_electric_pole_sp23": {
+        "to_impact_point": "22m South, 3m East",
+        "to_pulsar_final": "18m South, 6m East",
+        "to_activa_final": "25m South, 8m East"
+      },
+      "reference_2_hospital_gate_2_pillar": {
+        "to_impact_point": "45m South, 12m East",
+        "to_zebra_crossing": "48m South, 10m East"
+      }
+    },
+    "accident_reconstruction_positions": {
+      "pre_impact_path_pulsar": "Vehicle approaches from SW on Shankar Road, traveling NE in right lane. Crosses Canara Bank ATM at 60 kmph (CCTV). Approaching junction, does not stop at stop line. Enters junction at 52-58 kmph.",
+      "pre_impact_path_activa": "Vehicle approaches from South on Rajinder Nagar Road. Reaches T-junction. Indicator on for right turn towards Old Rajinder Nagar. Begins legal right turn at 10 kmph.",
+      "impact_configuration": "Pulsar front (traveling NE) collides with Activa right side (turning right). Impact at 75-80 degree angle. Activa rider thrown to right/east, landing near road edge.",
+      "post_impact_positions": "Pulsar falls right side, skids to middle of junction facing East. Activa displaced right and comes to rest near South-East edge of junction facing South."
+    },
+    "coordinates_system": {
+      "datum": "WGS84",
+      "impact_point": "28.6378, 77.1923",
+      "measurements": "All measurements in meters from this point",
+      "accuracy": "±1 meter using GPS and measuring tape"
+    },
+    "notes": "Site plan drawn based on spot panchnama measurements, photographs, CCTV analysis, and revisiting the site on 16-10-2024. Plan accurately represents the scene as it existed at time of accident. Scale drawing attached to case file.",
+    "signature": "Inspector Suresh Chandra, IO"
+  }
+}

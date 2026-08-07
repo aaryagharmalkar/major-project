@@ -1,0 +1,28 @@
+// dummy_case/witness_statement_2.json
+{
+  "witness_statement": {
+    "statement_id": "WS/PSRKP/0452/002",
+    "date_of_recording": "2024-10-15",
+    "time_of_recording": "21:00",
+    "place": "Shop No. 7, Shankar Road, Near St. Stephen's Hospital",
+    "recorded_by": "Inspector Suresh Chandra",
+    "witness_details": {
+      "witness_id": "WIT-002",
+      "name": "Prakash Chandra Joshi",
+      "age": 55,
+      "father_name": "Late Ganesh Dutt Joshi",
+      "occupation": "Tea Stall Owner",
+      "address": "Shop No. 7, Shankar Road, Opposite Gate No. 2, St. Stephen's Hospital, New Delhi",
+      "contact": "9958321456"
+    },
+    "statement_under_section": "Section 161 of Code of Criminal Procedure, 1973",
+    "statement_text": "My name is Prakash Chandra Joshi. I run a tea stall on Shankar Road for last 22 years. My shop is exactly opposite the gate number 2 of St. Stephen's Hospital. On 15th October 2024, as usual my shop was open. Around 6:15-6:20 PM, I was making tea for some customers. I heard a loud screeching sound of brakes followed by a big thud sound. I immediately came out of my shop and saw that two motorcycles/scooters had collided at the T-point just 30-35 feet from my shop. One person was lying on the road near the divider, another person was getting up. I saw that a red motorcycle had crashed into a white Activa scooter. The traffic policeman who was on duty there, I know him as Asif bhai, he immediately ran and caught the red motorcycle rider. The red motorcycle rider was trying to leave but Asif constable caught his arm and stopped him. I also went near to help. The person who fell on the road was bleeding from his head and leg. His leg was bent in wrong direction, I think it was broken. He was crying in pain. I helped the traffic constable to shift the injured person to one side of the road safely so that no other vehicle hits him. I also noticed that the red motorcycle rider was wearing a t-shirt of some food company, red color t-shirt. He was also having a delivery box on his motorcycle. The traffic constable was scolding him for overspeeding and jumping signal. I have seen many accidents at this T-point over the years because vehicles come very fast from Shankar Road and don't stop even when traffic signal is not working. The ambulance from the hospital came quickly as it is just opposite. Police also came within some time. I gave water to the injured person before ambulance came. I have also given my name and mobile number to the police when they came. Whatever I have said is true and I can identify both the vehicles and the persons involved if called to do so.",
+    "identification_of_accused": {
+      "can_identify": true,
+      "identification_details": "Accused wearing food delivery company t-shirt (red color), brown complexion, medium height"
+    },
+    "statement_verified": true,
+    "witness_signature": "Prakash Chandra Joshi (Thumb Impression - Left Thumb)",
+    "io_signature": "Suresh Chandra, Inspector"
+  }
+}

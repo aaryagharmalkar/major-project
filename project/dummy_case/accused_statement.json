@@ -1,0 +1,45 @@
+// dummy_case/accused_statement.json
+{
+  "accused_statement": {
+    "statement_id": "AS/PSRKP/0452/001",
+    "date_of_recording": "2024-10-15",
+    "time_of_recording": "22:30",
+    "place": "Lock-up Room, PS Rajinder Nagar",
+    "recorded_by": "Inspector Suresh Chandra",
+    "witness_to_recording": "ASI Ramphal Singh, PS Rajinder Nagar",
+    "accused_details": {
+      "accused_id": "ACC-001",
+      "name": "Amit Verma",
+      "age": 28,
+      "father_name": "Ramesh Verma",
+      "mother_name": "Savitri Verma",
+      "occupation": "Food Delivery Rider, Zomato (Delivery Partner ID: ZOM/DL/478923)",
+      "education": "12th Pass",
+      "marital_status": "Unmarried",
+      "address": "C-54, Gali No. 4, Old Rajinder Nagar, New Delhi - 110060",
+      "native_place": "Village Dhakiya, Post Bhawalkheda, Distt. Moradabad, Uttar Pradesh",
+      "aadhar_number": "7234 5678 9012",
+      "contact": "9871123456"
+    },
+    "rights_read": {
+      "article_20_3_read": true,
+      "right_to_silence": true,
+      "right_to_legal_counsel": true,
+      "accused_understood_rights": true
+    },
+    "statement_text": "I, Amit Verma, s/o Ramesh Verma, state that I work as delivery partner with Zomato. On 15th October 2024, I was delivering orders. At around 6:15 PM, I picked up an order from Haldiram's in Karol Bagh. The order was to be delivered in Old Rajinder Nagar, near Bada Bazaar within 20 minutes. I was going on my Pulsar motorcycle DL2SBP1234. The traffic signal at Shankar Road T-point was not working and there was a traffic policeman managing it. I was in a hurry to deliver the order because if I am late, my incentive gets cut. I admit that my speed was somewhat more but I thought I could cross the junction before the scooter turned. When I reached near the hospital T-point, I saw a white Activa scooter was turning from the other side. I tried to apply brakes but the distance was less and my bike collided with the scooter. I also fell down. When I got up, I saw the scooter rider was lying on the road and was injured. I got scared. The traffic policeman came and caught me. I was not trying to run away, I was just picking up my bike which had fallen. I admit my mistake. I should not have ridden at that speed. I had delivered 18 orders since morning and was tired. Please forgive me, I am a poor person. I have old parents in village. I will not repeat such mistake in future. I will bear all medical expenses of the injured person. Whatever happened was not intentional, it was a mistake because of hurry. I am ready to cooperate with the investigation.",
+    "confession_elements": {
+      "admits_overspeeding": true,
+      "admits_rashness": false,
+      "claims_accidental": true,
+      "shows_remorse": true,
+      "offers_compensation": true
+    },
+    "statement_read_back": true,
+    "accused_confirmed_statement": true,
+    "signature_accused": "Amit Verma (Signed in Hindi)",
+    "witness_signature": "ASI Ramphal Singh",
+    "io_signature": "Suresh Chandra, Inspector",
+    "remarks": "Statement recorded voluntarily without any coercion. Accused was informed of his rights. Legal aid lawyer provided from DLSA was present during recording. Statement consistent with evidence collected."
+  }
+}

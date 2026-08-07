@@ -1,0 +1,11 @@
+// dummy_case/postmortem_report.json
+{
+  "postmortem_report": {
+    "status": "Not Applicable",
+    "reason": "Victim Rajesh Kumar Sharma is alive and undergoing treatment at St. Stephen's Hospital. Postmortem examination is not required at this stage.",
+    "victim_status_update": "As of 2024-11-28, victim has been discharged from hospital after 28 days of admission. He is undergoing physiotherapy and follow-up treatment. Injuries though grievous in nature did not result in death.",
+    "note": "This JSON is generated for completeness of investigation record. In case of change in victim status, this report shall be updated or replaced with actual postmortem findings.",
+    "generated_by": "Inspector Suresh Chandra, IO",
+    "date": "2024-11-28"
+  }
+}

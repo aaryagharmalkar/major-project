@@ -1,0 +1,326 @@
+// dummy_case/timeline.json
+{
+  "accident_timeline": {
+    "case_reference": "FIR/2024/DL/PSRKP/0452",
+    "accident_date": "2024-10-15",
+    "timeline_type": "Minute-by-minute reconstruction based on evidence",
+    "source_evidence": "CCTV footage, Call Detail Records, Witness Statements, Hospital Records, PCR Logs",
+    "events": [
+      {
+        "time": "17:45",
+        "event": "Accused Amit Verma starts his Zomato shift. Logs into Zomato Partner App.",
+        "source": "Mobile data extraction",
+        "confidence": "High"
+      },
+      {
+        "time": "17:50",
+        "event": "Victim Rajesh Sharma finishes work at DTC Inderlok Depot, prepares to leave.",
+        "source": "Victim statement, office attendance record",
+        "confidence": "High"
+      },
+      {
+        "time": "18:00",
+        "event": "Traffic Constable Mohammed Asif starts duty at Shankar Road T-Point. Traffic signal non-functional.",
+        "source": "Duty roster, Constable statement",
+        "confidence": "High"
+      },
+      {
+        "time": "18:05:00",
+        "event": "Victim Rajesh Sharma leaves DTC Inderlok Depot on Honda Activa DL5SCT5678. Helmet worn.",
+        "source": "Victim statement, office gate register",
+        "confidence": "High"
+      },
+      {
+        "time": "18:10:00",
+        "event": "Accused accepts Zomato order on app. Order: Haldiram's Karol Bagh to Old Rajinder Nagar. Deadline: 18:35. Incentive if delivered on time: ₹40.",
+        "source": "Zomato Partner App data, Mobile extraction",
+        "confidence": "High"
+      },
+      {
+        "time": "18:12:00",
+        "event": "Accused reaches Haldiram's Karol Bagh, parks motorcycle outside.",
+        "source": "Google Maps Timeline",
+        "confidence": "Medium"
+      },
+      {
+        "time": "18:15:00",
+        "event": "Accused collects order from Haldiram's, mounts Pulsar DL2SBP1234. Wears helmet (strap already damaged).",
+        "source": "Zomato app 'Order Picked' timestamp, FSL finding on helmet strap",
+        "confidence": "High"
+      },
+      {
+        "time": "18:16:00",
+        "event": "Accused starts riding from Karol Bagh towards Old Rajinder Nagar via Shankar Road. Google Maps shows estimated travel time 12-14 minutes.",
+        "source": "Google Maps Timeline, Mobile GPS",
+        "confidence": "High"
+      },
+      {
+        "time": "18:18:00",
+        "event": "Victim reaches Shankar Road, heading towards Rajinder Nagar. Normal traffic flow.",
+        "source": "Estimated from route and timing",
+        "confidence": "Medium"
+      },
+      {
+        "time": "18:19:30",
+        "event": "Accused passes Canara Bank ATM on Shankar Road, speed approximately 60 kmph. ATM CCTV captures clear image.",
+        "source": "CCTV CAM-CB-ATM-01, 18:19:35 timestamp",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:19:50",
+        "event": "Traffic Constable manages traffic at junction. Vehicles from Rajinder Nagar side getting right of way for turn.",
+        "source": "CCTV CAM-SSH-G2-03, Constable statement",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:00",
+        "event": "Victim approaches Shankar Road T-Point from Rajinder Nagar side on Activa. Right indicator ON. Speed ~10 kmph.",
+        "source": "CCTV CAM-SSH-G2-03, 18:20:03",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:03",
+        "event": "Activa begins legal right turn towards Old Rajinder Nagar.",
+        "source": "CCTV CAM-SSH-G2-03",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:05",
+        "event": "Pulsar enters CCTV frame from Karol Bagh side. Speed 55-60 kmph. Constable raises left hand in STOP signal for Shankar Road traffic.",
+        "source": "CCTV CAM-SSH-G2-03",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:06",
+        "event": "Pulsar does not stop, continues at same speed into junction. Constable's signal ignored.",
+        "source": "CCTV analysis, Witness statements",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:07.250",
+        "event": "Pulsar crosses stop line. Accused possibly glances at mobile for navigation (phone mounted on handlebar, extracted data shows navigation active). Activa now at center of junction.",
+        "source": "CCTV, Mobile data showing navigation app in foreground",
+        "confidence": "High"
+      },
+      {
+        "time": "18:20:07.500",
+        "event": "Accused sees Activa, applies emergency brakes. Front brake lever pulled. Rear tyre leaves skid mark on road.",
+        "source": "CCTV (slight wobble visible), Skid mark evidence 4.2m, Vehicle inspection (brake lever position)",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:07.800",
+        "event": "IMPACT: Front-right of Pulsar collides with right-center of Activa at 75-80° angle. Impact speed 52-58 kmph. Loud crash heard by witnesses.",
+        "source": "CCTV (all cameras), All witness statements, FSL reconstruction",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:07.900",
+        "event": "Victim Rajesh Sharma thrown from Activa, airborne approximately 1-1.5m, travels 3.7m before landing on road near edge.",
+        "source": "CCTV frame analysis, FSL reconstruction",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:08.000",
+        "event": "Victim's head (helmeted) impacts road surface. Helmet cracks absorb impact, preventing immediate skull fracture but causing internal head injury (SDH).",
+        "source": "FSL helmet analysis, Medical CT report",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:08.200",
+        "event": "Pulsar falls on right side, slides 3.1m. Accused falls on left side, minor impact. Victim lies on road, bleeding from head (laceration) and in severe pain from femur fracture.",
+        "source": "CCTV, Medical report, Witness statements",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:10",
+        "event": "Accused Amit Verma gets up, appears disoriented but mobile. Looks at victim on road. Bystanders start gathering.",
+        "source": "CCTV CAM-SSH-G2-03, Witness Prakash Joshi",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:12",
+        "event": "Accused tries to lift his fallen Pulsar. Witnesses interpret this as attempt to flee.",
+        "source": "CCTV, Witness Mohammed Asif statement 'tried to pick up bike to leave'",
+        "confidence": "High"
+      },
+      {
+        "time": "18:20:14",
+        "event": "Traffic Constable Asif runs from junction center to accused, catches him by arm, prevents him from leaving. Loudly questions him.",
+        "source": "CCTV CAM-SSH-G2-03, Witness statements",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:18",
+        "event": "Prakash Joshi (tea stall owner) comes running from his shop. Other passersby (5-6 people) gather.",
+        "source": "CCTV, Joshi's statement",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:20:30",
+        "event": "Joshi and others assist in carefully moving victim slightly to safer position (away from moving traffic). Victim conscious, crying in pain, asking about his condition.",
+        "source": "Joshi's statement 'shifted injured person to side of road'",
+        "confidence": "High"
+      },
+      {
+        "time": "18:20:45",
+        "event": "Constable Asif makes PCR call from his mobile. 'Accident at Shankar Road T-point. Two-wheeler collision. One person seriously injured. Send PCR and ambulance.'",
+        "source": "PCR Call Records, Call time: 18:20:52 per CDR",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:21:00",
+        "event": "Constable also calls his traffic circle in-charge to inform about accident and that he caught the other rider.",
+        "source": "Constable statement, CDR",
+        "confidence": "High"
+      },
+      {
+        "time": "18:22:00",
+        "event": "Prakash Joshi brings water for victim. Constable maintains hold on accused who is now sitting on footpath. Accused looking shocked.",
+        "source": "Witness statements",
+        "confidence": "High"
+      },
+      {
+        "time": "18:24:00",
+        "event": "PCR Control Room dispatches PCR Van Z-45 from Rajinder Nagar patrol. Also informs St. Stephen's Hospital about accident for ambulance dispatch.",
+        "source": "PCR Dispatch Log, PCR Dashcam",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:25:00",
+        "event": "St. Stephen's Hospital dispatches ambulance (Ambulance No. SSH-03) from emergency gate. Distance to accident spot: 200 meters from Gate 2.",
+        "source": "Hospital ambulance log",
+        "confidence": "High"
+      },
+      {
+        "time": "18:28:00",
+        "event": "Complainant Sunita Sharma receives call on her mobile. Unknown person (bystander) using victim's phone informs about accident. She leaves home immediately.",
+        "source": "Complainant statement, CDR - victim's phone outgoing call at 18:27",
+        "confidence": "High"
+      },
+      {
+        "time": "18:31:00",
+        "event": "PCR Van Z-45 arrives at spot. Two PCR personnel (HC Ramesh and Constable Suresh) assess situation. Secure the scene.",
+        "source": "PCR Dashcam, CCTV CAM-SSH-G2-03",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:35:00",
+        "event": "Ambulance SSH-03 arrives at spot. Paramedics assess victim. Stabilize neck with collar, splint right leg, shift to stretcher.",
+        "source": "CCTV, Hospital ambulance log",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:42:00",
+        "event": "Ambulance departs for St. Stephen's Hospital Emergency with victim. Paramedic notes: GCS 13, BP 100/70, Pulse 112, right femur deformity, scalp laceration.",
+        "source": "CCTV, Ambulance patient care report",
+        "confidence": "Very High"
+      },
+      {
+        "time": "18:45:00",
+        "event": "Victim arrives at St. Stephen's Hospital Emergency. Dr. Anjali Mehta begins primary assessment. MLC No. 5642 generated.",
+        "source": "Hospital admission record, MLC",
+        "confidence": "Very High"
+      },
+      {
+        "time": "19:00:00",
+        "event": "Complainant Sunita Sharma arrives at hospital. Identifies her husband. Informed about seriousness of injuries. Gives preliminary information to PCR HC Ramesh present at hospital.",
+        "source": "Complainant statement",
+        "confidence": "High"
+      },
+      {
+        "time": "19:10:00",
+        "event": "Inspector Suresh Chandra (IO) arrives at accident spot from PS Rajinder Nagar after receiving information. Begins preliminary investigation. PCR briefs him.",
+        "source": "Case Diary CD-01, Spot panchnama",
+        "confidence": "Very High"
+      },
+      {
+        "time": "19:15:00",
+        "event": "Accused Amit Verma formally arrested by IO at the spot. Personal search conducted. Arrest memo prepared. Rights read out. Accused cooperative.",
+        "source": "Arrest Memo, Case Diary",
+        "confidence": "Very High"
+      },
+      {
+        "time": "19:20:00",
+        "event": "IO instructs Constable Rajesh to take accused to RML Hospital for medical examination. Also sends message to PS for Duty Officer to prepare for FIR registration.",
+        "source": "Case Diary",
+        "confidence": "High"
+      },
+      {
+        "time": "19:30:00",
+        "event": "Complainant Sunita Sharma arrives at PS Rajinder Nagar. Gives formal written complaint under Section 154 CrPC. Duty Officer SI Vikram Singh records FIR No. 452/2024.",
+        "source": "FIR, Complaint document",
+        "confidence": "Very High"
+      },
+      {
+        "time": "19:45:00",
+        "event": "Accused undergoes medical examination at RML Hospital. Dr. R. Srinivasan examines. Minor injuries noted. Blood sample collected. Alcohol test negative. MLC No. RML/2024/7892.",
+        "source": "Arrest memo medical section, RML MLC",
+        "confidence": "Very High"
+      },
+      {
+        "time": "19:50:00",
+        "event": "IO visits St. Stephen's Hospital. Meets Dr. Anjali Mehta. Obtains preliminary medical status. Victim undergoing CT scan and X-rays. Injuries confirmed grievous.",
+        "source": "Case Diary, Medical report",
+        "confidence": "Very High"
+      },
+      {
+        "time": "20:15:00",
+        "event": "Witness statement of Mohammed Asif recorded at PS Rajinder Nagar.",
+        "source": "Witness Statement WS-001",
+        "confidence": "Very High"
+      },
+      {
+        "time": "20:30:00",
+        "event": "IO returns from hospital. Reviews FIR and statements. Plans spot panchnama. Arranges for photographer HC Ramesh Kumar.",
+        "source": "Case Diary",
+        "confidence": "High"
+      },
+      {
+        "time": "21:00:00",
+        "event": "Spot panchnama commenced at accident site. Panch witnesses: Mohammed Asif and Prakash Joshi. Measurements, photographs, evidence collection.",
+        "source": "Spot Panchnama",
+        "confidence": "Very High"
+      },
+      {
+        "time": "21:00:00",
+        "event": "Witness statement of Prakash Chandra Joshi recorded at his tea stall (during panchnama).",
+        "source": "Witness Statement WS-002",
+        "confidence": "Very High"
+      },
+      {
+        "time": "22:15:00",
+        "event": "Spot panchnama completed. All evidence collected. Vehicles shifted to PS Malkhana yard.",
+        "source": "Spot Panchnama, Seizure Memo",
+        "confidence": "Very High"
+      },
+      {
+        "time": "22:30:00",
+        "event": "IO records statement of accused Amit Verma in PS lock-up. ASI Ramphal Singh present as witness. Accused admits overspeeding, shows remorse.",
+        "source": "Accused Statement",
+        "confidence": "Very High"
+      },
+      {
+        "time": "22:30:00",
+        "event": "IO collects CCTV DVR from St. Stephen's Hospital security room.",
+        "source": "Seizure Memo (EVD-0452-013)",
+        "confidence": "High"
+      },
+      {
+        "time": "23:00:00",
+        "event": "Medical report finalized by Dr. Anjali Mehta. Detailed injuries, diagnosis, and opinion documented. MLC report complete.",
+        "source": "Medical Report, MLC/SSH/2024/5642",
+        "confidence": "Very High"
+      },
+      {
+        "time": "23:30:00",
+        "event": "Case Diary entry CD-01 to CD-03 completed by IO. Investigation for Day 1 concluded.",
+        "source": "Case Diary",
+        "confidence": "Very High"
+      }
+    ],
+    "timeline_consistency_check": "All times verified against at least two independent sources. CCTV timestamps synchronized with IST within ±2 seconds. Hospital records, PCR logs, and CDRs all consistent with CCTV timeline. No contradictions found.",
+    "prepared_by": "Inspector Suresh Chandra, IO",
+    "date": "2024-11-28"
+  }
+}

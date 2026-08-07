@@ -1,0 +1,251 @@
+// dummy_case/master_case.json
+{
+  "case_identifier": {
+    "fir_number": "FIR/2024/DL/PSRKP/0452",
+    "crime_number": "CR/2024/DL/PSRKP/0318",
+    "ps_case_number": "PSRKP/2024/INV/218"
+  },
+  "police_station": {
+    "name": "Rajinder Nagar Police Station",
+    "district": "Central Delhi",
+    "state": "Delhi",
+    "police_station_code": "PSRKP",
+    "jurisdiction": "Rajinder Nagar, Patel Nagar, Karol Bagh East"
+  },
+  "incident_details": {
+    "date": "2024-10-15",
+    "day": "Tuesday",
+    "time": "18:20:00",
+    "timezone": "IST",
+    "weather": "Clear sky, dry road, visibility good",
+    "lighting": "Dusk, street lights partially on",
+    "location": {
+      "address": "Shankar Road T-Point, Near St. Stephen's Hospital",
+      "landmark": "Opposite Gate No. 2, St. Stephen's Hospital",
+      "area": "Rajinder Nagar",
+      "city": "New Delhi",
+      "pincode": "110060",
+      "latitude": 28.6378,
+      "longitude": 77.1923,
+      "road_type": "Municipal Road, Intersection T-Point",
+      "road_width": 12.5,
+      "traffic_signal": "Present but non-functional",
+      "speed_limit": 40
+    }
+  },
+  "persons_involved": {
+    "victim": {
+      "person_id": "VIC-001",
+      "full_name": "Rajesh Kumar Sharma",
+      "age": 42,
+      "gender": "Male",
+      "blood_group": "B+",
+      "occupation": "Accountant, Delhi Transport Corporation",
+      "address": "B-143, R.P. Bagh, Pusa Road, New Delhi - 110005",
+      "contact": "+91-9810345678",
+      "driving_license": "DL/042018/0456789",
+      "vehicle_used": "Two-wheeler, Honda Activa 6G, White"
+    },
+    "accused": {
+      "person_id": "ACC-001",
+      "full_name": "Amit Verma",
+      "age": 28,
+      "gender": "Male",
+      "blood_group": "O+",
+      "occupation": "Food Delivery Rider, Zomato",
+      "address": "C-54, Gali No. 4, Old Rajinder Nagar, New Delhi - 110060",
+      "contact": "+91-9871123456",
+      "driving_license": "DL/032021/0789456",
+      "vehicle_used": "Two-wheeler, Bajaj Pulsar 220F, Red, DL2SBP1234"
+    },
+    "investigating_officer": {
+      "person_id": "IO-001",
+      "full_name": "Inspector Suresh Chandra",
+      "badge_number": "DCP/CD/4892",
+      "rank": "Inspector",
+      "designation": "Station House Officer",
+      "police_station": "Rajinder Nagar",
+      "contact": "+91-9810098100"
+    },
+    "complainant": {
+      "person_id": "COM-001",
+      "full_name": "Sunita Sharma",
+      "age": 38,
+      "gender": "Female",
+      "relation_to_victim": "Wife",
+      "address": "B-143, R.P. Bagh, Pusa Road, New Delhi - 110005",
+      "contact": "+91-9810345679",
+      "occupation": "Teacher, Sarvodaya Vidyalaya"
+    },
+    "witnesses": [
+      {
+        "witness_id": "WIT-001",
+        "full_name": "Mohammed Asif",
+        "age": 35,
+        "gender": "Male",
+        "occupation": "Traffic Police Constable",
+        "address": "Police Lines, Rajinder Nagar, New Delhi",
+        "badge_number": "TPC/DL/3342"
+      },
+      {
+        "witness_id": "WIT-002",
+        "full_name": "Prakash Chandra Joshi",
+        "age": 55,
+        "gender": "Male",
+        "occupation": "Tea Stall Owner",
+        "address": "Shop No. 7, Shankar Road, Near St. Stephen's Hospital, New Delhi",
+        "contact": "+91-9958321456"
+      }
+    ]
+  },
+  "vehicles": [
+    {
+      "vehicle_id": "VEH-001",
+      "type": "Two-wheeler",
+      "make_model": "Bajaj Pulsar 220F",
+      "registration": "DL2SBP1234",
+      "color": "Red",
+      "ownership": "Amit Verma (Accused)",
+      "insurance": "ICICI Lombard, Policy No: 3002/MV/2024/456789",
+      "damage": "Front fairing broken, headlight smashed, right handlebar bent",
+      "position_after_accident": "Middle of intersection, front-facing east"
+    },
+    {
+      "vehicle_id": "VEH-002",
+      "type": "Two-wheeler",
+      "make_model": "Honda Activa 6G",
+      "registration": "DL5SCT5678",
+      "color": "White",
+      "ownership": "Rajesh Kumar Sharma (Victim)",
+      "insurance": "New India Assurance, Policy No: NIA/MV/2024/890123",
+      "damage": "Right side body panel scraped, mirror broken, brake lever bent",
+      "position_after_accident": "Near road divider, front-facing south"
+    }
+  ],
+  "hospital": {
+    "name": "St. Stephen's Hospital",
+    "address": "Tis Hazari, Delhi - 110054",
+    "mlc_number": "MLC/SSH/2024/5642",
+    "admission_time": "2024-10-15 18:45:00",
+    "doctor_on_duty": "Dr. Anjali Mehta, MBBS, MS (Ortho)",
+    "emergency_contact": "+91-11-23966021"
+  },
+  "injuries": {
+    "victim_injuries": [
+      "Compound fracture right femur",
+      "Head injury with intracranial hemorrhage",
+      "Multiple abrasions on face and arms",
+      "Fracture of right clavicle",
+      "Rib fractures (3rd, 4th, 5th on right side)",
+      "Liver laceration (Grade II)"
+    ],
+    "accused_injuries": [
+      "Minor abrasion on left knee",
+      "Contusion on right shoulder"
+    ]
+  },
+  "legal_sections": {
+    "bharatiya_nyaya_sanhita": [
+      {
+        "section": "281",
+        "description": "Rash driving or riding on a public way"
+      },
+      {
+        "section": "125",
+        "description": "Act endangering life or personal safety of others"
+      }
+    ],
+    "motor_vehicles_act_1988": [
+      {
+        "section": "184",
+        "description": "Driving dangerously"
+      },
+      {
+        "section": "134",
+        "description": "Duty of driver in case of accident"
+      }
+    ]
+  },
+  "evidence_summary": {
+    "physical_evidence": [
+      "VEH-001 - Bajaj Pulsar DL2SBP1234 (Damaged)",
+      "VEH-002 - Honda Activa DL5SCT5678 (Damaged)",
+      "Accused's smartphone (Samsung Galaxy, IMEI: 358123456789012)",
+      "Accused's driving license DL/032021/0789456",
+      "Victim's driving license DL/042018/0456789",
+      "Blood sample of accused (2ml, Vial ID: BLD-0452-A)",
+      "Blood sample of victim (2ml, Vial ID: BLD-0452-B)",
+      "Broken vehicle parts from accident site"
+    ],
+    "digital_evidence": [
+      "CCTV footage from St. Stephen's Hospital Gate 2",
+      "CCTV footage from Canara Bank ATM, Shankar Road",
+      "PCR van dashcam footage",
+      "Photographs of accident site (25 frames)"
+    ],
+    "documentary_evidence": [
+      "FIR Copy",
+      "Complaint under Section 154 CrPC",
+      "Witness statements",
+      "Medical records and MLC",
+      "FSL report",
+      "Vehicle inspection report"
+    ]
+  },
+  "timeline_key_events": [
+    {
+      "time": "18:05",
+      "event": "Victim Rajesh Sharma leaves DTC office at Inderlok, riding Honda Activa DL5SCT5678"
+    },
+    {
+      "time": "18:15",
+      "event": "Accused Amit Verma picks up Zomato order from Haldiram's, Karol Bagh, riding Bajaj Pulsar DL2SBP1234"
+    },
+    {
+      "time": "18:20:00",
+      "event": "Collision occurs at Shankar Road T-Point near St. Stephen's Hospital"
+    },
+    {
+      "time": "18:20:45",
+      "event": "Traffic Constable Asif (WIT-001) witnesses accident and calls PCR"
+    },
+    {
+      "time": "18:21:30",
+      "event": "Tea stall owner Prakash Joshi (WIT-002) comes out and sees accident scene"
+    },
+    {
+      "time": "18:24:00",
+      "event": "PCR receives alert, dispatches PCR van Z-45"
+    },
+    {
+      "time": "18:31:00",
+      "event": "PCR van arrives at scene"
+    },
+    {
+      "time": "18:35:00",
+      "event": "Ambulance from St. Stephen's Hospital reaches site"
+    },
+    {
+      "time": "18:45:00",
+      "event": "Victim admitted to Emergency Ward, St. Stephen's Hospital"
+    },
+    {
+      "time": "19:10:00",
+      "event": "Accused taken to Rajinder Nagar PS"
+    },
+    {
+      "time": "19:30:00",
+      "event": "FIR registered at Rajinder Nagar PS"
+    },
+    {
+      "time": "21:00:00",
+      "event": "Spot panchnama conducted"
+    }
+  ],
+  "investigation_status": {
+    "status": "Investigation Complete",
+    "io_finding": "Prima facie case established against accused under BNS 281, 125 and MV Act 184, 134",
+    "recommendation": "Filing of chargesheet before Hon'ble Metropolitan Magistrate",
+    "supervisory_remarks": "Approved by ACP, Patel Nagar Sub-Division on 2024-11-28"
+  }
+}

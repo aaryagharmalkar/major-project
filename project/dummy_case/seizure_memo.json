@@ -1,0 +1,152 @@
+// dummy_case/seizure_memo.json
+{
+  "seizure_memo": {
+    "memo_id": "SZ/PSRKP/0452/2024",
+    "date": "2024-10-15",
+    "time": "21:30",
+    "place": "Police Station Rajinder Nagar",
+    "seizing_officer": {
+      "name": "Inspector Suresh Chandra",
+      "badge": "DCP/CD/4892",
+      "designation": "SHO"
+    },
+    "witnesses_to_seizure": [
+      {
+        "name": "Mohammed Asif",
+        "designation": "Traffic Police Constable"
+      },
+      {
+        "name": "Prakash Chandra Joshi",
+        "occupation": "Tea Stall Owner"
+      }
+    ],
+    "seized_articles": [
+      {
+        "item_no": 1,
+        "evidence_id": "EVD-0452-001",
+        "description": "Bajaj Pulsar 220F Motorcycle, Red Color",
+        "registration": "DL2SBP1234",
+        "chassis_number": "MD2A18FX5LCK12345",
+        "engine_number": "DHYCJ51678",
+        "condition": "Damaged - Front fairing broken, headlight smashed, right handlebar bent",
+        "keys": "One set with Zomato keychain",
+        "owner": "Amit Verma"
+      },
+      {
+        "item_no": 2,
+        "evidence_id": "EVD-0452-002",
+        "description": "Honda Activa 6G Scooter, White Color",
+        "registration": "DL5SCT5678",
+        "chassis_number": "ME4JF614AMT67890",
+        "engine_number": "JF61E3456789",
+        "condition": "Damaged - Right body panel scraped, right mirror broken, brake lever bent",
+        "keys": "One set, found in ignition",
+        "owner": "Rajesh Kumar Sharma"
+      },
+      {
+        "item_no": 3,
+        "evidence_id": "EVD-0452-003",
+        "description": "Smartphone Samsung Galaxy M32, Black Color",
+        "imei": "358123456789012",
+        "condition": "Working, screen intact",
+        "belongs_to": "Amit Verma (Accused)"
+      },
+      {
+        "item_no": 4,
+        "evidence_id": "EVD-0452-004",
+        "description": "Driving License - Amit Verma",
+        "license_number": "DL/032021/0789456",
+        "issued_by": "RTO Moradabad, UP",
+        "valid_till": "28-02-2035",
+        "category": "MCWG"
+      },
+      {
+        "item_no": 5,
+        "evidence_id": "EVD-0452-005",
+        "description": "Driving License - Rajesh Kumar Sharma",
+        "license_number": "DL/042018/0456789",
+        "issued_by": "RTO Sheikh Sarai, Delhi",
+        "valid_till": "15-07-2032",
+        "category": "MCWG + LMV"
+      },
+      {
+        "item_no": 6,
+        "evidence_id": "EVD-0452-006",
+        "description": "Helmet - Accused (Steelbird, Black, Full Face)",
+        "condition": "Scratches on left side, visor missing, chin strap torn",
+        "isi_mark": "Yes"
+      },
+      {
+        "item_no": 7,
+        "evidence_id": "EVD-0452-007",
+        "description": "Helmet - Victim (Vega, White, Full Face)",
+        "condition": "Multiple cracks on right side, impact marks, blood stains inside",
+        "isi_mark": "Yes"
+      },
+      {
+        "item_no": 8,
+        "evidence_id": "EVD-0452-008",
+        "description": "Broken vehicle parts from accident site",
+        "details": [
+          "Red plastic fairing pieces (from Pulsar)",
+          "White plastic body panel pieces (from Activa)",
+          "Right side rear view mirror (broken)",
+          "Headlamp glass fragments"
+        ],
+        "collected_from": "Accident spot at Shankar Road T-Point"
+      },
+      {
+        "item_no": 9,
+        "evidence_id": "EVD-0452-009",
+        "description": "Zomato Delivery Bag, Red Color",
+        "condition": "Empty, torn at one corner",
+        "belongs_to": "Amit Verma"
+      },
+      {
+        "item_no": 10,
+        "evidence_id": "EVD-0452-010",
+        "description": "Blood sample - Accused (2ml in EDTA vial)",
+        "vial_id": "BLD-0452-A",
+        "collected_at": "RML Hospital, 19:45 hours"
+      },
+      {
+        "item_no": 11,
+        "evidence_id": "EVD-0452-011",
+        "description": "Blood sample - Victim (2ml in EDTA vial)",
+        "vial_id": "BLD-0452-B",
+        "collected_at": "St. Stephen's Hospital, 19:30 hours"
+      },
+      {
+        "item_no": 12,
+        "evidence_id": "EVD-0452-012",
+        "description": "Photographs - Digital, 25 Frames",
+        "details": "Accident spot, vehicle positions, road marks, injuries (with doctor consent)",
+        "camera": "Canon EOS 1300D, PS Rajinder Nagar",
+        "photographer": "HC Ramesh Kumar, Photography Section"
+      },
+      {
+        "item_no": 13,
+        "evidence_id": "EVD-0452-013",
+        "description": "CCTV Footage DVR Hard Disk",
+        "source": "St. Stephen's Hospital Gate 2, Camera ID: CAM-SSH-G2-03",
+        "capacity": "1TB",
+        "time_stamp_extracted": "18:10 to 18:35, 15-10-2024"
+      },
+      {
+        "item_no": 14,
+        "evidence_id": "EVD-0452-014",
+        "description": "CCTV Footage Pen Drive",
+        "source": "Canara Bank ATM, Shankar Road",
+        "camera_id": "CAM-CB-ATM-01",
+        "time_stamp_extracted": "18:15 to 18:25, 15-10-2024"
+      }
+    ],
+    "seizure_declaration": "The above articles were seized in presence of independent witnesses as they are material to the investigation of case FIR No. 452/2024. The articles were properly packed, sealed with seal bearing 'SC' (Suresh Chandra), and labeled. The seizure memo was read over and explained to the accused and witnesses in Hindi.",
+    "signatures": {
+      "seizing_officer": "Suresh Chandra, Inspector",
+      "witness_1": "Mohammed Asif",
+      "witness_2": "Prakash Chandra Joshi",
+      "accused": "Amit Verma"
+    }
+  }
+}

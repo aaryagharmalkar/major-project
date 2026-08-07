@@ -1,0 +1,29 @@
+// dummy_case/complaint.json
+{
+  "complaint": {
+    "date": "2024-10-15",
+    "time": "19:30",
+    "police_station": "Rajinder Nagar Police Station",
+    "section": "Section 154 of Code of Criminal Procedure, 1973",
+    "complainant_details": {
+      "name": "Sunita Sharma",
+      "age": 38,
+      "occupation": "Teacher, Sarvodaya Vidyalaya, Patel Nagar",
+      "address": "B-143, R.P. Bagh, Pusa Road, New Delhi - 110005",
+      "contact": "9810345679",
+      "relation_to_victim": "Wife"
+    },
+    "complaint_text": "Respected Sir, I Sunita Sharma, wife of Rajesh Kumar Sharma, resident of B-143, R.P. Bagh, Pusa Road, New Delhi, do hereby state that today on 15th October 2024, my husband Rajesh Kumar Sharma had gone to his office at DTC Inderlok Depot. He usually returns home by 6:30 PM. At about 6:20 PM, I received a phone call from his mobile number, but the caller was some other person who informed me that my husband had met with an accident near St. Stephen's Hospital. I immediately rushed to the hospital and found my husband in emergency ward with serious injuries. As per what I was told by the traffic police constable present there, a person named Amit Verma who was riding a red colored Pulsar motorcycle at very high speed, jumped the traffic signal and hit my husband's Activa scooter. My husband was coming from the correct direction and was taking a turn when this accident happened. The rider of the Pulsar was caught at the spot. I request you to take strict legal action against the accused person as due to his rash and negligent driving my husband has suffered grievous injuries including head injury, leg fracture, and internal injuries and is undergoing treatment in ICU. The motorcycle rider was working for food delivery and was in hurry which led to this accident. I am filing this complaint with my free will and no one has forced me to do so. The facts stated are true to my knowledge and belief.",
+    "verbal_complaint_recorded_by": "SI Vikram Singh, Duty Officer, PS Rajinder Nagar",
+    "complaint_read_and_verified": true,
+    "time_of_complaint": "19:30 hours",
+    "signature_thumb_impression": "Signed by Complainant",
+    "witness_to_complaint": [
+      {
+        "name": "Mohammed Asif",
+        "designation": "Traffic Police Constable",
+        "badge": "TPC/DL/3342"
+      }
+    ]
+  }
+}

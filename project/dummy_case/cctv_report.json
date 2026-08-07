@@ -1,0 +1,225 @@
+// dummy_case/cctv_report.json
+{
+  "cctv_analysis_report": {
+    "report_id": "CCTV/PSRKP/0452/2024",
+    "date_of_collection": "2024-10-15",
+    "date_of_analysis": "2024-10-16 to 2024-10-17",
+    "analyzed_by": {
+      "name": "HC Ramesh Kumar",
+      "designation": "Head Constable, Technical Cell",
+      "police_station": "Rajinder Nagar",
+      "assisted_by": "Constable Sunil Dutt, IT Cell"
+    },
+    "cctv_sources": [
+      {
+        "source_id": "CCTV-001",
+        "location": "St. Stephen's Hospital, Main Gate No. 2",
+        "camera_id": "CAM-SSH-G2-03",
+        "camera_type": "IP Camera, Hikvision DS-2CD2087G2-L",
+        "resolution": "4MP (2560x1440)",
+        "frame_rate": "25 fps",
+        "coverage_area": "Hospital gate, Shankar Road junction (partial), T-point (full coverage)",
+        "distance_from_accident": "30 meters, clear view of junction",
+        "footage_duration_obtained": "18:00 to 18:45, 15-10-2024",
+        "storage_obtained": "1TB DVR Hard Disk (Evidence ID: EVD-0452-013)",
+        "chain_of_custody": "Collected by IO from hospital security room. Signature of Security Incharge Mr. Thomas George obtained."
+      },
+      {
+        "source_id": "CCTV-002",
+        "location": "Canara Bank ATM, Shankar Road (50m South of junction)",
+        "camera_id": "CAM-CB-ATM-01",
+        "camera_type": "Dome Camera, CP Plus",
+        "resolution": "2MP (1920x1080)",
+        "frame_rate": "15 fps",
+        "coverage_area": "ATM entrance, Shankar Road (partial view of road 30m stretch)",
+        "distance_from_accident": "50 meters, view of approach road from Karol Bagh side",
+        "footage_duration_obtained": "18:00 to 18:45, 15-10-2024",
+        "storage_obtained": "32GB Pen Drive copy (Evidence ID: EVD-0452-014)",
+        "chain_of_custody": "Collected from Bank Manager Mr. S. Venkatesh. Copy provided on pen drive."
+      },
+      {
+        "source_id": "CCTV-003",
+        "location": "PCR Van Z-45 Dashcam",
+        "camera_id": "PCR-DASH-Z45",
+        "camera_type": "Vehicle Dash Camera, 1080p",
+        "resolution": "1920x1080",
+        "frame_rate": "30 fps",
+        "coverage_area": "Front view from PCR van",
+        "footage_duration_obtained": "Full shift recording, relevant portion 18:20 to 18:45",
+        "storage_obtained": "64GB SD Card (Evidence ID: EVD-0452-015)",
+        "chain_of_custody": "Obtained from PCR Incharge ASI Dharampal"
+      }
+    ],
+    "detailed_timeline_from_cctv": {
+      "cctv_001_hospital_gate": [
+        {
+          "timestamp": "18:17:22",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Traffic constable visible walking to center of junction, takes position for manual traffic control"
+        },
+        {
+          "timestamp": "18:19:50",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Traffic flow normal, moderate traffic, vehicles stopping per constable's hand signals"
+        },
+        {
+          "timestamp": "18:20:03",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "White Honda Activa (DL5SCT5678 visible in zoom) enters frame from Rajinder Nagar side (bottom right), speed estimated 10-12 kmph, right turn indicator blinking"
+        },
+        {
+          "timestamp": "18:20:05",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Red Bajaj Pulsar enters frame from left (Shankar Road), speed estimated 55-60 kmph by frame analysis, rider in red t-shirt, delivery bag on rear seat"
+        },
+        {
+          "timestamp": "18:20:06",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Constable's left hand raised in STOP gesture facing Shankar Road traffic. Activa continues turn slowly."
+        },
+        {
+          "timestamp": "18:20:07.250",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Pulsar crosses stop line (painted white, visible on road) at speed, does not decelerate. Approximate distance to Activa: 12-15m"
+        },
+        {
+          "timestamp": "18:20:07.500",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Pulsar front wheel visible, slight wobble - possible late brake application. Activa almost at center of junction."
+        },
+        {
+          "timestamp": "18:20:07.800",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "IMPACT - Front right of Pulsar strikes right center of Activa. Both vehicles and riders visible."
+        },
+        {
+          "timestamp": "18:20:08.100",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Activa rider airborne, thrown approximately 3-4m to right, lands near road edge. Pulsar falls right side."
+        },
+        {
+          "timestamp": "18:20:08.500",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Pulsar rider hits ground, slides approximately 1m. Attempts to get up immediately."
+        },
+        {
+          "timestamp": "18:20:10",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Constable running towards fallen vehicles, gestures at Pulsar rider shouting (audio not available)"
+        },
+        {
+          "timestamp": "18:20:14",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Constable reaches Pulsar rider who is now standing, grabs his right arm firmly"
+        },
+        {
+          "timestamp": "18:20:18",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Public persons (5-6 people) gather around. One person (later identified as Prakash Joshi) comes from tea stall direction."
+        },
+        {
+          "timestamp": "18:20:45",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Constable seen making phone call (PCR call at 18:21 corroborated)"
+        },
+        {
+          "timestamp": "18:22:30",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "People trying to assist victim lying on road. Helmet being carefully removed by someone."
+        },
+        {
+          "timestamp": "18:24:15",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "PCR call visible in constable's call log timestamp in later verification"
+        },
+        {
+          "timestamp": "18:31:10",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "PCR Van Z-45 arrives at scene, parks near junction. Two PCR personnel exit vehicle."
+        },
+        {
+          "timestamp": "18:35:40",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Ambulance from St. Stephen's Hospital (Gate 2) arrives at scene. Medical team (2 persons with stretcher) attends to victim."
+        },
+        {
+          "timestamp": "18:42:00",
+          "camera": "CAM-SSH-G2-03",
+          "observation": "Victim loaded onto stretcher, ambulance departs towards hospital emergency entrance."
+        }
+      ],
+      "cctv_002_canara_bank_atm": [
+        {
+          "timestamp": "18:19:35",
+          "camera": "CAM-CB-ATM-01",
+          "observation": "Red Pulsar motorcycle enters frame from left side (Karol Bagh direction), passing ATM at high speed. Rider visible: red t-shirt, delivery bag, black helmet."
+        },
+        {
+          "timestamp": "18:19:42",
+          "camera": "CAM-CB-ATM-01",
+          "observation": "Pulsar continues towards T-point. Speed calculated by frame analysis: covers 30m in 1.8 seconds = 60 kmph average over this stretch."
+        },
+        {
+          "timestamp": "18:19:50",
+          "camera": "CAM-CB-ATM-01",
+          "observation": "Pulsar out of frame towards junction. No brake light activation visible at any point in this segment."
+        },
+        {
+          "timestamp": "18:20:15",
+          "camera": "CAM-CB-ATM-01",
+          "observation": "Audio spike detected in ATM microphone (crash sound). ATM security guard (seen in frame) turns head towards junction direction."
+        },
+        {
+          "timestamp": "18:20:20",
+          "camera": "CAM-CB-ATM-01",
+          "observation": "Two passersby seen running towards junction."
+        }
+      ],
+      "cctv_003_pcr_dashcam": [
+        {
+          "timestamp": "18:24:05",
+          "camera": "PCR-DASH-Z45",
+          "observation": "PCR van receives dispatch: 'Accident at Shankar Road T-point near St. Stephen's Hospital. Two-wheeler collision. Injury reported. Proceed code 2.'"
+        },
+        {
+          "timestamp": "18:31:05",
+          "camera": "PCR-DASH-Z45",
+          "observation": "PCR arrives at scene. Crowd visible at junction. Red and white two-wheelers visible in fallen positions."
+        }
+      ]
+    },
+    "frame_by_frame_speed_analysis": {
+      "method": "Speed calculated using known distance reference points (road markings measured during spot panchnama) and frame counting (25 fps). Formula: Speed (kmph) = (Distance in meters / Number of frames) x 90.",
+      "calculations": [
+        {
+          "vehicle": "Bajaj Pulsar DL2SBP1234",
+          "segment": "50m to 20m before stop line (CCTV-002)",
+          "distance": 30,
+          "frames": 45,
+          "time": "1.8 seconds",
+          "speed": "60.0 kmph"
+        },
+        {
+          "vehicle": "Bajaj Pulsar DL2SBP1234",
+          "segment": "20m before stop line to impact (CCTV-001)",
+          "distance": 24,
+          "frames": 55,
+          "time": "2.2 seconds",
+          "speed": "52.4 kmph (slight deceleration - possible late braking)"
+        },
+        {
+          "vehicle": "Honda Activa DL5SCT5678",
+          "segment": "Enters junction to impact point",
+          "distance": 8,
+          "frames": 72,
+          "time": "2.88 seconds",
+          "speed": "10.0 kmph (normal turning speed)"
+        }
+      ]
+    },
+    "conclusion": "CCTV footage analysis conclusively establishes that the accused was riding at excessive speed (52-60 kmph in a 40 kmph zone), ignored the traffic constable's manual stop signal, and failed to brake in time to avoid collision. The victim was riding at appropriate speed and was executing a legal turn. Footage corroborates eyewitness statements in all material particulars. Time stamps from all three cameras are synchronized and consistent. No tampering or editing detected in any footage.",
+    "certification": "I hereby certify that the above CCTV analysis is true and correct based on the footage examined. The original footage is preserved in evidence.",
+    "signature": "HC Ramesh Kumar, Technical Cell, PS Rajinder Nagar",
+    "date": "2024-10-17"
+  }
+}

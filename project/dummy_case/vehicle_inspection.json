@@ -1,0 +1,175 @@
+// dummy_case/vehicle_inspection.json
+{
+  "vehicle_inspection_report": {
+    "report_id": "VIR/PSRKP/0452/2024",
+    "date_of_inspection": "2024-10-16",
+    "time": "10:00 to 13:30",
+    "place": "Police Station Rajinder Nagar, Vehicle Examination Yard",
+    "inspected_by": {
+      "name": "ASI Rajender Prasad",
+      "designation": "Motor Transport Section, PS Rajinder Nagar",
+      "experience": "18 years in vehicle examination",
+      "assisted_by": "Constable Mohan Singh, Mechanic"
+    },
+    "witnesses": [
+      {
+        "name": "Mohammed Asif",
+        "designation": "Traffic Police Constable"
+      },
+      {
+        "name": "Amit Verma (Accused)",
+        "role": "Owner of Vehicle 1, present during inspection"
+      }
+    ],
+    "vehicle_1": {
+      "evidence_id": "EVD-0452-001",
+      "type": "Motorcycle",
+      "make": "Bajaj Auto Ltd.",
+      "model": "Pulsar 220F",
+      "variant": "Fuel Injected, Disc Brake",
+      "year_of_manufacture": 2020,
+      "registration": "DL2SBP1234",
+      "color": "Red",
+      "chassis_number": "MD2A18FX5LCK12345",
+      "engine_number": "DHYCJ51678",
+      "odometer_reading": "48,234 km",
+      "owner": "Amit Verma (Accused)",
+      "insurance": "ICICI Lombard, Policy 3002/MV/2024/456789, Valid till 14-03-2025",
+      "fitness_certificate": "Valid till 13-09-2025",
+      "pollution_certificate": "PUC valid till 31-12-2024",
+      "external_examination": {
+        "front_fairing": "Broken, multiple cracks, partially detached from frame",
+        "headlight_assembly": "Completely smashed, glass fragments missing, bulb filament broken (hot shock deformation)",
+        "front_mudguard": "Cracked",
+        "front_forks": "Right fork bent backward approximately 5 degrees",
+        "front_wheel_rim": "Bent at 3 o'clock position, 3mm lateral runout",
+        "front_tyre": "MRF Zapper 90/90-17, burst on right side, 2 inch tear",
+        "right_handlebar": "Bent downwards approximately 25 degrees",
+        "right_side_body": "Scratched, paint transfer from white vehicle",
+        "engine_crankcase": "Oil leak from right side gasket (impact stress)",
+        "rear_view_mirrors": "Right mirror broken, left mirror intact",
+        "brake_levers": "Front brake lever in pulled position, suggesting brake application at impact",
+        "leg_guard": "Right leg guard bent inwards",
+        "silencer": "Scratched, minor dent",
+        "sarai_guard": "Intact",
+        "number_plates": "Front plate broken, rear plate intact, HSRP type"
+      },
+      "mechanical_examination": {
+        "engine": "Starts with difficulty, abnormal noise from crankcase area",
+        "compression": "Normal (8.5:1 compression test OK)",
+        "clutch": "Functional, free play 2mm (spec 2-3mm)",
+        "gearbox": "All 5 gears engaging, no jumping",
+        "front_brake": "Disc brake functional, pad thickness 3mm (spec new 4mm, min 1mm)",
+        "rear_brake": "Drum brake functional, pedal free play 20mm (spec 20-30mm)",
+        "brake_fluid": "Level adequate, DOT 4",
+        "chain_sprocket": "Chain slack 35mm (spec 25-35mm), sprocket wear normal",
+        "steering": "Handlebar movement restricted on right side due to bend",
+        "suspension_front": "Right fork tube bent, seal leaking oil",
+        "suspension_rear": "Nitrox shock absorbers normal, no leak",
+        "electrical": "Headlight non-functional (smashed), indicators right front broken, rest functional",
+        "horn": "Functional",
+        "speedometer": "Needle stuck at 55 kmph mark, console cracked",
+        "fuel_tank": "No leak, cap intact"
+      },
+      "brake_test": {
+        "front_brake_efficiency": "Adequate at time of accident (pad thickness confirms regular maintenance)",
+        "rear_brake_efficiency": "Adequate",
+        "brake_application_evidence": "Front brake lever found in applied position post-accident, consistent with emergency braking attempt"
+      },
+      "tyre_condition": {
+        "front_tyre": "Burst due to impact, pre-accident tread depth 3.2mm (adequate), no irregular wear",
+        "rear_tyre": "Tread depth 4.5mm (good), even wear, no cuts or bulges",
+        "tyre_pressure_estimated": "Front 28 psi, Rear 32 psi (normal range from deformation pattern)"
+      },
+      "visibility_aids": {
+        "headlight": "Smashed, filament analysis shows ON at impact (hot shock)",
+        "tail_light": "Functional",
+        "indicators": "Left functional, right front broken, right rear functional",
+        "reflectors": "Front broken, rear present"
+      },
+      "safety_features": {
+        "sarai_guard": "Present, ISI marked",
+        "leg_guard": "Present, bent but absorbed impact",
+        "rear_view_mirrors": "One broken, one present"
+      },
+      "damage_summary": "Moderate to severe frontal and right side damage consistent with collision at 50-60 kmph with another vehicle laterally. All damage is accident-related. Vehicle was in roadworthy condition before accident with all systems functional."
+    },
+    "vehicle_2": {
+      "evidence_id": "EVD-0452-002",
+      "type": "Scooter",
+      "make": "Honda Motorcycle & Scooter India",
+      "model": "Activa 6G",
+      "variant": "DLX",
+      "year_of_manufacture": 2022,
+      "registration": "DL5SCT5678",
+      "color": "Pearl White",
+      "chassis_number": "ME4JF614AMT67890",
+      "engine_number": "JF61E3456789",
+      "odometer_reading": "12,456 km",
+      "owner": "Rajesh Kumar Sharma (Victim)",
+      "insurance": "New India Assurance, Policy NIA/MV/2024/890123, Valid till 22-06-2025",
+      "fitness_certificate": "Not required (less than 15 years)",
+      "pollution_certificate": "PUC valid till 30-09-2025",
+      "external_examination": {
+        "right_body_panel": "Deep scrape marks, paint scratched off in 35cm x 20cm area, dented inward 2.5cm",
+        "right_side_trim": "Broken, pieces found at accident site",
+        "right_rear_view_mirror": "Bracket broken, mirror glass cracked",
+        "front_apron": "Scratched, minor crack",
+        "headlight": "Scratched but intact, functional",
+        "right_indicator": "Lens broken, bulb exposed but functional",
+        "floor_panel": "Scratched on right edge",
+        "grab_rail": "Slightly bent on right side",
+        "number_plate_rear": "Intact",
+        "seat": "Cover torn on right side",
+        "exhaust_muffler": "Scratched, minor dent",
+        "center_stand": "Slightly bent"
+      },
+      "mechanical_examination": {
+        "engine": "Starts in one crank, runs smooth, no abnormal noise",
+        "transmission": "CVT, smooth operation, belt condition good",
+        "front_brake": "Drum brake functional, brake shoe lining 3mm",
+        "rear_brake": "Drum brake functional, brake shoe lining 2.5mm",
+        "brake_lever_right": "Bent downward 15 degrees from impact, brake still functional",
+        "steering": "Handlebar alignment slightly off (5 degrees to left), steering movement smooth",
+        "suspension_front": "Bottom link functional, no leak",
+        "suspension_rear": "Spring loaded hydraulic, functional, no leak",
+        "electrical": "All lights functional except right front indicator lens broken",
+        "horn": "Functional",
+        "speedometer": "Functional, analog type",
+        "fuel_gauge": "Functional, showing 1/4 tank",
+        "fuel_tank": "Metal tank under seat, no leak",
+        "battery": "12V 5Ah, functional"
+      },
+      "brake_test": {
+        "front_brake_efficiency": "Adequate",
+        "rear_brake_efficiency": "Adequate",
+        "combined_braking_system": "Functional (Combi-Brake System standard on Activa 6G)"
+      },
+      "tyre_condition": {
+        "front_tyre": "MRF 90/100-10, tread depth 4.0mm (good), even wear, no damage",
+        "rear_tyre": "MRF 90/100-10, tread depth 3.5mm (adequate), even wear, no damage",
+        "tyre_pressure_estimated": "Front 22 psi, Rear 29 psi (normal)"
+      },
+      "visibility_aids": {
+        "headlight": "Functional, always-on type (AC-DC), ON at time of accident",
+        "tail_light": "Functional",
+        "indicators": "Right front lens broken (bulb working), others functional",
+        "reflectors": "All present"
+      },
+      "safety_features": {
+        "combi_brake": "Functional",
+        "side_stand_indicator": "Functional (engine cuts off if stand down)",
+        "rear_view_mirrors": "Right broken, left intact"
+      },
+      "damage_summary": "Moderate right side body damage consistent with lateral impact from another vehicle. Structural integrity of frame intact. Scooter was in excellent condition before accident. All systems functional. Damage is 100% accident-related."
+    },
+    "comparative_analysis": {
+      "impact_correlation": "Damage on Pulsar (front-right) matches damage on Activa (right-center) in height, angle, and force pattern. Paint transfer confirmed on both vehicles in FSL report.",
+      "pre_accident_condition": "Both vehicles were roadworthy and properly maintained. No pre-existing mechanical defects contributed to the accident.",
+      "post_accident_assessment": "Both vehicles are repairable. Estimated repair cost: Pulsar - ₹12,000-15,000, Activa - ₹8,000-10,000."
+    },
+    "inspector_opinion": "Based on vehicle examination, the accident dynamics are clear. The Pulsar struck the Activa at a near-perpendicular angle with the front of the Pulsar impacting the right side of the Activa. The damage depth and deformation on the Activa (2.5cm dent, 35cm scrape) indicates a significant lateral impact force, confirming the FSL-calculated impact speed of 50-58 kmph for the Pulsar. The stuck speedometer needle at 55 kmph corroborates this. No mechanical failure contributed to the accident. Both vehicles' braking systems were functional and the Pulsar rider did attempt emergency braking (front brake lever in applied position, 4.2m skid mark) but at the speed he was traveling, collision was unavoidable from the point braking was initiated.",
+    "signature": "ASI Rajender Prasad, Motor Transport Section",
+    "date": "2024-10-16"
+  }
+}

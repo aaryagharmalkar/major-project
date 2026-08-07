@@ -1,0 +1,269 @@
+// dummy_case/evidence_list.json
+{
+  "evidence_inventory": {
+    "case_reference": "FIR/2024/DL/PSRKP/0452",
+    "total_evidence_items": 15,
+    "evidence_custodian": "MHC(M) - PS Rajinder Nagar",
+    "list_prepared_by": "Inspector Suresh Chandra, IO",
+    "date": "2024-10-16",
+    "items": [
+      {
+        "evidence_id": "EVD-0452-001",
+        "type": "Physical - Vehicle",
+        "description": "Bajaj Pulsar 220F Motorcycle, Red, Registration DL2SBP1234",
+        "quantity": "1 unit",
+        "collected_from": "Accident spot, Shankar Road T-Point",
+        "collected_by": "Inspector Suresh Chandra",
+        "date_time_collection": "2024-10-15, 21:30",
+        "packaging": "Parked in Police Station Malkhana yard, covered with tarpaulin",
+        "seal_number": "SC-01",
+        "current_location": "Malkhana Yard, PS Rajinder Nagar",
+        "chain_of_custody": [
+          {"date": "2024-10-15", "action": "Seized from spot", "by": "IO"},
+          {"date": "2024-10-16", "action": "Vehicle inspection", "by": "ASI Rajender Prasad"},
+          {"date": "2024-10-17", "action": "Sent to FSL Rohini", "by": "Constable Mohan via RC No. 234/2024"},
+          {"date": "2024-11-18", "action": "Returned from FSL", "by": "MHC(M)"},
+          {"date": "2024-11-28", "action": "In Malkhana", "by": "MHC(M)"}
+        ],
+        "status": "In Police Custody",
+        "court_release_applicable": true
+      },
+      {
+        "evidence_id": "EVD-0452-002",
+        "type": "Physical - Vehicle",
+        "description": "Honda Activa 6G Scooter, White, Registration DL5SCT5678",
+        "quantity": "1 unit",
+        "collected_from": "Accident spot, Shankar Road T-Point",
+        "collected_by": "Inspector Suresh Chandra",
+        "date_time_collection": "2024-10-15, 21:30",
+        "packaging": "Parked in Police Station Malkhana yard, covered with tarpaulin",
+        "seal_number": "SC-02",
+        "current_location": "Malkhana Yard, PS Rajinder Nagar",
+        "chain_of_custody": [
+          {"date": "2024-10-15", "action": "Seized from spot", "by": "IO"},
+          {"date": "2024-10-16", "action": "Vehicle inspection", "by": "ASI Rajender Prasad"},
+          {"date": "2024-10-17", "action": "Sent to FSL Rohini", "by": "Constable Mohan via RC No. 234/2024"},
+          {"date": "2024-11-18", "action": "Returned from FSL", "by": "MHC(M)"},
+          {"date": "2024-11-28", "action": "In Malkhana", "by": "MHC(M)"}
+        ],
+        "status": "In Police Custody",
+        "court_release_applicable": true
+      },
+      {
+        "evidence_id": "EVD-0452-003",
+        "type": "Physical - Electronic Device",
+        "description": "Smartphone Samsung Galaxy M32, Black, IMEI 358123456789012 (Accused)",
+        "quantity": "1 unit",
+        "collected_from": "Personal search of accused at time of arrest",
+        "collected_by": "Inspector Suresh Chandra",
+        "date_time_collection": "2024-10-15, 19:15",
+        "packaging": "Sealed in plastic evidence bag, labeled",
+        "seal_number": "SC-03",
+        "current_location": "Malkhana Cupboard, PS Rajinder Nagar",
+        "chain_of_custody": [
+          {"date": "2024-10-15", "action": "Seized during arrest", "by": "IO"},
+          {"date": "2024-11-20", "action": "Sent for forensic extraction", "by": "IT Cell"},
+          {"date": "2024-11-25", "action": "Returned with extraction report", "by": "MHC(M)"},
+          {"date": "2024-11-28", "action": "In Malkhana", "by": "MHC(M)"}
+        ],
+        "status": "In Police Custody",
+        "digital_forensics_status": "Extraction complete, Zomato delivery records recovered confirming order pickup at 18:15 and delivery deadline 18:35"
+      },
+      {
+        "evidence_id": "EVD-0452-004",
+        "type": "Documentary",
+        "description": "Driving License of Accused - DL/032021/0789456 (Amit Verma)",
+        "quantity": "1 card",
+        "collected_from": "Accused's wallet during personal search",
+        "collected_by": "Inspector Suresh Chandra",
+        "date_time_collection": "2024-10-15, 19:15",
+        "packaging": "Plastic evidence envelope",
+        "seal_number": "SC-04",
+        "current_location": "Malkhana Cupboard, PS Rajinder Nagar",
+        "status": "In Police Custody"
+      },
+      {
+        "evidence_id": "EVD-0452-005",
+        "type": "Documentary",
+        "description": "Driving License of Victim - DL/042018/0456789 (Rajesh Kumar Sharma)",
+        "quantity": "1 card",
+        "collected_from": "Victim's wallet (handed over by hospital staff)",
+        "collected_by": "ASI Ramphal Singh",
+        "date_time_collection": "2024-10-15, 20:00",
+        "packaging": "Plastic evidence envelope",
+        "seal_number": "SC-05",
+        "current_location": "Malkhana Cupboard, PS Rajinder Nagar",
+        "status": "In Police Custody, may be returned to family on court order"
+      },
+      {
+        "evidence_id": "EVD-0452-006",
+        "type": "Physical - Safety Equipment",
+        "description": "Helmet - Accused, Steelbird Black Full Face, ISI Mark",
+        "quantity": "1 unit",
+        "collected_from": "Accident spot",
+        "collected_by": "Inspector Suresh Chandra",
+        "date_time_collection": "2024-10-15, 21:30",
+        "packaging": "Cardboard box, sealed",
+        "seal_number": "SC-06",
+        "current_location": "Malkhana, PS Rajinder Nagar",
+        "chain_of_custody": [
+          {"date": "2024-10-15", "action": "Seized", "by": "IO"},
+          {"date": "2024-10-17", "action": "To FSL", "by": "Constable Mohan"},
+          {"date": "2024-11-18", "action": "Return FSL", "by": "MHC(M)"}
+        ],
+        "status": "In Police Custody"
+      },
+      {
+        "evidence_id": "EVD-0452-007",
+        "type": "Physical - Safety Equipment",
+        "description": "Helmet - Victim, Vega White Full Face, ISI Mark, Blood Stained, Cracked",
+        "quantity": "1 unit",
+        "collected_from": "Accident spot",
+        "collected_by": "Inspector Suresh Chandra",
+        "date_time_collection": "2024-10-15, 21:30",
+        "packaging": "Cardboard box, sealed, biohazard labeled",
+        "seal_number": "SC-07",
+        "current_location": "Malkhana, PS Rajinder Nagar",
+        "chain_of_custody": [
+          {"date": "2024-10-15", "action": "Seized", "by": "IO"},
+          {"date": "2024-10-17", "action": "To FSL", "by": "Constable Mohan"},
+          {"date": "2024-11-18", "action": "Return FSL", "by": "MHC(M)"}
+        ],
+        "status": "In Police Custody",
+        "biohazard_note": "Contains blood stains - handled per biological evidence protocol"
+      },
+      {
+        "evidence_id": "EVD-0452-008",
+        "type": "Physical - Debris",
+        "description": "Broken vehicle parts from accident site (plastic pieces, mirror, glass fragments)",
+        "quantity": "1 packet (various items)",
+        "collected_from": "Accident spot, impact area and debris field",
+        "collected_by": "Inspector Suresh Chandra",
+        "date_time_collection": "2024-10-15, 22:00",
+        "packaging": "Cloth bag, sealed",
+        "seal_number": "SC-08",
+        "current_location": "Malkhana, PS Rajinder Nagar",
+        "chain_of_custody": [
+          {"date": "2024-10-15", "action": "Collected from spot", "by": "IO"},
+          {"date": "2024-10-17", "action": "To FSL for matching with vehicles", "by": "Constable Mohan"},
+          {"date": "2024-11-18", "action": "Return from FSL - pieces matched to respective vehicles", "by": "MHC(M)"}
+        ],
+        "status": "In Police Custody"
+      },
+      {
+        "evidence_id": "EVD-0452-009",
+        "type": "Physical",
+        "description": "Zomato Delivery Bag, Red Color, Torn",
+        "quantity": "1 unit",
+        "collected_from": "Accused's motorcycle at accident spot",
+        "collected_by": "Inspector Suresh Chandra",
+        "date_time_collection": "2024-10-15, 21:30",
+        "packaging": "Large plastic bag, sealed",
+        "seal_number": "SC-09",
+        "current_location": "Malkhana, PS Rajinder Nagar",
+        "status": "In Police Custody"
+      },
+      {
+        "evidence_id": "EVD-0452-010",
+        "type": "Biological",
+        "description": "Blood sample - Accused Amit Verma (2ml in EDTA vial)",
+        "quantity": "1 vial (2ml)",
+        "collected_from": "Dr. Ram Manohar Lohia Hospital during medical examination",
+        "collected_by": "Dr. R. Srinivasan, RML Hospital",
+        "date_time_collection": "2024-10-15, 19:45",
+        "packaging": "Vacutainer, sealed, refrigerated",
+        "seal_number": "SC-10",
+        "current_location": "FSL Rohini (retained for DNA profiling)",
+        "chain_of_custody": [
+          {"date": "2024-10-15", "action": "Collected at RML", "by": "Doctor"},
+          {"date": "2024-10-16", "action": "Handed to IO at PS", "by": "Constable"},
+          {"date": "2024-10-17", "action": "To FSL", "by": "Constable Mohan"},
+          {"date": "2024-11-18", "action": "FSL analysis complete", "by": "FSL"}
+        ],
+        "status": "In FSL Custody",
+        "refrigeration_required": true
+      },
+      {
+        "evidence_id": "EVD-0452-011",
+        "type": "Biological",
+        "description": "Blood sample - Victim Rajesh Kumar Sharma (2ml in EDTA vial)",
+        "quantity": "1 vial (2ml)",
+        "collected_from": "St. Stephen's Hospital during MLC preparation",
+        "collected_by": "Dr. Anjali Mehta, St. Stephen's Hospital",
+        "date_time_collection": "2024-10-15, 19:30",
+        "packaging": "Vacutainer, sealed, refrigerated",
+        "seal_number": "SC-11",
+        "current_location": "FSL Rohini (retained for DNA profiling)",
+        "chain_of_custody": [
+          {"date": "2024-10-15", "action": "Collected at SSH", "by": "Doctor"},
+          {"date": "2024-10-16", "action": "Handed to IO at PS", "by": "Constable"},
+          {"date": "2024-10-17", "action": "To FSL", "by": "Constable Mohan"},
+          {"date": "2024-11-18", "action": "FSL analysis complete", "by": "FSL"}
+        ],
+        "status": "In FSL Custody",
+        "refrigeration_required": true
+      },
+      {
+        "evidence_id": "EVD-0452-012",
+        "type": "Digital",
+        "description": "Photographs - 25 digital frames of accident spot and evidence",
+        "quantity": "25 files (SD Card 32GB)",
+        "collected_from": "Photography by HC Ramesh Kumar at accident spot",
+        "collected_by": "HC Ramesh Kumar, Photography Section",
+        "date_time_collection": "2024-10-15, 21:00-22:00",
+        "packaging": "SD Card in sealed envelope, also backed up to PS server",
+        "seal_number": "SC-12",
+        "current_location": "Malkhana, PS Rajinder Nagar (SD Card); Server backup in IT Cell",
+        "hash_value": "SHA256: a3f2c9e8d4b5a1f6e7c8d9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9",
+        "status": "In Police Custody, Verified Original"
+      },
+      {
+        "evidence_id": "EVD-0452-013",
+        "type": "Digital",
+        "description": "CCTV Footage - DVR Hard Disk 1TB from St. Stephen's Hospital Gate 2",
+        "quantity": "1 HDD",
+        "collected_from": "Hospital Security Room, St. Stephen's Hospital",
+        "collected_by": "Inspector Suresh Chandra with Security Incharge Thomas George",
+        "date_time_collection": "2024-10-15, 22:30",
+        "packaging": "Anti-static bag, sealed in cardboard box",
+        "seal_number": "SC-13",
+        "current_location": "Malkhana, PS Rajinder Nagar; Working copy in IT Cell",
+        "chain_of_custody": [
+          {"date": "2024-10-15", "action": "Seized from hospital", "by": "IO"},
+          {"date": "2024-10-16", "action": "Analysis and copying at IT Cell", "by": "HC Ramesh"},
+          {"date": "2024-10-17", "action": "Original sealed in Malkhana", "by": "MHC(M)"}
+        ],
+        "status": "In Police Custody - Original sealed, working copy used"
+      },
+      {
+        "evidence_id": "EVD-0452-014",
+        "type": "Digital",
+        "description": "CCTV Footage - Pen Drive 32GB from Canara Bank ATM, Shankar Road",
+        "quantity": "1 Pen Drive",
+        "collected_from": "Canara Bank ATM, Shankar Road (Copy provided by Bank Manager)",
+        "collected_by": "Inspector Suresh Chandra",
+        "date_time_collection": "2024-10-16, 10:00",
+        "packaging": "Sealed envelope",
+        "seal_number": "SC-14",
+        "current_location": "Malkhana, PS Rajinder Nagar",
+        "status": "In Police Custody"
+      },
+      {
+        "evidence_id": "EVD-0452-015",
+        "type": "Digital",
+        "description": "PCR Van Z-45 Dashcam Footage - SD Card 64GB",
+        "quantity": "1 SD Card",
+        "collected_from": "PCR Van Z-45, Incharge ASI Dharampal",
+        "collected_by": "Inspector Suresh Chandra",
+        "date_time_collection": "2024-10-16, 11:00",
+        "packaging": "Sealed envelope",
+        "seal_number": "SC-15",
+        "current_location": "Malkhana, PS Rajinder Nagar",
+        "status": "In Police Custody"
+      }
+    ],
+    "evidence_summary": "Total 15 evidence items collected. 3 physical vehicles/parts, 2 documentary, 2 biological, 4 digital, 4 physical items. All evidence properly documented, sealed, and stored per Delhi Police Evidence Manual. Chain of custody maintained throughout.",
+    "io_declaration": "I certify that all evidence listed above was collected by me or under my direct supervision, properly documented, and is material to the investigation of this case. No evidence has been tampered with or contaminated.",
+    "signature": "Inspector Suresh Chandra, IO"
+  }
+}

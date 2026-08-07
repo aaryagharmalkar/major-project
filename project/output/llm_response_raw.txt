@@ -1,0 +1,219 @@
+{
+  "cover_page": {
+    "title": "CHARGE SHEET",
+    "case_number": "FIR/2024/DL/PSRKP/0452",
+    "police_station": "Rajinder Nagar Police Station",
+    "date": "2024-11-28"
+  },
+  "police_station_details": "Rajinder Nagar Police Station, Main Rajinder Nagar Market, New Delhi - 110060, District: Central Delhi, Contact: 011-28745312, Email: sho-rjnagar-dl@delhipolice.gov.in",
+  "fir_information": "FIR Number: FIR/2024/DL/PSRKP/0452, Date of Registration: 2024-10-15, Time: 19:30 hours, Registered under Sections 281 and 125 of the Bharatiya Nyaya Sanhita (BNS), 2023, and Sections 184 and 134 of the Motor Vehicles Act, 1988.",
+  "crime_number": "CR/2024/DL/PSRKP/0318",
+  "investigating_officer": "Inspector Suresh Chandra, Rank: Inspector, Badge Number: DCP/CD/4892, Contact: +91-9810098100, PS Rajinder Nagar.",
+  "court_name": "Ld. Metropolitan Magistrate, Tis Hazari Courts, Delhi.",
+  "complainant_details": {
+    "name": "Sunita Sharma",
+    "age": "38",
+    "occupation": "Teacher, Sarvodaya Vidyalaya, Patel Nagar",
+    "address": "B-143, R.P. Bagh, Pusa Road, New Delhi - 110005",
+    "relation_to_victim": "Wife"
+  },
+  "victim_details": {
+    "name": "Rajesh Kumar Sharma",
+    "age": "42",
+    "occupation": "Accountant, Delhi Transport Corporation (DTC)",
+    "address": "B-143, R.P. Bagh, Pusa Road, New Delhi - 110005",
+    "injuries_sustained": "Compound fracture right femur, head injury with acute subdural hematoma (SDH) and mild midline shift, displaced right clavicle fracture, right rib fractures (3rd, 4th, 5th), Grade II liver laceration, scalp laceration, and multiple abrasions.",
+    "current_status": "Discharged after 36 days of hospitalization; currently undergoing intensive physiotherapy and neurological follow-up; permanent disability not ruled out."
+  },
+  "accused_details": {
+    "name": "Amit Verma",
+    "age": "28",
+    "father_name": "Ramesh Verma",
+    "occupation": "Food Delivery Rider, Zomato (Delivery Partner ID: ZOM/DL/478923)",
+    "address": "C-54, Gali No. 4, Old Rajinder Nagar, New Delhi - 110060",
+    "vehicle_used": "Bajaj Pulsar 220F, Red, Registration No. DL2SBP1234",
+    "arrest_date": "2024-10-15"
+  },
+  "case_summary": "The case relates to a severe road traffic accident that occurred on 15th October 2024 at approximately 18:20 hours at the Shankar Road T-Point near St. Stephen's Hospital, New Delhi. The accused, Amit Verma, while riding a red Bajaj Pulsar motorcycle (DL2SBP1234) in a rash and negligent manner at high speed, ignored the manual stop signal of the on-duty Traffic Constable and collided violently with a white Honda Activa scooter (DL5SCT5678) ridden by the victim, Rajesh Kumar Sharma, who was executing a legal right turn. The impact threw the victim off his vehicle, causing life-threatening polytrauma and grievous injuries. The accused attempted to flee the spot but was immediately apprehended by the traffic police and bystanders.",
+  "detailed_facts": "On 15th October 2024, the victim, Rajesh Kumar Sharma, was returning home from his office at the DTC Inderlok Depot on his Honda Activa scooter. At around 18:20 hours, as he reached the Shankar Road T-Point and initiated a legal right turn with his indicator blinking, the accused, Amit Verma, who was working as a Zomato delivery partner, approached from the Karol Bagh side on his Bajaj Pulsar motorcycle at an excessive speed of 52-58 kmph (in a 40 kmph zone). The traffic signal at the junction was non-functional, and Traffic Constable Mohammed Asif was manually regulating traffic. The accused ignored the Constable's clear manual 'STOP' signal and, in a desperate hurry to meet a delivery deadline of 18:35 hours, dashed directly into the right side of the victim's scooter. The impact was highly severe, causing the victim to be thrown 10-12 feet onto the road surface, resulting in a traumatic brain injury (subdural hematoma), a compound femur fracture, and multiple internal injuries. The accused fell but quickly stood up and attempted to lift his motorcycle to flee the scene, but was physically restrained and detained by Constable Asif and tea stall owner Prakash Chandra Joshi. The victim was rushed to St. Stephen's Hospital in a critical state, and the accused was handed over to the local police.",
+  "investigation_conducted": "The investigation was initiated immediately upon receipt of DD No. 24-A. The IO visited the spot, secured the scene, and registered the FIR based on the written complaint of the victim's wife, Sunita Sharma. The accused was formally arrested at the spot, and both vehicles were seized. Detailed spot panchnama and a scaled site plan were prepared. Statements of eyewitnesses (Traffic Constable Mohammed Asif and Prakash Chandra Joshi) were recorded under Section 161 CrPC. The accused's voluntary statement admitting overspeeding was recorded. Mechanical inspections of both vehicles were conducted, confirming their pre-accident roadworthiness and showing the Pulsar's speedometer stuck at 55 kmph. CCTV footage from three surrounding cameras was seized, analyzed frame-by-frame, and synchronized, proving the accused's speed and signal violation. Physical, biological, and digital evidence was dispatched to FSL Rohini. Medical records, MLC, and the discharge summary of the victim were obtained, confirming the injuries as 'grievous' and 'dangerous to life'. Background verification of the accused was completed, and digital forensics on the accused's mobile phone confirmed active navigation and delivery time pressure at the time of the crash.",
+  "chronological_timeline": [
+    "17:45 - Accused Amit Verma logs into the Zomato Partner App to start his shift.",
+    "18:05 - Victim Rajesh Sharma leaves DTC Inderlok Depot on his Honda Activa.",
+    "18:10 - Accused accepts a delivery order from Haldiram's, Karol Bagh, with an 18:35 deadline.",
+    "18:15 - Accused picks up the order and rides towards Old Rajinder Nagar via Shankar Road.",
+    "18:19:30 - Accused passes Canara Bank ATM on Shankar Road at approximately 60 kmph (captured on CCTV).",
+    "18:20:03 - Victim reaches the T-point and begins a slow, legal right turn with indicator on.",
+    "18:20:06 - Traffic Constable Asif signals 'STOP' to Shankar Road traffic; accused ignores the signal.",
+    "18:20:07.800 - IMPACT: Pulsar collides with the right side of the Activa at 52-58 kmph; victim is thrown 3.7 meters.",
+    "18:20:14 - Accused attempts to lift his bike to flee but is apprehended by Constable Asif.",
+    "18:21:00 - Constable Asif makes a PCR call and summons an ambulance.",
+    "18:35 - Ambulance arrives and shifts the critically injured victim to St. Stephen's Hospital.",
+    "18:45 - Victim admitted to Emergency Ward; MLC No. 5642 generated.",
+    "19:15 - IO formally arrests the accused at the spot and prepares the arrest memo.",
+    "19:30 - Complainant Sunita Sharma files a written complaint at PS Rajinder Nagar; FIR registered.",
+    "21:00 - Detailed spot panchnama and scene photography conducted by the IO."
+  ],
+  "witness_details": [
+    {
+      "name": "Mohammed Asif",
+      "age": "35",
+      "occupation": "Traffic Police Constable (Badge TPC/DL/3342)",
+      "statement": "On duty at the T-point manually managing traffic due to a non-functional signal. Witnessed the red Pulsar overspeeding, ignoring his manual stop signal, and crashing into the turning Activa. Apprehended the accused as he tried to lift his bike to flee.",
+      "exhibit_mark": "PW-5/A"
+    },
+    {
+      "name": "Prakash Chandra Joshi",
+      "age": "55",
+      "occupation": "Tea Stall Owner",
+      "statement": "Heard a loud brake screech and crash. Saw the collision from his shop opposite Gate 2 of the hospital. Witnessed the traffic constable grab the accused. Helped shift the bleeding victim to the side of the road and gave him water.",
+      "exhibit_mark": "PW-6/A"
+    },
+    {
+      "name": "Rajesh Kumar Sharma",
+      "age": "42",
+      "occupation": "Accountant, DTC (Victim)",
+      "statement": "Stated he was returning home wearing a secured helmet, riding at 30-35 kmph, and took a legal right turn at the T-point when a speeding motorcycle suddenly crashed into him. He lost consciousness shortly after.",
+      "exhibit_mark": "PW-8/A"
+    },
+    {
+      "name": "Sunita Sharma",
+      "age": "38",
+      "occupation": "Teacher (Complainant)",
+      "statement": "Wife of the victim. Received a phone call from a bystander informing her of the accident. Rushed to the hospital, found her husband in the ICU, and subsequently lodged the formal police complaint.",
+      "exhibit_mark": "PW-2/A"
+    }
+  ],
+  "documentary_evidence": [
+    {
+      "description": "First Information Report (FIR) No. 452/2024 registered under BNS 281/125 and MV Act 184/134",
+      "exhibit_mark": "PW-1/A"
+    },
+    {
+      "description": "Original written complaint under Section 154 CrPC by Sunita Sharma",
+      "exhibit_mark": "PW-2/A"
+    },
+    {
+      "description": "Arrest Memo of accused Amit Verma",
+      "exhibit_mark": "PW-3/A"
+    },
+    {
+      "description": "Seizure Memo of vehicles, mobile phone, driving licenses, and helmets",
+      "exhibit_mark": "PW-3/B"
+    },
+    {
+      "description": "Spot Panchnama of the accident scene",
+      "exhibit_mark": "PW-3/C"
+    },
+    {
+      "description": "Scaled Site Plan showing road geometry, impact point, and vehicle positions",
+      "exhibit_mark": "PW-4/A"
+    },
+    {
+      "description": "Medico-Legal Case (MLC) Report No. MLC/SSH/2024/5642 from St. Stephen's Hospital",
+      "exhibit_mark": "PW-9/A"
+    },
+    {
+      "description": "Hospital Discharge Summary of victim Rajesh Kumar Sharma",
+      "exhibit_mark": "PW-9/B"
+    },
+    {
+      "description": "Forensic Science Laboratory (FSL) Physics & Accident Reconstruction Report No. FSL/DL/2024/PHY/8934",
+      "exhibit_mark": "PW-10/A"
+    },
+    {
+      "description": "Mechanical Vehicle Inspection Report of both involved vehicles",
+      "exhibit_mark": "PW-11/A"
+    },
+    {
+      "description": "CCTV Analysis and Frame-by-Frame Speed Calculation Report",
+      "exhibit_mark": "PW-12/A"
+    }
+  ],
+  "material_evidence": [
+    {
+      "description": "Bajaj Pulsar 220F Motorcycle, Red, Registration No. DL2SBP1234",
+      "exhibit_mark": "Material Exhibit M-1"
+    },
+    {
+      "description": "Honda Activa 6G Scooter, White, Registration No. DL5SCT5678",
+      "exhibit_mark": "Material Exhibit M-2"
+    },
+    {
+      "description": "Steelbird Black Full Face Helmet belonging to the accused (with torn chin strap)",
+      "exhibit_mark": "Material Exhibit M-3"
+    },
+    {
+      "description": "Vega White Full Face Helmet belonging to the victim (cracked and blood-stained)",
+      "exhibit_mark": "Material Exhibit M-4"
+    },
+    {
+      "description": "Sealed packet containing broken vehicle parts and debris collected from the impact point",
+      "exhibit_mark": "Material Exhibit M-5"
+    },
+    {
+      "description": "Red Zomato Food Delivery Bag recovered from the accused's motorcycle",
+      "exhibit_mark": "Material Exhibit M-6"
+    }
+  ],
+  "medical_findings": "The Medico-Legal Case (MLC) report and clinical records from St. Stephen's Hospital diagnose the victim with polytrauma. Key injuries include: (1) Traumatic Brain Injury with an acute subdural hematoma (8mm) in the right fronto-parietal region and a 4mm midline shift, requiring emergency monitoring; (2) Comminuted fracture of the right mid-shaft femur; (3) Displaced fracture of the right clavicle; (4) Fractures of the right 3rd, 4th, and 5th ribs; (5) Grade II liver laceration; and (6) Scalp laceration (6cm) requiring 6 sutures. The attending neurosurgeon and orthopedic surgeon have certified the injuries as 'Grievous' and 'Dangerous to Life' at the time of admission.",
+  "forensic_findings": "FSL Report No. FSL/DL/2024/PHY/8934 concludes: (1) The speed of the accused's Pulsar motorcycle at the time of emergency braking was 52-58 kmph, which exceeds the legal limit of 40 kmph; (2) The victim's Activa was traveling at a safe turning speed of 8-12 kmph; (3) Physical matching and paint transfer analysis confirm a direct lateral impact of the Pulsar's front wheel/forks into the right-center body panel of the Activa; (4) Blood toxicology reports for both the accused and the victim were negative for alcohol and drugs; (5) The victim's helmet absorbed a major portion of the impact energy, preventing a fatal skull fracture, though its outer shell cracked.",
+  "vehicle_inspection_findings": "Mechanical inspection conducted by ASI Rajender Prasad reveals: (1) The Pulsar's speedometer needle was stuck at 55 kmph, corroborating the high impact speed; (2) The Pulsar sustained severe frontal damage, including a smashed headlight, bent right handlebar, and a bent right front fork; (3) The Activa sustained a 2.5cm deep inward dent and extensive scraping on its right-center body panel; (4) Both vehicles had fully functional braking and steering systems prior to the collision, ruling out any mechanical failure as a cause of the accident.",
+  "spot_panchnama_summary": "The spot panchnama was conducted on 15-10-2024 between 21:00 and 22:15 hours in the presence of panch witnesses. The IO identified the exact impact point at the center of the T-junction, marked by a dense concentration of plastic debris, glass fragments, and an engine oil spill. A single, continuous rear-wheel skid mark measuring 4.2 meters left by the Pulsar was documented, starting 2.8 meters before the impact point. A blood pool measuring 15cm x 20cm was located near the final resting position of the Activa, 3.7 meters from the impact point.",
+  "cctv_findings": "Frame-by-frame analysis of CCTV footage from St. Stephen's Hospital Gate 2 (CAM-SSH-G2-03) and Canara Bank ATM (CAM-CB-ATM-01) establishes: (1) The accused was riding at an average speed of 60 kmph on the approach road and entered the junction at 52-58 kmph; (2) The traffic constable's hand was raised in a clear 'STOP' gesture facing the accused's direction; (3) The accused did not slow down or stop at the white stop line, entering the intersection and colliding with the turning Activa; (4) The victim had his right-turn indicator active and was executing a normal turn.",
+  "evidence_analysis": "The guilt of the accused is established through a seamless chain of ocular, scientific, and digital evidence. The eyewitness accounts of PW-5 (Constable Asif) and PW-6 (Prakash Joshi) prove that the accused was riding at a high speed and ignored manual traffic signals. This is scientifically corroborated by the 4.2-meter skid mark, the stuck speedometer needle at 55 kmph, and the FSL accident reconstruction report. The digital evidence (CCTV footage) provides indisputable proof of the signal violation and rash speed. The medical records (PW-9/A) conclusively prove that the rash and negligent act of the accused directly caused grievous, life-threatening injuries to the victim. The accused's defense of 'accidental hurry' is legally untenable as he had a statutory duty to obey traffic signals and observe the speed limit.",
+  "applicable_bns_sections": [
+    "Section 281 BNS, 2023: Rash driving or riding on a public way in a manner so rash or negligent as to endanger human life.",
+    "Section 125 BNS, 2023: Causing grievous hurt to any person by doing any act so rashly or negligently as to endanger human life or the personal safety of others."
+  ],
+  "applicable_mv_act_sections": [
+    "Section 184 MV Act, 1988: Driving dangerously by exceeding speed limits and ignoring traffic control signals.",
+    "Section 134 MV Act, 1988: Failure of the driver to secure medical attention for the injured person and report the incident to a police officer immediately."
+  ],
+  "annexures": [
+    {
+      "annexure_no": "A-1",
+      "document_name": "First Information Report (FIR)",
+      "exhibit_mark": "PW-1/A"
+    },
+    {
+      "annexure_no": "A-2",
+      "document_name": "Complaint under Section 154 CrPC",
+      "exhibit_mark": "PW-2/A"
+    },
+    {
+      "annexure_no": "A-3",
+      "document_name": "Arrest Memo",
+      "exhibit_mark": "PW-3/A"
+    },
+    {
+      "annexure_no": "A-4",
+      "document_name": "Seizure Memo",
+      "exhibit_mark": "PW-3/B"
+    },
+    {
+      "annexure_no": "A-5",
+      "document_name": "Spot Panchnama",
+      "exhibit_mark": "PW-3/C"
+    },
+    {
+      "annexure_no": "A-6",
+      "document_name": "Site Plan",
+      "exhibit_mark": "PW-4/A"
+    },
+    {
+      "annexure_no": "A-7",
+      "document_name": "Witness Statement - Mohammed Asif",
+      "exhibit_mark": "PW-5/A (161 Statement)"
+    },
+    {
+      "annexure_no": "A-8",
+      "document_name": "Witness Statement - Prakash Chandra Joshi",
+      "exhibit_mark": "PW-6/A (161 Statement)"
+    },
+    {
+      "annexure_no": "A-12",
+      "document_name": "Medical Report / MLC",
+      "exhibit_mark": "PW-9/A"
+    },
+    {

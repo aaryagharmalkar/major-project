@@ -1,0 +1,190 @@
+// dummy_case/fsl_report.json
+{
+  "forensic_science_laboratory_report": {
+    "fsl_report_number": "FSL/DL/2024/PHY/8934",
+    "date_of_receipt": "2024-10-17",
+    "date_of_examination": "2024-10-22 to 2024-11-15",
+    "date_of_report": "2024-11-18",
+    "laboratory": "Forensic Science Laboratory, Rohini, New Delhi - 110085",
+    "examining_officer": {
+      "name": "Dr. Priya Nambiar",
+      "designation": "Senior Scientific Officer (Physics)",
+      "qualification": "M.Sc. Physics, Ph.D. Forensic Science"
+    },
+    "case_reference": {
+      "fir_number": "FIR/2024/DL/PSRKP/0452",
+      "police_station": "Rajinder Nagar",
+      "forwarding_authority": "Inspector Suresh Chandra"
+    },
+    "exhibits_received": [
+      {
+        "exhibit_no": "EX-01",
+        "evidence_id": "EVD-0452-001",
+        "description": "Bajaj Pulsar 220F Motorcycle DL2SBP1234",
+        "parcel_condition": "Intact, sealed with seal 'SC'"
+      },
+      {
+        "exhibit_no": "EX-02",
+        "evidence_id": "EVD-0452-002",
+        "description": "Honda Activa 6G Scooter DL5SCT5678",
+        "parcel_condition": "Intact, sealed with seal 'SC'"
+      },
+      {
+        "exhibit_no": "EX-03",
+        "evidence_id": "EVD-0452-006",
+        "description": "Helmet - Accused (Steelbird, Black)",
+        "parcel_condition": "Intact, sealed"
+      },
+      {
+        "exhibit_no": "EX-04",
+        "evidence_id": "EVD-0452-007",
+        "description": "Helmet - Victim (Vega, White)",
+        "parcel_condition": "Intact, sealed"
+      },
+      {
+        "exhibit_no": "EX-05",
+        "evidence_id": "EVD-0452-008",
+        "description": "Broken vehicle parts from site",
+        "parcel_condition": "Intact, sealed"
+      },
+      {
+        "exhibit_no": "EX-06",
+        "evidence_id": "EVD-0452-010",
+        "description": "Blood sample - Accused (BLD-0452-A)",
+        "parcel_condition": "Intact, refrigerated transport"
+      },
+      {
+        "exhibit_no": "EX-07",
+        "evidence_id": "EVD-0452-011",
+        "description": "Blood sample - Victim (BLD-0452-B)",
+        "parcel_condition": "Intact, refrigerated transport"
+      },
+      {
+        "exhibit_no": "EX-08",
+        "evidence_id": "EVD-0452-012",
+        "description": "Digital photographs (SD Card, 32GB)",
+        "parcel_condition": "Intact, sealed"
+      },
+      {
+        "exhibit_no": "EX-09",
+        "evidence_id": "EVD-0452-013",
+        "description": "CCTV DVR Hard Disk (1TB)",
+        "parcel_condition": "Intact, sealed"
+      }
+    ],
+    "examinations_conducted": {
+      "vehicle_examination": {
+        "method": "Physical inspection, measurement, photographic documentation",
+        "findings_pulsar": {
+          "speedometer": "Needle stuck at 55 kmph (indicates approximate speed at impact)",
+          "headlight": "Smashed, filament examination shows 'hot shock' deformation confirming light was ON at time of impact",
+          "front_wheel": "Rim bent, tyre burst on right side",
+          "brake_system": "Front disc brake functional, rear drum brake functional. Brake lever in applied position consistent with emergency braking",
+          "impact_force_calculated": "Approximately 18-22 kN based on deformation pattern",
+          "paint_evidence": "White paint transfer on right front fork matching Activa body color"
+        },
+        "findings_activa": {
+          "right_side_impact": "Deformation depth 25cm on right body panel indicating lateral impact force",
+          "paint_evidence": "Red paint transfer on right side panel matching Pulsar color",
+          "brake_lever": "Right brake lever bent due to impact, position suggests braking attempt",
+          "tyres": "Both tyres in good condition, adequate tread depth (3.5mm front, 4.0mm rear)"
+        },
+        "conclusion": "Primary impact was between front-right portion of Pulsar and right-center portion of Activa at an angle of 70-80 degrees. Pulsar was traveling at minimum 50-55 kmph at moment of impact. Both vehicle brake systems were functional prior to accident. Impact force sufficient to cause grievous injuries to rider of Activa."
+      },
+      "helmet_examination": {
+        "victim_helmet_vega": {
+          "outer_shell": "Multiple impact marks on right temporal and parietal region. Deep gouge 4cm long on right side",
+          "inner_liner": "Compressed on right side indicating absorption of impact energy",
+          "chin_strap": "Intact and fastened at time of impact (tear pattern confirms)",
+          "blood": "Blood stains inside helmet, Group B+ confirmed",
+          "hair": "Scalp hair fragments with root, suitable for DNA",
+          "cracks": "Two linear cracks on outer shell right side, 8cm and 5cm, indicating impact absorption",
+          "effectiveness": "Helmet prevented direct skull fracture. Damage pattern consistent with head impact on road surface"
+        },
+        "accused_helmet_steelbird": {
+          "outer_shell": "Minor scratches on left side",
+          "inner_liner": "Normal, no compression",
+          "chin_strap": "Found torn - examination reveals it was already torn/damaged before accident, not due to accident forces",
+          "conclusion": "Helmet not properly secured at time of accident. Scratches consistent with minor fall."
+        }
+      },
+      "blood_analysis": {
+        "victim_blood_bld_0452_b": {
+          "blood_group": "B+",
+          "alcohol": "Not detected (0 mg/dL)",
+          "drugs_toxicology": "Negative for all screened substances",
+          "dna_profile": "Extracted and preserved for identification"
+        },
+        "accused_blood_bld_0452_a": {
+          "blood_group": "O+",
+          "alcohol": "Not detected (0 mg/dL)",
+          "drugs_toxicology": "Negative for all screened substances",
+          "dna_profile": "Extracted and preserved for identification"
+        }
+      },
+      "accident_reconstruction": {
+        "method": "Forensic analysis of physical evidence, CCTV footage correlation, mathematical modeling",
+        "pre_impact_scenario": "Pulsar traveling SW to NE on Shankar Road towards junction. Activa traveling from Rajinder Nagar side and executing right turn towards Old Rajinder Nagar.",
+        "impact_configuration": "Pulsar front collides with right center of Activa at intersection. Impact angle 75 degrees.",
+        "post_impact_dynamics": "Activa rider thrown to right side, landing 4.2m from impact point. Pulsar falls to right side, slides 3.1m. Pulsar rider falls to left, minimal travel distance.",
+        "speed_at_impact": "Pulsar: 52-58 kmph (calculated from skid mark length 4.2m, friction coefficient 0.7 for dry bitumen, and residual impact velocity from damage analysis). Activa: 8-12 kmph (typical turning speed).",
+        "avoidability": "At speed of 40 kmph (legal limit), Pulsar could have stopped in 15.5m total (thinking + braking distance). From skid mark evidence, Pulsar was at least 8m from impact point when emergency braking initiated. At legal speed, collision was avoidable. At actual speed (55 kmph), stopping distance required was 25m, making collision unavoidable from point where braking started.",
+        "violation": "Speed exceeding legal limit was the primary causative factor. Signal violation/secondary as signal was non-functional but traffic police manual direction was ignored."
+      }
+    },
+    "cctv_analysis": {
+      "sources_analyzed": [
+        {
+          "camera": "St. Stephen's Hospital Gate 2 (CAM-SSH-G2-03)",
+          "timestamp_synced": true,
+          "key_observations": [
+            "18:20:03 - White Activa enters frame from bottom (Rajinder Nagar side), speed low, indicator blinking for right turn",
+            "18:20:05 - Red Pulsar enters frame from left (Shankar Road, Karol Bagh side), speed visibly high",
+            "18:20:06 - Traffic constable visible at junction, left hand raised signaling STOP for Shankar Road traffic",
+            "18:20:07 - Pulsar does not stop, continues at same speed into junction",
+            "18:20:07.5 - Pulsar front collides with right side of Activa",
+            "18:20:08 - Activa rider airborne, falls near road edge",
+            "18:20:09 - Pulsar rider falls, gets up at 18:20:12",
+            "18:20:14 - Constable runs towards Pulsar rider",
+            "18:20:18 - Constable grabs Pulsar rider by arm",
+            "Time stamp verified: Camera clock accurate within 2 seconds of IST"
+          ]
+        },
+        {
+          "camera": "Canara Bank ATM (CAM-CB-ATM-01)",
+          "timestamp_synced": true,
+          "key_observations": [
+            "18:19:45 - Red Pulsar passes ATM at high speed, rider wearing red t-shirt, delivery bag visible",
+            "18:19:52 - Pulsar continues towards junction (towards St. Stephen's Hospital), brake light not visible at any point",
+            "18:20:15 - Sound of crash audible in ATM area (microphone recording), people near ATM look in direction of junction",
+            "18:20:30 - Several people seen running towards junction"
+          ]
+        }
+      ],
+      "conclusion": "CCTV footage corroborates witness statements. Confirms overspeeding, disregard of traffic police signal, and sequence of collision. Time stamps consistent with timeline."
+    },
+    "final_opinion": {
+      "cause_of_accident": "The accident occurred primarily due to overspeeding by the rider of Bajaj Pulsar DL2SBP1234 (speed 52-58 kmph against limit of 40 kmph) and failure to obey manual traffic police signal to stop. The speed made it impossible for the rider to stop or avoid collision when the Activa legally executed its turn.",
+      "contributing_factors": [
+        "Non-functional traffic signal (administrative failure)",
+        "Accused's hurry to deliver food order creating time pressure",
+        "Non-functional street lights reducing optimal visibility at dusk"
+      ],
+      "exonerating_factors_victim": [
+        "Victim riding at appropriate speed",
+        "Victim wearing properly secured ISI-mark helmet",
+        "Victim taking legal turn with indicator",
+        "No alcohol/drugs detected",
+        "No contributory negligence found"
+      ],
+      "inculpating_factors_accused": [
+        "Gross overspeeding (52-58 kmph in 40 kmph zone)",
+        "Disregard of traffic constable's manual stop signal",
+        "Damaged helmet strap (prior to accident) indicating casual approach to safety",
+        "Self-admitted hurry to meet delivery deadline"
+      ]
+    },
+    "signature": "Dr. Priya Nambiar, Senior Scientific Officer (Physics), FSL Rohini, Delhi",
+    "seal": "Forensic Science Laboratory, Government of NCT of Delhi"
+  }
+}

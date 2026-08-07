@@ -1,0 +1,210 @@
+// dummy_case/annexures.json
+{
+  "annexures_list": {
+    "case_reference": "FIR/2024/DL/PSRKP/0452",
+    "total_documents": 22,
+    "prepared_by": "Inspector Suresh Chandra, IO",
+    "date": "2024-11-28",
+    "documents": [
+      {
+        "annexure_no": "A-1",
+        "document_name": "First Information Report (FIR)",
+        "document_id": "FIR/2024/DL/PSRKP/0452",
+        "pages": 3,
+        "description": "Original FIR registered under BNS 281/125 and MV Act 184/134",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-1/A"
+      },
+      {
+        "annexure_no": "A-2",
+        "document_name": "Complaint under Section 154 CrPC",
+        "document_id": "Complaint by Sunita Sharma dated 15-10-2024",
+        "pages": 2,
+        "description": "Original written complaint by complainant Sunita Sharma",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-2/A"
+      },
+      {
+        "annexure_no": "A-3",
+        "document_name": "Arrest Memo",
+        "document_id": "ARR/PSRKP/2024/0452",
+        "pages": 3,
+        "description": "Arrest memo of accused Amit Verma with medical examination details",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-3/A"
+      },
+      {
+        "annexure_no": "A-4",
+        "document_name": "Seizure Memo",
+        "document_id": "SZ/PSRKP/0452/2024",
+        "pages": 5,
+        "description": "Seizure memo listing all 14 items seized during investigation",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-3/B"
+      },
+      {
+        "annexure_no": "A-5",
+        "document_name": "Spot Panchnama",
+        "document_id": "PN/PSRKP/0452/2024",
+        "pages": 8,
+        "description": "Detailed scene of crime panchnama with measurements, photographs, and observations",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-3/C"
+      },
+      {
+        "annexure_no": "A-6",
+        "document_name": "Site Plan",
+        "document_id": "SP/PSRKP/0452/2024",
+        "pages": 2,
+        "description": "Scaled site plan (1:200) showing road geometry, vehicle positions, and evidence locations with coordinates",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-4/A"
+      },
+      {
+        "annexure_no": "A-7",
+        "document_name": "Witness Statement - Mohammed Asif",
+        "document_id": "WS/PSRKP/0452/001",
+        "pages": 3,
+        "description": "Section 161 CrPC statement of eyewitness Traffic Constable Mohammed Asif",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-5/A (161 Statement)"
+      },
+      {
+        "annexure_no": "A-8",
+        "document_name": "Witness Statement - Prakash Chandra Joshi",
+        "document_id": "WS/PSRKP/0452/002",
+        "pages": 2,
+        "description": "Section 161 CrPC statement of eyewitness Prakash Joshi",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-6/A (161 Statement)"
+      },
+      {
+        "annexure_no": "A-9",
+        "document_name": "Accused Statement",
+        "document_id": "AS/PSRKP/0452/001",
+        "pages": 3,
+        "description": "Voluntary statement of accused Amit Verma recorded under Section 161 CrPC",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-7/A"
+      },
+      {
+        "annexure_no": "A-10",
+        "document_name": "Victim Statement (Initial)",
+        "document_id": "VS/PSRKP/0452/001",
+        "pages": 2,
+        "description": "Initial statement of victim Rajesh Sharma recorded at hospital on 25-10-2024 under Section 161 CrPC",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-8/A"
+      },
+      {
+        "annexure_no": "A-11",
+        "document_name": "Victim Statement (Final)",
+        "document_id": "VS/PSRKP/0452/002",
+        "pages": 3,
+        "description": "Final supplementary statement of victim after discharge on 22-11-2024",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-8/B"
+      },
+      {
+        "annexure_no": "A-12",
+        "document_name": "Medical Report / MLC",
+        "document_id": "MLC/SSH/2024/5642",
+        "pages": 6,
+        "description": "Medico-Legal Case report from St. Stephen's Hospital with injury details, diagnosis, and doctor's opinion",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-9/A"
+      },
+      {
+        "annexure_no": "A-13",
+        "document_name": "Hospital Discharge Summary",
+        "document_id": "SSH/DIS/2024/11234",
+        "pages": 4,
+        "description": "Complete discharge summary including treatment received, surgery notes, and follow-up advice",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-9/B"
+      },
+      {
+        "annexure_no": "A-14",
+        "document_name": "Forensic Science Laboratory Report",
+        "document_id": "FSL/DL/2024/PHY/8934",
+        "pages": 15,
+        "description": "Complete FSL report including vehicle examination, helmet analysis, blood analysis, accident reconstruction, and CCTV analysis",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-10/A"
+      },
+      {
+        "annexure_no": "A-15",
+        "document_name": "Vehicle Inspection Report",
+        "document_id": "VIR/PSRKP/0452/2024",
+        "pages": 8,
+        "description": "Detailed mechanical inspection report of both vehicles by ASI Rajender Prasad",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-11/A"
+      },
+      {
+        "annexure_no": "A-16",
+        "document_name": "CCTV Analysis Report",
+        "document_id": "CCTV/PSRKP/0452/2024",
+        "pages": 10,
+        "description": "Analysis of CCTV footage from 3 cameras with frame-by-frame speed calculation and timeline",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-12/A"
+      },
+      {
+        "annexure_no": "A-17",
+        "document_name": "CCTV Footage (Digital Evidence)",
+        "document_id": "EVD-0452-013, 014, 015",
+        "description": "Original CCTV footage on DVR HDD, Pen Drive, and SD Card",
+        "filed_in_court": true,
+        "exhibit_mark": "Material Exhibit M-1, M-2, M-3"
+      },
+      {
+        "annexure_no": "A-18",
+        "document_name": "Photographs (25 frames)",
+        "document_id": "EVD-0452-012",
+        "description": "Digital photographs of accident scene, vehicles, and evidence with negatives on SD Card",
+        "filed_in_court": true,
+        "exhibit_mark": "Material Exhibit M-4"
+      },
+      {
+        "annexure_no": "A-19",
+        "document_name": "Evidence List",
+        "document_id": "Evidence Inventory dated 28-11-2024",
+        "pages": 5,
+        "description": "Complete evidence inventory with chain of custody for all 15 exhibits",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-3/D"
+      },
+      {
+        "annexure_no": "A-20",
+        "document_name": "Case Diary",
+        "document_id": "CD/PSRKP/0452/2024",
+        "pages": 12,
+        "description": "Complete investigation case diary with 15 chronological entries",
+        "filed_in_court": true,
+        "exhibit_mark": "Court Record"
+      },
+      {
+        "annexure_no": "A-21",
+        "document_name": "Timeline Reconstruction",
+        "document_id": "Timeline dated 28-11-2024",
+        "pages": 8,
+        "description": "Minute-by-minute timeline of events from 17:45 to 23:30 on 15-10-2024",
+        "filed_in_court": true,
+        "exhibit_mark": "PW-13/A"
+      },
+      {
+        "annexure_no": "A-22",
+        "document_name": "Master Case File",
+        "document_id": "Master Case JSON",
+        "pages": "Digital record",
+        "description": "Complete master case data with all case details, identifiers, persons, vehicles, evidence, and status",
+        "filed_in_court": false,
+        "exhibit_mark": "For Investigation Reference"
+      }
+    ],
+    "certification": "I, Inspector Suresh Chandra, Investigating Officer, do hereby certify that this annexure list contains all documents generated during the investigation of case FIR No. 452/2024. The documents are true, complete, and properly indexed. Total pages: 93 plus digital evidence. All documents are filed with the chargesheet.",
+    "signature": "Inspector Suresh Chandra, IO",
+    "date": "2024-11-28"
+  }
+}

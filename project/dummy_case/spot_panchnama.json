@@ -1,0 +1,174 @@
+// dummy_case/spot_panchnama.json
+{
+  "spot_panchnama": {
+    "panchnama_id": "PN/PSRKP/0452/2024",
+    "date": "2024-10-15",
+    "time_started": "21:00",
+    "time_completed": "22:15",
+    "place": "Shankar Road T-Point, Near St. Stephen's Hospital Gate 2, Rajinder Nagar, New Delhi",
+    "prepared_by": {
+      "name": "Inspector Suresh Chandra",
+      "badge": "DCP/CD/4892",
+      "designation": "SHO, PS Rajinder Nagar"
+    },
+    "panch_witnesses": [
+      {
+        "name": "Mohammed Asif",
+        "age": 35,
+        "occupation": "Traffic Police Constable",
+        "address": "Police Lines, Rajinder Nagar"
+      },
+      {
+        "name": "Prakash Chandra Joshi",
+        "age": 55,
+        "occupation": "Tea Stall Owner",
+        "address": "Shop No. 7, Shankar Road, Near St. Stephen's Hospital"
+      }
+    ],
+    "location_details": {
+      "road_name": "Shankar Road",
+      "junction_type": "T-Point",
+      "intersection_with": "Road from Rajinder Nagar Market to Old Rajinder Nagar",
+      "landmark": "Opposite Gate No. 2, St. Stephen's Hospital",
+      "police_station": "Rajinder Nagar, 1.5 km South-West",
+      "beat_number": "Beat No. 12"
+    },
+    "weather_conditions": {
+      "sky": "Clear",
+      "temperature": "28°C",
+      "humidity": "55%",
+      "wind": "Calm",
+      "visibility": "Good, 500+ meters",
+      "road_surface": "Dry bitumen road, even surface"
+    },
+    "lighting_conditions": {
+      "natural_light": "Dusk, sun set at 17:52 hours",
+      "artificial_light": "6 street light poles in 100m radius, 4 functioning, 2 non-functional",
+      "light_at_impact_point": "Moderate (functioning street light 15m away)",
+      "traffic_signal_light": "Non-functional since 12-10-2024"
+    },
+    "road_measurements": {
+      "road_width_shankar_road": 12.5,
+      "road_width_rajinder_nagar_road": 10.0,
+      "divider_height": 0.15,
+      "divider_width": 0.8,
+      "footpath_width": 2.0,
+      "zebra_crossing_width": 4.0,
+      "zebra_crossing_present": "Yes, faded markings"
+    },
+    "traffic_controls": {
+      "traffic_signal_present": "Yes, 3-color LED signal",
+      "signal_functional": "No, non-functional since 3 days",
+      "stop_line_present": "Yes, painted white, visible",
+      "speed_limit_sign": "Yes, 40 kmph board displayed",
+      "no_entry_signs": "None",
+      "speed_breakers": "None at junction, one 50m before junction on Shankar Road"
+    },
+    "vehicle_positions": {
+      "vehicle_1_pulsar": {
+        "registration": "DL2SBP1234",
+        "make_model": "Bajaj Pulsar 220F, Red",
+        "final_position": "Middle of junction, 2.5m from divider end, front wheel facing East (towards Old Rajinder Nagar)",
+        "distance_from_stop_line": "8.2m beyond stop line on Shankar Road",
+        "fallen_side": "Right side"
+      },
+      "vehicle_2_activa": {
+        "registration": "DL5SCT5678",
+        "make_model": "Honda Activa 6G, White",
+        "final_position": "Near road edge of Rajinder Nagar Road, 1.5m from footpath, front wheel facing South",
+        "distance_from_turning_path": "3.7m displaced from normal turning arc",
+        "fallen_side": "Right side"
+      }
+    },
+    "impact_point": {
+      "location": "At junction center, 6.5m from Shankar Road stop line, 4.8m from Rajinder Nagar Road edge",
+      "identified_by": "Maximum debris concentration, oil spill, deep scratch marks on road",
+      "point_of_impact_veh1": "Front right side of Pulsar",
+      "point_of_impact_veh2": "Right center body of Activa",
+      "impact_angle": "Approximately 75-80 degrees (near perpendicular)"
+    },
+    "road_markings_and_evidence": [
+      {
+        "marking_id": "RM-001",
+        "type": "Skid mark",
+        "vehicle": "Bajaj Pulsar",
+        "length": "4.2 meters",
+        "start": "2.8m before impact point",
+        "end": "At impact point",
+        "direction": "South-West to North-East along Shankar Road",
+        "description": "Single continuous skid mark, rear tyre, indicates hard braking just before impact"
+      },
+      {
+        "marking_id": "RM-002",
+        "type": "Scratch/Gouge mark",
+        "vehicle": "Both vehicles",
+        "length": "1.8 meters",
+        "start": "Impact point",
+        "end": "Final position of Activa",
+        "description": "Metal scraping on road surface from fallen vehicles"
+      },
+      {
+        "marking_id": "RM-003",
+        "type": "Blood stain",
+        "location": "Near final position of Activa, on road surface",
+        "size": "15cm x 20cm area",
+        "description": "Blood spots from victim's head injury after falling, partially dried"
+      },
+      {
+        "marking_id": "RM-004",
+        "type": "Debris field",
+        "location": "Around impact point extending 3m radius",
+        "items": [
+          "Red plastic fragments from Pulsar fairing",
+          "White plastic pieces from Activa body panel",
+          "Glass pieces from Pulsar headlamp",
+          "Right side mirror of Activa"
+        ]
+      },
+      {
+        "marking_id": "RM-005",
+        "type": "Oil/Coolant spill",
+        "location": "At impact point",
+        "size": "30cm x 50cm",
+        "description": "Engine oil leaked from Pulsar after impact"
+      }
+    ],
+    "photographs_taken": {
+      "total_photographs": 25,
+      "photographer": "HC Ramesh Kumar, Photography Section, PS Rajinder Nagar",
+      "camera": "Canon EOS 1300D Digital Camera",
+      "photograph_details": [
+        "Frame 001-004: General view of junction from 4 directions",
+        "Frame 005-008: Close-up of impact point and debris",
+        "Frame 009-010: Skid marks with measurement scale",
+        "Frame 011-012: Vehicle final positions from different angles",
+        "Frame 013-014: Blood stains on road",
+        "Frame 015-016: Traffic signal showing non-functional status",
+        "Frame 017-018: Road signs and speed limit board",
+        "Frame 019-020: View of St. Stephen's Hospital from junction",
+        "Frame 021-022: Zebra crossing and stop line",
+        "Frame 023-024: Overall scene from PCR van position",
+        "Frame 025: Measuring tape showing road width"
+      ]
+    },
+    "nearby_landmarks_and_cameras": {
+      "st_stephens_hospital_gate_2": "30m North from impact point, CCTV camera present (CAM-SSH-G2-03)",
+      "canara_bank_atm": "50m South on Shankar Road, CCTV camera present (CAM-CB-ATM-01)",
+      "joshi_tea_stall": "35m South-East, Shop No. 7",
+      "bus_stop": "80m North on Shankar Road"
+    },
+    "measurements_reference_points": {
+      "reference_point_a": "South-East corner of St. Stephen's Hospital Gate 2 pillar",
+      "reference_point_b": "Electric pole No. SP/23/RJN",
+      "impact_point_from_a": "45m South, 12m East",
+      "impact_point_from_b": "22m North-West",
+      "measurement_tool": "30m Steel Measuring Tape, Police Issue"
+    },
+    "panchnama_conclusion": "Scene inspected during night hours under artificial light and police halogen lamp. All measurements taken, photographs clicked, evidence collected and sealed. Panchnama proceedings conducted smoothly without any interruption. The spot matches the description given by witnesses and is consistent with the accident dynamics.",
+    "signatures": {
+      "panch_1": "Mohammed Asif",
+      "panch_2": "Prakash Chandra Joshi",
+      "io": "Suresh Chandra, Inspector"
+    }
+  }
+}

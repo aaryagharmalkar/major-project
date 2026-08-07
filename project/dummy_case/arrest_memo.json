@@ -1,0 +1,85 @@
+// dummy_case/arrest_memo.json
+{
+  "arrest_memo": {
+    "arrest_id": "ARR/PSRKP/2024/0452",
+    "date_of_arrest": "2024-10-15",
+    "time_of_arrest": "19:15",
+    "place_of_arrest": "Shankar Road T-Point, Near St. Stephen's Hospital, Rajinder Nagar, New Delhi",
+    "arresting_officer": {
+      "name": "Inspector Suresh Chandra",
+      "badge": "DCP/CD/4892",
+      "designation": "Station House Officer",
+      "police_station": "Rajinder Nagar"
+    },
+    "arrest_witnesses": [
+      {
+        "name": "Mohammed Asif",
+        "badge": "TPC/DL/3342",
+        "designation": "Traffic Police Constable"
+      },
+      {
+        "name": "Prakash Chandra Joshi",
+        "occupation": "Tea Stall Owner",
+        "address": "Shop No. 7, Shankar Road"
+      }
+    ],
+    "arrested_person": {
+      "name": "Amit Verma",
+      "alias": "None",
+      "age": 28,
+      "gender": "Male",
+      "father_name": "Ramesh Verma",
+      "address": "C-54, Gali No. 4, Old Rajinder Nagar, New Delhi - 110060",
+      "physical_description": {
+        "height": "5 feet 7 inches",
+        "build": "Slim",
+        "complexion": "Wheatish",
+        "identification_marks": "Mole on left cheek, Scar on right forearm",
+        "clothes_at_arrest": "Red Zomato t-shirt, Blue jeans, Black sports shoes"
+      }
+    },
+    "grounds_of_arrest": {
+      "offence": "Rash and negligent driving causing grievous hurt",
+      "sections": ["Section 281 BNS", "Section 125 BNS", "Section 184 MV Act", "Section 134 MV Act"],
+      "reason_for_arrest": "Accused found at scene of crime, identified by eyewitness, vehicle involved in accident, to prevent tampering of evidence and ensure presence during investigation",
+      "cognizable_offence": true,
+      "non_bailable": false
+    },
+    "rights_informed": {
+      "right_to_bail": true,
+      "right_to_legal_counsel": true,
+      "right_to_inform_family": true,
+      "grounds_of_arrest_informed": true
+    },
+    "arrest_details": {
+      "arrest_effected_by": "Inspector Suresh Chandra with PCR Staff",
+      "resistance_offered": false,
+      "use_of_force": false,
+      "personal_search_conducted": true,
+      "items_found": [
+        "Mobile Phone: Samsung Galaxy M32, Black, IMEI: 358123456789012",
+        "Wallet containing: ₹850 cash, Driving License, Aadhar Card photocopy, ATM Card (SBI)",
+        "Bike Keys",
+        "Zomato Delivery Bag (Red)"
+      ]
+    },
+    "medical_examination": {
+      "conducted": true,
+      "time": "19:45",
+      "hospital": "Dr. Ram Manohar Lohia Hospital",
+      "doctor": "Dr. R. Srinivasan",
+      "mlc_number": "MLC/RML/2024/7892",
+      "findings": "Minor abrasion left knee 2x2 cm. No other external injury. Vital signs normal. Smell of alcohol: Negative."
+    },
+    "family_informed": {
+      "time": "20:15",
+      "mode": "Phone call",
+      "number_called": "9871123457 (Ramesh Verma - Father)",
+      "informed_by": "ASI Ramphal Singh"
+    },
+    "signature_arresting_officer": "Suresh Chandra, Inspector",
+    "signature_witness_1": "Mohammed Asif",
+    "signature_witness_2": "Prakash Chandra Joshi",
+    "signature_arrested": "Amit Verma (Signed in Hindi)"
+  }
+}

@@ -1,0 +1,83 @@
+// dummy_case/fir.json
+{
+  "first_information_report": {
+    "fir_number": "FIR/2024/DL/PSRKP/0452",
+    "fir_book_serial_no": 452,
+    "date_of_fir": "2024-10-15",
+    "time_of_fir": "19:30",
+    "police_station": {
+      "name": "Rajinder Nagar Police Station",
+      "address": "Main Rajinder Nagar Market, New Delhi - 110060",
+      "district": "Central Delhi",
+      "state": "Delhi",
+      "phone": "011-28745312",
+      "email": "sho-rjnagar-dl@delhipolice.gov.in"
+    },
+    "act_and_sections": {
+      "bns": ["Section 281", "Section 125"],
+      "mv_act": ["Section 184", "Section 134"],
+      "other_acts": []
+    },
+    "occurrence_of_offence": {
+      "date_from": "2024-10-15",
+      "date_to": "2024-10-15",
+      "time_from": "18:20",
+      "time_to": "18:20",
+      "place_of_occurrence": "Shankar Road T-Point, Near St. Stephen's Hospital Gate No. 2, Rajinder Nagar, New Delhi",
+      "distance_from_ps": "1.5 km North-East",
+      "direction_from_ps": "North-East",
+      "beat_number": "Beat No. 12, Rajinder Nagar"
+    },
+    "complainant_informant": {
+      "name": "Sunita Sharma",
+      "father_husband_name": "W/o Rajesh Kumar Sharma",
+      "age": 38,
+      "occupation": "Teacher",
+      "address": "B-143, R.P. Bagh, Pusa Road, New Delhi - 110005",
+      "contact": "9810345679",
+      "nationality": "Indian",
+      "relation_to_victim": "Wife"
+    },
+    "victim_details": {
+      "name": "Rajesh Kumar Sharma",
+      "father_name": "Late Om Prakash Sharma",
+      "age": 42,
+      "occupation": "Accountant, DTC",
+      "address": "B-143, R.P. Bagh, Pusa Road, New Delhi - 110005",
+      "injury_type": "Grievous",
+      "hospital": "St. Stephen's Hospital, Tis Hazari",
+      "status": "Admitted, Undergoing Treatment"
+    },
+    "accused_details": [
+      {
+        "name": "Amit Verma",
+        "father_name": "Ramesh Verma",
+        "age": 28,
+        "occupation": "Food Delivery Rider",
+        "address": "C-54, Gali No. 4, Old Rajinder Nagar, New Delhi - 110060",
+        "vehicle": "Bajaj Pulsar 220F, DL2SBP1234",
+        "arrest_status": "Arrested on 2024-10-15 at 19:15 hours"
+      }
+    ],
+    "brief_facts": "On 15-10-2024 at about 18:20 hours, accused Amit Verma while riding motorcycle Bajaj Pulsar DL2SBP1234 on Shankar Road in a rash and negligent manner endangering human life, coming from Karol Bagh side towards Rajinder Nagar, at T-point near St. Stephen's Hospital Gate No. 2, jumped the red light and dashed against Honda Activa DL5SCT5678 being ridden by victim Rajesh Kumar Sharma who was coming from Rajinder Nagar side and taking a legal turn towards Old Rajinder Nagar. Due to high-speed impact, victim sustained grievous injuries and was admitted to St. Stephen's Hospital in critical condition. The accused failed to provide medical aid to victim and attempted to flee but was apprehended by Traffic Constable Mohammed Asif at the spot. Medical examination of accused was conducted and case has been registered.",
+    "action_taken": "Case registered under relevant sections. Accused arrested. Vehicles seized. Spot inspection conducted. Statements of witnesses recorded. Hospital intimated regarding MLC of victim.",
+    "io_details": {
+      "name": "Inspector Suresh Chandra",
+      "rank": "Inspector",
+      "badge": "DCP/CD/4892",
+      "date_of_taking_investigation": "2024-10-15",
+      "contact": "9810098100"
+    },
+    "fir_contents_checked_by": "Sub-Inspector Vikram Singh, Duty Officer",
+    "fir_forwarded_to": [
+      "Ld. Metropolitan Magistrate, Tis Hazari Courts",
+      "ACP, Patel Nagar Sub-Division",
+      "DCP, Central District"
+    ],
+    "signature": {
+      "complainant_signature": true,
+      "duty_officer_signature": true,
+      "io_signature": true
+    }
+  }
+}

@@ -1,0 +1,173 @@
+// dummy_case/medical_report.json
+{
+  "medical_report": {
+    "hospital": "St. Stephen's Hospital, Tis Hazari, Delhi - 110054",
+    "mlc_number": "MLC/SSH/2024/5642",
+    "date_of_admission": "2024-10-15",
+    "time_of_admission": "18:45",
+    "mode_of_arrival": "Ambulance, accompanied by PCR Staff",
+    "patient_details": {
+      "name": "Rajesh Kumar Sharma",
+      "age": 42,
+      "gender": "Male",
+      "blood_group": "B+",
+      "address": "B-143, R.P. Bagh, Pusa Road, New Delhi - 110005",
+      "brought_by": "HC Ramesh, PCR Van Z-45"
+    },
+    "attending_doctor": {
+      "name": "Dr. Anjali Mehta",
+      "qualification": "MBBS, MS (Orthopedics)",
+      "designation": "Senior Resident, Emergency Department",
+      "registration_number": "DMC/R/2010/45678"
+    },
+    "clinical_history": {
+      "alleged_history": "Road Traffic Accident at Shankar Road T-Point at approximately 18:20 hours. Patient riding scooter, hit by speeding motorcycle from side. Thrown off vehicle and landed on road. Helmet worn at time of accident.",
+      "brought_dead": false,
+      "condition_on_arrival": "Conscious but disoriented, GCS 13/15 (E3 V4 M6), in severe pain, bleeding from scalp wound"
+    },
+    "vital_signs_on_arrival": {
+      "blood_pressure": "100/70 mmHg",
+      "pulse": "112/min",
+      "respiratory_rate": "24/min",
+      "temperature": "98.4°F",
+      "spo2": "94% on room air",
+      "pain_score": "9/10"
+    },
+    "injuries_noted": [
+      {
+        "injury_id": "INJ-001",
+        "type": "Laceration",
+        "location": "Scalp, right parietal region",
+        "size": "6cm x 2cm x 1cm deep",
+        "description": "Irregular wound with active bleeding, visible periosteum, no skull bone visible",
+        "cause": "Impact with road surface"
+      },
+      {
+        "injury_id": "INJ-002",
+        "type": "Abrasion",
+        "location": "Face, right cheek and forehead",
+        "size": "Multiple, covering 12cm x 8cm area",
+        "description": "Road rash, dirt and debris embedded in wounds",
+        "cause": "Sliding on road surface"
+      },
+      {
+        "injury_id": "INJ-003",
+        "type": "Closed fracture",
+        "location": "Right femur, mid-shaft",
+        "description": "Deformity of right thigh, swelling, abnormal mobility, crepitus present. X-ray confirmed comminuted fracture mid-shaft femur with displacement.",
+        "cause": "Direct impact from vehicle collision"
+      },
+      {
+        "injury_id": "INJ-004",
+        "type": "Fracture",
+        "location": "Right clavicle, middle third",
+        "description": "Tenderness and deformity over right clavicle. X-ray confirmed displaced fracture.",
+        "cause": "Fall on right shoulder"
+      },
+      {
+        "injury_id": "INJ-005",
+        "type": "Fractures",
+        "location": "Ribs 3rd, 4th, 5th on right side, anterior",
+        "description": "Chest X-ray shows fractures of right 3rd, 4th, 5th ribs anteriorly. No flail segment. Lung fields clear.",
+        "cause": "Impact trauma"
+      },
+      {
+        "injury_id": "INJ-006",
+        "type": "Abrasion",
+        "location": "Right forearm and elbow",
+        "size": "15cm x 6cm",
+        "description": "Deep abrasion, oozing",
+        "cause": "Road contact"
+      },
+      {
+        "injury_id": "INJ-007",
+        "type": "Abrasion",
+        "location": "Left knee",
+        "size": "5cm x 4cm",
+        "description": "Superficial abrasion",
+        "cause": "Road contact"
+      }
+    ],
+    "radiological_investigations": [
+      {
+        "test": "X-Ray Skull AP and Lateral",
+        "finding": "No skull fracture. Normal study."
+      },
+      {
+        "test": "X-Ray Right Femur AP and Lateral",
+        "finding": "Comminuted fracture mid-shaft right femur. 2.5cm shortening. Angulation present."
+      },
+      {
+        "test": "X-Ray Right Clavicle",
+        "finding": "Displaced fracture middle third right clavicle."
+      },
+      {
+        "test": "X-Ray Chest PA",
+        "finding": "Fracture right 3rd, 4th, 5th ribs anteriorly. No pneumothorax or hemothorax. Lung fields clear."
+      },
+      {
+        "test": "CT Scan Head (Plain)",
+        "finding": "Small subdural hematoma right fronto-parietal region (8mm thickness, 3cm x 4cm). Midline shift 4mm to left. No mass effect. Basal cisterns patent."
+      },
+      {
+        "test": "FAST Ultrasound Abdomen",
+        "finding": "Grade II liver laceration right lobe (3cm x 2cm). No free fluid in Morrison's pouch, splenorenal recess, or pelvis. Other organs normal."
+      }
+    ],
+    "laboratory_investigations": {
+      "hemoglobin": "10.2 gm/dL",
+      "tlc": "12000/cumm",
+      "platelets": "2.4 lakhs/cumm",
+      "blood_sugar": "130 mg/dL (Random)",
+      "blood_urea": "32 mg/dL",
+      "serum_creatinine": "0.9 mg/dL",
+      "liver_function": "Normal",
+      "hiv_hbsag_hcv": "Negative",
+      "blood_alcohol_level": "Nil (0 mg/dL)",
+      "toxicology_screen": "Negative for common drugs of abuse"
+    },
+    "diagnosis": {
+      "primary": "Polytrauma following Road Traffic Accident",
+      "detailed": [
+        "Traumatic Brain Injury - Small acute subdural hematoma right side with mild midline shift",
+        "Comminuted fracture shaft right femur",
+        "Displaced fracture right clavicle",
+        "Fracture right ribs 3, 4, 5 anterior",
+        "Grade II liver laceration",
+        "Multiple abrasions face and limbs",
+        "Scalp laceration right parietal region"
+      ]
+    },
+    "treatment_given": {
+      "emergency": [
+        "Primary survey and resuscitation per ATLS protocol",
+        "Scalp wound suturing (6 stitches) under local anesthesia",
+        "IV fluids - 2 liters Ringer Lactate",
+        "IV Antibiotics - Ceftriaxone 2gm stat",
+        "IV Analgesic - Tramadol 100mg slow IV",
+        "Tetanus Toxoid 0.5ml IM",
+        "Right lower limb Thomas splint applied for femur fracture",
+        "Right arm sling for clavicle fracture",
+        "Wound debridement and dressing for abrasions"
+      ],
+      "admission": "Admitted to Surgical ICU for observation and further management",
+      "specialty_referrals": [
+        "Orthopedics - For femur and clavicle fracture management",
+        "Neurosurgery - For SDH monitoring",
+        "General Surgery - For liver laceration conservative management"
+      ]
+    },
+    "doctor_opinion": {
+      "nature_of_injuries": "Grievous",
+      "danger_to_life": "Yes, at time of admission due to head injury and potential for deterioration",
+      "weapon_used": "Not applicable - Injuries due to road traffic accident",
+      "alcohol_intoxication": "Not detected",
+      "consistency_with_alleged_history": "Injuries are consistent with high-velocity side impact from motorcycle and subsequent fall on road. Pattern of injuries matches described mechanism.",
+      "duration_of_hospitalization": "Expected 3-4 weeks minimum",
+      "permanent_disability_likely": "Possible - Right lower limb may have residual shortening/limitation"
+    },
+    "doctor_signature": "Dr. Anjali Mehta, MBBS, MS (Ortho), Reg. No. DMC/R/2010/45678",
+    "date": "2024-10-15",
+    "time": "20:30"
+  }
+}

@@ -1,0 +1,30 @@
+// dummy_case/witness_statement_1.json
+{
+  "witness_statement": {
+    "statement_id": "WS/PSRKP/0452/001",
+    "date_of_recording": "2024-10-15",
+    "time_of_recording": "20:15",
+    "place": "PS Rajinder Nagar",
+    "recorded_by": "Inspector Suresh Chandra",
+    "witness_details": {
+      "witness_id": "WIT-001",
+      "name": "Mohammed Asif",
+      "age": 35,
+      "father_name": "Mohammed Jameel",
+      "occupation": "Traffic Police Constable",
+      "badge_number": "TPC/DL/3342",
+      "posting": "Traffic Circle, Karol Bagh",
+      "address": "Police Lines, Rajinder Nagar, New Delhi",
+      "contact": "9891234567"
+    },
+    "statement_under_section": "Section 161 of Code of Criminal Procedure, 1973",
+    "statement_text": "I, Mohammed Asif, Traffic Police Constable Badge No. 3342, posted at Karol Bagh Traffic Circle, state that on 15.10.2024, I was on duty at Shankar Road T-point near St. Stephen's Hospital from 4 PM to 8 PM. My duty was to manage traffic at this intersection. The traffic signal at this T-point has been non-functional since 3 days and we are manually managing traffic with hand signals. At approximately 6:20 PM, I was standing at the junction managing traffic flow. I saw a red colored Bajaj Pulsar motorcycle coming from Shankar Road from Karol Bagh side at a very high speed. I estimate the speed was above 60 kmph. I signaled the rider to slow down as there was traffic at the junction, but he did not reduce speed. He was looking down at his mobile phone which was mounted on the handlebar, possibly checking map or delivery details. The traffic coming from Rajinder Nagar side had the right of way and vehicles were turning towards Old Rajinder Nagar. One white Honda Activa scooter was taking a legal right turn from Rajinder Nagar side towards Old Rajinder Nagar. When this Activa was in the middle of the turn, the red Pulsar coming at high speed from Shankar Road side entered the junction against my hand signal which indicated STOP for vehicles from his side, and directly collided with the right side of the Activa. The impact was so severe that the Activa rider was thrown off the scooter and landed on the road about 10-12 feet away. The Pulsar rider also fell down but got up quickly. He tried to pick up his bike to leave the spot. I immediately ran towards him and caught him. With the help of some public persons, I made him sit on the footpath. I called the PCR on 100 number from my mobile at 18:21 hours. The PCR van arrived at about 18:30-31 hours. I also called for an ambulance from St. Stephen's Hospital which is just opposite. The ambulance came within 5-7 minutes and took the injured scooter rider to the hospital. I handed over the Pulsar rider to the PCR staff and also gave my initial account to them. I can identify the accused person, he was wearing a red Zomato t-shirt. The victim was wearing a helmet which probably saved his life. The accused was also wearing a helmet. I am making this statement voluntarily and it contains true facts of what I witnessed.",
+    "identification_of_accused": {
+      "can_identify": true,
+      "identification_details": "Accused was wearing red Zomato t-shirt, aged around 25-28 years, slim build, height approximately 5'7\""
+    },
+    "statement_verified": true,
+    "witness_signature": "Mohammed Asif (Signed)",
+    "io_signature": "Suresh Chandra, Inspector"
+  }
+}
