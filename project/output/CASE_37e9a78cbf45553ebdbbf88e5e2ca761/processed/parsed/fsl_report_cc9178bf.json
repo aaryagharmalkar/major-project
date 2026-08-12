@@ -1,0 +1,23 @@
+{
+  "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+  "document_type": "fsl_report",
+  "ocr_text_sha256": "0b44b85e083b886307c6511ec3c0e9583ae94491c43277cbb1ea7d0da1675cd9",
+  "parse_metadata": {
+    "parser_name": "FSLParser",
+    "parse_duration_ms": 12657.13229999892,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "report_number": null,
+  "report_date": null,
+  "laboratory_name": null,
+  "examined_items": [
+    "swab/sample from damaged front portion of vehicle and control material."
+  ],
+  "findings": [
+    "the submitted sample contained biological material suitable for comparison testing."
+  ],
+  "opinion_text": "The report records laboratory observations and does not independently establish the complete circumstances of the incident."
+}

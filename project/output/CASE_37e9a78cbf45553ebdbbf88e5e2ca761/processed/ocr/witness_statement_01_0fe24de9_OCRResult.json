@@ -1,0 +1,25 @@
+{
+  "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "WITNESS STATEMENT\n\nWitness: Neha Patil\nDate: 14 August 2026\nLocation: Senapati Road junction, Pune\n\nI saw a vehicle bearing registration number MH-12-AB-4821 approaching the junction.\n\nThe vehicle collided with the pedestrian, Amit Kulkarni.\n\nI saw the driver after the vehicle stopped. The person was identified to me as Rohan Mehta.\n\nI did not move or handle any physical evidence from the road.",
+      "confidence": 0.99
+    }
+  ],
+  "raw_text": "WITNESS STATEMENT\n\nWitness: Neha Patil\nDate: 14 August 2026\nLocation: Senapati Road junction, Pune\n\nI saw a vehicle bearing registration number MH-12-AB-4821 approaching the junction.\n\nThe vehicle collided with the pedestrian, Amit Kulkarni.\n\nI saw the driver after the vehicle stopped. The person was identified to me as Rohan Mehta.\n\nI did not move or handle any physical evidence from the road.",
+  "confidence": 0.99,
+  "warnings": [],
+  "language": "en",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-12T20:48:02.186719Z",
+    "processing_time_ms": 9166.645100000096,
+    "token_usage": 1360,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

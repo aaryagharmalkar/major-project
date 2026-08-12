@@ -1,0 +1,15 @@
+{
+  "errors": [],
+  "warnings": [],
+  "missing_documents": [],
+  "missing_information": [],
+  "conflicts": [],
+  "unresolved_entities": [],
+  "unsupported_facts": [],
+  "low_confidence_facts": [],
+  "timeline_issues": [],
+  "completeness_score": 1.0,
+  "critical_failure": false,
+  "review_required": false,
+  "disposition": "draft_allowed"
+}

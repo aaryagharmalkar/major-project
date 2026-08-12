@@ -1,0 +1,35 @@
+{
+  "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+  "document_type": "seizure_memo",
+  "ocr_text_sha256": "2179fd558aa1f3e13fdad7875621f8093270ea41c1af563f5037997bb6c95e3f",
+  "parse_metadata": {
+    "parser_name": "SeizureMemoParser",
+    "parse_duration_ms": 12462.818599999082,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "memo_number": null,
+  "seizure_datetime": "2026-08-14T00:00:00Z",
+  "seizure_location": "Senapati Road junction, Pune",
+  "seized_items": [
+    {
+      "description": "Vehicle MH-12-AB-4821",
+      "exhibit_mark": null
+    },
+    {
+      "description": "front registration plate",
+      "exhibit_mark": null
+    },
+    {
+      "description": "vehicle keys",
+      "exhibit_mark": null
+    },
+    {
+      "description": "damaged front bumper assembly",
+      "exhibit_mark": null
+    }
+  ],
+  "prepared_by": null
+}

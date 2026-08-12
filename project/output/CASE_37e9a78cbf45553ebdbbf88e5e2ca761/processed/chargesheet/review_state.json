@@ -1,0 +1,37 @@
+{
+  "case_id": "37e9a78c-bf45-553e-bdbb-f88e5e2ca761",
+  "charge_sheet_id": "993ee5d7-7d62-4186-bf05-5a4f4c87ce57",
+  "status": "review_required",
+  "data_version": 1,
+  "data_content_hash": "3e099223ba466b388e96fe2639156908e7d0fa84df24b8afa0ceefbe973fc2ae",
+  "reviewer_id": null,
+  "reviewer_name": null,
+  "review_timestamp": null,
+  "decision": null,
+  "comments": null,
+  "rejection_reason": null,
+  "approved_version": null,
+  "approved_content_hash": null,
+  "finalized_at": null,
+  "final_artifact_reference": null,
+  "events": [
+    {
+      "event_type": "draft_created",
+      "case_id": "37e9a78c-bf45-553e-bdbb-f88e5e2ca761",
+      "charge_sheet_id": "993ee5d7-7d62-4186-bf05-5a4f4c87ce57",
+      "version": 1,
+      "timestamp": "2026-08-12T20:49:37.624977Z",
+      "actor_id": "system",
+      "metadata": {}
+    },
+    {
+      "event_type": "submitted_for_review",
+      "case_id": "37e9a78c-bf45-553e-bdbb-f88e5e2ca761",
+      "charge_sheet_id": "993ee5d7-7d62-4186-bf05-5a4f4c87ce57",
+      "version": 1,
+      "timestamp": "2026-08-12T20:49:37.625192Z",
+      "actor_id": "system",
+      "metadata": {}
+    }
+  ]
+}

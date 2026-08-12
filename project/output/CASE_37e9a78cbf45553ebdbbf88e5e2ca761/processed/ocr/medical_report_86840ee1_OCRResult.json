@@ -1,0 +1,25 @@
+{
+  "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "MEDICO-LEGAL MEDICAL REPORT\n\nPatient:\tAmit Kulkarni\nExamination date:\t14 August 2026\nHistory:\tRoad traffic collision.\nObserved injuries:\tfracture of the left femur; abrasions over the right forearm; contusion over the left shoulder.\nTreatment:\tEmergency stabilization and orthopedic management.\n\nFinal clinical opinion is subject to the treating medical record.",
+      "confidence": 0.99
+    }
+  ],
+  "raw_text": "MEDICO-LEGAL MEDICAL REPORT\n\nPatient:\tAmit Kulkarni\nExamination date:\t14 August 2026\nHistory:\tRoad traffic collision.\nObserved injuries:\tfracture of the left femur; abrasions over the right forearm; contusion over the left shoulder.\nTreatment:\tEmergency stabilization and orthopedic management.\n\nFinal clinical opinion is subject to the treating medical record.",
+  "confidence": 0.99,
+  "warnings": [],
+  "language": "en",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-12T20:47:16.120553Z",
+    "processing_time_ms": 9008.037499999773,
+    "token_usage": 1179,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

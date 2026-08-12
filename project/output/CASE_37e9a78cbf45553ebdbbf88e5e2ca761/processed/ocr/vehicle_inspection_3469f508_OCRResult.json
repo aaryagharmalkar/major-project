@@ -1,0 +1,25 @@
+{
+  "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "MOTOR VEHICLE INSPECTION REPORT\n\nRegistration number: MH-12-AB-4821\nVehicle type: Passenger car\nInspection date: 15 August 2026\nObserved condition: damage to front bumper and bonnet; damage consistent with a\nfrontal impact.\n\nVehicle identification markings were recorded and found consistent with the registration details supplied for\ninspection.",
+      "confidence": 0.99
+    }
+  ],
+  "raw_text": "MOTOR VEHICLE INSPECTION REPORT\n\nRegistration number: MH-12-AB-4821\nVehicle type: Passenger car\nInspection date: 15 August 2026\nObserved condition: damage to front bumper and bonnet; damage consistent with a\nfrontal impact.\n\nVehicle identification markings were recorded and found consistent with the registration details supplied for\ninspection.",
+  "confidence": 0.99,
+  "warnings": [],
+  "language": "en",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-12T20:47:53.015553Z",
+    "processing_time_ms": 10577.964099999008,
+    "token_usage": 1648,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

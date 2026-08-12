@@ -1,0 +1,182 @@
+[
+  {
+    "source_document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+    "field_path": "graph.nodes[406d494e-f12c-4973-beba-4e6ca58d3f5a].label",
+    "description": "fracture of the left femur",
+    "source_references": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "source_document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+    "field_path": "graph.nodes[c1a06680-39dd-4bad-af3f-69cf61da5acc].label",
+    "description": "abrasions over the right forearm",
+    "source_references": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "source_document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+    "field_path": "graph.nodes[e52dad80-a6c0-4603-a0d2-ef8b9cd88461].label",
+    "description": "contusion over the left shoulder",
+    "source_references": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "source_document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+    "field_path": "graph.nodes[0402acd2-394c-45a4-96b5-805dd06fe7c7].label",
+    "description": "the submitted sample contained biological material suitable for comparison testing.",
+    "source_references": [
+      {
+        "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "source_document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+    "field_path": "graph.nodes[7fd5f6ca-5a6c-4a13-a54a-f3c47f35ae76].label",
+    "description": "swab/sample from damaged front portion of vehicle and control material.",
+    "source_references": [
+      {
+        "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "source_document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+    "field_path": "graph.nodes[dd7bcfe7-886b-4792-b115-c0d7dfc7d34b].label",
+    "description": "Vehicle MH-12-AB-4821",
+    "source_references": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "source_document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+    "field_path": "graph.nodes[46a09e94-13e2-476a-978d-42dd173afade].label",
+    "description": "front registration plate",
+    "source_references": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "source_document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+    "field_path": "graph.nodes[fbd1c3e2-1792-42cc-ab74-fe7eedf8ce08].label",
+    "description": "vehicle keys",
+    "source_references": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "source_document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+    "field_path": "graph.nodes[c4c72a02-3fd9-4d63-a47b-0f25a4d95b93].label",
+    "description": "damaged front bumper assembly",
+    "source_references": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "source_document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+    "field_path": "graph.nodes[42b18f15-3ab7-497d-a6d1-7a3106d34571].attributes.description",
+    "description": "On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\n\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
+    "source_references": [
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ]
+  }
+]

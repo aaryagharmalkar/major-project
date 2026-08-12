@@ -1,0 +1,17 @@
+{
+  "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+  "document_type": "complaint",
+  "ocr_text_sha256": "b7ceccac4a77ddf7e8926e7348766a3bbfa077fd86e69945a44517f26014e3f9",
+  "parse_metadata": {
+    "parser_name": "ComplaintParser",
+    "parse_duration_ms": 8630.76369999908,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "complaint_date": "2026-08-14",
+  "complainant_name": "Neha Patil",
+  "complainant_address": null,
+  "complaint_text": "I was present near the junction and saw the vehicle approach the crossing. After the collision, I called for assistance and remained at the scene until police personnel arrived."
+}

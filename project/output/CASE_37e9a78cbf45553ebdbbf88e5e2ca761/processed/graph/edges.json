@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "ed1310b4-a793-4bbc-bdf7-580a96d24fcb",
+    "source_node_id": "04dc8abb-cc2a-4539-8ba9-38befc8fbb9f",
+    "target_node_id": "bd552d61-ff29-458c-b61b-f56a471b3c88",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+        "page": null,
+        "confidence": null,
+        "parser_name": "ComplaintParser",
+        "timestamp": "2026-08-12T20:49:37.573642Z",
+        "source_reference": {
+          "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5a75c714-ec85-4460-b450-979f18a95833",
+    "source_node_id": "bd552d61-ff29-458c-b61b-f56a471b3c88",
+    "target_node_id": "04dc8abb-cc2a-4539-8ba9-38befc8fbb9f",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+        "page": null,
+        "confidence": null,
+        "parser_name": "ComplaintParser",
+        "timestamp": "2026-08-12T20:49:37.573681Z",
+        "source_reference": {
+          "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b0df3cce-511a-439f-aca6-ae66127bcece",
+    "source_node_id": "bdbe48ee-23a5-4dfa-8acd-3bfb4457587c",
+    "target_node_id": "bd552d61-ff29-458c-b61b-f56a471b3c88",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FIRParser",
+        "timestamp": "2026-08-12T20:49:37.573856Z",
+        "source_reference": {
+          "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "279d1125-22d6-432f-a495-84b6b563d15d",
+    "source_node_id": "bd552d61-ff29-458c-b61b-f56a471b3c88",
+    "target_node_id": "bdbe48ee-23a5-4dfa-8acd-3bfb4457587c",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FIRParser",
+        "timestamp": "2026-08-12T20:49:37.573882Z",
+        "source_reference": {
+          "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6711ae9f-d4a3-48a2-8e1e-794b6fa108a8",
+    "source_node_id": "bdbe48ee-23a5-4dfa-8acd-3bfb4457587c",
+    "target_node_id": "42b18f15-3ab7-497d-a6d1-7a3106d34571",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FIRParser",
+        "timestamp": "2026-08-12T20:49:37.573953Z",
+        "source_reference": {
+          "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cf73f73c-61e6-4fe1-b4f1-990619b06b23",
+    "source_node_id": "42b18f15-3ab7-497d-a6d1-7a3106d34571",
+    "target_node_id": "bdbe48ee-23a5-4dfa-8acd-3bfb4457587c",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FIRParser",
+        "timestamp": "2026-08-12T20:49:37.573973Z",
+        "source_reference": {
+          "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b47f0323-29f0-45fa-bf75-adc481bfa1c4",
+    "source_node_id": "42b18f15-3ab7-497d-a6d1-7a3106d34571",
+    "target_node_id": "bdbe48ee-23a5-4dfa-8acd-3bfb4457587c",
+    "relationship_type": "supported_by",
+    "provenance": [
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FIRParser",
+        "timestamp": "2026-08-12T20:49:37.573995Z",
+        "source_reference": {
+          "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "e6037fe6-9e03-4e7f-8685-9e6f92bc1335",
+    "source_node_id": "bdbe48ee-23a5-4dfa-8acd-3bfb4457587c",
+    "target_node_id": "3763fc6c-93b8-4fad-878b-42f6d34626ac",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FIRParser",
+        "timestamp": "2026-08-12T20:49:37.574050Z",
+        "source_reference": {
+          "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "14d5046c-be2e-4f22-9dda-71b6b9b873d9",
+    "source_node_id": "3763fc6c-93b8-4fad-878b-42f6d34626ac",
+    "target_node_id": "bdbe48ee-23a5-4dfa-8acd-3bfb4457587c",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FIRParser",
+        "timestamp": "2026-08-12T20:49:37.574075Z",
+        "source_reference": {
+          "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "36518826-179c-441b-a09c-4bbd6e3833d3",
+    "source_node_id": "74e9cb8e-f6b8-4067-bf86-65a527a08343",
+    "target_node_id": "0402acd2-394c-45a4-96b5-805dd06fe7c7",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FSLParser",
+        "timestamp": "2026-08-12T20:49:37.574172Z",
+        "source_reference": {
+          "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "460c87ab-6461-45be-9f22-b55672b4aaae",
+    "source_node_id": "0402acd2-394c-45a4-96b5-805dd06fe7c7",
+    "target_node_id": "74e9cb8e-f6b8-4067-bf86-65a527a08343",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FSLParser",
+        "timestamp": "2026-08-12T20:49:37.574194Z",
+        "source_reference": {
+          "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5199425c-40e4-4d30-824b-c02257ccbe1e",
+    "source_node_id": "0402acd2-394c-45a4-96b5-805dd06fe7c7",
+    "target_node_id": "74e9cb8e-f6b8-4067-bf86-65a527a08343",
+    "relationship_type": "part_of",
+    "provenance": [
+      {
+        "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FSLParser",
+        "timestamp": "2026-08-12T20:49:37.574217Z",
+        "source_reference": {
+          "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "e26b0bc7-80b1-4376-9dbc-8f4e875bdc68",
+    "source_node_id": "74e9cb8e-f6b8-4067-bf86-65a527a08343",
+    "target_node_id": "7fd5f6ca-5a6c-4a13-a54a-f3c47f35ae76",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FSLParser",
+        "timestamp": "2026-08-12T20:49:37.574272Z",
+        "source_reference": {
+          "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "bdf24943-8789-4d7b-bba1-16498739137d",
+    "source_node_id": "7fd5f6ca-5a6c-4a13-a54a-f3c47f35ae76",
+    "target_node_id": "74e9cb8e-f6b8-4067-bf86-65a527a08343",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FSLParser",
+        "timestamp": "2026-08-12T20:49:37.574296Z",
+        "source_reference": {
+          "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "3b907628-0594-478b-aad1-e5005a99648a",
+    "source_node_id": "7fd5f6ca-5a6c-4a13-a54a-f3c47f35ae76",
+    "target_node_id": "74e9cb8e-f6b8-4067-bf86-65a527a08343",
+    "relationship_type": "examined_by",
+    "provenance": [
+      {
+        "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FSLParser",
+        "timestamp": "2026-08-12T20:49:37.574318Z",
+        "source_reference": {
+          "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "11cc755b-6ada-4612-81aa-e7dc90527bb7",
+    "source_node_id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "target_node_id": "a5374f82-6169-423e-98d6-cd9ee2f0d44f",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574569Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c983ae1c-0005-46b3-bea8-b522bc46a11b",
+    "source_node_id": "a5374f82-6169-423e-98d6-cd9ee2f0d44f",
+    "target_node_id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574597Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "da960ed5-a7cf-460e-88ef-28eb959adafe",
+    "source_node_id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "target_node_id": "406d494e-f12c-4973-beba-4e6ca58d3f5a",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574663Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0c7943cd-a11e-49a0-8941-bea2ccb943d2",
+    "source_node_id": "406d494e-f12c-4973-beba-4e6ca58d3f5a",
+    "target_node_id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574690Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "2954cbf3-1f4d-4d4e-bd48-c5c7c257c39d",
+    "source_node_id": "406d494e-f12c-4973-beba-4e6ca58d3f5a",
+    "target_node_id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "relationship_type": "part_of",
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574716Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "060cf8b6-8b2c-409e-b50d-c6203712d7cd",
+    "source_node_id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "target_node_id": "c1a06680-39dd-4bad-af3f-69cf61da5acc",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574769Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "4299fecb-942e-48df-9bab-9f08f401e752",
+    "source_node_id": "c1a06680-39dd-4bad-af3f-69cf61da5acc",
+    "target_node_id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574797Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ceb8313-64da-400d-80b5-1fe4dbfbeb75",
+    "source_node_id": "c1a06680-39dd-4bad-af3f-69cf61da5acc",
+    "target_node_id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "relationship_type": "part_of",
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574821Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "9ed06261-cce2-4e94-a53e-f811c50a6018",
+    "source_node_id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "target_node_id": "e52dad80-a6c0-4603-a0d2-ef8b9cd88461",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574876Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "9aad79fe-fb0c-4e00-9c59-e2888bfa36ec",
+    "source_node_id": "e52dad80-a6c0-4603-a0d2-ef8b9cd88461",
+    "target_node_id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574905Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6defbc8c-4b9e-4e5d-ba13-07d508bb601a",
+    "source_node_id": "e52dad80-a6c0-4603-a0d2-ef8b9cd88461",
+    "target_node_id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "relationship_type": "part_of",
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574930Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "7237b009-7c20-412a-a813-b4a5f02b75a4",
+    "source_node_id": "84ed8189-70bc-426a-80c9-9753c7e02d8c",
+    "target_node_id": "3763fc6c-93b8-4fad-878b-42f6d34626ac",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575074Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "f88f7351-c6bc-4a2b-93e4-883ded6742ad",
+    "source_node_id": "3763fc6c-93b8-4fad-878b-42f6d34626ac",
+    "target_node_id": "84ed8189-70bc-426a-80c9-9753c7e02d8c",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575102Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b6e31a04-2a5e-45b6-a356-4efce048f75f",
+    "source_node_id": "84ed8189-70bc-426a-80c9-9753c7e02d8c",
+    "target_node_id": "dd7bcfe7-886b-4792-b115-c0d7dfc7d34b",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575199Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "e302b30a-d518-4255-aacb-3d39661dac7f",
+    "source_node_id": "dd7bcfe7-886b-4792-b115-c0d7dfc7d34b",
+    "target_node_id": "84ed8189-70bc-426a-80c9-9753c7e02d8c",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575226Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "81a665ad-d0ac-4030-bdbd-68730bb6caff",
+    "source_node_id": "dd7bcfe7-886b-4792-b115-c0d7dfc7d34b",
+    "target_node_id": "3763fc6c-93b8-4fad-878b-42f6d34626ac",
+    "relationship_type": "recovered_from",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575258Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "03a54817-c80f-4473-8028-80a09a3f73d8",
+    "source_node_id": "84ed8189-70bc-426a-80c9-9753c7e02d8c",
+    "target_node_id": "46a09e94-13e2-476a-978d-42dd173afade",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575316Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6ece9b50-6861-49b1-920b-33b2156713ed",
+    "source_node_id": "46a09e94-13e2-476a-978d-42dd173afade",
+    "target_node_id": "84ed8189-70bc-426a-80c9-9753c7e02d8c",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575346Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c487ab68-c1ea-4768-9a70-8e32156b9d1f",
+    "source_node_id": "46a09e94-13e2-476a-978d-42dd173afade",
+    "target_node_id": "3763fc6c-93b8-4fad-878b-42f6d34626ac",
+    "relationship_type": "recovered_from",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575378Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "8eaa5359-c669-457e-b93e-e91155c4209b",
+    "source_node_id": "84ed8189-70bc-426a-80c9-9753c7e02d8c",
+    "target_node_id": "fbd1c3e2-1792-42cc-ab74-fe7eedf8ce08",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575432Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a7a6b879-26d8-402a-96d0-346dae78359c",
+    "source_node_id": "fbd1c3e2-1792-42cc-ab74-fe7eedf8ce08",
+    "target_node_id": "84ed8189-70bc-426a-80c9-9753c7e02d8c",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575462Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "859623ef-d8e6-4a22-8e1a-0f7b6c935035",
+    "source_node_id": "fbd1c3e2-1792-42cc-ab74-fe7eedf8ce08",
+    "target_node_id": "3763fc6c-93b8-4fad-878b-42f6d34626ac",
+    "relationship_type": "recovered_from",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575493Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "d4e28587-7c71-4740-8f0c-f63903ae957f",
+    "source_node_id": "84ed8189-70bc-426a-80c9-9753c7e02d8c",
+    "target_node_id": "c4c72a02-3fd9-4d63-a47b-0f25a4d95b93",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575560Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "375d9964-36f6-44f9-abba-77d87c3c13f8",
+    "source_node_id": "c4c72a02-3fd9-4d63-a47b-0f25a4d95b93",
+    "target_node_id": "84ed8189-70bc-426a-80c9-9753c7e02d8c",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575591Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "735b465e-8c8c-4153-9eff-20e7d8c40dad",
+    "source_node_id": "c4c72a02-3fd9-4d63-a47b-0f25a4d95b93",
+    "target_node_id": "3763fc6c-93b8-4fad-878b-42f6d34626ac",
+    "relationship_type": "recovered_from",
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575622Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "105fb14a-d9bb-4f06-baf8-ae53bdfd8ed9",
+    "source_node_id": "9cfffb50-c23f-42c2-9a8a-7fe459e8e405",
+    "target_node_id": "3763fc6c-93b8-4fad-878b-42f6d34626ac",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "8880f845-09df-4faa-8ed2-bbb4953f2f17",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SitePlanParser",
+        "timestamp": "2026-08-12T20:49:37.575747Z",
+        "source_reference": {
+          "document_id": "8880f845-09df-4faa-8ed2-bbb4953f2f17",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b4e107fb-f448-4711-80bf-a511760353a2",
+    "source_node_id": "3763fc6c-93b8-4fad-878b-42f6d34626ac",
+    "target_node_id": "9cfffb50-c23f-42c2-9a8a-7fe459e8e405",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "8880f845-09df-4faa-8ed2-bbb4953f2f17",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SitePlanParser",
+        "timestamp": "2026-08-12T20:49:37.575781Z",
+        "source_reference": {
+          "document_id": "8880f845-09df-4faa-8ed2-bbb4953f2f17",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "1d31e5e5-2b39-40f3-9241-207ff2a93d54",
+    "source_node_id": "ec4cd040-7fca-4a6a-b30c-9bf43f4b8ac2",
+    "target_node_id": "f82e9718-74bc-4ce6-b1cc-fb6d2b9de09e",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+        "page": null,
+        "confidence": null,
+        "parser_name": "VehicleInspectionParser",
+        "timestamp": "2026-08-12T20:49:37.575890Z",
+        "source_reference": {
+          "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0361763b-a58b-4383-9acb-dd7666894578",
+    "source_node_id": "f82e9718-74bc-4ce6-b1cc-fb6d2b9de09e",
+    "target_node_id": "ec4cd040-7fca-4a6a-b30c-9bf43f4b8ac2",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+        "page": null,
+        "confidence": null,
+        "parser_name": "VehicleInspectionParser",
+        "timestamp": "2026-08-12T20:49:37.575921Z",
+        "source_reference": {
+          "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a5f384-3315-4645-865e-c384ae71c570",
+    "source_node_id": "915347fe-4d04-496d-ac0c-631ba2e2af51",
+    "target_node_id": "bd552d61-ff29-458c-b61b-f56a471b3c88",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+        "page": null,
+        "confidence": null,
+        "parser_name": "WitnessParser",
+        "timestamp": "2026-08-12T20:49:37.576049Z",
+        "source_reference": {
+          "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cc43bb6e-5595-4d7b-91a8-814279ce7f30",
+    "source_node_id": "bd552d61-ff29-458c-b61b-f56a471b3c88",
+    "target_node_id": "915347fe-4d04-496d-ac0c-631ba2e2af51",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+        "page": null,
+        "confidence": null,
+        "parser_name": "WitnessParser",
+        "timestamp": "2026-08-12T20:49:37.576083Z",
+        "source_reference": {
+          "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5557a8a9-31ea-4126-88ff-9ace0327ed55",
+    "source_node_id": "75db82b8-bee4-4438-b5b5-0f23aa2067f1",
+    "target_node_id": "76d5b9bb-a81b-45a4-89a7-2cb17a457245",
+    "relationship_type": "mentions",
+    "provenance": [
+      {
+        "document_id": "9181753f-6544-404d-b5d9-a8021228e967",
+        "page": null,
+        "confidence": null,
+        "parser_name": "WitnessParser",
+        "timestamp": "2026-08-12T20:49:37.576214Z",
+        "source_reference": {
+          "document_id": "9181753f-6544-404d-b5d9-a8021228e967",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "3771a9f6-ce52-4656-a69a-a53399456b7b",
+    "source_node_id": "76d5b9bb-a81b-45a4-89a7-2cb17a457245",
+    "target_node_id": "75db82b8-bee4-4438-b5b5-0f23aa2067f1",
+    "relationship_type": "asserted_by",
+    "provenance": [
+      {
+        "document_id": "9181753f-6544-404d-b5d9-a8021228e967",
+        "page": null,
+        "confidence": null,
+        "parser_name": "WitnessParser",
+        "timestamp": "2026-08-12T20:49:37.576248Z",
+        "source_reference": {
+          "document_id": "9181753f-6544-404d-b5d9-a8021228e967",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  }
+]

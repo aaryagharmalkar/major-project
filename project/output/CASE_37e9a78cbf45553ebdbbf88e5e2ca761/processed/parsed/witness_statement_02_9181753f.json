@@ -1,0 +1,18 @@
+{
+  "document_id": "9181753f-6544-404d-b5d9-a8021228e967",
+  "document_type": "witness_statement",
+  "ocr_text_sha256": "72c861137b09cddac6f2afeeb15801656134f2c626683d869177784168eee7df",
+  "parse_metadata": {
+    "parser_name": "WitnessParser",
+    "parse_duration_ms": 9814.684799999668,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "statement_date": "2026-08-14",
+  "witness_name": "Suresh Joshi",
+  "witness_address": null,
+  "recorded_by": null,
+  "statement_text": "I was standing near a shop opposite the junction when I heard the collision and then saw the vehicle bearing\nMH-12-AB-4821 stopped near the pedestrian.\n\nI observed the driver leave the vehicle and remain near the scene until police arrived."
+}

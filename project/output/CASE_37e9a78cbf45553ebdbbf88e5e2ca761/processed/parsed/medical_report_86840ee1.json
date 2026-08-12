@@ -1,0 +1,24 @@
+{
+  "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+  "document_type": "medical_report",
+  "ocr_text_sha256": "3fe25846c5aea79831c74bcb7b128726148cef286e05e0f82f45d82f51d32b6d",
+  "parse_metadata": {
+    "parser_name": "MedicalReportParser",
+    "parse_duration_ms": 5818.625700001576,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "report_number": null,
+  "report_date": "2026-08-14",
+  "patient_name": "Amit Kulkarni",
+  "doctor_name": null,
+  "hospital_name": null,
+  "observations": [
+    "fracture of the left femur",
+    "abrasions over the right forearm",
+    "contusion over the left shoulder"
+  ],
+  "opinion_text": "Final clinical opinion is subject to the treating medical record."
+}

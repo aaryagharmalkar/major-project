@@ -1,0 +1,21 @@
+{
+  "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+  "document_type": "vehicle_inspection",
+  "ocr_text_sha256": "a5dd4821e9380765a007cd5914d078c0a1d8d34c2b8c9347e424e999fd2391c0",
+  "parse_metadata": {
+    "parser_name": "VehicleInspectionParser",
+    "parse_duration_ms": 11350.302299999385,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "report_number": null,
+  "inspection_date": "2026-08-15",
+  "vehicle_registration": "MH-12-AB-4821",
+  "inspected_by": null,
+  "observations": [
+    "damage to front bumper and bonnet; damage consistent with a frontal impact.",
+    "Vehicle identification markings were recorded and found consistent with the registration details supplied for inspection."
+  ]
+}

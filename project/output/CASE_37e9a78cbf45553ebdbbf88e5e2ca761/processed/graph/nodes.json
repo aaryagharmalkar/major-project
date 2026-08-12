@@ -1,0 +1,775 @@
+[
+  {
+    "id": "04dc8abb-cc2a-4539-8ba9-38befc8fbb9f",
+    "node_type": "document",
+    "label": "complaint:553a46f3-ce35-44ca-909e-2b3b94e1c258",
+    "attributes": {
+      "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+      "document_type": "complaint"
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+        "page": null,
+        "confidence": null,
+        "parser_name": "ComplaintParser",
+        "timestamp": "2026-08-12T20:49:37.570245Z",
+        "source_reference": {
+          "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "bd552d61-ff29-458c-b61b-f56a471b3c88",
+    "node_type": "person",
+    "label": "Neha Patil",
+    "attributes": {},
+    "roles": [
+      "victim",
+      "witness"
+    ],
+    "provenance": [
+      {
+        "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+        "page": null,
+        "confidence": null,
+        "parser_name": "ComplaintParser",
+        "timestamp": "2026-08-12T20:49:37.573546Z",
+        "source_reference": {
+          "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      },
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FIRParser",
+        "timestamp": "2026-08-12T20:49:37.573790Z",
+        "source_reference": {
+          "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      },
+      {
+        "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+        "page": null,
+        "confidence": null,
+        "parser_name": "WitnessParser",
+        "timestamp": "2026-08-12T20:49:37.576014Z",
+        "source_reference": {
+          "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "bdbe48ee-23a5-4dfa-8acd-3bfb4457587c",
+    "node_type": "document",
+    "label": "fir:d78b79f0-99a0-4dc2-8d71-d611544e232c",
+    "attributes": {
+      "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+      "document_type": "fir",
+      "fir_number": "FIR No. 47/2026",
+      "registration_date": "2026-08-14",
+      "police_station": "Shivaji Nagar Police Station",
+      "occurrence_datetime": "2026-08-14T20:35:00",
+      "occurrence_location": "Senapati Road junction, Pune",
+      "jurisdiction": "Pune City"
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FIRParser",
+        "timestamp": "2026-08-12T20:49:37.573739Z",
+        "source_reference": {
+          "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "42b18f15-3ab7-497d-a6d1-7a3106d34571",
+    "node_type": "timeline_event",
+    "label": "FIR occurrence d78b79f0-99a0-4dc2-8d71-d611544e232c",
+    "attributes": {
+      "occurred_at": "2026-08-14T20:35:00",
+      "description": "On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\n\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident."
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FIRParser",
+        "timestamp": "2026-08-12T20:49:37.573915Z",
+        "source_reference": {
+          "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "3763fc6c-93b8-4fad-878b-42f6d34626ac",
+    "node_type": "location",
+    "label": "Senapati Road junction, Pune",
+    "attributes": {},
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FIRParser",
+        "timestamp": "2026-08-12T20:49:37.574020Z",
+        "source_reference": {
+          "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      },
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575007Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      },
+      {
+        "document_id": "8880f845-09df-4faa-8ed2-bbb4953f2f17",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SitePlanParser",
+        "timestamp": "2026-08-12T20:49:37.575701Z",
+        "source_reference": {
+          "document_id": "8880f845-09df-4faa-8ed2-bbb4953f2f17",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "74e9cb8e-f6b8-4067-bf86-65a527a08343",
+    "node_type": "document",
+    "label": "fsl_report:cc9178bf-a926-4268-8333-2d24f50c1148",
+    "attributes": {
+      "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+      "document_type": "fsl_report"
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FSLParser",
+        "timestamp": "2026-08-12T20:49:37.574106Z",
+        "source_reference": {
+          "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0402acd2-394c-45a4-96b5-805dd06fe7c7",
+    "node_type": "fsl_finding",
+    "label": "the submitted sample contained biological material suitable for comparison testing.",
+    "attributes": {},
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FSLParser",
+        "timestamp": "2026-08-12T20:49:37.574140Z",
+        "source_reference": {
+          "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "7fd5f6ca-5a6c-4a13-a54a-f3c47f35ae76",
+    "node_type": "evidence",
+    "label": "swab/sample from damaged front portion of vehicle and control material.",
+    "attributes": {},
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+        "page": null,
+        "confidence": null,
+        "parser_name": "FSLParser",
+        "timestamp": "2026-08-12T20:49:37.574242Z",
+        "source_reference": {
+          "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "688dd0b9-e912-4804-be47-124e623fcc05",
+    "node_type": "document",
+    "label": "medical_report:86840ee1-bb00-46d7-9820-9e97dfe8960e",
+    "attributes": {
+      "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+      "document_type": "medical_report"
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574349Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "a5374f82-6169-423e-98d6-cd9ee2f0d44f",
+    "node_type": "person",
+    "label": "Amit Kulkarni",
+    "attributes": {},
+    "roles": [
+      "victim"
+    ],
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574389Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "406d494e-f12c-4973-beba-4e6ca58d3f5a",
+    "node_type": "medical_finding",
+    "label": "fracture of the left femur",
+    "attributes": {},
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574631Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c1a06680-39dd-4bad-af3f-69cf61da5acc",
+    "node_type": "medical_finding",
+    "label": "abrasions over the right forearm",
+    "attributes": {},
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574741Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "e52dad80-a6c0-4603-a0d2-ef8b9cd88461",
+    "node_type": "medical_finding",
+    "label": "contusion over the left shoulder",
+    "attributes": {},
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+        "page": null,
+        "confidence": null,
+        "parser_name": "MedicalReportParser",
+        "timestamp": "2026-08-12T20:49:37.574846Z",
+        "source_reference": {
+          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "84ed8189-70bc-426a-80c9-9753c7e02d8c",
+    "node_type": "document",
+    "label": "seizure_memo:a42171a5-3381-4771-aff2-8d25b96f86c9",
+    "attributes": {
+      "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+      "document_type": "seizure_memo"
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.574968Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dd7bcfe7-886b-4792-b115-c0d7dfc7d34b",
+    "node_type": "recovered_property",
+    "label": "Vehicle MH-12-AB-4821",
+    "attributes": {
+      "exhibit_mark": null
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575142Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "46a09e94-13e2-476a-978d-42dd173afade",
+    "node_type": "recovered_property",
+    "label": "front registration plate",
+    "attributes": {
+      "exhibit_mark": null
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575288Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "fbd1c3e2-1792-42cc-ab74-fe7eedf8ce08",
+    "node_type": "recovered_property",
+    "label": "vehicle keys",
+    "attributes": {
+      "exhibit_mark": null
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575406Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c4c72a02-3fd9-4d63-a47b-0f25a4d95b93",
+    "node_type": "recovered_property",
+    "label": "damaged front bumper assembly",
+    "attributes": {
+      "exhibit_mark": null
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SeizureMemoParser",
+        "timestamp": "2026-08-12T20:49:37.575527Z",
+        "source_reference": {
+          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "9cfffb50-c23f-42c2-9a8a-7fe459e8e405",
+    "node_type": "document",
+    "label": "site_plan:8880f845-09df-4faa-8ed2-bbb4953f2f17",
+    "attributes": {
+      "document_id": "8880f845-09df-4faa-8ed2-bbb4953f2f17",
+      "document_type": "site_plan"
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "8880f845-09df-4faa-8ed2-bbb4953f2f17",
+        "page": null,
+        "confidence": null,
+        "parser_name": "SitePlanParser",
+        "timestamp": "2026-08-12T20:49:37.575666Z",
+        "source_reference": {
+          "document_id": "8880f845-09df-4faa-8ed2-bbb4953f2f17",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ec4cd040-7fca-4a6a-b30c-9bf43f4b8ac2",
+    "node_type": "document",
+    "label": "vehicle_inspection:3469f508-3b4a-44be-a6ae-031780aa3d68",
+    "attributes": {
+      "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+      "document_type": "vehicle_inspection"
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+        "page": null,
+        "confidence": null,
+        "parser_name": "VehicleInspectionParser",
+        "timestamp": "2026-08-12T20:49:37.575825Z",
+        "source_reference": {
+          "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "f82e9718-74bc-4ce6-b1cc-fb6d2b9de09e",
+    "node_type": "vehicle",
+    "label": "MH-12-AB-4821",
+    "attributes": {
+      "registration_number": "MH-12-AB-4821"
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+        "page": null,
+        "confidence": null,
+        "parser_name": "VehicleInspectionParser",
+        "timestamp": "2026-08-12T20:49:37.575860Z",
+        "source_reference": {
+          "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "915347fe-4d04-496d-ac0c-631ba2e2af51",
+    "node_type": "document",
+    "label": "witness_statement:0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+    "attributes": {
+      "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+      "document_type": "witness_statement"
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+        "page": null,
+        "confidence": null,
+        "parser_name": "WitnessParser",
+        "timestamp": "2026-08-12T20:49:37.575975Z",
+        "source_reference": {
+          "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "75db82b8-bee4-4438-b5b5-0f23aa2067f1",
+    "node_type": "document",
+    "label": "witness_statement:9181753f-6544-404d-b5d9-a8021228e967",
+    "attributes": {
+      "document_id": "9181753f-6544-404d-b5d9-a8021228e967",
+      "document_type": "witness_statement"
+    },
+    "roles": [],
+    "provenance": [
+      {
+        "document_id": "9181753f-6544-404d-b5d9-a8021228e967",
+        "page": null,
+        "confidence": null,
+        "parser_name": "WitnessParser",
+        "timestamp": "2026-08-12T20:49:37.576128Z",
+        "source_reference": {
+          "document_id": "9181753f-6544-404d-b5d9-a8021228e967",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "76d5b9bb-a81b-45a4-89a7-2cb17a457245",
+    "node_type": "person",
+    "label": "Suresh Joshi",
+    "attributes": {},
+    "roles": [
+      "witness"
+    ],
+    "provenance": [
+      {
+        "document_id": "9181753f-6544-404d-b5d9-a8021228e967",
+        "page": null,
+        "confidence": null,
+        "parser_name": "WitnessParser",
+        "timestamp": "2026-08-12T20:49:37.576163Z",
+        "source_reference": {
+          "document_id": "9181753f-6544-404d-b5d9-a8021228e967",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      }
+    ]
+  }
+]

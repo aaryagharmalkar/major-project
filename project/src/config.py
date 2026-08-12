@@ -13,7 +13,13 @@ class Config:
     
     # Gemini
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-    GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-pro")
+    GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-flash-latest")
+
+    # Typed legal-reference dataset. Production does not fall back to fixtures.
+    LEGAL_REFERENCE_PATH = os.getenv("LEGAL_REFERENCE_PATH")
+    LEGAL_REFERENCE_VERSION = os.getenv("LEGAL_REFERENCE_VERSION")
+    MAX_UPLOAD_FILE_SIZE_BYTES = int(os.getenv("MAX_UPLOAD_FILE_SIZE_BYTES", str(100 * 1024 * 1024)))
+    MAX_CASE_UPLOAD_SIZE_BYTES = int(os.getenv("MAX_CASE_UPLOAD_SIZE_BYTES", str(500 * 1024 * 1024)))
     
     # Paths
     INPUT_DIR = os.getenv("INPUT_DIR", "dummy_case")

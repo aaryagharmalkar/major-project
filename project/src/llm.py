@@ -77,14 +77,12 @@ class GeminiClient(LLMClient):
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY is not set")
         try:
-            import google.generativeai as genai
+            from google import genai
 
-            genai.configure(api_key=self.api_key)
-            self.client = genai.GenerativeModel(self.model)
+            self.client = genai.Client(api_key=self.api_key)
         except ImportError as exc:
             raise ImportError(
-                "google-generativeai package not installed. "
-                "Run: pip install google-generativeai"
+                "google-genai package not installed. Run: pip install google-genai"
             ) from exc
 
     def generate(self, prompt: str) -> str:
@@ -95,9 +93,10 @@ class GeminiClient(LLMClient):
         }
 
         try:
-            response = self.client.generate_content(
-                prompt,
-                generation_config=generation_config,
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt,
+                config=generation_config,
             )
         except Exception as exc:
             raise RuntimeError(f"Gemini API call failed: {exc}") from exc
