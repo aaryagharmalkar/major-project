@@ -1,0 +1,7 @@
+vendor/
+output/
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
