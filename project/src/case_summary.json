@@ -1,0 +1,487 @@
+{
+  "facts": [
+    {
+      "key": "accused_admits_speed",
+      "value": "yes",
+      "source": "\\major-project\\dummy_case\\accused_statement.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "cctv_speed_Bajaj Pulsar DL2SBP1234",
+      "value": "60.0 kmph",
+      "source": "\\major-project\\dummy_case\\cctv_report.json",
+      "confidence": "high",
+      "conflict": true
+    },
+    {
+      "key": "cctv_speed_Bajaj Pulsar DL2SBP1234",
+      "value": "52.4 kmph (slight deceleration - possible late braking)",
+      "source": "\\major-project\\dummy_case\\cctv_report.json",
+      "confidence": "high",
+      "conflict": true
+    },
+    {
+      "key": "cctv_speed_Honda Activa DL5SCT5678",
+      "value": "10.0 kmph (normal turning speed)",
+      "source": "\\major-project\\dummy_case\\cctv_report.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "impact_timestamp_cctv",
+      "value": "18:20:07.800",
+      "source": "\\major-project\\dummy_case\\cctv_report.json",
+      "confidence": "high",
+      "conflict": true
+    },
+    {
+      "key": "impact_timestamp_cctv",
+      "value": "18:24:05",
+      "source": "\\major-project\\dummy_case\\cctv_report.json",
+      "confidence": "high",
+      "conflict": true
+    },
+    {
+      "key": "complaint_alleges_rashness",
+      "value": "yes",
+      "source": "\\major-project\\dummy_case\\complaint.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "cctv_evidence_exists",
+      "value": "yes",
+      "source": "\\major-project\\dummy_case\\evidence_list.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "incident_location",
+      "value": "Shankar Road T-Point, Near St. Stephen's Hospital Gate No. 2, Rajinder Nagar, New Delhi",
+      "source": "\\major-project\\dummy_case\\fir.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "victim_name",
+      "value": "Rajesh Kumar Sharma",
+      "source": "\\major-project\\dummy_case\\fir.json",
+      "confidence": "low",
+      "conflict": false
+    },
+    {
+      "key": "victim_injury_type",
+      "value": "Grievous",
+      "source": "\\major-project\\dummy_case\\fir.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "accused_name",
+      "value": "Amit Verma",
+      "source": "\\major-project\\dummy_case\\fir.json",
+      "confidence": "low",
+      "conflict": false
+    },
+    {
+      "key": "accused_vehicle_reg",
+      "value": "Bajaj Pulsar 220F, DL2SBP1234",
+      "source": "\\major-project\\dummy_case\\fir.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "injury",
+      "value": "Irregular wound with active bleeding, visible periosteum, no skull bone visible",
+      "source": "\\major-project\\dummy_case\\medical_report.json",
+      "confidence": "medium",
+      "conflict": true
+    },
+    {
+      "key": "injury",
+      "value": "Road rash, dirt and debris embedded in wounds",
+      "source": "\\major-project\\dummy_case\\medical_report.json",
+      "confidence": "medium",
+      "conflict": true
+    },
+    {
+      "key": "injury",
+      "value": "Deformity of right thigh, swelling, abnormal mobility, crepitus present. X-ray confirmed comminuted fracture mid-shaft femur with displacement.",
+      "source": "\\major-project\\dummy_case\\medical_report.json",
+      "confidence": "medium",
+      "conflict": true
+    },
+    {
+      "key": "injury",
+      "value": "Tenderness and deformity over right clavicle. X-ray confirmed displaced fracture.",
+      "source": "\\major-project\\dummy_case\\medical_report.json",
+      "confidence": "medium",
+      "conflict": true
+    },
+    {
+      "key": "injury",
+      "value": "Chest X-ray shows fractures of right 3rd, 4th, 5th ribs anteriorly. No flail segment. Lung fields clear.",
+      "source": "\\major-project\\dummy_case\\medical_report.json",
+      "confidence": "medium",
+      "conflict": true
+    },
+    {
+      "key": "injury",
+      "value": "Deep abrasion, oozing",
+      "source": "\\major-project\\dummy_case\\medical_report.json",
+      "confidence": "medium",
+      "conflict": true
+    },
+    {
+      "key": "injury",
+      "value": "Superficial abrasion",
+      "source": "\\major-project\\dummy_case\\medical_report.json",
+      "confidence": "medium",
+      "conflict": true
+    },
+    {
+      "key": "road_1_name",
+      "value": "Shankar Road",
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "road_1_width",
+      "value": 12.5,
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "road_2_name",
+      "value": "Rajinder Nagar Main Road",
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "road_2_width",
+      "value": 10.0,
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "road_name",
+      "value": "Shankar Road",
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "road_width",
+      "value": 12.5,
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "junction_type",
+      "value": "T-junction (Three-arm intersection)",
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "lighting_condition",
+      "value": "Moderate - 4 of 6 lights functioning in 100m radius",
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "landmark",
+      "value": "St. Stephen's Hospital Gate 2",
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "low",
+      "conflict": true
+    },
+    {
+      "key": "landmark",
+      "value": "Canara Bank ATM",
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "low",
+      "conflict": true
+    },
+    {
+      "key": "landmark",
+      "value": "Joshi Tea Stall (Shop No. 7)",
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "low",
+      "conflict": true
+    },
+    {
+      "key": "landmark",
+      "value": "Bus Stop",
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "low",
+      "conflict": true
+    },
+    {
+      "key": "landmark",
+      "value": "Electric Pole SP/23/RJN",
+      "source": "\\major-project\\dummy_case\\site_plan.json",
+      "confidence": "low",
+      "conflict": true
+    },
+    {
+      "key": "spot_road_width_shankar_road",
+      "value": 12.5,
+      "source": "\\major-project\\dummy_case\\spot_panchnama.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "spot_road_width_rajinder_nagar_road",
+      "value": 10.0,
+      "source": "\\major-project\\dummy_case\\spot_panchnama.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "spot_divider_width",
+      "value": 0.8,
+      "source": "\\major-project\\dummy_case\\spot_panchnama.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "spot_footpath_width",
+      "value": 2.0,
+      "source": "\\major-project\\dummy_case\\spot_panchnama.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "spot_zebra_crossing_width",
+      "value": 4.0,
+      "source": "\\major-project\\dummy_case\\spot_panchnama.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "skid_mark_length",
+      "value": "4.2 meters",
+      "source": "\\major-project\\dummy_case\\spot_panchnama.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "final_position_vehicle_1_pulsar",
+      "value": "Middle of junction, 2.5m from divider end, front wheel facing East (towards Old Rajinder Nagar)",
+      "source": "\\major-project\\dummy_case\\spot_panchnama.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "final_position_vehicle_2_activa",
+      "value": "Near road edge of Rajinder Nagar Road, 1.5m from footpath, front wheel facing South",
+      "source": "\\major-project\\dummy_case\\spot_panchnama.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "timeline_speed",
+      "value": 60,
+      "source": "\\major-project\\dummy_case\\timeline.json",
+      "confidence": "medium",
+      "conflict": true
+    },
+    {
+      "key": "timeline_speed",
+      "value": 10,
+      "source": "\\major-project\\dummy_case\\timeline.json",
+      "confidence": "medium",
+      "conflict": true
+    },
+    {
+      "key": "timeline_speed",
+      "value": 55,
+      "source": "\\major-project\\dummy_case\\timeline.json",
+      "confidence": "medium",
+      "conflict": true
+    },
+    {
+      "key": "timeline_speed",
+      "value": 75,
+      "source": "\\major-project\\dummy_case\\timeline.json",
+      "confidence": "medium",
+      "conflict": true
+    },
+    {
+      "key": "impact_time",
+      "value": "18:20:07.800",
+      "source": "\\major-project\\dummy_case\\timeline.json",
+      "confidence": "high",
+      "conflict": true
+    },
+    {
+      "key": "impact_time",
+      "value": "18:20:08.000",
+      "source": "\\major-project\\dummy_case\\timeline.json",
+      "confidence": "high",
+      "conflict": true
+    },
+    {
+      "key": "impact_time",
+      "value": "18:20:08.200",
+      "source": "\\major-project\\dummy_case\\timeline.json",
+      "confidence": "high",
+      "conflict": true
+    },
+    {
+      "key": "impact_time",
+      "value": "18:20:45",
+      "source": "\\major-project\\dummy_case\\timeline.json",
+      "confidence": "high",
+      "conflict": true
+    },
+    {
+      "key": "vehicle_1_reg",
+      "value": "DL2SBP1234",
+      "source": "\\major-project\\dummy_case\\vehicle_inspection.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "vehicle_1_make",
+      "value": "Bajaj Auto Ltd.",
+      "source": "\\major-project\\dummy_case\\vehicle_inspection.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "vehicle_1_model",
+      "value": "Pulsar 220F",
+      "source": "\\major-project\\dummy_case\\vehicle_inspection.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "vehicle_1_color",
+      "value": "Red",
+      "source": "\\major-project\\dummy_case\\vehicle_inspection.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "vehicle_1_damage",
+      "value": "Moderate to severe frontal and right side damage consistent with collision at 50-60 kmph with another vehicle laterally. All damage is accident-related. Vehicle was in roadworthy condition before accident with all systems functional.",
+      "source": "\\major-project\\dummy_case\\vehicle_inspection.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "vehicle_2_reg",
+      "value": "DL5SCT5678",
+      "source": "\\major-project\\dummy_case\\vehicle_inspection.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "vehicle_2_make",
+      "value": "Honda Motorcycle & Scooter India",
+      "source": "\\major-project\\dummy_case\\vehicle_inspection.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "vehicle_2_model",
+      "value": "Activa 6G",
+      "source": "\\major-project\\dummy_case\\vehicle_inspection.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "vehicle_2_color",
+      "value": "Pearl White",
+      "source": "\\major-project\\dummy_case\\vehicle_inspection.json",
+      "confidence": "high",
+      "conflict": false
+    },
+    {
+      "key": "vehicle_2_damage",
+      "value": "Moderate right side body damage consistent with lateral impact from another vehicle. Structural integrity of frame intact. Scooter was in excellent condition before accident. All systems functional. Damage is 100% accident-related.",
+      "source": "\\major-project\\dummy_case\\vehicle_inspection.json",
+      "confidence": "medium",
+      "conflict": false
+    },
+    {
+      "key": "inspector_opinion",
+      "value": "Based on vehicle examination, the accident dynamics are clear. The Pulsar struck the Activa at a near-perpendicular angle with the front of the Pulsar impacting the right side of the Activa. The damage depth and deformation on the Activa (2.5cm dent, 35cm scrape) indicates a significant lateral impact force, confirming the FSL-calculated impact speed of 50-58 kmph for the Pulsar. The stuck speedometer needle at 55 kmph corroborates this. No mechanical failure contributed to the accident. Both vehicles' braking systems were functional and the Pulsar rider did attempt emergency braking (front brake lever in applied position, 4.2m skid mark) but at the speed he was traveling, collision was unavoidable from the point braking was initiated.",
+      "source": "\\major-project\\dummy_case\\vehicle_inspection.json",
+      "confidence": "low",
+      "conflict": false
+    },
+    {
+      "key": "witness_speed_estimate",
+      "value": 60,
+      "source": "\\major-project\\dummy_case\\witness_statement_1.json",
+      "confidence": "medium",
+      "conflict": false
+    }
+  ],
+  "conflicts": [
+    {
+      "key": "cctv_speed_Bajaj Pulsar DL2SBP1234",
+      "values": [
+        "60.0 kmph",
+        "52.4 kmph (slight deceleration - possible late braking)"
+      ]
+    },
+    {
+      "key": "impact_timestamp_cctv",
+      "values": [
+        "18:20:07.800",
+        "18:24:05"
+      ]
+    },
+    {
+      "key": "injury",
+      "values": [
+        "Irregular wound with active bleeding, visible periosteum, no skull bone visible",
+        "Road rash, dirt and debris embedded in wounds",
+        "Deformity of right thigh, swelling, abnormal mobility, crepitus present. X-ray confirmed comminuted fracture mid-shaft femur with displacement.",
+        "Tenderness and deformity over right clavicle. X-ray confirmed displaced fracture.",
+        "Chest X-ray shows fractures of right 3rd, 4th, 5th ribs anteriorly. No flail segment. Lung fields clear.",
+        "Deep abrasion, oozing",
+        "Superficial abrasion"
+      ]
+    },
+    {
+      "key": "landmark",
+      "values": [
+        "St. Stephen's Hospital Gate 2",
+        "Canara Bank ATM",
+        "Joshi Tea Stall (Shop No. 7)",
+        "Bus Stop",
+        "Electric Pole SP/23/RJN"
+      ]
+    },
+    {
+      "key": "timeline_speed",
+      "values": [
+        60,
+        10,
+        55,
+        75
+      ]
+    },
+    {
+      "key": "impact_time",
+      "values": [
+        "18:20:07.800",
+        "18:20:08.000",
+        "18:20:08.200",
+        "18:20:45"
+      ]
+    }
+  ]
+}

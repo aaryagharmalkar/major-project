@@ -2,3 +2,32 @@ venv/
 __pycache__/
 *.__pycache__
 .env
+.venv/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+dist/
+build/
+
+# Local env files
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
