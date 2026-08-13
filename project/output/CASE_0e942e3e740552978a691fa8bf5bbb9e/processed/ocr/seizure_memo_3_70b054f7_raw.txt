@@ -1,0 +1,172 @@
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 1
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+SEIZURE MEMO
+Case: FIR/2024/DL/PSRKP/0452
+Date: 13-08-2026
+--------------------------------------------------------------------------------
+SEIZURE MEMO
+Memo Id: SZ/PSRKP/0452/2024
+Date: 2024-10-15
+Time: 21:30
+Place: Police Station Rajinder Nagar
+SEIZING OFFICER
+Name: Inspector Suresh Chandra
+Badge: DCP/CD/4892
+Designation: SHO
+WITNESSES TO SEIZURE
+Item 1:
+Name: Mohammed Asif
+Designation: Traffic Police Constable
+Item 2:
+Name: Prakash Chandra Joshi
+Occupation: Tea Stall Owner
+SEIZED ARTICLES
+Item 1:
+Item No: 1
+Evidence Id: EVD-0452-001
+Description: Bajaj Pulsar 220F Motorcycle, Red Color
+Registration: DL2SBP1234
+Chassis Number: MD2A18FX5LCK12345
+Engine Number: DHYCJ51678
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 2
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Condition: Damaged - Front fairing broken, headlight smashed, right handlebar bent
+Keys: One set with Zomato keychain
+Owner: Amit Verma
+Item 2:
+Item No: 2
+Evidence Id: EVD-0452-002
+Description: Honda Activa 6G Scooter, White Color
+Registration: DL5SCT5678
+Chassis Number: ME4JF614AMT67890
+Engine Number: JF61E3456789
+Condition: Damaged - Right body panel scraped, right mirror broken, brake lever bent
+Keys: One set, found in ignition
+Owner: Rajesh Kumar Sharma
+Item 3:
+Item No: 3
+Evidence Id: EVD-0452-003
+Description: Smartphone Samsung Galaxy M32, Black Color
+Imei: 358123456789012
+Condition: Working, screen intact
+Belongs To: Amit Verma (Accused)
+Item 4:
+Item No: 4
+Evidence Id: EVD-0452-004
+Description: Driving License - Amit Verma
+License Number: DL/032021/0789456
+Issued By: RTO Moradabad, UP
+Valid Till: 28-02-2035
+Category: MCWG
+Item 5:
+Item No: 5
+Evidence Id: EVD-0452-005
+Description: Driving License - Rajesh Kumar Sharma
+License Number: DL/042018/0456789
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 3
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Issued By: RTO Sheikh Sarai, Delhi
+Valid Till: 15-07-2032
+Category: MCWG + LMV
+Item 6:
+Item No: 6
+Evidence Id: EVD-0452-006
+Description: Helmet - Accused (Steelbird, Black, Full Face)
+Condition: Scratches on left side, visor missing, chin strap torn
+Isi Mark: Yes
+Item 7:
+Item No: 7
+Evidence Id: EVD-0452-007
+Description: Helmet - Victim (Vega, White, Full Face)
+Condition: Multiple cracks on right side, impact marks, blood stains inside
+Isi Mark: Yes
+Item 8:
+Item No: 8
+Evidence Id: EVD-0452-008
+Description: Broken vehicle parts from accident site
+DETAILS
+Item 1:
+Red plastic fairing pieces (from Pulsar)
+Item 2:
+White plastic body panel pieces (from Activa)
+Item 3:
+Right side rear view mirror (broken)
+Item 4:
+Headlamp glass fragments
+Collected From: Accident spot at Shankar Road T-Point
+Item 9:
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 4
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Item No: 9
+Evidence Id: EVD-0452-009
+Description: Zomato Delivery Bag, Red Color
+Condition: Empty, torn at one corner
+Belongs To: Amit Verma
+Item 10:
+Item No: 10
+Evidence Id: EVD-0452-010
+Description: Blood sample - Accused (2ml in EDTA vial)
+Vial Id: BLD-0452-A
+Collected At: RML Hospital, 19:45 hours
+Item 11:
+Item No: 11
+Evidence Id: EVD-0452-011
+Description: Blood sample - Victim (2ml in EDTA vial)
+Vial Id: BLD-0452-B
+Collected At: St. Stephen's Hospital, 19:30 hours
+Item 12:
+Item No: 12
+Evidence Id: EVD-0452-012
+Description: Photographs - Digital, 25 Frames
+Details: Accident spot, vehicle positions, road marks, injuries (with doctor consent)
+Camera: Canon EOS 1300D, PS Rajinder Nagar
+Photographer: HC Ramesh Kumar, Photography Section
+Item 13:
+Item No: 13
+Evidence Id: EVD-0452-013
+Description: CCTV Footage DVR Hard Disk
+Source: St. Stephen's Hospital Gate 2, Camera ID: CAM-SSH-G2-03
+Capacity: 1TB
+Time Stamp Extracted: 18:10 to 18:35, 15-10-2024
+Item 14:
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 5
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Item No: 14
+Evidence Id: EVD-0452-014
+Description: CCTV Footage Pen Drive
+Source: Canara Bank ATM, Shankar Road
+Camera Id: CAM-CB-ATM-01
+Time Stamp Extracted: 18:15 to 18:25, 15-10-2024
+Seizure Declaration: The above articles were seized in presence of independent witnesses as
+they are material to the investigation of case FIR No. 452/2024. The articles were properly packed,
+sealed with seal bearing 'SC' (Suresh Chandra), and labeled. The seizure memo was read over and
+explained to the accused and witnesses in Hindi.
+SIGNATURES
+Seizing Officer: Suresh Chandra, Inspector
+Witness 1: Mohammed Asif
+Witness 2: Prakash Chandra Joshi
+Accused: Amit Verma

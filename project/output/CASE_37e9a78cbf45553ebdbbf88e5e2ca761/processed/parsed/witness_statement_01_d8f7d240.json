@@ -1,0 +1,18 @@
+{
+  "document_id": "d8f7d240-507e-4f66-82b9-4e9ac5723d76",
+  "document_type": "witness_statement",
+  "ocr_text_sha256": "d64034edae826c604926fb23cf6773da3810f214b088dccc668393e4aae50417",
+  "parse_metadata": {
+    "parser_name": "WitnessParser",
+    "parse_duration_ms": 16610.566800000015,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "statement_date": "2026-08-14",
+  "witness_name": "Neha Patil",
+  "witness_address": "Senapati Road junction, Pune",
+  "recorded_by": null,
+  "statement_text": "I saw a vehicle bearing registration number MH-12-AB-4821 approaching the junction.\n\nThe vehicle collided with the pedestrian, Amit Kulkarni.\n\nI saw the driver after the vehicle stopped. The person was identified to me as Rohan Mehta.\n\nI did not move or handle any physical evidence from the road."
+}

@@ -6,8 +6,9 @@ from uuid import UUID
 
 from ..domain.common import DomainModel, SourceReference
 from ..normalization.canonical_models import (
-    CanonicalEvidence, CanonicalFact, CanonicalPerson, CanonicalTimelineEvent,
-    CanonicalVehicle, MissingInformation,
+    CanonicalConflict, CanonicalDocument, CanonicalEvidence, CanonicalFact,
+    CanonicalLocation, CanonicalPerson, CanonicalTimelineEvent, CanonicalVehicle,
+    MissingInformation,
 )
 from ..validation.validation_models import ValidationIssue, ValidationReport
 
@@ -23,6 +24,9 @@ class CaseContext(DomainModel):
     victims: tuple[CanonicalPerson, ...] = ()
     accused: tuple[CanonicalPerson, ...] = ()
     witnesses: tuple[CanonicalPerson, ...] = ()
+    police_officers: tuple[CanonicalPerson, ...] = ()
+    doctors: tuple[CanonicalPerson, ...] = ()
+    locations: tuple[CanonicalLocation, ...] = ()
     relevant_timeline: tuple[CanonicalTimelineEvent, ...] = ()
     evidence: tuple[CanonicalEvidence, ...] = ()
     medical_findings: tuple[CanonicalFact, ...] = ()
@@ -30,9 +34,12 @@ class CaseContext(DomainModel):
     vehicles: tuple[CanonicalVehicle, ...] = ()
     recovered_property: tuple[CanonicalEvidence, ...] = ()
     investigation_actions: tuple[CanonicalFact, ...] = ()
+    documents: tuple[CanonicalDocument, ...] = ()
     legal_section_references: tuple[CanonicalFact, ...] = ()
     validation_issues: tuple[ValidationIssue, ...] = ()
     conflicts: tuple[ValidationIssue, ...] = ()
     missing_information: tuple[ValidationIssue, ...] = ()
+    canonical_conflicts: tuple[CanonicalConflict, ...] = ()
+    canonical_missing_information: tuple[MissingInformation, ...] = ()
     source_references: tuple[SourceReference, ...] = ()
     validation_disposition: str

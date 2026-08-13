@@ -1,0 +1,25 @@
+{
+  "document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+  "document_type": "postmortem_report",
+  "ocr_text_sha256": "5a670099f697019edaa374b0445d198a7df4fd799fb6927143c56086c79abfd7",
+  "parse_metadata": {
+    "parser_name": "PostmortemParser",
+    "parse_duration_ms": 1723.4298999992461,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "report_number": "FIR/2024/DL/PSRKP/0452",
+  "examination_date": "2026-08-13",
+  "deceased_name": "Rajesh Kumar Sharma",
+  "doctor_name": "Suresh Chandra",
+  "findings": [
+    "Status: Not Applicable",
+    "Reason: Victim Rajesh Kumar Sharma is alive and undergoing treatment at St. Stephen's Hospital.",
+    "Postmortem examination is not required at this stage.",
+    "Victim Status Update: As of 2024-11-28, victim has been discharged from hospital after 28 days of admission. He is undergoing physiotherapy and follow-up treatment. Injuries though grievous in nature did not result in death.",
+    "Note: This JSON is generated for completeness of investigation record. In case of change in victim status, this report shall be updated or replaced with actual postmortem findings."
+  ],
+  "opinion_text": null
+}

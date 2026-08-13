@@ -1,0 +1,24 @@
+{
+  "document_id": "c3792e74-abe2-4f0a-bb86-2cfce930d56a",
+  "document_type": "complaint",
+  "ocr_text_sha256": "e1c13cbbf23cd9b1f264bc6373c0cdc4389d4e4a95b37504a06b8a7f55aceb6a",
+  "parse_metadata": {
+    "parser_name": "ComplaintParser",
+    "parse_duration_ms": 2292.7683999987494,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "complaint_date": "2024-10-15",
+  "complainant_name": "Sunita Sharma",
+  "complainant_address": "B-143, R.P. Bagh, Pusa Road, New Delhi - 110005",
+  "person_complained_against_names": [
+    "Amit Verma"
+  ],
+  "victim_names": [
+    "Rajesh Kumar Sharma"
+  ],
+  "vehicle_registrations": [],
+  "complaint_text": "Respected Sir, I Sunita Sharma, wife of Rajesh Kumar Sharma, resident of\nB-143, R.P. Bagh, Pusa Road, New Delhi, do hereby state that today on 15th October 2024, my\nhusband Rajesh Kumar Sharma had gone to his office at DTC Inderlok Depot. He usually returns\nhome by 6:30 PM. At about 6:20 PM, I received a phone call from his mobile number, but the caller\nwas some other person who informed me that my husband had met with an accident near St.\nStephen's Hospital. I immediately rushed to the hospital and found my husband in emergency ward\nwith serious injuries. As per what I was told by the traffic police constable present there, a person\nnamed Amit Verma who was riding a red colored Pulsar motorcycle at very high speed, jumped the\ntraffic signal and hit my husband's Activa scooter. My husband was coming from the correct\ndirection and was taking a turn when this accident happened. The rider of the Pulsar was caught at\nthe spot. I request you to take strict legal action against the accused person as due to his rash and\nnegligent driving my husband has suffered grievous injuries including head injury, leg fracture, and\ninternal injuries and is undergoing treatment in ICU. The motorcycle rider was working for food\ndelivery and was in hurry which led to this accident. I am filing this complaint with my free will and\nno one has forced me to do so. The facts stated are true to my knowledge and belief."
+}

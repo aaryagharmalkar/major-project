@@ -1,0 +1,32 @@
+{
+  "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+  "document_type": "medical_report",
+  "ocr_text_sha256": "73c0827b3fa0ff428d26e6f7013907dcaff62a28bb4b597c3e1165009e7e20ec",
+  "parse_metadata": {
+    "parser_name": "MedicalReportParser",
+    "parse_duration_ms": 2314.1260000011243,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "report_number": "FIR/2024/DL/PSRKP/0452",
+  "report_date": "2026-08-13",
+  "patient_name": "Rajesh Kumar Sharma",
+  "doctor_name": "Dr. Anjali Mehta",
+  "hospital_name": "St. Stephen's Hospital, Tis Hazari, Delhi - 110054",
+  "observations": [
+    "Alleged History: Road Traffic Accident at Shankar Road T-Point at approximately 18:20 hours.",
+    "Patient riding scooter, hit by speeding motorcycle from side. Thrown off vehicle and landed on road.",
+    "Helmet worn at time of accident.",
+    "Brought Dead: False",
+    "Condition On Arrival: Conscious but disoriented, GCS 13/15 (E3 V4 M6), in severe pain, bleeding from scalp wound",
+    "Blood Pressure: 100/70 mmHg",
+    "Pulse: 112/min",
+    "Respiratory Rate: 24/min",
+    "Temperature: 98.4°F",
+    "Spo2: 94% on room air",
+    "Pain Score: 9/10"
+  ],
+  "opinion_text": "Nature Of Injuries: Grievous\nDanger To Life: Yes, at time of admission due to head injury and potential for deterioration\nWeapon Used: Not applicable - Injuries due to road traffic accident\nAlcohol Intoxication: Not detected\nConsistency With Alleged History: Injuries are consistent with high-velocity side impact from motorcycle and subsequent fall on road. Pattern of injuries matches described mechanism.\nDuration Of Hospitalization: Expected 3-4 weeks minimum\nPermanent Disability Likely: Possible - Right lower limb may have residual shortening/limitation\nDoctor Signature: Dr. Anjali Mehta, MBBS, MS (Ortho), Reg. No. DMC/R/2010/45678\nDate: 2024-10-15\nTime: 20:30"
+}

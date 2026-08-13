@@ -1,0 +1,18 @@
+{
+  "document_id": "39dc19a7-1335-468a-955e-34965191bfcf",
+  "document_type": "witness_statement",
+  "ocr_text_sha256": "72c861137b09cddac6f2afeeb15801656134f2c626683d869177784168eee7df",
+  "parse_metadata": {
+    "parser_name": "WitnessParser",
+    "parse_duration_ms": 11551.071899999442,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "statement_date": "2026-08-14",
+  "witness_name": "Suresh Joshi",
+  "witness_address": "Senapati Road junction, Pune",
+  "recorded_by": null,
+  "statement_text": "I was standing near a shop opposite the junction when I heard the collision and then saw the vehicle bearing\nMH-12-AB-4821 stopped near the pedestrian.\n\nI observed the driver leave the vehicle and remain near the scene until police arrived."
+}

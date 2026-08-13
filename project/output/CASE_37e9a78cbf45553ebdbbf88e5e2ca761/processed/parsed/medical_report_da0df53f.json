@@ -1,10 +1,10 @@
 {
   "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
   "document_type": "medical_report",
-  "ocr_text_sha256": "4d0e242d61101fba148a1ab212221345f0575131cde49b326d96d3e2cb317bab",
+  "ocr_text_sha256": "3fe25846c5aea79831c74bcb7b128726148cef286e05e0f82f45d82f51d32b6d",
   "parse_metadata": {
     "parser_name": "MedicalReportParser",
-    "parse_duration_ms": 15515.946207997331,
+    "parse_duration_ms": 6786.55770000023,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,

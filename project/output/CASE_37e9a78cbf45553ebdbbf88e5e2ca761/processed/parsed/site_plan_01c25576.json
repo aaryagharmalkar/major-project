@@ -1,10 +1,10 @@
 {
   "document_id": "01c25576-7c6d-4d17-b2e0-9293d98eb67a",
   "document_type": "site_plan",
-  "ocr_text_sha256": "420240426a66ec9450a09e65e647cdfedd7c747d1c8b1082f51353d6fa2f4163",
+  "ocr_text_sha256": "00331e8950af883e064ebe507677cb2476405eb25fc51cc47811f77616c97d79",
   "parse_metadata": {
     "parser_name": "SitePlanParser",
-    "parse_duration_ms": 18866.947666996566,
+    "parse_duration_ms": 7952.11560000007,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,
@@ -19,8 +19,7 @@
     "pedestrian crossing",
     "roadside shop",
     "approximate position where the vehicle was found after the collision",
-    "Vehicle position marked with registration MH-12-AB-4821",
-    "Approximate pedestrian position marked for Amit Kulkarni",
-    "This is a synthetic demonstration fixture and not an official police document."
+    "Vehicle position marked with registration MH-12-AB-4821.",
+    "Approximate pedestrian position marked for Amit Kulkarni."
   ]
 }

@@ -101,12 +101,12 @@ class GraphBuilder:
 
     @staticmethod
     def _document_attributes(document: ParsedDocument) -> dict[str, object]:
+        """Keep every parser-exposed fact on its document node for later projection."""
+
         attributes: dict[str, object] = {"document_id": str(document.document_id), "document_type": document.document_type.value}
-        if isinstance(document, FIR):
-            for field in ("fir_number", "crime_number", "registration_date", "police_station", "occurrence_datetime", "occurrence_location", "jurisdiction", "court", "reported_sections"):
-                value = getattr(document, field)
-                if value not in (None, (), ""):
-                    attributes[field] = value
+        for field, value in document.model_dump(mode="python").items():
+            if field not in {"document_id", "document_type", "ocr_text_sha256", "parse_metadata"} and value not in (None, (), ""):
+                attributes[field] = value
         return attributes
 
     @staticmethod

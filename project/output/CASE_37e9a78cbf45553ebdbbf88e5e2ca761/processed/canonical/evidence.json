@@ -1,21 +1,21 @@
 [
   {
-    "evidence_id": "7fd5f6ca-5a6c-4a13-a54a-f3c47f35ae76",
+    "evidence_id": "61eb7a36-7942-46ae-8d7c-58a6e9cd3f2c",
     "type": "evidence",
     "description": {
-      "value": "swab/sample from damaged front portion of vehicle and control material.",
+      "value": "swab/sample from damaged front portion of vehicle",
       "source_document_ids": [
-        "cc9178bf-a926-4268-8333-2d24f50c1148"
+        "c7728b9d-209b-47b0-b8cc-bbf90008a7c5"
       ],
       "references": [
         {
-          "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+          "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
           "page": null,
           "confidence": null,
           "parser_name": "FSLParser",
-          "timestamp": "2026-08-12T20:49:37.574242Z",
+          "timestamp": "2026-08-13T18:01:51.749262Z",
           "source_reference": {
-            "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -27,13 +27,13 @@
           }
         }
       ],
-      "source_path": "graph.nodes[7fd5f6ca-5a6c-4a13-a54a-f3c47f35ae76].label",
+      "source_path": "graph.nodes[61eb7a36-7942-46ae-8d7c-58a6e9cd3f2c].label",
       "confidence": null,
       "extraction_method": "FSLParser",
-      "timestamp": "2026-08-12T20:49:37.574242Z"
+      "timestamp": "2026-08-13T18:01:51.749262Z"
     },
     "source_documents": [
-      "cc9178bf-a926-4268-8333-2d24f50c1148"
+      "c7728b9d-209b-47b0-b8cc-bbf90008a7c5"
     ],
     "collection_details": [],
     "custody_information": [],
@@ -43,22 +43,22 @@
     "confidence": null
   },
   {
-    "evidence_id": "dd7bcfe7-886b-4792-b115-c0d7dfc7d34b",
-    "type": "recovered_property",
+    "evidence_id": "5008191d-c43d-49bc-9a97-a6032663e9ba",
+    "type": "evidence",
     "description": {
-      "value": "Vehicle MH-12-AB-4821",
+      "value": "control material",
       "source_document_ids": [
-        "a42171a5-3381-4771-aff2-8d25b96f86c9"
+        "c7728b9d-209b-47b0-b8cc-bbf90008a7c5"
       ],
       "references": [
         {
-          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
           "page": null,
           "confidence": null,
-          "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-12T20:49:37.575142Z",
+          "parser_name": "FSLParser",
+          "timestamp": "2026-08-13T18:01:51.749354Z",
           "source_reference": {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -70,30 +70,73 @@
           }
         }
       ],
-      "source_path": "graph.nodes[dd7bcfe7-886b-4792-b115-c0d7dfc7d34b].label",
+      "source_path": "graph.nodes[5008191d-c43d-49bc-9a97-a6032663e9ba].label",
       "confidence": null,
-      "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-12T20:49:37.575142Z"
+      "extraction_method": "FSLParser",
+      "timestamp": "2026-08-13T18:01:51.749354Z"
     },
     "source_documents": [
-      "a42171a5-3381-4771-aff2-8d25b96f86c9"
+      "c7728b9d-209b-47b0-b8cc-bbf90008a7c5"
+    ],
+    "collection_details": [],
+    "custody_information": [],
+    "related_person_ids": [],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "c83891b2-60ed-440e-b95d-d37e5088a95a",
+    "type": "recovered_property",
+    "description": {
+      "value": "Vehicle seized: MH-12-AB-4821",
+      "source_document_ids": [
+        "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
+      ],
+      "references": [
+        {
+          "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T18:01:51.750043Z",
+          "source_reference": {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[c83891b2-60ed-440e-b95d-d37e5088a95a].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T18:01:51.750043Z"
+    },
+    "source_documents": [
+      "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
     ],
     "collection_details": [],
     "custody_information": [
       {
         "value": "Senapati Road junction, Pune",
         "source_document_ids": [
-          "a42171a5-3381-4771-aff2-8d25b96f86c9"
+          "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
         ],
         "references": [
           {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-12T20:49:37.575142Z",
+            "timestamp": "2026-08-13T18:01:51.750043Z",
             "source_reference": {
-              "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+              "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
               "location": {
                 "page_number": null,
                 "frame_number": null,
@@ -105,10 +148,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[81a665ad-d0ac-4030-bdbd-68730bb6caff]",
+        "source_path": "graph.edges[a48dd59e-6f23-42c9-9eb9-1704ce85ecbf]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-12T20:49:37.575142Z"
+        "timestamp": "2026-08-13T18:01:51.750043Z"
       }
     ],
     "related_person_ids": [],
@@ -117,22 +160,22 @@
     "confidence": null
   },
   {
-    "evidence_id": "46a09e94-13e2-476a-978d-42dd173afade",
+    "evidence_id": "1e861d5e-137b-44e7-8f50-36eba59b268a",
     "type": "recovered_property",
     "description": {
       "value": "front registration plate",
       "source_document_ids": [
-        "a42171a5-3381-4771-aff2-8d25b96f86c9"
+        "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
       ],
       "references": [
         {
-          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-12T20:49:37.575288Z",
+          "timestamp": "2026-08-13T18:01:51.750133Z",
           "source_reference": {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -144,30 +187,30 @@
           }
         }
       ],
-      "source_path": "graph.nodes[46a09e94-13e2-476a-978d-42dd173afade].label",
+      "source_path": "graph.nodes[1e861d5e-137b-44e7-8f50-36eba59b268a].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-12T20:49:37.575288Z"
+      "timestamp": "2026-08-13T18:01:51.750133Z"
     },
     "source_documents": [
-      "a42171a5-3381-4771-aff2-8d25b96f86c9"
+      "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
     ],
     "collection_details": [],
     "custody_information": [
       {
         "value": "Senapati Road junction, Pune",
         "source_document_ids": [
-          "a42171a5-3381-4771-aff2-8d25b96f86c9"
+          "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
         ],
         "references": [
           {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-12T20:49:37.575288Z",
+            "timestamp": "2026-08-13T18:01:51.750133Z",
             "source_reference": {
-              "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+              "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
               "location": {
                 "page_number": null,
                 "frame_number": null,
@@ -179,10 +222,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[c487ab68-c1ea-4768-9a70-8e32156b9d1f]",
+        "source_path": "graph.edges[bc7a34ac-70d6-4114-aff9-46e207ccbc06]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-12T20:49:37.575288Z"
+        "timestamp": "2026-08-13T18:01:51.750133Z"
       }
     ],
     "related_person_ids": [],
@@ -191,22 +234,22 @@
     "confidence": null
   },
   {
-    "evidence_id": "fbd1c3e2-1792-42cc-ab74-fe7eedf8ce08",
+    "evidence_id": "71e1e70b-b18b-401f-a53f-495148b4edf7",
     "type": "recovered_property",
     "description": {
       "value": "vehicle keys",
       "source_document_ids": [
-        "a42171a5-3381-4771-aff2-8d25b96f86c9"
+        "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
       ],
       "references": [
         {
-          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-12T20:49:37.575406Z",
+          "timestamp": "2026-08-13T18:01:51.750228Z",
           "source_reference": {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -218,30 +261,30 @@
           }
         }
       ],
-      "source_path": "graph.nodes[fbd1c3e2-1792-42cc-ab74-fe7eedf8ce08].label",
+      "source_path": "graph.nodes[71e1e70b-b18b-401f-a53f-495148b4edf7].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-12T20:49:37.575406Z"
+      "timestamp": "2026-08-13T18:01:51.750228Z"
     },
     "source_documents": [
-      "a42171a5-3381-4771-aff2-8d25b96f86c9"
+      "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
     ],
     "collection_details": [],
     "custody_information": [
       {
         "value": "Senapati Road junction, Pune",
         "source_document_ids": [
-          "a42171a5-3381-4771-aff2-8d25b96f86c9"
+          "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
         ],
         "references": [
           {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-12T20:49:37.575406Z",
+            "timestamp": "2026-08-13T18:01:51.750228Z",
             "source_reference": {
-              "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+              "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
               "location": {
                 "page_number": null,
                 "frame_number": null,
@@ -253,10 +296,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[859623ef-d8e6-4a22-8e1a-0f7b6c935035]",
+        "source_path": "graph.edges[837978d8-1f87-455a-bd14-1ad395a102b6]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-12T20:49:37.575406Z"
+        "timestamp": "2026-08-13T18:01:51.750228Z"
       }
     ],
     "related_person_ids": [],
@@ -265,22 +308,22 @@
     "confidence": null
   },
   {
-    "evidence_id": "c4c72a02-3fd9-4d63-a47b-0f25a4d95b93",
+    "evidence_id": "bdb4b4e8-6f51-4213-97dd-752b8d8bea90",
     "type": "recovered_property",
     "description": {
       "value": "damaged front bumper assembly",
       "source_document_ids": [
-        "a42171a5-3381-4771-aff2-8d25b96f86c9"
+        "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
       ],
       "references": [
         {
-          "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+          "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-12T20:49:37.575527Z",
+          "timestamp": "2026-08-13T18:01:51.750323Z",
           "source_reference": {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -292,30 +335,30 @@
           }
         }
       ],
-      "source_path": "graph.nodes[c4c72a02-3fd9-4d63-a47b-0f25a4d95b93].label",
+      "source_path": "graph.nodes[bdb4b4e8-6f51-4213-97dd-752b8d8bea90].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-12T20:49:37.575527Z"
+      "timestamp": "2026-08-13T18:01:51.750323Z"
     },
     "source_documents": [
-      "a42171a5-3381-4771-aff2-8d25b96f86c9"
+      "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
     ],
     "collection_details": [],
     "custody_information": [
       {
         "value": "Senapati Road junction, Pune",
         "source_document_ids": [
-          "a42171a5-3381-4771-aff2-8d25b96f86c9"
+          "eedd6c2e-e271-423f-ba70-4c21c8e2bb19"
         ],
         "references": [
           {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-12T20:49:37.575527Z",
+            "timestamp": "2026-08-13T18:01:51.750323Z",
             "source_reference": {
-              "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+              "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
               "location": {
                 "page_number": null,
                 "frame_number": null,
@@ -327,10 +370,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[735b465e-8c8c-4153-9eff-20e7d8c40dad]",
+        "source_path": "graph.edges[15ec7240-88ea-4213-8798-383d818d31ca]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-12T20:49:37.575527Z"
+        "timestamp": "2026-08-13T18:01:51.750323Z"
       }
     ],
     "related_person_ids": [],

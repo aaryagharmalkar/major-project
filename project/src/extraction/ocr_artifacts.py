@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
+from uuid import UUID
 
 from ..domain.documents import SourceDocument
 from ..intake.storage_layout import CaseStorageLayout
@@ -39,12 +40,18 @@ class OCRArtifactWriter:
             GeneratedArtifact(name="ocr_result", storage_key=layout.relative_key(result_path), media_type="application/json"),
         )
 
-    def load(self, document: SourceDocument) -> tuple[OCRResult, tuple[GeneratedArtifact, ...]] | None:
+    def load(
+        self,
+        document: SourceDocument,
+        *,
+        artifact_document_id: UUID | None = None,
+    ) -> tuple[OCRResult, tuple[GeneratedArtifact, ...]] | None:
         """Load an existing OCR result only when all deterministic artifacts validate."""
 
         layout = CaseStorageLayout(self.storage_root, document.case_id)
         ocr_directory = layout.processed_directory / "ocr"
-        base_name = self._artifact_base_name(document)
+        source_document_id = artifact_document_id or document.id
+        base_name = self._artifact_base_name(document, source_document_id)
         raw_text_path = ocr_directory / f"{base_name}_raw.txt"
         metadata_path = ocr_directory / f"{base_name}_metadata.json"
         result_path = ocr_directory / f"{base_name}_OCRResult.json"
@@ -59,7 +66,7 @@ class OCRArtifactWriter:
         except (OSError, json.JSONDecodeError, TypeError, ValueError):
             return None
         if (
-            result.document_id != document.id
+            result.document_id != source_document_id
             or page_count != result.page_count
             or result.raw_text != raw_text
             or result.metadata != metadata
@@ -73,6 +80,6 @@ class OCRArtifactWriter:
         )
 
     @staticmethod
-    def _artifact_base_name(document: SourceDocument) -> str:
+    def _artifact_base_name(document: SourceDocument, document_id: UUID | None = None) -> str:
         stem = re.sub(r"[^A-Za-z0-9]+", "_", Path(document.original_filename).stem).strip("_") or "document"
-        return f"{stem}_{document.id.hex[:8]}"
+        return f"{stem}_{(document_id or document.id).hex[:8]}"

@@ -1,0 +1,75 @@
+{
+  "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+  "document_type": "seizure_memo",
+  "ocr_text_sha256": "e883ee1108c72a74da4d73ac56909e793488d9bc86fb4286491b652f3358f5e7",
+  "parse_metadata": {
+    "parser_name": "SeizureMemoParser",
+    "parse_duration_ms": 4342.874100000699,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "memo_number": "SZ/PSRKP/0452/2024",
+  "seizure_datetime": "2024-10-15T21:30:00",
+  "seizure_location": "Police Station Rajinder Nagar",
+  "seized_items": [
+    {
+      "description": "Bajaj Pulsar 220F Motorcycle, Red Color\nRegistration: DL2SBP1234\nChassis Number: MD2A18FX5LCK12345\nEngine Number: DHYCJ51678\nCondition: Damaged - Front fairing broken, headlight smashed, right handlebar bent\nKeys: One set with Zomato keychain\nOwner: Amit Verma",
+      "exhibit_mark": "EVD-0452-001"
+    },
+    {
+      "description": "Honda Activa 6G Scooter, White Color\nRegistration: DL5SCT5678\nChassis Number: ME4JF614AMT67890\nEngine Number: JF61E3456789\nCondition: Damaged - Right body panel scraped, right mirror broken, brake lever bent\nKeys: One set, found in ignition\nOwner: Rajesh Kumar Sharma",
+      "exhibit_mark": "EVD-0452-002"
+    },
+    {
+      "description": "Smartphone Samsung Galaxy M32, Black Color\nImei: 358123456789012\nCondition: Working, screen intact\nBelongs To: Amit Verma (Accused)",
+      "exhibit_mark": "EVD-0452-003"
+    },
+    {
+      "description": "Driving License - Amit Verma\nLicense Number: DL/032021/0789456\nIssued By: RTO Moradabad, UP\nValid Till: 28-02-2035\nCategory: MCWG",
+      "exhibit_mark": "EVD-0452-004"
+    },
+    {
+      "description": "Driving License - Rajesh Kumar Sharma\nLicense Number: DL/042018/0456789\nIssued By: RTO Sheikh Sarai, Delhi\nValid Till: 15-07-2032\nCategory: MCWG + LMV",
+      "exhibit_mark": "EVD-0452-005"
+    },
+    {
+      "description": "Helmet - Accused (Steelbird, Black, Full Face)\nCondition: Scratches on left side, visor missing, chin strap torn\nIsi Mark: Yes",
+      "exhibit_mark": "EVD-0452-006"
+    },
+    {
+      "description": "Helmet - Victim (Vega, White, Full Face)\nCondition: Multiple cracks on right side, impact marks, blood stains inside\nIsi Mark: Yes",
+      "exhibit_mark": "EVD-0452-007"
+    },
+    {
+      "description": "Broken vehicle parts from accident site\nDETAILS\nItem 1:\nRed plastic fairing pieces (from Pulsar)\nItem 2:\nWhite plastic body panel pieces (from Activa)\nItem 3:\nRight side rear view mirror (broken)\nItem 4:\nHeadlamp glass fragments\nCollected From: Accident spot at Shankar Road T-Point",
+      "exhibit_mark": "EVD-0452-008"
+    },
+    {
+      "description": "Zomato Delivery Bag, Red Color\nCondition: Empty, torn at one corner\nBelongs To: Amit Verma",
+      "exhibit_mark": "EVD-0452-009"
+    },
+    {
+      "description": "Blood sample - Accused (2ml in EDTA vial)\nVial Id: BLD-0452-A\nCollected At: RML Hospital, 19:45 hours",
+      "exhibit_mark": "EVD-0452-010"
+    },
+    {
+      "description": "Blood sample - Victim (2ml in EDTA vial)\nVial Id: BLD-0452-B\nCollected At: St. Stephen's Hospital, 19:30 hours",
+      "exhibit_mark": "EVD-0452-011"
+    },
+    {
+      "description": "Photographs - Digital, 25 Frames\nDetails: Accident spot, vehicle positions, road marks, injuries (with doctor consent)\nCamera: Canon EOS 1300D, PS Rajinder Nagar\nPhotographer: HC Ramesh Kumar, Photography Section",
+      "exhibit_mark": "EVD-0452-012"
+    },
+    {
+      "description": "CCTV Footage DVR Hard Disk\nSource: St. Stephen's Hospital Gate 2, Camera ID: CAM-SSH-G2-03\nCapacity: 1TB\nTime Stamp Extracted: 18:10 to 18:35, 15-10-2024",
+      "exhibit_mark": "EVD-0452-013"
+    },
+    {
+      "description": "CCTV Footage Pen Drive\nSource: Canara Bank ATM, Shankar Road\nCamera Id: CAM-CB-ATM-01\nTime Stamp Extracted: 18:15 to 18:25, 15-10-2024",
+      "exhibit_mark": "EVD-0452-014"
+    }
+  ],
+  "prepared_by": "Inspector Suresh Chandra"
+}

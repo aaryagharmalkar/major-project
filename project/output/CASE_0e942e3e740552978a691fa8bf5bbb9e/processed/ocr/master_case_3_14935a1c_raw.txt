@@ -1,0 +1,298 @@
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 1
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+MASTER CASE FILE
+Case: FIR/2024/DL/PSRKP/0452
+Date: 13-08-2026
+--------------------------------------------------------------------------------
+CASE IDENTIFIER
+Fir Number: FIR/2024/DL/PSRKP/0452
+Crime Number: CR/2024/DL/PSRKP/0318
+Ps Case Number: PSRKP/2024/INV/218
+POLICE STATION
+Name: Rajinder Nagar Police Station
+District: Central Delhi
+State: Delhi
+Police Station Code: PSRKP
+Jurisdiction: Rajinder Nagar, Patel Nagar, Karol Bagh East
+INCIDENT DETAILS
+Date: 2024-10-15
+Day: Tuesday
+Time: 18:20:00
+Timezone: IST
+Weather: Clear sky, dry road, visibility good
+Lighting: Dusk, street lights partially on
+LOCATION
+Address: Shankar Road T-Point, Near St. Stephen's Hospital
+Landmark: Opposite Gate No. 2, St. Stephen's Hospital
+Area: Rajinder Nagar
+City: New Delhi
+Pincode: 110060
+Latitude: 28.6378
+Longitude: 77.1923
+Road Type: Municipal Road, Intersection T-Point
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 2
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Road Width: 12.5
+Traffic Signal: Present but non-functional
+Speed Limit: 40
+PERSONS INVOLVED
+VICTIM
+Person Id: VIC-001
+Full Name: Rajesh Kumar Sharma
+Age: 42
+Gender: Male
+Blood Group: B+
+Occupation: Accountant, Delhi Transport Corporation
+Address: B-143, R.P. Bagh, Pusa Road, New Delhi - 110005
+Contact: +91-9810345678
+Driving License: DL/042018/0456789
+Vehicle Used: Two-wheeler, Honda Activa 6G, White
+ACCUSED
+Person Id: ACC-001
+Full Name: Amit Verma
+Age: 28
+Gender: Male
+Blood Group: O+
+Occupation: Food Delivery Rider, Zomato
+Address: C-54, Gali No. 4, Old Rajinder Nagar, New Delhi - 110060
+Contact: +91-9871123456
+Driving License: DL/032021/0789456
+Vehicle Used: Two-wheeler, Bajaj Pulsar 220F, Red, DL2SBP1234
+INVESTIGATING OFFICER
+Person Id: IO-001
+Full Name: Inspector Suresh Chandra
+Badge Number: DCP/CD/4892
+Rank: Inspector
+Designation: Station House Officer
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 3
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Police Station: Rajinder Nagar
+Contact: +91-9810098100
+COMPLAINANT
+Person Id: COM-001
+Full Name: Sunita Sharma
+Age: 38
+Gender: Female
+Relation To Victim: Wife
+Address: B-143, R.P. Bagh, Pusa Road, New Delhi - 110005
+Contact: +91-9810345679
+Occupation: Teacher, Sarvodaya Vidyalaya
+WITNESSES
+Item 1:
+Witness Id: WIT-001
+Full Name: Mohammed Asif
+Age: 35
+Gender: Male
+Occupation: Traffic Police Constable
+Address: Police Lines, Rajinder Nagar, New Delhi
+Badge Number: TPC/DL/3342
+Item 2:
+Witness Id: WIT-002
+Full Name: Prakash Chandra Joshi
+Age: 55
+Gender: Male
+Occupation: Tea Stall Owner
+Address: Shop No. 7, Shankar Road, Near St. Stephen's Hospital, New Delhi
+Contact: +91-9958321456
+VEHICLES
+Item 1:
+Vehicle Id: VEH-001
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 4
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Type: Two-wheeler
+Make Model: Bajaj Pulsar 220F
+Registration: DL2SBP1234
+Color: Red
+Ownership: Amit Verma (Accused)
+Insurance: ICICI Lombard, Policy No: 3002/MV/2024/456789
+Damage: Front fairing broken, headlight smashed, right handlebar bent
+Position After Accident: Middle of intersection, front-facing east
+Item 2:
+Vehicle Id: VEH-002
+Type: Two-wheeler
+Make Model: Honda Activa 6G
+Registration: DL5SCT5678
+Color: White
+Ownership: Rajesh Kumar Sharma (Victim)
+Insurance: New India Assurance, Policy No: NIA/MV/2024/890123
+Damage: Right side body panel scraped, mirror broken, brake lever bent
+Position After Accident: Near road divider, front-facing south
+HOSPITAL
+Name: St. Stephen's Hospital
+Address: Tis Hazari, Delhi - 110054
+Mlc Number: MLC/SSH/2024/5642
+Admission Time: 2024-10-15 18:45:00
+Doctor On Duty: Dr. Anjali Mehta, MBBS, MS (Ortho)
+Emergency Contact: +91-11-23966021
+INJURIES
+VICTIM INJURIES
+Item 1:
+Compound fracture right femur
+Item 2:
+Head injury with intracranial hemorrhage
+Item 3:
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 5
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Multiple abrasions on face and arms
+Item 4:
+Fracture of right clavicle
+Item 5:
+Rib fractures (3rd, 4th, 5th on right side)
+Item 6:
+Liver laceration (Grade II)
+ACCUSED INJURIES
+Item 1:
+Minor abrasion on left knee
+Item 2:
+Contusion on right shoulder
+LEGAL SECTIONS
+BHARATIYA NYAYA SANHITA
+Item 1:
+Section: 281
+Description: Rash driving or riding on a public way
+Item 2:
+Section: 125
+Description: Act endangering life or personal safety of others
+MOTOR VEHICLES ACT 1988
+Item 1:
+Section: 184
+Description: Driving dangerously
+Item 2:
+Section: 134
+Description: Duty of driver in case of accident
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 6
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+EVIDENCE SUMMARY
+PHYSICAL EVIDENCE
+Item 1:
+VEH-001 - Bajaj Pulsar DL2SBP1234 (Damaged)
+Item 2:
+VEH-002 - Honda Activa DL5SCT5678 (Damaged)
+Item 3:
+Accused's smartphone (Samsung Galaxy, IMEI: 358123456789012)
+Item 4:
+Accused's driving license DL/032021/0789456
+Item 5:
+Victim's driving license DL/042018/0456789
+Item 6:
+Blood sample of accused (2ml, Vial ID: BLD-0452-A)
+Item 7:
+Blood sample of victim (2ml, Vial ID: BLD-0452-B)
+Item 8:
+Broken vehicle parts from accident site
+DIGITAL EVIDENCE
+Item 1:
+CCTV footage from St. Stephen's Hospital Gate 2
+Item 2:
+CCTV footage from Canara Bank ATM, Shankar Road
+Item 3:
+PCR van dashcam footage
+Item 4:
+Photographs of accident site (25 frames)
+DOCUMENTARY EVIDENCE
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 7
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Item 1:
+FIR Copy
+Item 2:
+Complaint under Section 154 CrPC
+Item 3:
+Witness statements
+Item 4:
+Medical records and MLC
+Item 5:
+FSL report
+Item 6:
+Vehicle inspection report
+TIMELINE KEY EVENTS
+Item 1:
+Time: 18:05
+Event: Victim Rajesh Sharma leaves DTC office at Inderlok, riding Honda Activa DL5SCT5678
+Item 2:
+Time: 18:15
+Event: Accused Amit Verma picks up Zomato order from Haldiram's, Karol Bagh, riding Bajaj
+Pulsar DL2SBP1234
+Item 3:
+Time: 18:20:00
+Event: Collision occurs at Shankar Road T-Point near St. Stephen's Hospital
+Item 4:
+Time: 18:20:45
+Event: Traffic Constable Asif (WIT-001) witnesses accident and calls PCR
+Item 5:
+Time: 18:21:30
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 8
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Event: Tea stall owner Prakash Joshi (WIT-002) comes out and sees accident scene
+Item 6:
+Time: 18:24:00
+Event: PCR receives alert, dispatches PCR van Z-45
+Item 7:
+Time: 18:31:00
+Event: PCR van arrives at scene
+Item 8:
+Time: 18:35:00
+Event: Ambulance from St. Stephen's Hospital reaches site
+Item 9:
+Time: 18:45:00
+Event: Victim admitted to Emergency Ward, St. Stephen's Hospital
+Item 10:
+Time: 19:10:00
+Event: Accused taken to Rajinder Nagar PS
+Item 11:
+Time: 19:30:00
+Event: FIR registered at Rajinder Nagar PS
+Item 12:
+Time: 21:00:00
+Event: Spot panchnama conducted
+INVESTIGATION STATUS
+Status: Investigation Complete
+Io Finding: Prima facie case established against accused under BNS 281, 125 and MV Act 184,
+134
+Recommendation: Filing of chargesheet before Hon'ble Metropolitan Magistrate
+Supervisory Remarks: Approved by ACP, Patel Nagar Sub-Division on 2024-11-28
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 9
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only

@@ -1,10 +1,10 @@
 {
   "document_id": "c8afb7b6-a7cb-4679-81f9-d7529dcba236",
   "document_type": "complaint",
-  "ocr_text_sha256": "0b77b2f79cbe5421032874b05e0117463da18173639a9b2f2786ca4f0e721d4f",
+  "ocr_text_sha256": "b7ceccac4a77ddf7e8926e7348766a3bbfa077fd86e69945a44517f26014e3f9",
   "parse_metadata": {
     "parser_name": "ComplaintParser",
-    "parse_duration_ms": 11951.313042001857,
+    "parse_duration_ms": 7121.306399999412,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,

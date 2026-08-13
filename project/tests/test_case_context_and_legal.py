@@ -56,7 +56,7 @@ class CaseContextAndLegalTests(unittest.TestCase):
     def test_case_context_generation_and_filtering(self):
         context = CaseContextBuilder().build(canonical(), report())
         self.assertEqual(context.police_station.value, "Central PS")
-        self.assertFalse(hasattr(context, "documents"))
+        self.assertEqual(context.documents, canonical().documents)
 
     def test_context_preserves_provenance_and_validation_issues(self):
         issue = ValidationIssue(category=IssueCategory.COMPLETENESS, severity=IssueSeverity.WARNING, description="Missing", field_path="fir")

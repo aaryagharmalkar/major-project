@@ -47,6 +47,26 @@ class IF5Row(DomainModel):
     exhibit: ChargeSheetField
 
 
+class ChargeSheetLegalFinding(DomainModel):
+    """A reviewable legal conclusion without upgrading its evidentiary status."""
+
+    offence: ChargeSheetField
+    proposed_section: ChargeSheetField
+    description: ChargeSheetField
+    status: str
+    evidence_strength: str
+    review_required: bool
+    supporting_evidence: tuple[ChargeSheetField, ...] = ()
+    contradicting_evidence: tuple[ChargeSheetField, ...] = ()
+
+
+class ChargeSheetReviewItem(DomainModel):
+    category: str
+    description: str
+    source_references: tuple[SourceReference, ...] = ()
+    review_required: bool = True
+
+
 class ChargeSheetData(DomainModel):
     case_id: UUID
     disposition: str
@@ -69,6 +89,9 @@ class ChargeSheetData(DomainModel):
     forensic_findings: tuple[ChargeSheetField, ...] = ()
     vehicle_findings: tuple[ChargeSheetField, ...] = ()
     legal_sections: tuple[ChargeSheetField, ...] = ()
+    legal_findings: tuple[ChargeSheetLegalFinding, ...] = ()
+    conflicts: tuple[ChargeSheetReviewItem, ...] = ()
+    missing_information: tuple[ChargeSheetReviewItem, ...] = ()
     annexures: tuple[IF5Row, ...] = ()
     final_opinion: ChargeSheetField
     signature: ChargeSheetField

@@ -4,7 +4,7 @@
   "ocr_text_sha256": "2179fd558aa1f3e13fdad7875621f8093270ea41c1af563f5037997bb6c95e3f",
   "parse_metadata": {
     "parser_name": "SeizureMemoParser",
-    "parse_duration_ms": 32708.540874999017,
+    "parse_duration_ms": 11442.223999999442,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,
@@ -15,7 +15,7 @@
   "seizure_location": "Senapati Road junction, Pune",
   "seized_items": [
     {
-      "description": "Vehicle MH-12-AB-4821",
+      "description": "Vehicle seized: MH-12-AB-4821",
       "exhibit_mark": null
     },
     {

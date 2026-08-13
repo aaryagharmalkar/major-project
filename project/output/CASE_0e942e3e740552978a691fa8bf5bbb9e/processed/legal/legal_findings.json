@@ -1,0 +1,2786 @@
+{
+  "findings": [
+    {
+      "finding_id": "885232d6-2ade-435a-9bfc-8b960d1253c3",
+      "legal_reference_id": "ec5fb2ce-b0b0-4ad8-a0d6-aa56caa6be7f",
+      "offence": "Voluntarily causing hurt",
+      "proposed_section": "115",
+      "description": "Configured BNS reference for voluntarily causing hurt; application requires evidence supporting the required element.",
+      "supporting_evidence": [
+        {
+          "source_document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "field_path": "graph.nodes[60d1c280-4e19-40b6-bba9-2ef2e6bf0276].label",
+          "description": "Alleged History: Road Traffic Accident at Shankar Road T-Point at approximately 18:20 hours.",
+          "source_references": [
+            {
+              "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "field_path": "graph.nodes[2dde8e65-552e-414e-9aa5-f99d3656f956].label",
+          "description": "Patient riding scooter, hit by speeding motorcycle from side. Thrown off vehicle and landed on road.",
+          "source_references": [
+            {
+              "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "field_path": "graph.nodes[a1c032c4-0fdc-4714-92fb-9ea346bbfa3a].label",
+          "description": "Helmet worn at time of accident.",
+          "source_references": [
+            {
+              "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "field_path": "graph.nodes[b8a13d12-4beb-4fd5-bb76-acf7924be24e].label",
+          "description": "Brought Dead: False",
+          "source_references": [
+            {
+              "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "field_path": "graph.nodes[79ee404b-70dd-4df8-b16e-3fe98f8b1c4e].label",
+          "description": "Condition On Arrival: Conscious but disoriented, GCS 13/15 (E3 V4 M6), in severe pain, bleeding from scalp wound",
+          "source_references": [
+            {
+              "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "field_path": "graph.nodes[46bf89f1-f42e-4be2-afa0-4470190b1295].label",
+          "description": "Blood Pressure: 100/70 mmHg",
+          "source_references": [
+            {
+              "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "field_path": "graph.nodes[4cf211f8-8ef0-4e98-8ac3-54ee16ee08f3].label",
+          "description": "Pulse: 112/min",
+          "source_references": [
+            {
+              "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "field_path": "graph.nodes[3ee4bfdd-cb4c-4856-a5d8-1ef74f85ab94].label",
+          "description": "Respiratory Rate: 24/min",
+          "source_references": [
+            {
+              "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "field_path": "graph.nodes[c14a6f62-ed38-43fc-bbe0-ed0c768c534c].label",
+          "description": "Temperature: 98.4°F",
+          "source_references": [
+            {
+              "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "field_path": "graph.nodes[205b9846-9ee5-4e43-bf40-c4fe76b6699c].label",
+          "description": "Spo2: 94% on room air",
+          "source_references": [
+            {
+              "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "field_path": "graph.nodes[c3a5ea1a-1ccf-43ca-8487-2d6cb0c09cdd].label",
+          "description": "Pain Score: 9/10",
+          "source_references": [
+            {
+              "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+          "field_path": "graph.nodes[dd003037-2527-4314-9b76-d029e6eebc20].label",
+          "description": "Status: Not Applicable",
+          "source_references": [
+            {
+              "document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+          "field_path": "graph.nodes[250257cc-a125-4d92-b4b8-6a7a30c0fc82].label",
+          "description": "Reason: Victim Rajesh Kumar Sharma is alive and undergoing treatment at St. Stephen's Hospital.",
+          "source_references": [
+            {
+              "document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+          "field_path": "graph.nodes[e0f1a6ee-2b45-4e99-8324-8fe65b938c32].label",
+          "description": "Postmortem examination is not required at this stage.",
+          "source_references": [
+            {
+              "document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+          "field_path": "graph.nodes[ae0a08c0-6974-4047-9abf-d3f30e76a831].label",
+          "description": "Victim Status Update: As of 2024-11-28, victim has been discharged from hospital after 28 days of admission. He is undergoing physiotherapy and follow-up treatment. Injuries though grievous in nature did not result in death.",
+          "source_references": [
+            {
+              "document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+          "field_path": "graph.nodes[a3a97e81-67be-42b5-a124-0abb544e328e].label",
+          "description": "Note: This JSON is generated for completeness of investigation record. In case of change in victim status, this report shall be updated or replaced with actual postmortem findings.",
+          "source_references": [
+            {
+              "document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[29eab44f-afe6-4d8a-b21f-6c0e095c8cc2].label",
+          "description": "Speedometer: Needle stuck at 55 kmph (indicates approximate speed at impact)",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[75f397b9-a835-4138-83a7-67473deb2651].label",
+          "description": "Headlight: Smashed, filament examination shows 'hot shock' deformation confirming light was ON at time of impact",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[0aa72e22-9052-409d-899e-962f5a8a5500].label",
+          "description": "Front Wheel: Rim bent, tyre burst on right side",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[6ce5fac8-6092-41a8-aa37-c27038023c39].label",
+          "description": "Brake System: Front disc brake functional, rear drum brake functional. Brake lever in applied position consistent with emergency braking",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[4bbd5f1f-9750-4615-8efd-f8ded5613542].label",
+          "description": "Impact Force Calculated: Approximately 18-22 kN based on deformation pattern",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[a2129e4a-f494-4bb6-94e5-78df58fbff1a].label",
+          "description": "Paint Evidence: White paint transfer on right front fork matching Activa body color",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[beb272d0-ff34-488f-8094-d9bd9a7979be].label",
+          "description": "Right Side Impact: Deformation depth 25cm on right body panel indicating lateral impact force",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[b2edc972-1102-4f50-a90d-f6a916a34323].label",
+          "description": "Paint Evidence: Red paint transfer on right side panel matching Pulsar color",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[4e5a485d-8833-477d-8f1a-0f70ed3a2f6e].label",
+          "description": "Brake Lever: Right brake lever bent due to impact, position suggests braking attempt",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[3a9c79fc-0758-47af-be1b-55fb9265eb1f].label",
+          "description": "Tyres: Both tyres in good condition, adequate tread depth (3.5mm front, 4.0mm rear)",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[8a3858ae-9660-47ec-8435-aa4654805822].label",
+          "description": "Conclusion: Primary impact was between front-right portion of Pulsar and right-center portion of Activa at an angle of 70-80 degrees. Pulsar was traveling at minimum 50-55 kmph at moment of impact. Both vehicle brake systems were functional prior to accident. Impact force sufficient to cause grievous injuries to rider of Activa.",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[7f38c3c1-c7d0-4da5-b8cf-114e231edb6c].label",
+          "description": "VICTIM HELMET VEGA Outer Shell: Multiple impact marks on right temporal and parietal region. Deep gouge 4cm long on right side",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[5b09d4ba-aed1-4657-987d-693c3f1cffbd].label",
+          "description": "Inner Liner: Compressed on right side indicating absorption of impact energy",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[f29789a6-8e25-4bf6-b713-dba174136a26].label",
+          "description": "Chin Strap: Intact and fastened at time of impact (tear pattern confirms)",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[5f66713d-8dfe-4c9f-bef1-1ef7e821b774].label",
+          "description": "Blood: Blood stains inside helmet, Group B+ confirmed",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[61530bd0-3467-492f-be2e-025546aba0ed].label",
+          "description": "Hair: Scalp hair fragments with root, suitable for DNA",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[426069e8-7da0-46a7-ab43-d6fb1440b0a9].label",
+          "description": "Cracks: Two linear cracks on outer shell right side, 8cm and 5cm, indicating impact absorption",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[4ba50b58-c69f-444d-9777-657e44a573ef].label",
+          "description": "Effectiveness: Helmet prevented direct skull fracture. Damage pattern consistent with head impact on road surface",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[2a30d13c-56ef-4357-a013-0e84224261fb].label",
+          "description": "ACCUSED HELMET STEELBIRD Outer Shell: Minor scratches on left side",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[2a4ccf88-d050-4f10-bba9-3752a90a9d6f].label",
+          "description": "Inner Liner: Normal, no compression",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[652822d9-a3e0-40d7-8214-d64900cffc58].label",
+          "description": "Chin Strap: Found torn - examination reveals it was already torn/damaged before accident, not due to accident forces",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[4c925ce6-d231-4a62-8b1a-5606622a24fa].label",
+          "description": "Conclusion: Helmet not properly secured at time of accident. Scratches consistent with minor fall.",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[a8dccad0-639a-49bc-9e29-81c7ca6a2dea].label",
+          "description": "VICTIM BLOOD BLD 0452 B Blood Group: B+",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[d438a9de-1d91-4c20-b33f-90489a5a8527].label",
+          "description": "Alcohol: Not detected (0 mg/dL)",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            },
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[ed78483d-e9eb-4a8f-ab76-21e1ac59a759].label",
+          "description": "Drugs Toxicology: Negative for all screened substances",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            },
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[8eb99e21-e1b7-483e-b573-d7436a67bf0a].label",
+          "description": "Dna Profile: Extracted and preserved for identification",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            },
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[8269fcb2-0efe-414b-8374-35a70a3dac6e].label",
+          "description": "ACCUSED BLOOD BLD 0452 A Blood Group: O+",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[6e0d8624-1293-4196-a6d5-0df1f13caa8b].label",
+          "description": "Pre Impact Scenario: Pulsar traveling SW to NE on Shankar Road towards junction. Activa traveling from Rajinder Nagar side and executing right turn towards Old Rajinder Nagar.",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[9ed74052-d6e2-4681-b11e-0732f85a9055].label",
+          "description": "Impact Configuration: Pulsar front collides with right center of Activa at intersection. Impact angle 75 degrees.",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[907b5fd8-20af-4037-9ae5-4fba84bbeb83].label",
+          "description": "Post Impact Dynamics: Activa rider thrown to right side, landing 4.2m from impact point. Pulsar falls to right side, slides 3.1m. Pulsar rider falls to left, minimal travel distance.",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[a3404d8e-7bf3-46dd-99d1-ae6d558a1385].label",
+          "description": "Speed At Impact: Pulsar: 52-58 kmph (calculated from skid mark length 4.2m, friction coefficient 0.7 for dry bitumen, and residual impact velocity from damage analysis). Activa: 8-12 kmph (typical turning speed).",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[87fc68a7-9e89-466e-95fa-645972826ba3].label",
+          "description": "Avoidability: At speed of 40 kmph (legal limit), Pulsar could have stopped in 15.5m total (thinking + braking distance). From skid mark evidence, Pulsar was at least 8m from impact point when emergency braking initiated. At legal speed, collision was avoidable. At actual speed (55 kmph), stopping distance required was 25m, making collision unavoidable from point where braking started.",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[d25d2f72-e2b0-48cc-a93f-54b7141a5abb].label",
+          "description": "Violation: Speed exceeding legal limit was the primary causative factor. Signal violation/secondary as signal was non-functional but traffic police manual direction was ignored.",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[f7dbfc9a-66a6-48a3-ba27-61f5ab05be8b].label",
+          "description": "CCTV Analysis observations confirm overspeeding, disregard of traffic police signal, and sequence of collision.",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+          "field_path": "fir.reported_sections",
+          "description": "Section 281",
+          "source_references": [
+            {
+              "document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+          "field_path": "fir.reported_sections",
+          "description": "Section 125",
+          "source_references": [
+            {
+              "document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+          "field_path": "fir.reported_sections",
+          "description": "Section 184",
+          "source_references": [
+            {
+              "document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+          "field_path": "fir.reported_sections",
+          "description": "Section 134",
+          "source_references": [
+            {
+              "document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[11cfbe00-aa0d-497c-823b-86537d43dcea].label",
+          "description": "Bajaj Pulsar 220F Motorcycle DL2SBP1234",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[b94a6ca5-be39-44bc-a047-704b8241734f].label",
+          "description": "Honda Activa 6G Scooter DL5SCT5678",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[15ce8436-20b1-4b73-8fb2-3197da68cdd9].label",
+          "description": "Helmet - Accused (Steelbird, Black)",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[296e48c6-fe6b-4829-becf-bee58a487a36].label",
+          "description": "Helmet - Victim (Vega, White)",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[198c7ae6-d0af-41e8-b313-a017d0cfca32].label",
+          "description": "Broken vehicle parts from site",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[e4bd1e48-df6e-476a-b150-1dbecdad528a].label",
+          "description": "Blood sample - Accused (BLD-0452-A)",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[e6bb8976-1244-4194-ae0d-2acbf66e5bae].label",
+          "description": "Blood sample - Victim (BLD-0452-B)",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[0edc44d9-ab8c-45a6-bd27-e99923780b40].label",
+          "description": "Digital photographs (SD Card, 32GB)",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "field_path": "graph.nodes[d28192aa-4263-4c6c-9278-7c4917503549].label",
+          "description": "CCTV DVR Hard Disk (1TB)",
+          "source_references": [
+            {
+              "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[0663c54c-e394-4def-8e66-8b8f2d5a3336].label",
+          "description": "Bajaj Pulsar 220F Motorcycle, Red Color\nRegistration: DL2SBP1234\nChassis Number: MD2A18FX5LCK12345\nEngine Number: DHYCJ51678\nCondition: Damaged - Front fairing broken, headlight smashed, right handlebar bent\nKeys: One set with Zomato keychain\nOwner: Amit Verma",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[794b4ed0-e29a-4785-a7ba-f201f12d3ab9].label",
+          "description": "Honda Activa 6G Scooter, White Color\nRegistration: DL5SCT5678\nChassis Number: ME4JF614AMT67890\nEngine Number: JF61E3456789\nCondition: Damaged - Right body panel scraped, right mirror broken, brake lever bent\nKeys: One set, found in ignition\nOwner: Rajesh Kumar Sharma",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[23174199-fbf5-4842-acb4-34ee80e67031].label",
+          "description": "Smartphone Samsung Galaxy M32, Black Color\nImei: 358123456789012\nCondition: Working, screen intact\nBelongs To: Amit Verma (Accused)",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[315d8735-6abf-4e98-872b-2273b1f98d44].label",
+          "description": "Driving License - Amit Verma\nLicense Number: DL/032021/0789456\nIssued By: RTO Moradabad, UP\nValid Till: 28-02-2035\nCategory: MCWG",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[634e4ac0-b484-4fd7-843b-c19f1c814d0c].label",
+          "description": "Driving License - Rajesh Kumar Sharma\nLicense Number: DL/042018/0456789\nIssued By: RTO Sheikh Sarai, Delhi\nValid Till: 15-07-2032\nCategory: MCWG + LMV",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[67e2046f-8866-46c8-bbf6-dadbc4ac207a].label",
+          "description": "Helmet - Accused (Steelbird, Black, Full Face)\nCondition: Scratches on left side, visor missing, chin strap torn\nIsi Mark: Yes",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[b1b674f0-b17a-4a51-8b62-b8c2f0be942e].label",
+          "description": "Helmet - Victim (Vega, White, Full Face)\nCondition: Multiple cracks on right side, impact marks, blood stains inside\nIsi Mark: Yes",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[aa3759c9-4440-456a-857e-a6c1e896085c].label",
+          "description": "Broken vehicle parts from accident site\nDETAILS\nItem 1:\nRed plastic fairing pieces (from Pulsar)\nItem 2:\nWhite plastic body panel pieces (from Activa)\nItem 3:\nRight side rear view mirror (broken)\nItem 4:\nHeadlamp glass fragments\nCollected From: Accident spot at Shankar Road T-Point",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[24f1d03b-f197-49fa-b3f2-3364927d1f10].label",
+          "description": "Zomato Delivery Bag, Red Color\nCondition: Empty, torn at one corner\nBelongs To: Amit Verma",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[4bd77ea0-a5aa-443d-ab8f-a9ca882bcdde].label",
+          "description": "Blood sample - Accused (2ml in EDTA vial)\nVial Id: BLD-0452-A\nCollected At: RML Hospital, 19:45 hours",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[aa6453a4-fbb5-4c66-952b-03aa69b7f8a1].label",
+          "description": "Blood sample - Victim (2ml in EDTA vial)\nVial Id: BLD-0452-B\nCollected At: St. Stephen's Hospital, 19:30 hours",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[6d5fe766-102d-4da3-853d-7f7a4b05ff5b].label",
+          "description": "Photographs - Digital, 25 Frames\nDetails: Accident spot, vehicle positions, road marks, injuries (with doctor consent)\nCamera: Canon EOS 1300D, PS Rajinder Nagar\nPhotographer: HC Ramesh Kumar, Photography Section",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[68d17e90-67dd-40e4-b446-b69e78df8cf6].label",
+          "description": "CCTV Footage DVR Hard Disk\nSource: St. Stephen's Hospital Gate 2, Camera ID: CAM-SSH-G2-03\nCapacity: 1TB\nTime Stamp Extracted: 18:10 to 18:35, 15-10-2024",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "field_path": "graph.nodes[4b8e74ca-6afa-4571-b777-ee01dad52a48].label",
+          "description": "CCTV Footage Pen Drive\nSource: Canara Bank ATM, Shankar Road\nCamera Id: CAM-CB-ATM-01\nTime Stamp Extracted: 18:15 to 18:25, 15-10-2024",
+          "source_references": [
+            {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+          "field_path": "graph.nodes[09368c1b-e95c-4c49-8624-618aae2195eb].attributes.description",
+          "description": "On 15-10-2024 at about 18:20 hours, accused Amit Verma while riding motorcycle Bajaj Pulsar DL2SBP1234 on Shankar Road in a rash and negligent manner endangering human life, coming from Karol Bagh side towards Rajinder Nagar, at T-point near St. Stephen's Hospital Gate No. 2, jumped the red light and dashed against Honda Activa DL5SCT5678 being ridden by victim Rajesh Kumar Sharma who was coming from Rajinder Nagar side and taking a legal turn towards Old Rajinder Nagar. Due to high-speed impact, victim sustained grievous injuries and was admitted to St. Stephen's Hospital in critical condition. The accused failed to provide medical aid to victim and attempted to flee but was apprehended by Traffic Constable Mohammed Asif at the spot. Medical examination of accused was conducted and case has been registered.",
+          "source_references": [
+            {
+              "document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[2aa57159-af7b-487d-acfd-fc82710994c5].attributes.description",
+          "description": "Received DD No. 24-A dated 15-10-2024 regarding accident at Shankar Road T-Point at 18:20 hours. Proceeded to spot. PCR already present. Victim shifted to St. Stephen's Hospital. Accused detained at spot by Traffic Constable Mohammed Asif. Conducted preliminary inquiry at spot. Collected initial evidence. Registered FIR No. 452/2024 under sections 281/125 BNS and 184/134 MV Act on complaint of Smt. Sunita Sharma, wife of victim. Arrested accused Amit Verma at 19:15 hours from spot. Conducted personal search, prepared arrest memo. Accused sent for medical examination to RML Hospital through Constable Rajesh. Victim's MLC obtained from St. Stephen's Hospital - grievous injuries noted. IO to hospital, recorded victim's medical status. Returned to spot for detailed panchnama.\nExhibits Collected: Vehicle DL2SBP1234, DL5SCT5678, accused's mobile, both DLs, helmets\nStatements Recorded: Complaint of Sunita Sharma, Statement of HC Mohammed Asif (eyewitness), Statement of Prakash Joshi (eyewitness)",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[adc0f058-a649-4da4-b6fe-8ea5e90c6117].attributes.description",
+          "description": "Conducted detailed spot panchnama at Shankar Road T-Point from 21:00 to 22:15 hours in presence of panch witnesses Mohammed Asif and Prakash Joshi. Took measurements of road width (12.5m Shankar Road, 10m Rajinder Nagar Road), vehicle positions, skid marks (4.2m from Pulsar), blood stains, debris field. Identified impact point 6.5m from Shankar Road stop line. Photographed scene - 25 digital frames by HC Ramesh Kumar. Collected broken vehicle parts, helmets, delivery bag. Arranged for both vehicles to be towed to PS Malkhana yard. Noted non-functional traffic signal, 4 of 6 street lights working. Panchnama completed at 22:15 hours.\nExhibits Collected: Broken parts, helmets, delivery bag, blood samples (through hospital)\nPhotographs: 25 digital frames",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[e9f7f7bc-6f5e-4fbd-b516-7f81d8d991d3].attributes.description",
+          "description": "Accused Amit Verma produced before me in lock-up. Informed him of his rights under Article 20(3) of Constitution and right to legal counsel. Accused opted to give voluntary statement without lawyer. Recorded detailed statement of accused in presence of ASI Ramphal Singh as witness. Accused admitted overspeeding and stated he was in hurry to deliver Zomato order. Showed remorse. Statement recorded verbatim. Accused remanded to judicial custody. Duty Magistrate informed telephonically. Accused to be produced before Ld. MM tomorrow.\nStatements Recorded: Accused statement of Amit Verma",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[e32ba9aa-c7eb-4468-a825-6ba0fb2474e8].attributes.description",
+          "description": "Morning: Directed ASI Rajender Prasad (MTO) to conduct detailed mechanical inspection of both vehicles. Inspection conducted 10:00-13:30 in Malkhana yard. Report received - both vehicles roadworthy before accident, damage consistent with collision dynamics, Pulsar speedometer stuck at 55 kmph. Mid-day: Visited St. Stephen's Hospital security office. Collected CCTV DVR hard disk from Gate 2 camera (CAM-SSH-G2-03) covering junction. Obtained footage from 18:00-18:45 hours. Chain of custody documented. Also visited Canara Bank ATM, Shankar Road. Bank Manager Mr. S. Venkatesh provided CCTV copy on pen drive showing approach road. Obtained PCR Van Z-45 dashcam SD card from ASI Dharampal. All digital evidence submitted to HC Ramesh Kumar, Technical Cell for analysis.\nExhibits Collected: CCTV DVR (EVD-0452-013), CCTV Pen Drive (EVD-0452-014), PCR Dashcam SD (EVD-0452-015)\nReports Received: Vehicle Inspection Report from ASI Rajender Prasad",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[61c7c14a-866a-4d93-baa8-cf88db8e3789].attributes.description",
+          "description": "Visited St. Stephen's Hospital SICU. Met treating doctor Dr. Anjali Mehta. Victim Rajesh Sharma still in ICU, post-surgery for femur fracture. Also underwent craniotomy for SDH evacuation on 16-10-2024 morning. Condition critical but stable. Doctor confirmed injuries are grievous in nature and dangerous to life. Obtained detailed MLC and medical records. Collected victim's blood sample for FSL (alcohol/drug screening - negative as per hospital). Met complainant Sunita Sharma at hospital, briefed her on investigation progress. Advised her to preserve all medical bills and records for court.\nDocuments Obtained: MLC Report, Admission records, Surgery notes",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[37aaa170-3cb1-4e11-9949-c7ec056bb8c2].attributes.description",
+          "description": "HC Ramesh Kumar completed CCTV footage analysis. Report confirms: Pulsar overspeeding (60 kmph on approach, 52-58 at impact), ignored traffic constable's stop signal, collision at 18:20:07.800 hours. Activa at normal turning speed (10 kmph), legal turn. Footage from 3 cameras synchronized and consistent. Prepared detailed CCTV analysis report with frame-by-frame speed calculation. All exhibits packed and sealed for FSL examination: vehicles, helmets, broken parts, blood samples, photographs SD card, CCTV HDD. Dispatched to FSL Rohini through Constable Mohan Singh with Road Certificate No. 234/2024 dated 17-10-2024. FSL requisition letter prepared detailing examination required.\nReports Received: CCTV Analysis Report\nExhibits Sent Fsl: EVD-0452-001, 002, 006, 007, 008, 010, 011, 012, 013",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[7a7afda0-9c38-4148-a3e2-4981be1ffacd].attributes.description",
+          "description": "Produced accused Amit Verma before Ld. Metropolitan Magistrate, Tis Hazari Courts. Filed application for 3-day police custody remand for further investigation - need to recover Zomato delivery records, verify accused's mobile data, and conduct test identification parade. Court granted 2 days PC remand. Accused remanded to police custody till 20-10-2024. Also filed application for preservation of CCTV footage from other cameras on route. Court directed concerned authorities to preserve footage for 30 days.\nCourt Orders: PC Remand for 2 days, CCTV preservation order",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[8332a1e7-9b20-4105-8e7f-e1c728325b2c].attributes.description",
+          "description": "During PC remand, extracted data from accused's smartphone (Samsung M32) with technical assistance from IT Cell. Recovered: Zomato Partner App data showing order accepted at 18:10, pickup from Haldiram's Karol Bagh at 18:15, delivery address in Old Rajinder Nagar with deadline 18:35. GPS location history shows speeds of 55-65 kmph on Shankar Road segment. Also recovered Google Maps timeline confirming route and speeds. Obtained Zomato records through official communication to Zomato's nodal officer - confirmation of accused's delivery partner ID, order details, and delivery attempt at 18:35 which was marked 'delayed'. Mobile call log shows no calls at time of accident - accused not distracted by phone call, but was possibly looking at navigation. Phone mounted on handlebar confirmed.\nDigital Evidence: Zomato Partner App data, Google Maps Timeline, GPS speed logs",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[fff0e71c-b8b3-4514-9e0c-29a49e721227].attributes.description",
+          "description": "Test Identification Parade not conducted as accused identified by witnesses at spot itself. Section 164 CrPC statement of witnesses not deemed necessary. Accused produced before Ld. MM on expiry of PC remand. Accused not applying for bail at this stage. Court sent accused to judicial custody. Investigation continued. Visited traffic police circle office, obtained record of complaint filed by Constable Asif about non-functional signal on 13-10-2024. Also obtained duty roster confirming Asif's deployment at Shankar Road T-Point on 15-10-2024 from 16:00-20:00 hours.\nDocuments Obtained: Traffic signal complaint record, Duty roster",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[3e72193a-766c-4a92-ba9a-9203e0c5c095].attributes.description",
+          "description": "Visited St. Stephen's Hospital. Victim shifted from ICU to general ward on 24-10-2024. Conscious and oriented. Recorded supplementary statement of victim under Section 161 CrPC. Victim states he was returning home from office, wearing helmet, driving at 30-35 kmph, took right turn at T-point when suddenly a speeding motorcycle hit him. He does not remember anything after that. Victim's statement corroborates evidence. Doctor indicates another 2 weeks hospitalization needed. Physiotherapy to follow. Permanent disability not ruled out for right leg.\nStatements Recorded: Supplementary statement of victim Rajesh Sharma",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[4d787fd6-3b66-4033-b1aa-99cae5076fee].attributes.description",
+          "description": "Background verification of accused conducted through local inquiry at Old Rajinder Nagar address and native village in Moradabad, UP through UP Police. Accused has no previous criminal record. Living in Delhi for 5 years. Working with Zomato for 2 years. Two-wheeler driving experience 7 years. No previous traffic challans in Delhi (verified from e-challan portal). However, one challan for overspeeding in Moradabad in 2022 (paid). Landlord confirms accused is of good character. No history of rashness or alcoholism. Accused's father is a marginal farmer. Family background verified.\nDocuments Obtained: Background verification report, E-challan portal screenshot",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[bd044c0c-de4f-4d35-a302-7b636b355068].attributes.description",
+          "description": "Received preliminary FSL report from Dr. Priya Nambiar. Key findings: Speed at impact 52-58 kmph for Pulsar, victim's helmet prevented skull fracture but sustained significant impact, blood alcohol negative for both, vehicle damage consistent with collision dynamics, paint transfer confirmed. Accident reconstruction confirms primary fault of Pulsar rider. Formal report awaited. Preliminary findings included in case file for reference.\nReports Received: Preliminary FSL findings (verbal and email)",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[96be0263-71e5-4ae8-b9eb-dcccb89fa7d7].attributes.description",
+          "description": "Received final FSL Report No. FSL/DL/2024/PHY/8934 dated 18-11-2024. Complete forensic examination confirms all investigation findings. Report includes vehicle examination, helmet analysis, blood analysis, accident reconstruction, and CCTV correlation. All exhibits returned from FSL to Malkhana. FSL report made part of case file. Key conclusions: (1) Accident caused by overspeeding of Pulsar (52-58 kmph vs 40 kmph limit), (2) Victim had no contributory negligence, (3) Helmet saved victim from fatal head injury, (4) Both vehicles mechanically sound before accident.\nReports Received: FSL Report No. FSL/DL/2024/PHY/8934",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[f4875236-d97d-4ee3-8fee-c132515496ed].attributes.description",
+          "description": "Victim Rajesh Sharma discharged from hospital on 20-11-2024 after 36 days of treatment. Obtained final discharge summary and fitness certificate. Victim advised 3 months physiotherapy, follow-up in Ortho and Neuro OPD. Permanent disability assessment after 6 months. Recorded final statement of victim regarding expenses incurred (approximately ■4.2 lakhs medical expenses), loss of salary (3 months leave without pay), and ongoing treatment needs. Victim expresses desire for compensation and strict punishment to accused. Documents collected for Victim Compensation Scheme application.\nStatements Recorded: Final victim statement\nDocuments Obtained: Discharge summary, Medical bills, Salary slips, Physiotherapy prescription",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "source_document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "field_path": "graph.nodes[8281ff3a-82b8-492a-83b9-86ee8a5a465e].attributes.description",
+          "description": "Investigation complete. All evidence collected, statements recorded, forensic reports received. Prima facie case well established against accused Amit Verma for offences under Section 281 BNS (Rash driving), Section 125 BNS (Act endangering life), Section 184 MV Act (Dangerous driving), and Section 134 MV Act (Failure to provide medical aid - accused did not actively assist victim though he was also injured, however the attempt to leave initially constitutes violation). Evidence list finalized - 15 exhibits. Case diary complete with 15 entries. All documents compiled and indexed in Annexures. Investigation reveals: Accused was overspeeding (52-58 kmph in 40 kmph zone), ignored traffic constable's manual stop signal, was in hurry to meet food delivery deadline, and due to high speed could not stop in time to avoid collision with victim's scooter who was making a legal turn at appropriate speed. Victim suffered grievous injuries requiring 36 days hospitalization and may have permanent disability. No contributory negligence by victim. Accused has no criminal history but his actions show disregard for traffic rules and public safety. Prepared final investigation report recommending filing of chargesheet before Hon'ble Court under above sections. Report submitted to ACP, Patel Nagar Sub-Division for supervisory review and approval.\nReports Prepared: Investigation Completion Report, Draft Chargesheet\nSubmitted To: ACP Patel Nagar for approval\nCase Diary Certification: Certified that this case diary contains a true and complete account of investigation conducted by me in case FIR No. 452/2024 PS Rajinder Nagar. All dates, times, and actions are recorded contemporaneously.\nIo Signature: Inspector Suresh Chandra\nSupervisory Remarks: Investigation thorough and complete. Chargesheet approved for filing. - ACP Patel Nagar, 28-11-2024",
+          "source_references": [
+            {
+              "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ]
+        }
+      ],
+      "contradicting_evidence": [],
+      "evidence_strength": "high",
+      "confidence": 0.8,
+      "status": "insufficient_evidence",
+      "review_required": true,
+      "source_references": [
+        {
+          "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "review_required": true,
+  "validation_disposition": "draft_allowed",
+  "retry_count": 0
+}

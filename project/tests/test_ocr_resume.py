@@ -9,6 +9,7 @@ from src.extraction.ocr_client import OCRClient
 from src.extraction.ocr_result import OCRMetadata, OCRPage, OCRResult
 from src.extraction.ocr_stage import OCRStage
 from src.intake.document_intake_stage import DocumentIntakeStage
+from src.intake.storage_layout import CaseStorageLayout
 from src.intake.upload_manager import IncomingUpload, UploadManager
 from src.parsers.base_parser import ParserClient, ParserError
 from src.parsers.fir_parser import FIRParser
@@ -83,6 +84,52 @@ class OCRResumeTests(TestCase):
             self.assertEqual(client.calls, 0)
             self.assertEqual(resumed.context.stage_metrics[-1].value["reused_ocr_results"], 1)
 
+    def test_second_intake_run_with_same_inputs_reuses_ocr_without_a_client_call(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            storage, case_id = root / "storage", uuid4()
+            uploads = self._uploads(root)
+            first_client = CountingOCR()
+            first_run = WorkflowEngine(StageRegistry((
+                DocumentIntakeStage(storage), OCRStage(storage, first_client),
+            ))).run(create_workflow_context(case_id, uploads))
+            self.assertTrue(first_run.report.successful)
+            self.assertEqual(first_client.calls, 1)
+
+            resumed = create_workflow_context(case_id, uploads, resume=True, storage_root=storage)
+            resumed_client = CountingOCR()
+            resumed_run = WorkflowEngine(StageRegistry((
+                DocumentIntakeStage(storage, resume=True), OCRStage(storage, resumed_client, resume=True),
+            ))).run(resumed)
+            self.assertTrue(resumed_run.report.successful)
+            self.assertEqual(resumed_client.calls, 0)
+            self.assertEqual(resumed_run.context.ocr_results[0].value.document_id, resumed_run.context.uploaded_documents[0].id)
+
+    def test_checksum_matched_prior_document_rebinds_result_to_current_document_identity(self):
+        with TemporaryDirectory() as directory:
+            storage, _, _, _, initial = self._initial_ocr(Path(directory))
+            prior_document = initial.uploaded_documents[0]
+            current_id = uuid4()
+            layout = CaseStorageLayout(storage, prior_document.case_id)
+            stale_path = layout.original_path(current_id, ".pdf")
+            stale_path.write_bytes(b"%PDF-1.4\nstale stored original")
+            current_document = prior_document.model_copy(update={
+                "id": current_id,
+                "stored_filename": stale_path.name,
+                "storage_key": layout.relative_key(stale_path),
+                "extraction_state": ExtractionState.PENDING,
+            })
+            context = WorkflowContext(
+                case_id=prior_document.case_id,
+                uploaded_documents=(current_document,),
+                execution_state=WorkflowState(case_id=prior_document.case_id),
+            )
+            client = CountingOCR()
+            resumed = WorkflowEngine(StageRegistry((OCRStage(storage, client, resume=True),))).run(context)
+            self.assertTrue(resumed.report.successful)
+            self.assertEqual(client.calls, 0)
+            self.assertEqual(resumed.context.ocr_results[0].value.document_id, current_id)
+
     def test_checksum_mismatch_or_missing_or_invalid_artifact_requires_fresh_ocr(self):
         with TemporaryDirectory() as directory:
             storage, _, _, _, initial = self._initial_ocr(Path(directory))
@@ -98,6 +145,15 @@ class OCRResumeTests(TestCase):
             self.assertEqual(client.calls, 1)
 
             result_path.write_text("{}", encoding="utf-8")
+            client = CountingOCR()
+            WorkflowEngine(StageRegistry((OCRStage(storage, client, resume=True),))).run(self._pending(initial))
+            self.assertEqual(client.calls, 1)
+
+    def test_modified_stored_source_requires_fresh_ocr(self):
+        with TemporaryDirectory() as directory:
+            storage, _, _, _, initial = self._initial_ocr(Path(directory))
+            document = initial.uploaded_documents[0]
+            (storage / document.storage_key).write_bytes(b"%PDF-1.4\nmodified stored source")
             client = CountingOCR()
             WorkflowEngine(StageRegistry((OCRStage(storage, client, resume=True),))).run(self._pending(initial))
             self.assertEqual(client.calls, 1)

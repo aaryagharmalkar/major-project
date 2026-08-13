@@ -1,0 +1,194 @@
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 1
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+SITE PLAN - ACCIDENT SCENE
+Case: FIR/2024/DL/PSRKP/0452
+Date: 13-08-2026
+--------------------------------------------------------------------------------
+SITE PLAN
+Plan Id: SP/PSRKP/0452/2024
+Date Prepared: 2024-10-16
+Prepared By: Inspector Suresh Chandra, IO
+Drawn To Scale: Scale 1:200 (1cm = 2m)
+Orientation: North at top of drawing
+LEGEND
+SYMBOLS
+Circle Filled: Impact point
+Rectangle Red: Bajaj Pulsar DL2SBP1234 - Final position
+Rectangle White: Honda Activa DL5SCT5678 - Final position
+Dashed Line Pulsar: Pre-impact path of Pulsar
+Dashed Line Activa: Pre-impact path of Activa
+Wavy Line Skid: Skid mark (4.2m)
+Star Red: Blood stain location
+Triangle Camera: CCTV Camera locations
+Circle Streetlight: Street light poles
+Shaded Building: St. Stephen's Hospital
+Square Atm: Canara Bank ATM
+Square Shop: Joshi Tea Stall
+Dotted Divider: Road divider
+Solid Zebra: Zebra crossing
+Thick Stopline: Stop line
+Crossed Signal: Non-functional traffic signal
+ROAD GEOMETRY
+ROAD 1
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 2
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Name: Shankar Road
+Direction: Runs North-East to South-West
+Width: 12.5
+Lanes: Two lanes each direction, divided by concrete divider
+DIVIDER
+Type: Concrete, raised, 0.15m height, 0.8m width
+Start: Continuous from 500m SW to junction, gap of 12m at junction for crossing
+Shoulder: 0.5m on each side
+Footpath: 2.0m on both sides
+ROAD 2
+Name: Rajinder Nagar Main Road
+Direction: Approaches junction from South, continues as Old Rajinder Nagar Road to East
+Width: 10.0
+Lanes: One lane each direction
+Divider: None
+Footpath: 1.5m on both sides
+Junction Type: T-junction (Three-arm intersection)
+Junction Angle: Road 2 meets Road 1 at approximately 85 degrees
+ROAD MARKINGS
+ZEBRA CROSSING
+Location: Across Road 2 at junction mouth
+Width: 4.0
+Stripes: 12 stripes, white paint, faded but visible
+Condition: Fair, repainting needed
+STOP LINE
+Location: On Shankar Road, before junction
+Distance From Junction: 5.0m from junction edge
+Width: 300mm
+Color: White
+Condition: Visible
+Lane Markings: Dashed white lines on Shankar Road, faded on Road 2
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 3
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Give Way Signs: Present on Road 2 approach
+TRAFFIC SIGNAL DETAILS
+Location: Center of junction, overhead on gantry
+Type: 3-color LED (Red, Amber, Green)
+Status At Time Of Accident: Non-functional (confirmed by multiple sources)
+Last Functional: 12-10-2024 (3 days before accident)
+Complaint Filed: Yes, by Traffic Constable Asif on 13-10-2024 to Traffic Circle Office
+Manual Control: Traffic Constable deployed for manual regulation
+LIGHTING INFRASTRUCTURE
+STREET LIGHTS
+Item 1:
+Pole Id: SP/23/RJN
+Type: LED, 150W
+Height: 9m
+Location: North corner of junction
+Distance From Impact: 15
+Status: Functional
+Item 2:
+Pole Id: SP/24/RJN
+Type: LED, 150W
+Location: South side Shankar Road, 40m from junction
+Status: Functional
+Item 3:
+Pole Id: SP/25/RJN
+Type: LED, 150W
+Location: On Road 2, 20m from junction
+Status: Non-functional
+Item 4:
+Pole Id: SP/26/RJN
+Type: Sodium Vapor, 250W
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 4
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Location: East side, Old Rajinder Nagar Road, 30m from junction
+Status: Functional
+Item 5:
+Pole Id: SP/27/RJN
+Type: LED, 150W
+Location: Shankar Road North, 60m from junction
+Status: Non-functional
+Item 6:
+Pole Id: SP/28/RJN
+Type: LED, 150W
+Location: Shankar Road South, 70m from junction
+Status: Functional
+Overall Lighting: Moderate - 4 of 6 lights functioning in 100m radius
+LANDMARKS AND REFERENCES
+Item 1:
+Landmark: St. Stephen's Hospital Gate 2
+Location: North side, 30m from junction center
+Coordinates: 28.6381, 77.1923
+Item 2:
+Landmark: Canara Bank ATM
+Location: South side, Shankar Road, 50m from junction
+Coordinates: 28.6375, 77.1924
+Item 3:
+Landmark: Joshi Tea Stall (Shop No. 7)
+Location: South-East corner, 35m from junction
+Coordinates: 28.6377, 77.1926
+Item 4:
+Landmark: Bus Stop
+Location: Shankar Road North, 80m from junction, opposite hospital
+Coordinates: 28.6384, 77.1921
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 5
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Item 5:
+Landmark: Electric Pole SP/23/RJN
+Location: North corner of junction, 15m from impact point
+Coordinates: 28.6379, 77.1923
+MEASUREMENTS FROM REFERENCE POINTS
+REFERENCE 1 ELECTRIC POLE SP23
+To Impact Point: 22m South, 3m East
+To Pulsar Final: 18m South, 6m East
+To Activa Final: 25m South, 8m East
+REFERENCE 2 HOSPITAL GATE 2 PILLAR
+To Impact Point: 45m South, 12m East
+To Zebra Crossing: 48m South, 10m East
+ACCIDENT RECONSTRUCTION POSITIONS
+Pre Impact Path Pulsar: Vehicle approaches from SW on Shankar Road, traveling NE in right
+lane. Crosses Canara Bank ATM at 60 kmph (CCTV). Approaching junction, does not stop at stop
+line. Enters junction at 52-58 kmph.
+Pre Impact Path Activa: Vehicle approaches from South on Rajinder Nagar Road. Reaches
+T-junction. Indicator on for right turn towards Old Rajinder Nagar. Begins legal right turn at 10
+kmph.
+Impact Configuration: Pulsar front (traveling NE) collides with Activa right side (turning right).
+Impact at 75-80 degree angle. Activa rider thrown to right/east, landing near road edge.
+Post Impact Positions: Pulsar falls right side, skids to middle of junction facing East. Activa
+displaced right and comes to rest near South-East edge of junction facing South.
+COORDINATES SYSTEM
+Datum: WGS84
+Impact Point: 28.6378, 77.1923
+Measurements: All measurements in meters from this point
+Accuracy: ±1 meter using GPS and measuring tape
+Notes: Site plan drawn based on spot panchnama measurements, photographs, CCTV analysis,
+and revisiting the site on 16-10-2024. Plan accurately represents the scene as it existed at time of
+accident. Scale drawing attached to case file.
+Signature: Inspector Suresh Chandra, IO
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 6
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only

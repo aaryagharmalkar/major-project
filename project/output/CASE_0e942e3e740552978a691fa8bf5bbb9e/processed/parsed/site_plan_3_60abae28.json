@@ -1,0 +1,18 @@
+{
+  "document_id": "60abae28-c97d-4aeb-81ac-30f4141e39b4",
+  "document_type": "site_plan",
+  "ocr_text_sha256": "70d728087cb284a64d487be6175e5b5be5824c32c27db8245abca1391104e33d",
+  "parse_metadata": {
+    "parser_name": "SitePlanParser",
+    "parse_duration_ms": 1794.5765999993455,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "plan_number": "SP/PSRKP/0452/2024",
+  "plan_date": "2024-10-16",
+  "location": null,
+  "prepared_by": "Inspector Suresh Chandra, IO",
+  "annotations": []
+}

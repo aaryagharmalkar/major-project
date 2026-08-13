@@ -1,10 +1,10 @@
 {
   "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
   "document_type": "fsl_report",
-  "ocr_text_sha256": "a51f3619b498b9201527c455c2aaa37013726222818abb08e7a48737989c900f",
+  "ocr_text_sha256": "0b44b85e083b886307c6511ec3c0e9583ae94491c43277cbb1ea7d0da1675cd9",
   "parse_metadata": {
     "parser_name": "FSLParser",
-    "parse_duration_ms": 11692.95808300376,
+    "parse_duration_ms": 9354.020099999616,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,
@@ -12,7 +12,7 @@
   },
   "report_number": null,
   "report_date": null,
-  "laboratory_name": null,
+  "laboratory_name": "FORENSIC SCIENCE LABORATORY",
   "examined_items": [
     "swab/sample from damaged front portion of vehicle and control material."
   ],

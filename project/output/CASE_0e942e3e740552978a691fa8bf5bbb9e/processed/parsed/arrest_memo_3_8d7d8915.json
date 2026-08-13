@@ -1,0 +1,18 @@
+{
+  "document_id": "8d7d8915-e0c9-45c9-a990-f8f4eaaedf93",
+  "document_type": "arrest_memo",
+  "ocr_text_sha256": "95f5270895babd6639ba1a33a53de310141d40b58a9810b72f14c829808d9067",
+  "parse_metadata": {
+    "parser_name": "ArrestMemoParser",
+    "parse_duration_ms": 1787.6463000011427,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "memo_number": "ARR/PSRKP/2024/0452",
+  "arrest_datetime": "2024-10-15T19:15:00",
+  "arrested_person_name": "Amit Verma",
+  "arrest_location": "Shankar Road T-Point, Near St. Stephen's Hospital, Rajinder Nagar, New Delhi",
+  "arresting_officer_name": "Inspector Suresh Chandra"
+}

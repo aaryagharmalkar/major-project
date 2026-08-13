@@ -1,0 +1,427 @@
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 1
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+EVIDENCE INVENTORY
+Case: FIR/2024/DL/PSRKP/0452
+Date: 13-08-2026
+--------------------------------------------------------------------------------
+EVIDENCE INVENTORY
+Case Reference: FIR/2024/DL/PSRKP/0452
+Total Evidence Items: 15
+Evidence Custodian: MHC(M) - PS Rajinder Nagar
+List Prepared By: Inspector Suresh Chandra, IO
+Date: 2024-10-16
+ITEMS
+Item 1:
+Evidence Id: EVD-0452-001
+Type: Physical - Vehicle
+Description: Bajaj Pulsar 220F Motorcycle, Red, Registration DL2SBP1234
+Quantity: 1 unit
+Collected From: Accident spot, Shankar Road T-Point
+Collected By: Inspector Suresh Chandra
+Date Time Collection: 2024-10-15, 21:30
+Packaging: Parked in Police Station Malkhana yard, covered with tarpaulin
+Seal Number: SC-01
+Current Location: Malkhana Yard, PS Rajinder Nagar
+CHAIN OF CUSTODY
+Item 1:
+Date: 2024-10-15
+Action: Seized from spot
+By: IO
+Item 2:
+Date: 2024-10-16
+Action: Vehicle inspection
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 2
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+By: ASI Rajender Prasad
+Item 3:
+Date: 2024-10-17
+Action: Sent to FSL Rohini
+By: Constable Mohan via RC No. 234/2024
+Item 4:
+Date: 2024-11-18
+Action: Returned from FSL
+By: MHC(M)
+Item 5:
+Date: 2024-11-28
+Action: In Malkhana
+By: MHC(M)
+Status: In Police Custody
+Court Release Applicable: True
+Item 2:
+Evidence Id: EVD-0452-002
+Type: Physical - Vehicle
+Description: Honda Activa 6G Scooter, White, Registration DL5SCT5678
+Quantity: 1 unit
+Collected From: Accident spot, Shankar Road T-Point
+Collected By: Inspector Suresh Chandra
+Date Time Collection: 2024-10-15, 21:30
+Packaging: Parked in Police Station Malkhana yard, covered with tarpaulin
+Seal Number: SC-02
+Current Location: Malkhana Yard, PS Rajinder Nagar
+CHAIN OF CUSTODY
+Item 1:
+Date: 2024-10-15
+Action: Seized from spot
+By: IO
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 3
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Item 2:
+Date: 2024-10-16
+Action: Vehicle inspection
+By: ASI Rajender Prasad
+Item 3:
+Date: 2024-10-17
+Action: Sent to FSL Rohini
+By: Constable Mohan via RC No. 234/2024
+Item 4:
+Date: 2024-11-18
+Action: Returned from FSL
+By: MHC(M)
+Item 5:
+Date: 2024-11-28
+Action: In Malkhana
+By: MHC(M)
+Status: In Police Custody
+Court Release Applicable: True
+Item 3:
+Evidence Id: EVD-0452-003
+Type: Physical - Electronic Device
+Description: Smartphone Samsung Galaxy M32, Black, IMEI 358123456789012 (Accused)
+Quantity: 1 unit
+Collected From: Personal search of accused at time of arrest
+Collected By: Inspector Suresh Chandra
+Date Time Collection: 2024-10-15, 19:15
+Packaging: Sealed in plastic evidence bag, labeled
+Seal Number: SC-03
+Current Location: Malkhana Cupboard, PS Rajinder Nagar
+CHAIN OF CUSTODY
+Item 1:
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 4
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Date: 2024-10-15
+Action: Seized during arrest
+By: IO
+Item 2:
+Date: 2024-11-20
+Action: Sent for forensic extraction
+By: IT Cell
+Item 3:
+Date: 2024-11-25
+Action: Returned with extraction report
+By: MHC(M)
+Item 4:
+Date: 2024-11-28
+Action: In Malkhana
+By: MHC(M)
+Status: In Police Custody
+Digital Forensics Status: Extraction complete, Zomato delivery records recovered confirming
+order pickup at 18:15 and delivery deadline 18:35
+Item 4:
+Evidence Id: EVD-0452-004
+Type: Documentary
+Description: Driving License of Accused - DL/032021/0789456 (Amit Verma)
+Quantity: 1 card
+Collected From: Accused's wallet during personal search
+Collected By: Inspector Suresh Chandra
+Date Time Collection: 2024-10-15, 19:15
+Packaging: Plastic evidence envelope
+Seal Number: SC-04
+Current Location: Malkhana Cupboard, PS Rajinder Nagar
+Status: In Police Custody
+Item 5:
+Evidence Id: EVD-0452-005
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 5
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Type: Documentary
+Description: Driving License of Victim - DL/042018/0456789 (Rajesh Kumar Sharma)
+Quantity: 1 card
+Collected From: Victim's wallet (handed over by hospital staff)
+Collected By: ASI Ramphal Singh
+Date Time Collection: 2024-10-15, 20:00
+Packaging: Plastic evidence envelope
+Seal Number: SC-05
+Current Location: Malkhana Cupboard, PS Rajinder Nagar
+Status: In Police Custody, may be returned to family on court order
+Item 6:
+Evidence Id: EVD-0452-006
+Type: Physical - Safety Equipment
+Description: Helmet - Accused, Steelbird Black Full Face, ISI Mark
+Quantity: 1 unit
+Collected From: Accident spot
+Collected By: Inspector Suresh Chandra
+Date Time Collection: 2024-10-15, 21:30
+Packaging: Cardboard box, sealed
+Seal Number: SC-06
+Current Location: Malkhana, PS Rajinder Nagar
+CHAIN OF CUSTODY
+Item 1:
+Date: 2024-10-15
+Action: Seized
+By: IO
+Item 2:
+Date: 2024-10-17
+Action: To FSL
+By: Constable Mohan
+Item 3:
+Date: 2024-11-18
+Action: Return FSL
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 6
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+By: MHC(M)
+Status: In Police Custody
+Item 7:
+Evidence Id: EVD-0452-007
+Type: Physical - Safety Equipment
+Description: Helmet - Victim, Vega White Full Face, ISI Mark, Blood Stained, Cracked
+Quantity: 1 unit
+Collected From: Accident spot
+Collected By: Inspector Suresh Chandra
+Date Time Collection: 2024-10-15, 21:30
+Packaging: Cardboard box, sealed, biohazard labeled
+Seal Number: SC-07
+Current Location: Malkhana, PS Rajinder Nagar
+CHAIN OF CUSTODY
+Item 1:
+Date: 2024-10-15
+Action: Seized
+By: IO
+Item 2:
+Date: 2024-10-17
+Action: To FSL
+By: Constable Mohan
+Item 3:
+Date: 2024-11-18
+Action: Return FSL
+By: MHC(M)
+Status: In Police Custody
+Biohazard Note: Contains blood stains - handled per biological evidence protocol
+Item 8:
+Evidence Id: EVD-0452-008
+Type: Physical - Debris
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 7
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Description: Broken vehicle parts from accident site (plastic pieces, mirror, glass fragments)
+Quantity: 1 packet (various items)
+Collected From: Accident spot, impact area and debris field
+Collected By: Inspector Suresh Chandra
+Date Time Collection: 2024-10-15, 22:00
+Packaging: Cloth bag, sealed
+Seal Number: SC-08
+Current Location: Malkhana, PS Rajinder Nagar
+CHAIN OF CUSTODY
+Item 1:
+Date: 2024-10-15
+Action: Collected from spot
+By: IO
+Item 2:
+Date: 2024-10-17
+Action: To FSL for matching with vehicles
+By: Constable Mohan
+Item 3:
+Date: 2024-11-18
+Action: Return from FSL - pieces matched to respective vehicles
+By: MHC(M)
+Status: In Police Custody
+Item 9:
+Evidence Id: EVD-0452-009
+Type: Physical
+Description: Zomato Delivery Bag, Red Color, Torn
+Quantity: 1 unit
+Collected From: Accused's motorcycle at accident spot
+Collected By: Inspector Suresh Chandra
+Date Time Collection: 2024-10-15, 21:30
+Packaging: Large plastic bag, sealed
+Seal Number: SC-09
+Current Location: Malkhana, PS Rajinder Nagar
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 8
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Status: In Police Custody
+Item 10:
+Evidence Id: EVD-0452-010
+Type: Biological
+Description: Blood sample - Accused Amit Verma (2ml in EDTA vial)
+Quantity: 1 vial (2ml)
+Collected From: Dr. Ram Manohar Lohia Hospital during medical examination
+Collected By: Dr. R. Srinivasan, RML Hospital
+Date Time Collection: 2024-10-15, 19:45
+Packaging: Vacutainer, sealed, refrigerated
+Seal Number: SC-10
+Current Location: FSL Rohini (retained for DNA profiling)
+CHAIN OF CUSTODY
+Item 1:
+Date: 2024-10-15
+Action: Collected at RML
+By: Doctor
+Item 2:
+Date: 2024-10-16
+Action: Handed to IO at PS
+By: Constable
+Item 3:
+Date: 2024-10-17
+Action: To FSL
+By: Constable Mohan
+Item 4:
+Date: 2024-11-18
+Action: FSL analysis complete
+By: FSL
+Status: In FSL Custody
+Refrigeration Required: True
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 9
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Item 11:
+Evidence Id: EVD-0452-011
+Type: Biological
+Description: Blood sample - Victim Rajesh Kumar Sharma (2ml in EDTA vial)
+Quantity: 1 vial (2ml)
+Collected From: St. Stephen's Hospital during MLC preparation
+Collected By: Dr. Anjali Mehta, St. Stephen's Hospital
+Date Time Collection: 2024-10-15, 19:30
+Packaging: Vacutainer, sealed, refrigerated
+Seal Number: SC-11
+Current Location: FSL Rohini (retained for DNA profiling)
+CHAIN OF CUSTODY
+Item 1:
+Date: 2024-10-15
+Action: Collected at SSH
+By: Doctor
+Item 2:
+Date: 2024-10-16
+Action: Handed to IO at PS
+By: Constable
+Item 3:
+Date: 2024-10-17
+Action: To FSL
+By: Constable Mohan
+Item 4:
+Date: 2024-11-18
+Action: FSL analysis complete
+By: FSL
+Status: In FSL Custody
+Refrigeration Required: True
+Item 12:
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 10
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Evidence Id: EVD-0452-012
+Type: Digital
+Description: Photographs - 25 digital frames of accident spot and evidence
+Quantity: 25 files (SD Card 32GB)
+Collected From: Photography by HC Ramesh Kumar at accident spot
+Collected By: HC Ramesh Kumar, Photography Section
+Date Time Collection: 2024-10-15, 21:00-22:00
+Packaging: SD Card in sealed envelope, also backed up to PS server
+Seal Number: SC-12
+Current Location: Malkhana, PS Rajinder Nagar (SD Card); Server backup in IT Cell
+Hash Value: SHA256: a3f2c9e8d4b5a1f6e7c8d9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9
+Status: In Police Custody, Verified Original
+Item 13:
+Evidence Id: EVD-0452-013
+Type: Digital
+Description: CCTV Footage - DVR Hard Disk 1TB from St. Stephen's Hospital Gate 2
+Quantity: 1 HDD
+Collected From: Hospital Security Room, St. Stephen's Hospital
+Collected By: Inspector Suresh Chandra with Security Incharge Thomas George
+Date Time Collection: 2024-10-15, 22:30
+Packaging: Anti-static bag, sealed in cardboard box
+Seal Number: SC-13
+Current Location: Malkhana, PS Rajinder Nagar; Working copy in IT Cell
+CHAIN OF CUSTODY
+Item 1:
+Date: 2024-10-15
+Action: Seized from hospital
+By: IO
+Item 2:
+Date: 2024-10-16
+Action: Analysis and copying at IT Cell
+By: HC Ramesh
+Item 3:
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 11
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Date: 2024-10-17
+Action: Original sealed in Malkhana
+By: MHC(M)
+Status: In Police Custody - Original sealed, working copy used
+Item 14:
+Evidence Id: EVD-0452-014
+Type: Digital
+Description: CCTV Footage - Pen Drive 32GB from Canara Bank ATM, Shankar Road
+Quantity: 1 Pen Drive
+Collected From: Canara Bank ATM, Shankar Road (Copy provided by Bank Manager)
+Collected By: Inspector Suresh Chandra
+Date Time Collection: 2024-10-16, 10:00
+Packaging: Sealed envelope
+Seal Number: SC-14
+Current Location: Malkhana, PS Rajinder Nagar
+Status: In Police Custody
+Item 15:
+Evidence Id: EVD-0452-015
+Type: Digital
+Description: PCR Van Z-45 Dashcam Footage - SD Card 64GB
+Quantity: 1 SD Card
+Collected From: PCR Van Z-45, Incharge ASI Dharampal
+Collected By: Inspector Suresh Chandra
+Date Time Collection: 2024-10-16, 11:00
+Packaging: Sealed envelope
+Seal Number: SC-15
+Current Location: Malkhana, PS Rajinder Nagar
+Status: In Police Custody
+Evidence Summary: Total 15 evidence items collected. 3 physical vehicles/parts, 2 documentary,
+2 biological, 4 digital, 4 physical items. All evidence properly documented, sealed, and stored per
+Delhi Police Evidence Manual. Chain of custody maintained throughout.
+Io Declaration: I certify that all evidence listed above was collected by me or under my direct
+supervision, properly documented, and is material to the investigation of this case. No evidence has
+been tampered with or contaminated.
+Signature: Inspector Suresh Chandra, IO

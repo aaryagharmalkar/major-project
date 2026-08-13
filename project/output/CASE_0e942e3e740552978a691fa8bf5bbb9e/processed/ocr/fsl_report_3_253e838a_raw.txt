@@ -1,0 +1,257 @@
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 1
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+FORENSIC SCIENCE LABORATORY REPORT
+Case: FIR/2024/DL/PSRKP/0452
+Date: 13-08-2026
+--------------------------------------------------------------------------------
+FORENSIC SCIENCE LABORATORY REPORT
+Fsl Report Number: FSL/DL/2024/PHY/8934
+Date Of Receipt: 2024-10-17
+Date Of Examination: 2024-10-22 to 2024-11-15
+Date Of Report: 2024-11-18
+Laboratory: Forensic Science Laboratory, Rohini, New Delhi - 110085
+EXAMINING OFFICER
+Name: Dr. Priya Nambiar
+Designation: Senior Scientific Officer (Physics)
+Qualification: M.Sc. Physics, Ph.D. Forensic Science
+CASE REFERENCE
+Fir Number: FIR/2024/DL/PSRKP/0452
+Police Station: Rajinder Nagar
+Forwarding Authority: Inspector Suresh Chandra
+EXHIBITS RECEIVED
+Item 1:
+Exhibit No: EX-01
+Evidence Id: EVD-0452-001
+Description: Bajaj Pulsar 220F Motorcycle DL2SBP1234
+Parcel Condition: Intact, sealed with seal 'SC'
+Item 2:
+Exhibit No: EX-02
+Evidence Id: EVD-0452-002
+Description: Honda Activa 6G Scooter DL5SCT5678
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 2
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Parcel Condition: Intact, sealed with seal 'SC'
+Item 3:
+Exhibit No: EX-03
+Evidence Id: EVD-0452-006
+Description: Helmet - Accused (Steelbird, Black)
+Parcel Condition: Intact, sealed
+Item 4:
+Exhibit No: EX-04
+Evidence Id: EVD-0452-007
+Description: Helmet - Victim (Vega, White)
+Parcel Condition: Intact, sealed
+Item 5:
+Exhibit No: EX-05
+Evidence Id: EVD-0452-008
+Description: Broken vehicle parts from site
+Parcel Condition: Intact, sealed
+Item 6:
+Exhibit No: EX-06
+Evidence Id: EVD-0452-010
+Description: Blood sample - Accused (BLD-0452-A)
+Parcel Condition: Intact, refrigerated transport
+Item 7:
+Exhibit No: EX-07
+Evidence Id: EVD-0452-011
+Description: Blood sample - Victim (BLD-0452-B)
+Parcel Condition: Intact, refrigerated transport
+Item 8:
+Exhibit No: EX-08
+Evidence Id: EVD-0452-012
+Description: Digital photographs (SD Card, 32GB)
+Parcel Condition: Intact, sealed
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 3
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Item 9:
+Exhibit No: EX-09
+Evidence Id: EVD-0452-013
+Description: CCTV DVR Hard Disk (1TB)
+Parcel Condition: Intact, sealed
+EXAMINATIONS CONDUCTED
+VEHICLE EXAMINATION
+Method: Physical inspection, measurement, photographic documentation
+FINDINGS PULSAR
+Speedometer: Needle stuck at 55 kmph (indicates approximate speed at impact)
+Headlight: Smashed, filament examination shows 'hot shock' deformation confirming light was ON
+at time of impact
+Front Wheel: Rim bent, tyre burst on right side
+Brake System: Front disc brake functional, rear drum brake functional. Brake lever in applied
+position consistent with emergency braking
+Impact Force Calculated: Approximately 18-22 kN based on deformation pattern
+Paint Evidence: White paint transfer on right front fork matching Activa body color
+FINDINGS ACTIVA
+Right Side Impact: Deformation depth 25cm on right body panel indicating lateral impact force
+Paint Evidence: Red paint transfer on right side panel matching Pulsar color
+Brake Lever: Right brake lever bent due to impact, position suggests braking attempt
+Tyres: Both tyres in good condition, adequate tread depth (3.5mm front, 4.0mm rear)
+Conclusion: Primary impact was between front-right portion of Pulsar and right-center portion of
+Activa at an angle of 70-80 degrees. Pulsar was traveling at minimum 50-55 kmph at moment of
+impact. Both vehicle brake systems were functional prior to accident. Impact force sufficient to
+cause grievous injuries to rider of Activa.
+HELMET EXAMINATION
+VICTIM HELMET VEGA
+Outer Shell: Multiple impact marks on right temporal and parietal region. Deep gouge 4cm long on
+right side
+Inner Liner: Compressed on right side indicating absorption of impact energy
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 4
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Chin Strap: Intact and fastened at time of impact (tear pattern confirms)
+Blood: Blood stains inside helmet, Group B+ confirmed
+Hair: Scalp hair fragments with root, suitable for DNA
+Cracks: Two linear cracks on outer shell right side, 8cm and 5cm, indicating impact absorption
+Effectiveness: Helmet prevented direct skull fracture. Damage pattern consistent with head impact
+on road surface
+ACCUSED HELMET STEELBIRD
+Outer Shell: Minor scratches on left side
+Inner Liner: Normal, no compression
+Chin Strap: Found torn - examination reveals it was already torn/damaged before accident, not
+due to accident forces
+Conclusion: Helmet not properly secured at time of accident. Scratches consistent with minor fall.
+BLOOD ANALYSIS
+VICTIM BLOOD BLD 0452 B
+Blood Group: B+
+Alcohol: Not detected (0 mg/dL)
+Drugs Toxicology: Negative for all screened substances
+Dna Profile: Extracted and preserved for identification
+ACCUSED BLOOD BLD 0452 A
+Blood Group: O+
+Alcohol: Not detected (0 mg/dL)
+Drugs Toxicology: Negative for all screened substances
+Dna Profile: Extracted and preserved for identification
+ACCIDENT RECONSTRUCTION
+Method: Forensic analysis of physical evidence, CCTV footage correlation, mathematical modeling
+Pre Impact Scenario: Pulsar traveling SW to NE on Shankar Road towards junction. Activa
+traveling from Rajinder Nagar side and executing right turn towards Old Rajinder Nagar.
+Impact Configuration: Pulsar front collides with right center of Activa at intersection. Impact angle
+75 degrees.
+Post Impact Dynamics: Activa rider thrown to right side, landing 4.2m from impact point. Pulsar
+falls to right side, slides 3.1m. Pulsar rider falls to left, minimal travel distance.
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 5
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Speed At Impact: Pulsar: 52-58 kmph (calculated from skid mark length 4.2m, friction coefficient
+0.7 for dry bitumen, and residual impact velocity from damage analysis). Activa: 8-12 kmph (typical
+turning speed).
+Avoidability: At speed of 40 kmph (legal limit), Pulsar could have stopped in 15.5m total (thinking +
+braking distance). From skid mark evidence, Pulsar was at least 8m from impact point when
+emergency braking initiated. At legal speed, collision was avoidable. At actual speed (55 kmph),
+stopping distance required was 25m, making collision unavoidable from point where braking
+started.
+Violation: Speed exceeding legal limit was the primary causative factor. Signal violation/secondary
+as signal was non-functional but traffic police manual direction was ignored.
+CCTV ANALYSIS
+SOURCES ANALYZED
+Item 1:
+Camera: St. Stephen's Hospital Gate 2 (CAM-SSH-G2-03)
+Timestamp Synced: True
+KEY OBSERVATIONS
+Item 1:
+18:20:03 - White Activa enters frame from bottom (Rajinder Nagar side), speed low, indicator
+blinking for right turn
+Item 2:
+18:20:05 - Red Pulsar enters frame from left (Shankar Road, Karol Bagh side), speed visibly high
+Item 3:
+18:20:06 - Traffic constable visible at junction, left hand raised signaling STOP for Shankar Road
+traffic
+Item 4:
+18:20:07 - Pulsar does not stop, continues at same speed into junction
+Item 5:
+18:20:07.5 - Pulsar front collides with right side of Activa
+Item 6:
+18:20:08 - Activa rider airborne, falls near road edge
+Item 7:
+18:20:09 - Pulsar rider falls, gets up at 18:20:12
+Item 8:
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 6
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+18:20:14 - Constable runs towards Pulsar rider
+Item 9:
+18:20:18 - Constable grabs Pulsar rider by arm
+Item 10:
+Time stamp verified: Camera clock accurate within 2 seconds of IST
+Item 2:
+Camera: Canara Bank ATM (CAM-CB-ATM-01)
+Timestamp Synced: True
+KEY OBSERVATIONS
+Item 1:
+18:19:45 - Red Pulsar passes ATM at high speed, rider wearing red t-shirt, delivery bag visible
+Item 2:
+18:19:52 - Pulsar continues towards junction (towards St. Stephen's Hospital), brake light not visible
+at any point
+Item 3:
+18:20:15 - Sound of crash audible in ATM area (microphone recording), people near ATM look in
+direction of junction
+Item 4:
+18:20:30 - Several people seen running towards junction
+Conclusion: CCTV footage corroborates witness statements. Confirms overspeeding, disregard of
+traffic police signal, and sequence of collision. Time stamps consistent with timeline.
+FINAL OPINION
+Cause Of Accident: The accident occurred primarily due to overspeeding by the rider of Bajaj
+Pulsar DL2SBP1234 (speed 52-58 kmph against limit of 40 kmph) and failure to obey manual traffic
+police signal to stop. The speed made it impossible for the rider to stop or avoid collision when the
+Activa legally executed its turn.
+CONTRIBUTING FACTORS
+Item 1:
+Non-functional traffic signal (administrative failure)
+Item 2:
+Accused's hurry to deliver food order creating time pressure
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 7
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Item 3:
+Non-functional street lights reducing optimal visibility at dusk
+EXONERATING FACTORS VICTIM
+Item 1:
+Victim riding at appropriate speed
+Item 2:
+Victim wearing properly secured ISI-mark helmet
+Item 3:
+Victim taking legal turn with indicator
+Item 4:
+No alcohol/drugs detected
+Item 5:
+No contributory negligence found
+INCULPATING FACTORS ACCUSED
+Item 1:
+Gross overspeeding (52-58 kmph in 40 kmph zone)
+Item 2:
+Disregard of traffic constable's manual stop signal
+Item 3:
+Damaged helmet strap (prior to accident) indicating casual approach to safety
+Item 4:
+Self-admitted hurry to meet delivery deadline
+Signature: Dr. Priya Nambiar, Senior Scientific Officer (Physics), FSL Rohini, Delhi
+Seal: Forensic Science Laboratory, Government of NCT of Delhi

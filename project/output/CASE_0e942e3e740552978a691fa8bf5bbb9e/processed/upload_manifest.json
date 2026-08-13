@@ -1,0 +1,671 @@
+{
+  "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+  "entries": [
+    {
+      "source_document": {
+        "id": "71a1efd5-7d2d-4136-a018-62d2e36a7210",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "accused_statement_3.pdf",
+        "stored_filename": "71a1efd5-7d2d-4136-a018-62d2e36a7210.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/71a1efd5-7d2d-4136-a018-62d2e36a7210.pdf",
+        "media_type": "application/pdf",
+        "sha256": "217be21de31f6eb33c67f262c02f790801e8c46e5ceea4697ac09be2082e1a9a",
+        "size_bytes": 5236,
+        "declared_type": "other",
+        "detected_type": "other",
+        "classification_confidence": "low",
+        "validation_status": "valid",
+        "classification_status": "unknown",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.311248Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 5236,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "other",
+        "confidence": "low",
+        "reason": "No deterministic classification rule matched."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "69a29a8b-82b7-4829-bbea-df31f418323b",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "annexures_3.pdf",
+        "stored_filename": "69a29a8b-82b7-4829-bbea-df31f418323b.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/69a29a8b-82b7-4829-bbea-df31f418323b.pdf",
+        "media_type": "application/pdf",
+        "sha256": "92b966883d6056a1629b0376234f20b2eecef8e8f83506ff893cb327c5496ece",
+        "size_bytes": 10801,
+        "declared_type": "other",
+        "detected_type": "other",
+        "classification_confidence": "low",
+        "validation_status": "valid",
+        "classification_status": "unknown",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.314638Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 10801,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "other",
+        "confidence": "low",
+        "reason": "No deterministic classification rule matched."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "8d7d8915-e0c9-45c9-a990-f8f4eaaedf93",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "arrest_memo_3.pdf",
+        "stored_filename": "8d7d8915-e0c9-45c9-a990-f8f4eaaedf93.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/8d7d8915-e0c9-45c9-a990-f8f4eaaedf93.pdf",
+        "media_type": "application/pdf",
+        "sha256": "c6b372b6185f556f7366b9aec93d3e5399cc24d07f5ed95847c397bd918a7a54",
+        "size_bytes": 6227,
+        "declared_type": "arrest_memo",
+        "detected_type": "arrest_memo",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.318601Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 6227,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "arrest_memo",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "case_diary_3.pdf",
+        "stored_filename": "69bb3a11-c25e-465e-844e-8a20aae6a9c2.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/69bb3a11-c25e-465e-844e-8a20aae6a9c2.pdf",
+        "media_type": "application/pdf",
+        "sha256": "03bd4d59618f22288f7f60613a9ceb705a054653ae53d4d87e1e0651ab284d9d",
+        "size_bytes": 17255,
+        "declared_type": "case_diary",
+        "detected_type": "case_diary",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.323544Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 17255,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "case_diary",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "80a4b4ed-cdb6-4938-8b6f-d0e4096f908b",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "cctv_report_3.pdf",
+        "stored_filename": "80a4b4ed-cdb6-4938-8b6f-d0e4096f908b.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/80a4b4ed-cdb6-4938-8b6f-d0e4096f908b.pdf",
+        "media_type": "application/pdf",
+        "sha256": "0adee788b66e139ad6b5ed5274adf3fd686618f7398699376df17f71e7b4266d",
+        "size_bytes": 13777,
+        "declared_type": "other",
+        "detected_type": "other",
+        "classification_confidence": "low",
+        "validation_status": "valid",
+        "classification_status": "unknown",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.328746Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 13777,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "other",
+        "confidence": "low",
+        "reason": "No deterministic classification rule matched."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "c3792e74-abe2-4f0a-bb86-2cfce930d56a",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "complaint_3.pdf",
+        "stored_filename": "c3792e74-abe2-4f0a-bb86-2cfce930d56a.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/c3792e74-abe2-4f0a-bb86-2cfce930d56a.pdf",
+        "media_type": "application/pdf",
+        "sha256": "f31380ec8074961d13255e8112a8c35b83c384148e5dc583222915b0693007ee",
+        "size_bytes": 4507,
+        "declared_type": "complaint",
+        "detected_type": "complaint",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.332575Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 4507,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "complaint",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "d81514be-94e7-4afa-863e-ac8484577d8e",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "evidence_list_3.pdf",
+        "stored_filename": "d81514be-94e7-4afa-863e-ac8484577d8e.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/d81514be-94e7-4afa-863e-ac8484577d8e.pdf",
+        "media_type": "application/pdf",
+        "sha256": "150758df8f4824f69524035fc18eb03d67609ce38a9cd5fdb244133a1595a6a5",
+        "size_bytes": 19661,
+        "declared_type": "other",
+        "detected_type": "other",
+        "classification_confidence": "low",
+        "validation_status": "valid",
+        "classification_status": "unknown",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.338065Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 19661,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "other",
+        "confidence": "low",
+        "reason": "No deterministic classification rule matched."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "fir_3.pdf",
+        "stored_filename": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/ebe1cab4-a6fe-4faa-ab96-e038ff5f1300.pdf",
+        "media_type": "application/pdf",
+        "sha256": "8842091404b19a4a6957763fb414f2c6265ba3b53733952389ef7e88f64a558c",
+        "size_bytes": 6440,
+        "declared_type": "fir",
+        "detected_type": "fir",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.343001Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 6440,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "fir",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "fsl_report_3.pdf",
+        "stored_filename": "253e838a-7aec-4cbd-847f-1904ac0d0b21.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/253e838a-7aec-4cbd-847f-1904ac0d0b21.pdf",
+        "media_type": "application/pdf",
+        "sha256": "b732894ed1883c410017b531061669ec5bbd9ec07e0504aeb2be9c5ca3c4f670",
+        "size_bytes": 14414,
+        "declared_type": "fsl_report",
+        "detected_type": "fsl_report",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.348959Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 14414,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "fsl_report",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "14935a1c-4967-471c-af74-1a87ea748703",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "master_case_3.pdf",
+        "stored_filename": "14935a1c-4967-471c-af74-1a87ea748703.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/14935a1c-4967-471c-af74-1a87ea748703.pdf",
+        "media_type": "application/pdf",
+        "sha256": "e77d0e1e83c491037ee1faeaac20905e6d3496cb98018625b5fd309a524b73e3",
+        "size_bytes": 14530,
+        "declared_type": "other",
+        "detected_type": "other",
+        "classification_confidence": "low",
+        "validation_status": "valid",
+        "classification_status": "unknown",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.353527Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 14530,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "other",
+        "confidence": "low",
+        "reason": "No deterministic classification rule matched."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "medical_report_3.pdf",
+        "stored_filename": "01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/01f76050-0a9e-4ccb-b87b-ea1a1c4f18ca.pdf",
+        "media_type": "application/pdf",
+        "sha256": "7f78548279757851d13999084c5aa0984717dab71826f52c0a997b3666fd4198",
+        "size_bytes": 11502,
+        "declared_type": "medical_report",
+        "detected_type": "medical_report",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.358181Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 11502,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "medical_report",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "6a9e68f4-8f35-4603-9363-56ea5193ffb5",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "postmortem_report_3.pdf",
+        "stored_filename": "6a9e68f4-8f35-4603-9363-56ea5193ffb5.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/6a9e68f4-8f35-4603-9363-56ea5193ffb5.pdf",
+        "media_type": "application/pdf",
+        "sha256": "04bfac0f98a6c5115fad495057af6d8c40a55f4b87744b9bd887f53dd3558201",
+        "size_bytes": 2574,
+        "declared_type": "postmortem_report",
+        "detected_type": "postmortem_report",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.362162Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 2574,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "postmortem_report",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "seizure_memo_3.pdf",
+        "stored_filename": "70b054f7-edb1-47be-ac88-3956f8a35368.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/70b054f7-edb1-47be-ac88-3956f8a35368.pdf",
+        "media_type": "application/pdf",
+        "sha256": "b7b6f248512325f3e6a8fb1bf4349374c878040750a0553055b87644c066426e",
+        "size_bytes": 8902,
+        "declared_type": "seizure_memo",
+        "detected_type": "seizure_memo",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.367867Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 8902,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "seizure_memo",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "60abae28-c97d-4aeb-81ac-30f4141e39b4",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "site_plan_3.pdf",
+        "stored_filename": "60abae28-c97d-4aeb-81ac-30f4141e39b4.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/60abae28-c97d-4aeb-81ac-30f4141e39b4.pdf",
+        "media_type": "application/pdf",
+        "sha256": "35a0160594201172a23d3add91ffd62fef4b3035a79935a4fbbbec4fdc973545",
+        "size_bytes": 10699,
+        "declared_type": "site_plan",
+        "detected_type": "site_plan",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.372421Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 10699,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "site_plan",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "5dadc10f-c60e-489d-add4-d75a9e6e7a5f",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "spot_panchnama_3.pdf",
+        "stored_filename": "5dadc10f-c60e-489d-add4-d75a9e6e7a5f.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/5dadc10f-c60e-489d-add4-d75a9e6e7a5f.pdf",
+        "media_type": "application/pdf",
+        "sha256": "8a65a7657607d175a543cef5af4f8b96e5c4ad80c9440dd3fb799fc79cdba0a6",
+        "size_bytes": 11280,
+        "declared_type": "spot_panchnama",
+        "detected_type": "spot_panchnama",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.378156Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 11280,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "spot_panchnama",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "b1efb134-a796-41f4-a58b-a8ade13f442c",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "timeline_3.pdf",
+        "stored_filename": "b1efb134-a796-41f4-a58b-a8ade13f442c.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/b1efb134-a796-41f4-a58b-a8ade13f442c.pdf",
+        "media_type": "application/pdf",
+        "sha256": "e35e17311bba03d504901348a0e86057b47a265242488654a129e0415638a131",
+        "size_bytes": 19303,
+        "declared_type": "other",
+        "detected_type": "other",
+        "classification_confidence": "low",
+        "validation_status": "valid",
+        "classification_status": "unknown",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.382436Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 19303,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "other",
+        "confidence": "low",
+        "reason": "No deterministic classification rule matched."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "bbb30b6a-c5d7-4f78-85c7-d5251065f80b",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "vehicle_inspection_3.pdf",
+        "stored_filename": "bbb30b6a-c5d7-4f78-85c7-d5251065f80b.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/bbb30b6a-c5d7-4f78-85c7-d5251065f80b.pdf",
+        "media_type": "application/pdf",
+        "sha256": "2de02457abdebf1d633059f7a9b84768acc7dd51e05c796b3ac097357b0ed912",
+        "size_bytes": 13202,
+        "declared_type": "vehicle_inspection",
+        "detected_type": "vehicle_inspection",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.386612Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 13202,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "vehicle_inspection",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "bc74e5bb-238e-4eb3-88f9-376e412e1e40",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "witness_statement_1_3.pdf",
+        "stored_filename": "bc74e5bb-238e-4eb3-88f9-376e412e1e40.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/bc74e5bb-238e-4eb3-88f9-376e412e1e40.pdf",
+        "media_type": "application/pdf",
+        "sha256": "68f663d2bda85fc2b2e90392dc3811eec898411cbea76fbbdc35a6c153d03d31",
+        "size_bytes": 5243,
+        "declared_type": "witness_statement",
+        "detected_type": "witness_statement",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.390169Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 5243,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "witness_statement",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    },
+    {
+      "source_document": {
+        "id": "f3d15543-ad32-4299-8352-dc95ddb4907f",
+        "case_id": "0e942e3e-7405-5297-8a69-1fa8bf5bbb9e",
+        "original_filename": "witness_statement_2_3.pdf",
+        "stored_filename": "f3d15543-ad32-4299-8352-dc95ddb4907f.pdf",
+        "storage_key": "CASE_0e942e3e740552978a691fa8bf5bbb9e/originals/f3d15543-ad32-4299-8352-dc95ddb4907f.pdf",
+        "media_type": "application/pdf",
+        "sha256": "d0adc7798e4b6f9abc9c15c018b601915b0100338125761ec6b5e63d5c79e273",
+        "size_bytes": 4927,
+        "declared_type": "witness_statement",
+        "detected_type": "witness_statement",
+        "classification_confidence": "high",
+        "validation_status": "valid",
+        "classification_status": "classified",
+        "extraction_state": "pending",
+        "processing_capability": "ocr_supported",
+        "parsing_state": "pending",
+        "uploaded_at": "2026-08-13T19:25:56.394068Z"
+      },
+      "validation": {
+        "is_valid": true,
+        "extension": ".pdf",
+        "detected_mime_type": "application/pdf",
+        "size_bytes": 4927,
+        "errors": []
+      },
+      "classification": {
+        "document_type": "witness_statement",
+        "confidence": "high",
+        "reason": "Matched deterministic filename keyword."
+      },
+      "status": "accepted",
+      "duplicate_of_document_id": null
+    }
+  ],
+  "created_at": "2026-08-13T19:25:56.394113Z"
+}

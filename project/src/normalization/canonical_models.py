@@ -68,6 +68,7 @@ class CanonicalDocument(DomainModel):
     id: UUID
     document_id: CanonicalFact
     document_type: CanonicalFact | None = None
+    attributes: dict[str, CanonicalFact] = Field(default_factory=dict)
 
 
 class CanonicalEvidence(DomainModel):

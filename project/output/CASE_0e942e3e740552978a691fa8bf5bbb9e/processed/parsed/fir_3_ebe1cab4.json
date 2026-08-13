@@ -1,0 +1,39 @@
+{
+  "document_id": "ebe1cab4-a6fe-4faa-ab96-e038ff5f1300",
+  "document_type": "fir",
+  "ocr_text_sha256": "2781847be8d4f12b8d6b5076535ace6625611d80f630e7707d03db1c1777106b",
+  "parse_metadata": {
+    "parser_name": "FIRParser",
+    "parse_duration_ms": 2215.0550999995176,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "fir_number": "FIR/2024/DL/PSRKP/0452",
+  "crime_number": null,
+  "registration_date": "2024-10-15",
+  "police_station": "Rajinder Nagar Police Station",
+  "complainant_name": "Sunita Sharma",
+  "accused_names": [
+    "Amit Verma"
+  ],
+  "victim_names": [
+    "Rajesh Kumar Sharma"
+  ],
+  "vehicle_registrations": [
+    "DL2SBP1234",
+    "DL5SCT5678"
+  ],
+  "occurrence_datetime": "2024-10-15T18:20:00",
+  "occurrence_location": "Shankar Road T-Point, Near St. Stephen's Hospital Gate No. 2, Rajinder Nagar, New Delhi",
+  "jurisdiction": null,
+  "court": "Ld. Metropolitan Magistrate, Tis Hazari Courts",
+  "reported_sections": [
+    "Section 281",
+    "Section 125",
+    "Section 184",
+    "Section 134"
+  ],
+  "narrative_text": "On 15-10-2024 at about 18:20 hours, accused Amit Verma while riding motorcycle Bajaj Pulsar DL2SBP1234 on Shankar Road in a rash and negligent manner endangering human life, coming from Karol Bagh side towards Rajinder Nagar, at T-point near St. Stephen's Hospital Gate No. 2, jumped the red light and dashed against Honda Activa DL5SCT5678 being ridden by victim Rajesh Kumar Sharma who was coming from Rajinder Nagar side and taking a legal turn towards Old Rajinder Nagar. Due to high-speed impact, victim sustained grievous injuries and was admitted to St. Stephen's Hospital in critical condition. The accused failed to provide medical aid to victim and attempted to flee but was apprehended by Traffic Constable Mohammed Asif at the spot. Medical examination of accused was conducted and case has been registered."
+}

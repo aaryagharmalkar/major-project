@@ -1,0 +1,10 @@
+{
+  "provider": "gemini",
+  "model": "gemini-flash-latest",
+  "input_mime_type": "application/pdf",
+  "processed_at": "2026-08-13T19:05:10.167650Z",
+  "processing_time_ms": 17462.62519999982,
+  "token_usage": 6575,
+  "estimated_cost": null,
+  "provider_metadata": {}
+}

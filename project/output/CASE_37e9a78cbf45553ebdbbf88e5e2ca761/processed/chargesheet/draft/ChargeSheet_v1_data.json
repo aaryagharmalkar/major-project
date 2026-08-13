@@ -8,7 +8,7 @@
     "confidence": null,
     "source_references": [
       {
-        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
         "location": {
           "page_number": null,
           "frame_number": null,
@@ -27,7 +27,7 @@
     "confidence": null,
     "source_references": [
       {
-        "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+        "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
         "location": {
           "page_number": null,
           "frame_number": null,
@@ -48,35 +48,313 @@
     "review_required": true
   },
   "case_summary": {
-    "value": null,
-    "status": "unavailable",
+    "value": "The records describe an occurrence on 14 August 2026, 20:35 at Senapati Road junction, Pune.\nRecorded incident: On the stated date and time, a road traffic collision occurred at the junction.\nRecorded complainant: Neha Patil.\nRecorded accused: Rohan Mehta.\nRecorded victim: Amit Kulkarni.\nVehicle reference: MH-12-AB-4821.",
+    "status": "review_required",
     "confidence": null,
-    "source_references": [],
+    "source_references": [
+      {
+        "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "01c25576-7c6d-4d17-b2e0-9293d98eb67a",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "c8afb7b6-a7cb-4679-81f9-d7529dcba236",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "d8f7d240-507e-4f66-82b9-4e9ac5723d76",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "cbf50f18-a98b-4362-8678-4740b7733da9",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ],
     "review_required": true
   },
   "detailed_facts": {
-    "value": null,
-    "status": "unavailable",
+    "value": "On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
+    "status": "review_required",
     "confidence": null,
-    "source_references": [],
+    "source_references": [
+      {
+        "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ],
     "review_required": true
   },
   "investigation_conducted": {
-    "value": null,
-    "status": "unavailable",
+    "value": "The FIR record was examined: FIR No.: FIR No. 47/2026; Registration date: 14 August 2026; Police station: Shivaji Nagar Police Station; Complainant name: Neha Patil; Accused names: Rohan Mehta; Victim names: Amit Kulkarni; Vehicle registrations: MH-12-AB-4821; Occurrence Date and time: 14 August 2026, 20:35; Occurrence location: Senapati Road junction, Pune; Jurisdiction: Pune City.\nThe complaint record was examined: Complaint date: 14 August 2026; Complainant name: Neha Patil; Person complained against names: Rohan Mehta; Victim names: Amit Kulkarni; Vehicle registrations: MH-12-AB-4821.\nThe forensic report was examined: Laboratory name: FORENSIC SCIENCE LABORATORY; Examined items: swab/sample from damaged front portion of vehicle; control material; Findings: the submitted sample contained biological material suitable for comparison testing.\nThe medical record was examined: Report date: 14 August 2026; Patient name: Amit Kulkarni; Observations: fracture of the left femur; abrasions over the right forearm; contusion over the left shoulder.\nThe seizure/recovery record was examined: Seizure Date and time: 14 August 2026; Seizure location: Senapati Road junction, Pune; Seized items: Description: Vehicle seized: MH-12-AB-4821; Exhibit mark: Not Available; Description: front registration plate; Description: vehicle keys; Description: damaged front bumper assembly.\nThe scene/site-plan record was documented: Plan date: 14 August 2026; Location: Senapati Road junction, Pune; Annotations: northbound carriageway; pedestrian crossing; roadside shop; approximate position where the vehicle was found after the collision; Vehicle position marked with registration MH-12-AB-4821.; Approximate pedestrian position marked for Amit Kulkarni.\nThe vehicle inspection record was examined: Inspection date: 15 August 2026; Vehicle registration: MH-12-AB-4821; Observations: damage to front bumper and bonnet; damage consistent with a frontal impact.; Vehicle identification markings were recorded and found consistent with the registration details supplied for inspection.\nA witness statement was recorded: Statement date: 14 August 2026; Witness name: Neha Patil; Witness address: Senapati Road junction, Pune.\nA witness statement was recorded: Statement date: 14 August 2026; Witness name: Suresh Joshi; Witness address: Senapati Road junction, Pune.",
+    "status": "review_required",
     "confidence": null,
-    "source_references": [],
+    "source_references": [
+      {
+        "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "c8afb7b6-a7cb-4679-81f9-d7529dcba236",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "01c25576-7c6d-4d17-b2e0-9293d98eb67a",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "cbf50f18-a98b-4362-8678-4740b7733da9",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "d8f7d240-507e-4f66-82b9-4e9ac5723d76",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "39dc19a7-1335-468a-955e-34965191bfcf",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ],
     "review_required": true
   },
   "evidence_analysis": {
-    "value": null,
-    "status": "unavailable",
+    "value": "Documentary Evidence:\n- swab/sample from damaged front portion of vehicle.\n- control material.\nPhysical/Material Evidence:\n- Vehicle seized: MH-12-AB-4821.\n- front registration plate.\n- vehicle keys.\n- damaged front bumper assembly.\nMedical Evidence:\n- fracture of the left femur.\n- abrasions over the right forearm.\n- contusion over the left shoulder.\nForensic Evidence:\n- the submitted sample contained biological material suitable for comparison testing.\nVehicle Evidence:\n- MH-12-AB-4821.\nWitness Evidence:\n- Neha Patil.\n- Suresh Joshi.\n- Collection/custody detail: Senapati Road junction, Pune.",
+    "status": "review_required",
     "confidence": null,
-    "source_references": [],
+    "source_references": [
+      {
+        "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "c8afb7b6-a7cb-4679-81f9-d7529dcba236",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "cbf50f18-a98b-4362-8678-4740b7733da9",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "d8f7d240-507e-4f66-82b9-4e9ac5723d76",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      },
+      {
+        "document_id": "39dc19a7-1335-468a-955e-34965191bfcf",
+        "location": {
+          "page_number": null,
+          "frame_number": null,
+          "timestamp_seconds": null,
+          "extraction_key": null
+        },
+        "excerpt": null,
+        "confidence": "medium"
+      }
+    ],
     "review_required": true
   },
-  "complainants": [],
-  "victims": [
+  "complainants": [
     {
       "serial": 1,
       "description": {
@@ -85,7 +363,7 @@
         "confidence": null,
         "source_references": [
           {
-            "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+            "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -96,7 +374,7 @@
             "confidence": "medium"
           },
           {
-            "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+            "document_id": "c8afb7b6-a7cb-4679-81f9-d7529dcba236",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -107,36 +385,7 @@
             "confidence": "medium"
           },
           {
-            "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
-            "location": {
-              "page_number": null,
-              "frame_number": null,
-              "timestamp_seconds": null,
-              "extraction_key": null
-            },
-            "excerpt": null,
-            "confidence": "medium"
-          }
-        ],
-        "review_required": true
-      },
-      "exhibit": {
-        "value": null,
-        "status": "unavailable",
-        "confidence": null,
-        "source_references": [],
-        "review_required": true
-      }
-    },
-    {
-      "serial": 2,
-      "description": {
-        "value": "Amit Kulkarni",
-        "status": "review_required",
-        "confidence": null,
-        "source_references": [
-          {
-            "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+            "document_id": "d8f7d240-507e-4f66-82b9-4e9ac5723d76",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -158,7 +407,101 @@
       }
     }
   ],
-  "accused": [],
+  "victims": [
+    {
+      "serial": 1,
+      "description": {
+        "value": "Amit Kulkarni",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "c8afb7b6-a7cb-4679-81f9-d7529dcba236",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    }
+  ],
+  "accused": [
+    {
+      "serial": 1,
+      "description": {
+        "value": "Rohan Mehta",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "c8afb7b6-a7cb-4679-81f9-d7529dcba236",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    }
+  ],
   "witnesses": [
     {
       "serial": 1,
@@ -168,7 +511,7 @@
         "confidence": null,
         "source_references": [
           {
-            "document_id": "553a46f3-ce35-44ca-909e-2b3b94e1c258",
+            "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -179,7 +522,7 @@
             "confidence": "medium"
           },
           {
-            "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+            "document_id": "c8afb7b6-a7cb-4679-81f9-d7529dcba236",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -190,7 +533,7 @@
             "confidence": "medium"
           },
           {
-            "document_id": "0fe24de9-0e76-4c9c-8bcb-61e7426b1b02",
+            "document_id": "d8f7d240-507e-4f66-82b9-4e9ac5723d76",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -219,7 +562,7 @@
         "confidence": null,
         "source_references": [
           {
-            "document_id": "9181753f-6544-404d-b5d9-a8021228e967",
+            "document_id": "39dc19a7-1335-468a-955e-34965191bfcf",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -245,12 +588,12 @@
     {
       "serial": 1,
       "description": {
-        "value": "On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\n\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
+        "value": "On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
         "status": "review_required",
         "confidence": null,
         "source_references": [
           {
-            "document_id": "d78b79f0-99a0-4dc2-8d71-d611544e232c",
+            "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -276,12 +619,41 @@
     {
       "serial": 1,
       "description": {
-        "value": "swab/sample from damaged front portion of vehicle and control material.",
+        "value": "swab/sample from damaged front portion of vehicle",
         "status": "review_required",
         "confidence": null,
         "source_references": [
           {
-            "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    },
+    {
+      "serial": 2,
+      "description": {
+        "value": "control material",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -307,12 +679,12 @@
     {
       "serial": 1,
       "description": {
-        "value": "Vehicle MH-12-AB-4821",
+        "value": "Vehicle seized: MH-12-AB-4821",
         "status": "review_required",
         "confidence": null,
         "source_references": [
           {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -341,7 +713,7 @@
         "confidence": null,
         "source_references": [
           {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -370,7 +742,7 @@
         "confidence": null,
         "source_references": [
           {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -399,7 +771,7 @@
         "confidence": null,
         "source_references": [
           {
-            "document_id": "a42171a5-3381-4771-aff2-8d25b96f86c9",
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
             "location": {
               "page_number": null,
               "frame_number": null,
@@ -428,7 +800,7 @@
       "confidence": null,
       "source_references": [
         {
-          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
           "location": {
             "page_number": null,
             "frame_number": null,
@@ -447,7 +819,7 @@
       "confidence": null,
       "source_references": [
         {
-          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
           "location": {
             "page_number": null,
             "frame_number": null,
@@ -466,7 +838,7 @@
       "confidence": null,
       "source_references": [
         {
-          "document_id": "86840ee1-bb00-46d7-9820-9e97dfe8960e",
+          "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
           "location": {
             "page_number": null,
             "frame_number": null,
@@ -487,7 +859,7 @@
       "confidence": null,
       "source_references": [
         {
-          "document_id": "cc9178bf-a926-4268-8333-2d24f50c1148",
+          "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
           "location": {
             "page_number": null,
             "frame_number": null,
@@ -508,7 +880,29 @@
       "confidence": null,
       "source_references": [
         {
-          "document_id": "3469f508-3b4a-44be-a6ae-031780aa3d68",
+          "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "c8afb7b6-a7cb-4679-81f9-d7529dcba236",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "cbf50f18-a98b-4362-8678-4740b7733da9",
           "location": {
             "page_number": null,
             "frame_number": null,
@@ -524,14 +918,1006 @@
   ],
   "legal_sections": [
     {
-      "value": null,
-      "status": "unavailable",
-      "confidence": null,
-      "source_references": [],
+      "value": "115",
+      "status": "review_required",
+      "confidence": 0.8,
+      "source_references": [
+        {
+          "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        },
+        {
+          "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+          "location": {
+            "page_number": null,
+            "frame_number": null,
+            "timestamp_seconds": null,
+            "extraction_key": null
+          },
+          "excerpt": null,
+          "confidence": "medium"
+        }
+      ],
       "review_required": true
     }
   ],
-  "annexures": [],
+  "legal_findings": [
+    {
+      "offence": {
+        "value": "Voluntarily causing hurt",
+        "status": "review_required",
+        "confidence": 0.8,
+        "source_references": [
+          {
+            "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "proposed_section": {
+        "value": "115",
+        "status": "review_required",
+        "confidence": 0.8,
+        "source_references": [
+          {
+            "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "description": {
+        "value": "Configured BNS reference for voluntarily causing hurt; application requires evidence supporting the required element.",
+        "status": "review_required",
+        "confidence": 0.8,
+        "source_references": [
+          {
+            "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          },
+          {
+            "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "status": "insufficient_evidence",
+      "evidence_strength": "high",
+      "review_required": true,
+      "supporting_evidence": [
+        {
+          "value": "fracture of the left femur",
+          "status": "review_required",
+          "confidence": null,
+          "source_references": [
+            {
+              "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ],
+          "review_required": true
+        },
+        {
+          "value": "abrasions over the right forearm",
+          "status": "review_required",
+          "confidence": null,
+          "source_references": [
+            {
+              "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ],
+          "review_required": true
+        },
+        {
+          "value": "contusion over the left shoulder",
+          "status": "review_required",
+          "confidence": null,
+          "source_references": [
+            {
+              "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ],
+          "review_required": true
+        },
+        {
+          "value": "the submitted sample contained biological material suitable for comparison testing.",
+          "status": "review_required",
+          "confidence": null,
+          "source_references": [
+            {
+              "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ],
+          "review_required": true
+        },
+        {
+          "value": "swab/sample from damaged front portion of vehicle",
+          "status": "review_required",
+          "confidence": null,
+          "source_references": [
+            {
+              "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ],
+          "review_required": true
+        },
+        {
+          "value": "control material",
+          "status": "review_required",
+          "confidence": null,
+          "source_references": [
+            {
+              "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ],
+          "review_required": true
+        },
+        {
+          "value": "Vehicle seized: MH-12-AB-4821",
+          "status": "review_required",
+          "confidence": null,
+          "source_references": [
+            {
+              "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ],
+          "review_required": true
+        },
+        {
+          "value": "front registration plate",
+          "status": "review_required",
+          "confidence": null,
+          "source_references": [
+            {
+              "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ],
+          "review_required": true
+        },
+        {
+          "value": "vehicle keys",
+          "status": "review_required",
+          "confidence": null,
+          "source_references": [
+            {
+              "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ],
+          "review_required": true
+        },
+        {
+          "value": "damaged front bumper assembly",
+          "status": "review_required",
+          "confidence": null,
+          "source_references": [
+            {
+              "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ],
+          "review_required": true
+        },
+        {
+          "value": "On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
+          "status": "review_required",
+          "confidence": null,
+          "source_references": [
+            {
+              "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          ],
+          "review_required": true
+        }
+      ],
+      "contradicting_evidence": []
+    }
+  ],
+  "conflicts": [],
+  "missing_information": [],
+  "annexures": [
+    {
+      "serial": 1,
+      "description": {
+        "value": "FIR:\nDocument ID: 53e5c1e2-7d4a-4046-a549-e7c93ffdf64a\nFir number: FIR No. 47/2026\nRegistration date: 14 August 2026\nPolice station: Shivaji Nagar Police Station\nComplainant name: Neha Patil\nAccused names: - Rohan Mehta\nVictim names: - Amit Kulkarni\nVehicle registrations: - MH-12-AB-4821\nOccurrence datetime: 14 August 2026, 20:35\nOccurrence location: Senapati Road junction, Pune\nJurisdiction: Pune City\nNarrative text: On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    },
+    {
+      "serial": 2,
+      "description": {
+        "value": "Complaint:\nDocument ID: c8afb7b6-a7cb-4679-81f9-d7529dcba236\nComplaint date: 14 August 2026\nComplainant name: Neha Patil\nPerson complained against names: - Rohan Mehta\nVictim names: - Amit Kulkarni\nVehicle registrations: - MH-12-AB-4821\nComplaint text: I was present near the junction and saw the vehicle approach the crossing. After the collision, I called for assistance and remained at the scene until police personnel arrived.",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "c8afb7b6-a7cb-4679-81f9-d7529dcba236",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    },
+    {
+      "serial": 3,
+      "description": {
+        "value": "FSL report:\nDocument ID: c7728b9d-209b-47b0-b8cc-bbf90008a7c5\nLaboratory name: FORENSIC SCIENCE LABORATORY\nExamined items: - swab/sample from damaged front portion of vehicle\n- control material\nFindings: - the submitted sample contained biological material suitable for comparison testing.\nOpinion text: The report records laboratory observations and does not independently establish the complete circumstances of the incident.",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    },
+    {
+      "serial": 4,
+      "description": {
+        "value": "Medical report:\nDocument ID: da0df53f-c218-44c4-92ae-171797aea0ed\nReport date: 14 August 2026\nPatient name: Amit Kulkarni\nObservations: - fracture of the left femur\n- abrasions over the right forearm\n- contusion over the left shoulder\nOpinion text: Final clinical opinion is subject to the treating medical record.",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "da0df53f-c218-44c4-92ae-171797aea0ed",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    },
+    {
+      "serial": 5,
+      "description": {
+        "value": "Seizure memo:\nDocument ID: eedd6c2e-e271-423f-ba70-4c21c8e2bb19\nSeizure datetime: 14 August 2026\nSeizure location: Senapati Road junction, Pune\nSeized items: - Description: Vehicle seized: MH-12-AB-4821\n  Exhibit mark: Not Available\n- Description: front registration plate\n- Description: vehicle keys\n- Description: damaged front bumper assembly",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    },
+    {
+      "serial": 6,
+      "description": {
+        "value": "Site plan:\nDocument ID: 01c25576-7c6d-4d17-b2e0-9293d98eb67a\nPlan date: 14 August 2026\nLocation: Senapati Road junction, Pune\nAnnotations: - northbound carriageway\n- pedestrian crossing\n- roadside shop\n- approximate position where the vehicle was found after the collision\n- Vehicle position marked with registration MH-12-AB-4821.\n- Approximate pedestrian position marked for Amit Kulkarni.",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "01c25576-7c6d-4d17-b2e0-9293d98eb67a",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    },
+    {
+      "serial": 7,
+      "description": {
+        "value": "Vehicle inspection:\nDocument ID: cbf50f18-a98b-4362-8678-4740b7733da9\nInspection date: 15 August 2026\nVehicle registration: MH-12-AB-4821\nObservations: - damage to front bumper and bonnet; damage consistent with a frontal impact.\n- Vehicle identification markings were recorded and found consistent with the registration details supplied for inspection.",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "cbf50f18-a98b-4362-8678-4740b7733da9",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    },
+    {
+      "serial": 8,
+      "description": {
+        "value": "Witness statement:\nDocument ID: d8f7d240-507e-4f66-82b9-4e9ac5723d76\nStatement date: 14 August 2026\nWitness name: Neha Patil\nWitness address: Senapati Road junction, Pune\nStatement text: I saw a vehicle bearing registration number MH-12-AB-4821 approaching the junction.\nThe vehicle collided with the pedestrian, Amit Kulkarni.\nI saw the driver after the vehicle stopped. The person was identified to me as Rohan Mehta.\nI did not move or handle any physical evidence from the road.",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "d8f7d240-507e-4f66-82b9-4e9ac5723d76",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    },
+    {
+      "serial": 9,
+      "description": {
+        "value": "Witness statement:\nDocument ID: 39dc19a7-1335-468a-955e-34965191bfcf\nStatement date: 14 August 2026\nWitness name: Suresh Joshi\nWitness address: Senapati Road junction, Pune\nStatement text: I was standing near a shop opposite the junction when I heard the collision and then saw the vehicle bearing\nMH-12-AB-4821 stopped near the pedestrian.\nI observed the driver leave the vehicle and remain near the scene until police arrived.",
+        "status": "review_required",
+        "confidence": null,
+        "source_references": [
+          {
+            "document_id": "39dc19a7-1335-468a-955e-34965191bfcf",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        ],
+        "review_required": true
+      },
+      "exhibit": {
+        "value": null,
+        "status": "unavailable",
+        "confidence": null,
+        "source_references": [],
+        "review_required": true
+      }
+    }
+  ],
   "final_opinion": {
     "value": null,
     "status": "unavailable",

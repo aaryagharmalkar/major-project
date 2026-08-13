@@ -22,6 +22,20 @@ class CanonicalBuilder:
         conflicts = self.conflict_registry.find(graph.nodes, graph.edges)
         medical = tuple(project_fact(node.label, node.provenance, f"graph.nodes[{node.id}].label") for node in graph.nodes if node.node_type == GraphNodeType.MEDICAL_FINDING)
         forensic = tuple(project_fact(node.label, node.provenance, f"graph.nodes[{node.id}].label") for node in graph.nodes if node.node_type == GraphNodeType.FSL_FINDING)
+        timeline_actions = tuple(
+            project_fact(node.attributes.get("description", node.label), node.provenance, f"graph.nodes[{node.id}].attributes.description")
+            for node in graph.nodes
+            if node.node_type == GraphNodeType.TIMELINE_EVENT and node.attributes.get("description")
+        )
+        action_document_types = {"case_diary", "arrest_memo", "seizure_memo", "spot_panchnama", "vehicle_inspection", "site_plan", "cctv_image"}
+        document_actions = tuple(
+            project_fact(value, node.provenance, f"graph.nodes[{node.id}].attributes.{field}")
+            for node in graph.nodes
+            if node.node_type == GraphNodeType.DOCUMENT and node.attributes.get("document_type") in action_document_types
+            for field, value in node.attributes.items()
+            if field not in {"document_id", "document_type", "memo_number", "report_number", "plan_number", "diary_number"}
+        )
+        investigation_actions = timeline_actions + document_actions
         all_facts = [person.name for group in (entities["complainants"], entities["victims"], entities["accused"], entities["witnesses"], entities["police_officers"], entities["doctors"]) for person in group]
         all_facts += [vehicle.registration_number for vehicle in entities["vehicles"]] + list(medical) + list(forensic)
         confidences = [fact.confidence for fact in all_facts if fact.confidence is not None]
@@ -43,6 +57,6 @@ class CanonicalBuilder:
             complainants=entities["complainants"], victims=entities["victims"], accused=entities["accused"], witnesses=entities["witnesses"], police_officers=entities["police_officers"], doctors=entities["doctors"],
             vehicles=entities["vehicles"], locations=entities["locations"], evidence=tuple(item for item in evidence if item.type == GraphNodeType.EVIDENCE.value),
             recovered_property=tuple(item for item in evidence if item.type == GraphNodeType.RECOVERED_PROPERTY.value), medical_findings=medical, forensic_findings=forensic,
-            timeline=timeline, documents=entities["documents"], conflicts=conflicts, missing_information=missing, source_references=sources,
+            timeline=timeline, investigation_actions=investigation_actions, documents=entities["documents"], conflicts=conflicts, missing_information=missing, source_references=sources,
             confidence_summary=ConfidenceSummary(average=sum(confidences) / len(confidences) if confidences else None, fact_count=len(all_facts)),
         )

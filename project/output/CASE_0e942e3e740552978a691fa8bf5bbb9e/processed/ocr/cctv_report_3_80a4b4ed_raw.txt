@@ -1,0 +1,262 @@
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 1
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+CCTV ANALYSIS REPORT
+Case: FIR/2024/DL/PSRKP/0452
+Date: 13-08-2026
+--------------------------------------------------------------------------------
+CCTV ANALYSIS REPORT
+Report Id: CCTV/PSRKP/0452/2024
+Date Of Collection: 2024-10-15
+Date Of Analysis: 2024-10-16 to 2024-10-17
+ANALYZED BY
+Name: HC Ramesh Kumar
+Designation: Head Constable, Technical Cell
+Police Station: Rajinder Nagar
+Assisted By: Constable Sunil Dutt, IT Cell
+CCTV SOURCES
+Item 1:
+Source Id: CCTV-001
+Location: St. Stephen's Hospital, Main Gate No. 2
+Camera Id: CAM-SSH-G2-03
+Camera Type: IP Camera, Hikvision DS-2CD2087G2-L
+Resolution: 4MP (2560x1440)
+Frame Rate: 25 fps
+Coverage Area: Hospital gate, Shankar Road junction (partial), T-point (full coverage)
+Distance From Accident: 30 meters, clear view of junction
+Footage Duration Obtained: 18:00 to 18:45, 15-10-2024
+Storage Obtained: 1TB DVR Hard Disk (Evidence ID: EVD-0452-013)
+Chain Of Custody: Collected by IO from hospital security room. Signature of Security Incharge Mr.
+Thomas George obtained.
+Item 2:
+Source Id: CCTV-002
+Location: Canara Bank ATM, Shankar Road (50m South of junction)
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 2
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Camera Id: CAM-CB-ATM-01
+Camera Type: Dome Camera, CP Plus
+Resolution: 2MP (1920x1080)
+Frame Rate: 15 fps
+Coverage Area: ATM entrance, Shankar Road (partial view of road 30m stretch)
+Distance From Accident: 50 meters, view of approach road from Karol Bagh side
+Footage Duration Obtained: 18:00 to 18:45, 15-10-2024
+Storage Obtained: 32GB Pen Drive copy (Evidence ID: EVD-0452-014)
+Chain Of Custody: Collected from Bank Manager Mr. S. Venkatesh. Copy provided on pen drive.
+Item 3:
+Source Id: CCTV-003
+Location: PCR Van Z-45 Dashcam
+Camera Id: PCR-DASH-Z45
+Camera Type: Vehicle Dash Camera, 1080p
+Resolution: 1920x1080
+Frame Rate: 30 fps
+Coverage Area: Front view from PCR van
+Footage Duration Obtained: Full shift recording, relevant portion 18:20 to 18:45
+Storage Obtained: 64GB SD Card (Evidence ID: EVD-0452-015)
+Chain Of Custody: Obtained from PCR Incharge ASI Dharampal
+DETAILED TIMELINE FROM CCTV
+CCTV 001 HOSPITAL GATE
+Item 1:
+Timestamp: 18:17:22
+Camera: CAM-SSH-G2-03
+Observation: Traffic constable visible walking to center of junction, takes position for manual traffic
+control
+Item 2:
+Timestamp: 18:19:50
+Camera: CAM-SSH-G2-03
+Observation: Traffic flow normal, moderate traffic, vehicles stopping per constable's hand signals
+Item 3:
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 3
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Timestamp: 18:20:03
+Camera: CAM-SSH-G2-03
+Observation: White Honda Activa (DL5SCT5678 visible in zoom) enters frame from Rajinder
+Nagar side (bottom right), speed estimated 10-12 kmph, right turn indicator blinking
+Item 4:
+Timestamp: 18:20:05
+Camera: CAM-SSH-G2-03
+Observation: Red Bajaj Pulsar enters frame from left (Shankar Road), speed estimated 55-60
+kmph by frame analysis, rider in red t-shirt, delivery bag on rear seat
+Item 5:
+Timestamp: 18:20:06
+Camera: CAM-SSH-G2-03
+Observation: Constable's left hand raised in STOP gesture facing Shankar Road traffic. Activa
+continues turn slowly.
+Item 6:
+Timestamp: 18:20:07.250
+Camera: CAM-SSH-G2-03
+Observation: Pulsar crosses stop line (painted white, visible on road) at speed, does not
+decelerate. Approximate distance to Activa: 12-15m
+Item 7:
+Timestamp: 18:20:07.500
+Camera: CAM-SSH-G2-03
+Observation: Pulsar front wheel visible, slight wobble - possible late brake application. Activa
+almost at center of junction.
+Item 8:
+Timestamp: 18:20:07.800
+Camera: CAM-SSH-G2-03
+Observation: IMPACT - Front right of Pulsar strikes right center of Activa. Both vehicles and riders
+visible.
+Item 9:
+Timestamp: 18:20:08.100
+Camera: CAM-SSH-G2-03
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 4
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Observation: Activa rider airborne, thrown approximately 3-4m to right, lands near road edge.
+Pulsar falls right side.
+Item 10:
+Timestamp: 18:20:08.500
+Camera: CAM-SSH-G2-03
+Observation: Pulsar rider hits ground, slides approximately 1m. Attempts to get up immediately.
+Item 11:
+Timestamp: 18:20:10
+Camera: CAM-SSH-G2-03
+Observation: Constable running towards fallen vehicles, gestures at Pulsar rider shouting (audio
+not available)
+Item 12:
+Timestamp: 18:20:14
+Camera: CAM-SSH-G2-03
+Observation: Constable reaches Pulsar rider who is now standing, grabs his right arm firmly
+Item 13:
+Timestamp: 18:20:18
+Camera: CAM-SSH-G2-03
+Observation: Public persons (5-6 people) gather around. One person (later identified as Prakash
+Joshi) comes from tea stall direction.
+Item 14:
+Timestamp: 18:20:45
+Camera: CAM-SSH-G2-03
+Observation: Constable seen making phone call (PCR call at 18:21 corroborated)
+Item 15:
+Timestamp: 18:22:30
+Camera: CAM-SSH-G2-03
+Observation: People trying to assist victim lying on road. Helmet being carefully removed by
+someone.
+Item 16:
+Timestamp: 18:24:15
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 5
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Camera: CAM-SSH-G2-03
+Observation: PCR call visible in constable's call log timestamp in later verification
+Item 17:
+Timestamp: 18:31:10
+Camera: CAM-SSH-G2-03
+Observation: PCR Van Z-45 arrives at scene, parks near junction. Two PCR personnel exit
+vehicle.
+Item 18:
+Timestamp: 18:35:40
+Camera: CAM-SSH-G2-03
+Observation: Ambulance from St. Stephen's Hospital (Gate 2) arrives at scene. Medical team (2
+persons with stretcher) attends to victim.
+Item 19:
+Timestamp: 18:42:00
+Camera: CAM-SSH-G2-03
+Observation: Victim loaded onto stretcher, ambulance departs towards hospital emergency
+entrance.
+CCTV 002 CANARA BANK ATM
+Item 1:
+Timestamp: 18:19:35
+Camera: CAM-CB-ATM-01
+Observation: Red Pulsar motorcycle enters frame from left side (Karol Bagh direction), passing
+ATM at high speed. Rider visible: red t-shirt, delivery bag, black helmet.
+Item 2:
+Timestamp: 18:19:42
+Camera: CAM-CB-ATM-01
+Observation: Pulsar continues towards T-point. Speed calculated by frame analysis: covers 30m in
+1.8 seconds = 60 kmph average over this stretch.
+Item 3:
+Timestamp: 18:19:50
+Camera: CAM-CB-ATM-01
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 6
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Observation: Pulsar out of frame towards junction. No brake light activation visible at any point in
+this segment.
+Item 4:
+Timestamp: 18:20:15
+Camera: CAM-CB-ATM-01
+Observation: Audio spike detected in ATM microphone (crash sound). ATM security guard (seen
+in frame) turns head towards junction direction.
+Item 5:
+Timestamp: 18:20:20
+Camera: CAM-CB-ATM-01
+Observation: Two passersby seen running towards junction.
+CCTV 003 PCR DASHCAM
+Item 1:
+Timestamp: 18:24:05
+Camera: PCR-DASH-Z45
+Observation: PCR van receives dispatch: 'Accident at Shankar Road T-point near St. Stephen's
+Hospital. Two-wheeler collision. Injury reported. Proceed code 2.'
+Item 2:
+Timestamp: 18:31:05
+Camera: PCR-DASH-Z45
+Observation: PCR arrives at scene. Crowd visible at junction. Red and white two-wheelers visible
+in fallen positions.
+FRAME BY FRAME SPEED ANALYSIS
+Method: Speed calculated using known distance reference points (road markings measured during
+spot panchnama) and frame counting (25 fps). Formula: Speed (kmph) = (Distance in meters /
+Number of frames) x 90.
+CALCULATIONS
+Item 1:
+Vehicle: Bajaj Pulsar DL2SBP1234
+Segment: 50m to 20m before stop line (CCTV-002)
+Distance: 30
+
+DELHI POLICE
+Case: FIR/2024/DL/PSRKP/0452
+OFFICIAL DOCUMENT
+Page 7
+This document is a true copy of the original record
+Generated: 13-08-2026 18:18 Confidential - For Official Use Only
+Frames: 45
+Time: 1.8 seconds
+Speed: 60.0 kmph
+Item 2:
+Vehicle: Bajaj Pulsar DL2SBP1234
+Segment: 20m before stop line to impact (CCTV-001)
+Distance: 24
+Frames: 55
+Time: 2.2 seconds
+Speed: 52.4 kmph (slight deceleration - possible late braking)
+Item 3:
+Vehicle: Honda Activa DL5SCT5678
+Segment: Enters junction to impact point
+Distance: 8
+Frames: 72
+Time: 2.88 seconds
+Speed: 10.0 kmph (normal turning speed)
+Conclusion: CCTV footage analysis conclusively establishes that the accused was riding at
+excessive speed (52-60 kmph in a 40 kmph zone), ignored the traffic constable's manual stop
+signal, and failed to brake in time to avoid collision. The victim was riding at appropriate speed and
+was executing a legal turn. Footage corroborates eyewitness statements in all material particulars.
+Time stamps from all three cameras are synchronized and consistent. No tampering or editing
+detected in any footage.
+Certification: I hereby certify that the above CCTV analysis is true and correct based on the
+footage examined. The original footage is preserved in evidence.
+Signature: HC Ramesh Kumar, Technical Cell, PS Rajinder Nagar
+Date: 2024-10-17

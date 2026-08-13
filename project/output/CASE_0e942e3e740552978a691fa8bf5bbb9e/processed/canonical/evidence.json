@@ -1,0 +1,1887 @@
+[
+  {
+    "evidence_id": "11cfbe00-aa0d-497c-823b-86537d43dcea",
+    "type": "evidence",
+    "description": {
+      "value": "Bajaj Pulsar 220F Motorcycle DL2SBP1234",
+      "source_document_ids": [
+        "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+      ],
+      "references": [
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "page": null,
+          "confidence": null,
+          "parser_name": "FSLParser",
+          "timestamp": "2026-08-13T19:33:04.973422Z",
+          "source_reference": {
+            "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[11cfbe00-aa0d-497c-823b-86537d43dcea].label",
+      "confidence": null,
+      "extraction_method": "FSLParser",
+      "timestamp": "2026-08-13T19:33:04.973422Z"
+    },
+    "source_documents": [
+      "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+    ],
+    "collection_details": [],
+    "custody_information": [],
+    "related_person_ids": [],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "b94a6ca5-be39-44bc-a047-704b8241734f",
+    "type": "evidence",
+    "description": {
+      "value": "Honda Activa 6G Scooter DL5SCT5678",
+      "source_document_ids": [
+        "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+      ],
+      "references": [
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "page": null,
+          "confidence": null,
+          "parser_name": "FSLParser",
+          "timestamp": "2026-08-13T19:33:04.973516Z",
+          "source_reference": {
+            "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[b94a6ca5-be39-44bc-a047-704b8241734f].label",
+      "confidence": null,
+      "extraction_method": "FSLParser",
+      "timestamp": "2026-08-13T19:33:04.973516Z"
+    },
+    "source_documents": [
+      "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+    ],
+    "collection_details": [],
+    "custody_information": [],
+    "related_person_ids": [],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "15ce8436-20b1-4b73-8fb2-3197da68cdd9",
+    "type": "evidence",
+    "description": {
+      "value": "Helmet - Accused (Steelbird, Black)",
+      "source_document_ids": [
+        "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+      ],
+      "references": [
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "page": null,
+          "confidence": null,
+          "parser_name": "FSLParser",
+          "timestamp": "2026-08-13T19:33:04.973619Z",
+          "source_reference": {
+            "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[15ce8436-20b1-4b73-8fb2-3197da68cdd9].label",
+      "confidence": null,
+      "extraction_method": "FSLParser",
+      "timestamp": "2026-08-13T19:33:04.973619Z"
+    },
+    "source_documents": [
+      "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+    ],
+    "collection_details": [],
+    "custody_information": [],
+    "related_person_ids": [],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "296e48c6-fe6b-4829-becf-bee58a487a36",
+    "type": "evidence",
+    "description": {
+      "value": "Helmet - Victim (Vega, White)",
+      "source_document_ids": [
+        "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+      ],
+      "references": [
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "page": null,
+          "confidence": null,
+          "parser_name": "FSLParser",
+          "timestamp": "2026-08-13T19:33:04.973731Z",
+          "source_reference": {
+            "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[296e48c6-fe6b-4829-becf-bee58a487a36].label",
+      "confidence": null,
+      "extraction_method": "FSLParser",
+      "timestamp": "2026-08-13T19:33:04.973731Z"
+    },
+    "source_documents": [
+      "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+    ],
+    "collection_details": [],
+    "custody_information": [],
+    "related_person_ids": [],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "198c7ae6-d0af-41e8-b313-a017d0cfca32",
+    "type": "evidence",
+    "description": {
+      "value": "Broken vehicle parts from site",
+      "source_document_ids": [
+        "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+      ],
+      "references": [
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "page": null,
+          "confidence": null,
+          "parser_name": "FSLParser",
+          "timestamp": "2026-08-13T19:33:04.973937Z",
+          "source_reference": {
+            "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[198c7ae6-d0af-41e8-b313-a017d0cfca32].label",
+      "confidence": null,
+      "extraction_method": "FSLParser",
+      "timestamp": "2026-08-13T19:33:04.973937Z"
+    },
+    "source_documents": [
+      "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+    ],
+    "collection_details": [],
+    "custody_information": [],
+    "related_person_ids": [],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "e4bd1e48-df6e-476a-b150-1dbecdad528a",
+    "type": "evidence",
+    "description": {
+      "value": "Blood sample - Accused (BLD-0452-A)",
+      "source_document_ids": [
+        "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+      ],
+      "references": [
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "page": null,
+          "confidence": null,
+          "parser_name": "FSLParser",
+          "timestamp": "2026-08-13T19:33:04.974152Z",
+          "source_reference": {
+            "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[e4bd1e48-df6e-476a-b150-1dbecdad528a].label",
+      "confidence": null,
+      "extraction_method": "FSLParser",
+      "timestamp": "2026-08-13T19:33:04.974152Z"
+    },
+    "source_documents": [
+      "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+    ],
+    "collection_details": [],
+    "custody_information": [],
+    "related_person_ids": [],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "e6bb8976-1244-4194-ae0d-2acbf66e5bae",
+    "type": "evidence",
+    "description": {
+      "value": "Blood sample - Victim (BLD-0452-B)",
+      "source_document_ids": [
+        "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+      ],
+      "references": [
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "page": null,
+          "confidence": null,
+          "parser_name": "FSLParser",
+          "timestamp": "2026-08-13T19:33:04.974268Z",
+          "source_reference": {
+            "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[e6bb8976-1244-4194-ae0d-2acbf66e5bae].label",
+      "confidence": null,
+      "extraction_method": "FSLParser",
+      "timestamp": "2026-08-13T19:33:04.974268Z"
+    },
+    "source_documents": [
+      "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+    ],
+    "collection_details": [],
+    "custody_information": [],
+    "related_person_ids": [],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "0edc44d9-ab8c-45a6-bd27-e99923780b40",
+    "type": "evidence",
+    "description": {
+      "value": "Digital photographs (SD Card, 32GB)",
+      "source_document_ids": [
+        "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+      ],
+      "references": [
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "page": null,
+          "confidence": null,
+          "parser_name": "FSLParser",
+          "timestamp": "2026-08-13T19:33:04.974369Z",
+          "source_reference": {
+            "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[0edc44d9-ab8c-45a6-bd27-e99923780b40].label",
+      "confidence": null,
+      "extraction_method": "FSLParser",
+      "timestamp": "2026-08-13T19:33:04.974369Z"
+    },
+    "source_documents": [
+      "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+    ],
+    "collection_details": [],
+    "custody_information": [],
+    "related_person_ids": [],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "d28192aa-4263-4c6c-9278-7c4917503549",
+    "type": "evidence",
+    "description": {
+      "value": "CCTV DVR Hard Disk (1TB)",
+      "source_document_ids": [
+        "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+      ],
+      "references": [
+        {
+          "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+          "page": null,
+          "confidence": null,
+          "parser_name": "FSLParser",
+          "timestamp": "2026-08-13T19:33:04.974464Z",
+          "source_reference": {
+            "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[d28192aa-4263-4c6c-9278-7c4917503549].label",
+      "confidence": null,
+      "extraction_method": "FSLParser",
+      "timestamp": "2026-08-13T19:33:04.974464Z"
+    },
+    "source_documents": [
+      "253e838a-7aec-4cbd-847f-1904ac0d0b21"
+    ],
+    "collection_details": [],
+    "custody_information": [],
+    "related_person_ids": [],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "0663c54c-e394-4def-8e66-8b8f2d5a3336",
+    "type": "recovered_property",
+    "description": {
+      "value": "Bajaj Pulsar 220F Motorcycle, Red Color\nRegistration: DL2SBP1234\nChassis Number: MD2A18FX5LCK12345\nEngine Number: DHYCJ51678\nCondition: Damaged - Front fairing broken, headlight smashed, right handlebar bent\nKeys: One set with Zomato keychain\nOwner: Amit Verma",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.978284Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[0663c54c-e394-4def-8e66-8b8f2d5a3336].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.978284Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.978284Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[25026867-4305-41ae-8811-d9d489f306f3]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.978284Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.978284Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[199981a6-03f4-4780-a768-a86e89c73a47]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.978284Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "794b4ed0-e29a-4785-a7ba-f201f12d3ab9",
+    "type": "recovered_property",
+    "description": {
+      "value": "Honda Activa 6G Scooter, White Color\nRegistration: DL5SCT5678\nChassis Number: ME4JF614AMT67890\nEngine Number: JF61E3456789\nCondition: Damaged - Right body panel scraped, right mirror broken, brake lever bent\nKeys: One set, found in ignition\nOwner: Rajesh Kumar Sharma",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.978452Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[794b4ed0-e29a-4785-a7ba-f201f12d3ab9].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.978452Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.978452Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[5a6ef3d7-55f4-42f9-b6c5-9d57f6a5b921]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.978452Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.978452Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[b18b395f-17c7-4746-a75f-626cb0708046]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.978452Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "23174199-fbf5-4842-acb4-34ee80e67031",
+    "type": "recovered_property",
+    "description": {
+      "value": "Smartphone Samsung Galaxy M32, Black Color\nImei: 358123456789012\nCondition: Working, screen intact\nBelongs To: Amit Verma (Accused)",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.978629Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[23174199-fbf5-4842-acb4-34ee80e67031].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.978629Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.978629Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[ade7566e-9765-45b6-8ea5-f618815f48ea]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.978629Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.978629Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[70cb7091-f3a2-46fb-99a5-64a3ba821d07]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.978629Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "315d8735-6abf-4e98-872b-2273b1f98d44",
+    "type": "recovered_property",
+    "description": {
+      "value": "Driving License - Amit Verma\nLicense Number: DL/032021/0789456\nIssued By: RTO Moradabad, UP\nValid Till: 28-02-2035\nCategory: MCWG",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.978783Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[315d8735-6abf-4e98-872b-2273b1f98d44].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.978783Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.978783Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[3db054a2-314c-4c95-8cfa-040b48c9025c]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.978783Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.978783Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[6eecc20e-d723-44ed-a891-dc844c8e45dc]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.978783Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "634e4ac0-b484-4fd7-843b-c19f1c814d0c",
+    "type": "recovered_property",
+    "description": {
+      "value": "Driving License - Rajesh Kumar Sharma\nLicense Number: DL/042018/0456789\nIssued By: RTO Sheikh Sarai, Delhi\nValid Till: 15-07-2032\nCategory: MCWG + LMV",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.978944Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[634e4ac0-b484-4fd7-843b-c19f1c814d0c].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.978944Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.978944Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[5c2bd94b-1676-40a9-ba6f-9b95ffd7ab2c]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.978944Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.978944Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[33a1c0de-79b3-4e5a-832f-f64dfc51d46f]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.978944Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "67e2046f-8866-46c8-bbf6-dadbc4ac207a",
+    "type": "recovered_property",
+    "description": {
+      "value": "Helmet - Accused (Steelbird, Black, Full Face)\nCondition: Scratches on left side, visor missing, chin strap torn\nIsi Mark: Yes",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.979107Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[67e2046f-8866-46c8-bbf6-dadbc4ac207a].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.979107Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979107Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[ab4883f6-fbf1-4fa4-b377-3048f7f99df4]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979107Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979107Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[99c8e747-6e89-4cf8-b058-a700e58f1f89]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979107Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "b1b674f0-b17a-4a51-8b62-b8c2f0be942e",
+    "type": "recovered_property",
+    "description": {
+      "value": "Helmet - Victim (Vega, White, Full Face)\nCondition: Multiple cracks on right side, impact marks, blood stains inside\nIsi Mark: Yes",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.979265Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[b1b674f0-b17a-4a51-8b62-b8c2f0be942e].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.979265Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979265Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[74f13d12-1b6c-46f1-bb8b-93e85d937ce1]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979265Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979265Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[6fa9989c-330c-4639-b498-09f1f2d7b791]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979265Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "aa3759c9-4440-456a-857e-a6c1e896085c",
+    "type": "recovered_property",
+    "description": {
+      "value": "Broken vehicle parts from accident site\nDETAILS\nItem 1:\nRed plastic fairing pieces (from Pulsar)\nItem 2:\nWhite plastic body panel pieces (from Activa)\nItem 3:\nRight side rear view mirror (broken)\nItem 4:\nHeadlamp glass fragments\nCollected From: Accident spot at Shankar Road T-Point",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.979427Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[aa3759c9-4440-456a-857e-a6c1e896085c].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.979427Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979427Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[0c047629-1d41-4305-b9af-92ba55bbd4b9]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979427Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979427Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[21b129ee-9f4e-4623-8230-c99e895dfa8f]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979427Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "24f1d03b-f197-49fa-b3f2-3364927d1f10",
+    "type": "recovered_property",
+    "description": {
+      "value": "Zomato Delivery Bag, Red Color\nCondition: Empty, torn at one corner\nBelongs To: Amit Verma",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.979589Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[24f1d03b-f197-49fa-b3f2-3364927d1f10].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.979589Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979589Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[7b6fb1dc-f79e-43f2-bbb7-757b48f7b5f6]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979589Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979589Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[d089cdc8-5b1e-4558-8071-dd1abe58e153]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979589Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "4bd77ea0-a5aa-443d-ab8f-a9ca882bcdde",
+    "type": "recovered_property",
+    "description": {
+      "value": "Blood sample - Accused (2ml in EDTA vial)\nVial Id: BLD-0452-A\nCollected At: RML Hospital, 19:45 hours",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.979769Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[4bd77ea0-a5aa-443d-ab8f-a9ca882bcdde].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.979769Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979769Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[774bbc28-7675-48e2-9026-276ca9c0f66e]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979769Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979769Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[3284fa54-b78f-44b2-851a-b8bfb669ea7d]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979769Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "aa6453a4-fbb5-4c66-952b-03aa69b7f8a1",
+    "type": "recovered_property",
+    "description": {
+      "value": "Blood sample - Victim (2ml in EDTA vial)\nVial Id: BLD-0452-B\nCollected At: St. Stephen's Hospital, 19:30 hours",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.979948Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[aa6453a4-fbb5-4c66-952b-03aa69b7f8a1].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.979948Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979948Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[492527fb-1a47-4445-98f8-8e6fb2148404]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979948Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.979948Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[971efff9-e07f-4548-bd60-d6755b6c8b39]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.979948Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "6d5fe766-102d-4da3-853d-7f7a4b05ff5b",
+    "type": "recovered_property",
+    "description": {
+      "value": "Photographs - Digital, 25 Frames\nDetails: Accident spot, vehicle positions, road marks, injuries (with doctor consent)\nCamera: Canon EOS 1300D, PS Rajinder Nagar\nPhotographer: HC Ramesh Kumar, Photography Section",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.980132Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[6d5fe766-102d-4da3-853d-7f7a4b05ff5b].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.980132Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.980132Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[353ee769-623a-43b1-ad83-1bbd2bcab07d]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.980132Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.980132Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[94831230-929e-422d-8264-254fd28e1e96]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.980132Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "68d17e90-67dd-40e4-b446-b69e78df8cf6",
+    "type": "recovered_property",
+    "description": {
+      "value": "CCTV Footage DVR Hard Disk\nSource: St. Stephen's Hospital Gate 2, Camera ID: CAM-SSH-G2-03\nCapacity: 1TB\nTime Stamp Extracted: 18:10 to 18:35, 15-10-2024",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.980328Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[68d17e90-67dd-40e4-b446-b69e78df8cf6].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.980328Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.980328Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[c931635a-3be4-4a61-9310-9609de2bdcb2]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.980328Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.980328Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[8eeb1b8b-0f26-4b37-9e20-1cadc9e5fa56]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.980328Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  },
+  {
+    "evidence_id": "4b8e74ca-6afa-4571-b777-ee01dad52a48",
+    "type": "recovered_property",
+    "description": {
+      "value": "CCTV Footage Pen Drive\nSource: Canara Bank ATM, Shankar Road\nCamera Id: CAM-CB-ATM-01\nTime Stamp Extracted: 18:15 to 18:25, 15-10-2024",
+      "source_document_ids": [
+        "70b054f7-edb1-47be-ac88-3956f8a35368"
+      ],
+      "references": [
+        {
+          "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+          "page": null,
+          "confidence": null,
+          "parser_name": "SeizureMemoParser",
+          "timestamp": "2026-08-13T19:33:04.980510Z",
+          "source_reference": {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "location": {
+              "page_number": null,
+              "frame_number": null,
+              "timestamp_seconds": null,
+              "extraction_key": null
+            },
+            "excerpt": null,
+            "confidence": "medium"
+          }
+        }
+      ],
+      "source_path": "graph.nodes[4b8e74ca-6afa-4571-b777-ee01dad52a48].label",
+      "confidence": null,
+      "extraction_method": "SeizureMemoParser",
+      "timestamp": "2026-08-13T19:33:04.980510Z"
+    },
+    "source_documents": [
+      "70b054f7-edb1-47be-ac88-3956f8a35368"
+    ],
+    "collection_details": [
+      {
+        "value": "Inspector Suresh Chandra",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.980510Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[85a25563-61e0-4278-a676-b4aae7a6bba5]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.980510Z"
+      }
+    ],
+    "custody_information": [
+      {
+        "value": "Police Station Rajinder Nagar",
+        "source_document_ids": [
+          "70b054f7-edb1-47be-ac88-3956f8a35368"
+        ],
+        "references": [
+          {
+            "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+            "page": null,
+            "confidence": null,
+            "parser_name": "SeizureMemoParser",
+            "timestamp": "2026-08-13T19:33:04.980510Z",
+            "source_reference": {
+              "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
+              "location": {
+                "page_number": null,
+                "frame_number": null,
+                "timestamp_seconds": null,
+                "extraction_key": null
+              },
+              "excerpt": null,
+              "confidence": "medium"
+            }
+          }
+        ],
+        "source_path": "graph.edges[8deaafb3-ab61-479a-b355-438f77e16c80]",
+        "confidence": null,
+        "extraction_method": "SeizureMemoParser",
+        "timestamp": "2026-08-13T19:33:04.980510Z"
+      }
+    ],
+    "related_person_ids": [
+      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+    ],
+    "related_vehicle_ids": [],
+    "related_event_ids": [],
+    "confidence": null
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "document_id": "5dadc10f-c60e-489d-add4-d75a9e6e7a5f",
+  "document_type": "spot_panchnama",
+  "ocr_text_sha256": "a1aa933f24dbd439fe35f17e80c1b3792937c82c93a7326b47185ea232c393b1",
+  "parse_metadata": {
+    "parser_name": "SpotPanchnamaParser",
+    "parse_duration_ms": 2064.4277000010334,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "memo_number": "PN/PSRKP/0452/2024",
+  "inspection_datetime": "2024-10-15T21:00:00",
+  "location": "Shankar Road T-Point, Near St. Stephen's Hospital Gate 2, Rajinder Nagar, New Delhi",
+  "observations": [
+    "Scene inspected during night hours under artificial light and police halogen lamp.",
+    "All measurements taken, photographs clicked, evidence collected and sealed.",
+    "Panchnama proceedings conducted smoothly without any interruption.",
+    "The spot matches the description given by witnesses and is consistent with the accident dynamics."
+  ],
+  "witnesses": [
+    "Mohammed Asif",
+    "Prakash Chandra Joshi"
+  ]
+}

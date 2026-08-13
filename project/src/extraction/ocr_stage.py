@@ -4,9 +4,11 @@ from __future__ import annotations
 
 import time
 from pathlib import Path
+from uuid import UUID
 
 from ..domain.documents import ExtractionState, ValidationStatus
 from ..intake.checksum import calculate_sha256
+from ..intake.storage_layout import CaseStorageLayout
 from ..workflow.context import ContextItem, WorkflowContext
 from ..workflow.stage import WorkflowStage
 from .ocr_artifacts import OCRArtifactWriter
@@ -87,11 +89,40 @@ class OCRStage(WorkflowStage):
         )
 
     def _load_resume_artifact(self, document, source_path: Path):
-        if not source_path.is_file():
-            return None
+        if self._matches_document_checksum(source_path, document.sha256):
+            return self.artifact_writer.load(document)
+
+        # A manifest can carry a regenerated document ID while the prior,
+        # byte-identical original and its OCR artifacts remain in this case.
+        # Reuse only after binding that candidate original to the current
+        # document checksum and validating its own OCR artifact identity.
+        layout = CaseStorageLayout(self.storage_root, document.case_id)
+        expected_extension = Path(document.stored_filename or source_path.name).suffix.lower()
         try:
-            if calculate_sha256(source_path) != document.sha256:
-                return None
+            candidates = tuple(layout.originals_directory.iterdir())
         except OSError:
             return None
-        return self.artifact_writer.load(document)
+        for candidate_path in candidates:
+            if not candidate_path.is_file() or candidate_path.suffix.lower() != expected_extension:
+                continue
+            try:
+                candidate_id = UUID(candidate_path.stem)
+            except ValueError:
+                continue
+            if not self._matches_document_checksum(candidate_path, document.sha256):
+                continue
+            loaded = self.artifact_writer.load(document, artifact_document_id=candidate_id)
+            if loaded is None:
+                continue
+            result, artifacts = loaded
+            return result.model_copy(update={"document_id": document.id}), artifacts
+        return None
+
+    @staticmethod
+    def _matches_document_checksum(path: Path, expected_checksum: str) -> bool:
+        if not path.is_file():
+            return False
+        try:
+            return calculate_sha256(path) == expected_checksum
+        except OSError:
+            return False

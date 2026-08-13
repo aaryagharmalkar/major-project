@@ -1,0 +1,92 @@
+{
+  "document_id": "69bb3a11-c25e-465e-844e-8a20aae6a9c2",
+  "document_type": "case_diary",
+  "ocr_text_sha256": "949548ab1de67011dfb75d34240df7aa61fd4f6d3936d4203cd6ba422f686f19",
+  "parse_metadata": {
+    "parser_name": "CaseDiaryParser",
+    "parse_duration_ms": 8678.74699999993,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "diary_number": null,
+  "officer_name": "Inspector Suresh Chandra",
+  "entries": [
+    {
+      "entry_number": "CD-01",
+      "entry_datetime": "2024-10-15T19:30:00",
+      "text": "Received DD No. 24-A dated 15-10-2024 regarding accident at Shankar Road T-Point at 18:20 hours. Proceeded to spot. PCR already present. Victim shifted to St. Stephen's Hospital. Accused detained at spot by Traffic Constable Mohammed Asif. Conducted preliminary inquiry at spot. Collected initial evidence. Registered FIR No. 452/2024 under sections 281/125 BNS and 184/134 MV Act on complaint of Smt. Sunita Sharma, wife of victim. Arrested accused Amit Verma at 19:15 hours from spot. Conducted personal search, prepared arrest memo. Accused sent for medical examination to RML Hospital through Constable Rajesh. Victim's MLC obtained from St. Stephen's Hospital - grievous injuries noted. IO to hospital, recorded victim's medical status. Returned to spot for detailed panchnama.\nExhibits Collected: Vehicle DL2SBP1234, DL5SCT5678, accused's mobile, both DLs, helmets\nStatements Recorded: Complaint of Sunita Sharma, Statement of HC Mohammed Asif (eyewitness), Statement of Prakash Joshi (eyewitness)"
+    },
+    {
+      "entry_number": "CD-02",
+      "entry_datetime": "2024-10-15T21:00:00",
+      "text": "Conducted detailed spot panchnama at Shankar Road T-Point from 21:00 to 22:15 hours in presence of panch witnesses Mohammed Asif and Prakash Joshi. Took measurements of road width (12.5m Shankar Road, 10m Rajinder Nagar Road), vehicle positions, skid marks (4.2m from Pulsar), blood stains, debris field. Identified impact point 6.5m from Shankar Road stop line. Photographed scene - 25 digital frames by HC Ramesh Kumar. Collected broken vehicle parts, helmets, delivery bag. Arranged for both vehicles to be towed to PS Malkhana yard. Noted non-functional traffic signal, 4 of 6 street lights working. Panchnama completed at 22:15 hours.\nExhibits Collected: Broken parts, helmets, delivery bag, blood samples (through hospital)\nPhotographs: 25 digital frames"
+    },
+    {
+      "entry_number": "CD-03",
+      "entry_datetime": "2024-10-15T22:30:00",
+      "text": "Accused Amit Verma produced before me in lock-up. Informed him of his rights under Article 20(3) of Constitution and right to legal counsel. Accused opted to give voluntary statement without lawyer. Recorded detailed statement of accused in presence of ASI Ramphal Singh as witness. Accused admitted overspeeding and stated he was in hurry to deliver Zomato order. Showed remorse. Statement recorded verbatim. Accused remanded to judicial custody. Duty Magistrate informed telephonically. Accused to be produced before Ld. MM tomorrow.\nStatements Recorded: Accused statement of Amit Verma"
+    },
+    {
+      "entry_number": "CD-04",
+      "entry_datetime": "2024-10-16T09:00:00",
+      "text": "Morning: Directed ASI Rajender Prasad (MTO) to conduct detailed mechanical inspection of both vehicles. Inspection conducted 10:00-13:30 in Malkhana yard. Report received - both vehicles roadworthy before accident, damage consistent with collision dynamics, Pulsar speedometer stuck at 55 kmph. Mid-day: Visited St. Stephen's Hospital security office. Collected CCTV DVR hard disk from Gate 2 camera (CAM-SSH-G2-03) covering junction. Obtained footage from 18:00-18:45 hours. Chain of custody documented. Also visited Canara Bank ATM, Shankar Road. Bank Manager Mr. S. Venkatesh provided CCTV copy on pen drive showing approach road. Obtained PCR Van Z-45 dashcam SD card from ASI Dharampal. All digital evidence submitted to HC Ramesh Kumar, Technical Cell for analysis.\nExhibits Collected: CCTV DVR (EVD-0452-013), CCTV Pen Drive (EVD-0452-014), PCR Dashcam SD (EVD-0452-015)\nReports Received: Vehicle Inspection Report from ASI Rajender Prasad"
+    },
+    {
+      "entry_number": "CD-05",
+      "entry_datetime": "2024-10-16T15:00:00",
+      "text": "Visited St. Stephen's Hospital SICU. Met treating doctor Dr. Anjali Mehta. Victim Rajesh Sharma still in ICU, post-surgery for femur fracture. Also underwent craniotomy for SDH evacuation on 16-10-2024 morning. Condition critical but stable. Doctor confirmed injuries are grievous in nature and dangerous to life. Obtained detailed MLC and medical records. Collected victim's blood sample for FSL (alcohol/drug screening - negative as per hospital). Met complainant Sunita Sharma at hospital, briefed her on investigation progress. Advised her to preserve all medical bills and records for court.\nDocuments Obtained: MLC Report, Admission records, Surgery notes"
+    },
+    {
+      "entry_number": "CD-06",
+      "entry_datetime": "2024-10-17T10:00:00",
+      "text": "HC Ramesh Kumar completed CCTV footage analysis. Report confirms: Pulsar overspeeding (60 kmph on approach, 52-58 at impact), ignored traffic constable's stop signal, collision at 18:20:07.800 hours. Activa at normal turning speed (10 kmph), legal turn. Footage from 3 cameras synchronized and consistent. Prepared detailed CCTV analysis report with frame-by-frame speed calculation. All exhibits packed and sealed for FSL examination: vehicles, helmets, broken parts, blood samples, photographs SD card, CCTV HDD. Dispatched to FSL Rohini through Constable Mohan Singh with Road Certificate No. 234/2024 dated 17-10-2024. FSL requisition letter prepared detailing examination required.\nReports Received: CCTV Analysis Report\nExhibits Sent Fsl: EVD-0452-001, 002, 006, 007, 008, 010, 011, 012, 013"
+    },
+    {
+      "entry_number": "CD-07",
+      "entry_datetime": "2024-10-18T10:00:00",
+      "text": "Produced accused Amit Verma before Ld. Metropolitan Magistrate, Tis Hazari Courts. Filed application for 3-day police custody remand for further investigation - need to recover Zomato delivery records, verify accused's mobile data, and conduct test identification parade. Court granted 2 days PC remand. Accused remanded to police custody till 20-10-2024. Also filed application for preservation of CCTV footage from other cameras on route. Court directed concerned authorities to preserve footage for 30 days.\nCourt Orders: PC Remand for 2 days, CCTV preservation order"
+    },
+    {
+      "entry_number": "CD-08",
+      "entry_datetime": "2024-10-19T10:00:00",
+      "text": "During PC remand, extracted data from accused's smartphone (Samsung M32) with technical assistance from IT Cell. Recovered: Zomato Partner App data showing order accepted at 18:10, pickup from Haldiram's Karol Bagh at 18:15, delivery address in Old Rajinder Nagar with deadline 18:35. GPS location history shows speeds of 55-65 kmph on Shankar Road segment. Also recovered Google Maps timeline confirming route and speeds. Obtained Zomato records through official communication to Zomato's nodal officer - confirmation of accused's delivery partner ID, order details, and delivery attempt at 18:35 which was marked 'delayed'. Mobile call log shows no calls at time of accident - accused not distracted by phone call, but was possibly looking at navigation. Phone mounted on handlebar confirmed.\nDigital Evidence: Zomato Partner App data, Google Maps Timeline, GPS speed logs"
+    },
+    {
+      "entry_number": "CD-09",
+      "entry_datetime": "2024-10-20T10:00:00",
+      "text": "Test Identification Parade not conducted as accused identified by witnesses at spot itself. Section 164 CrPC statement of witnesses not deemed necessary. Accused produced before Ld. MM on expiry of PC remand. Accused not applying for bail at this stage. Court sent accused to judicial custody. Investigation continued. Visited traffic police circle office, obtained record of complaint filed by Constable Asif about non-functional signal on 13-10-2024. Also obtained duty roster confirming Asif's deployment at Shankar Road T-Point on 15-10-2024 from 16:00-20:00 hours.\nDocuments Obtained: Traffic signal complaint record, Duty roster"
+    },
+    {
+      "entry_number": "CD-10",
+      "entry_datetime": "2024-10-25T11:00:00",
+      "text": "Visited St. Stephen's Hospital. Victim shifted from ICU to general ward on 24-10-2024. Conscious and oriented. Recorded supplementary statement of victim under Section 161 CrPC. Victim states he was returning home from office, wearing helmet, driving at 30-35 kmph, took right turn at T-point when suddenly a speeding motorcycle hit him. He does not remember anything after that. Victim's statement corroborates evidence. Doctor indicates another 2 weeks hospitalization needed. Physiotherapy to follow. Permanent disability not ruled out for right leg.\nStatements Recorded: Supplementary statement of victim Rajesh Sharma"
+    },
+    {
+      "entry_number": "CD-11",
+      "entry_datetime": "2024-11-05T14:00:00",
+      "text": "Background verification of accused conducted through local inquiry at Old Rajinder Nagar address and native village in Moradabad, UP through UP Police. Accused has no previous criminal record. Living in Delhi for 5 years. Working with Zomato for 2 years. Two-wheeler driving experience 7 years. No previous traffic challans in Delhi (verified from e-challan portal). However, one challan for overspeeding in Moradabad in 2022 (paid). Landlord confirms accused is of good character. No history of rashness or alcoholism. Accused's father is a marginal farmer. Family background verified.\nDocuments Obtained: Background verification report, E-challan portal screenshot"
+    },
+    {
+      "entry_number": "CD-12",
+      "entry_datetime": "2024-11-15T10:00:00",
+      "text": "Received preliminary FSL report from Dr. Priya Nambiar. Key findings: Speed at impact 52-58 kmph for Pulsar, victim's helmet prevented skull fracture but sustained significant impact, blood alcohol negative for both, vehicle damage consistent with collision dynamics, paint transfer confirmed. Accident reconstruction confirms primary fault of Pulsar rider. Formal report awaited. Preliminary findings included in case file for reference.\nReports Received: Preliminary FSL findings (verbal and email)"
+    },
+    {
+      "entry_number": "CD-13",
+      "entry_datetime": "2024-11-18T12:00:00",
+      "text": "Received final FSL Report No. FSL/DL/2024/PHY/8934 dated 18-11-2024. Complete forensic examination confirms all investigation findings. Report includes vehicle examination, helmet analysis, blood analysis, accident reconstruction, and CCTV correlation. All exhibits returned from FSL to Malkhana. FSL report made part of case file. Key conclusions: (1) Accident caused by overspeeding of Pulsar (52-58 kmph vs 40 kmph limit), (2) Victim had no contributory negligence, (3) Helmet saved victim from fatal head injury, (4) Both vehicles mechanically sound before accident.\nReports Received: FSL Report No. FSL/DL/2024/PHY/8934"
+    },
+    {
+      "entry_number": "CD-14",
+      "entry_datetime": "2024-11-22T10:00:00",
+      "text": "Victim Rajesh Sharma discharged from hospital on 20-11-2024 after 36 days of treatment. Obtained final discharge summary and fitness certificate. Victim advised 3 months physiotherapy, follow-up in Ortho and Neuro OPD. Permanent disability assessment after 6 months. Recorded final statement of victim regarding expenses incurred (approximately ■4.2 lakhs medical expenses), loss of salary (3 months leave without pay), and ongoing treatment needs. Victim expresses desire for compensation and strict punishment to accused. Documents collected for Victim Compensation Scheme application.\nStatements Recorded: Final victim statement\nDocuments Obtained: Discharge summary, Medical bills, Salary slips, Physiotherapy prescription"
+    },
+    {
+      "entry_number": "CD-15",
+      "entry_datetime": "2024-11-28T10:00:00",
+      "text": "Investigation complete. All evidence collected, statements recorded, forensic reports received. Prima facie case well established against accused Amit Verma for offences under Section 281 BNS (Rash driving), Section 125 BNS (Act endangering life), Section 184 MV Act (Dangerous driving), and Section 134 MV Act (Failure to provide medical aid - accused did not actively assist victim though he was also injured, however the attempt to leave initially constitutes violation). Evidence list finalized - 15 exhibits. Case diary complete with 15 entries. All documents compiled and indexed in Annexures. Investigation reveals: Accused was overspeeding (52-58 kmph in 40 kmph zone), ignored traffic constable's manual stop signal, was in hurry to meet food delivery deadline, and due to high speed could not stop in time to avoid collision with victim's scooter who was making a legal turn at appropriate speed. Victim suffered grievous injuries requiring 36 days hospitalization and may have permanent disability. No contributory negligence by victim. Accused has no criminal history but his actions show disregard for traffic rules and public safety. Prepared final investigation report recommending filing of chargesheet before Hon'ble Court under above sections. Report submitted to ACP, Patel Nagar Sub-Division for supervisory review and approval.\nReports Prepared: Investigation Completion Report, Draft Chargesheet\nSubmitted To: ACP Patel Nagar for approval\nCase Diary Certification: Certified that this case diary contains a true and complete account of investigation conducted by me in case FIR No. 452/2024 PS Rajinder Nagar. All dates, times, and actions are recorded contemporaneously.\nIo Signature: Inspector Suresh Chandra\nSupervisory Remarks: Investigation thorough and complete. Chargesheet approved for filing. - ACP Patel Nagar, 28-11-2024"
+    }
+  ]
+}
