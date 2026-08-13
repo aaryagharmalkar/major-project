@@ -1,0 +1,25 @@
+{
+  "document_id": "eedd6c2e-e271-423f-ba70-4c21c8e2bb19",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "SEIZURE MEMORANDUM\n\nCase: FIR No. 47/2026\nDate: 14 August 2026\nPlace: Senapati Road junction, Pune\nVehicle seized: MH-12-AB-4821\nDriver/person from whom vehicle was taken into custody: Rohan Mehta\nItems noted with the vehicle: front registration plate, vehicle keys, and damaged front bumper assembly.\n\nThe seizure was documented in the presence of panch witnesses and the articles were taken into police custody for investigation.",
+      "confidence": 1.0
+    }
+  ],
+  "raw_text": "SEIZURE MEMORANDUM\n\nCase: FIR No. 47/2026\nDate: 14 August 2026\nPlace: Senapati Road junction, Pune\nVehicle seized: MH-12-AB-4821\nDriver/person from whom vehicle was taken into custody: Rohan Mehta\nItems noted with the vehicle: front registration plate, vehicle keys, and damaged front bumper assembly.\n\nThe seizure was documented in the presence of panch witnesses and the articles were taken into police custody for investigation.",
+  "confidence": 1.0,
+  "warnings": [],
+  "language": "eng",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-13T10:06:26.194967Z",
+    "processing_time_ms": 15663.086790998932,
+    "token_usage": 2640,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

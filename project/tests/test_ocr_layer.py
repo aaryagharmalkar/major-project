@@ -23,8 +23,9 @@ def write_pdf(path: Path) -> None:
 
 
 class FakeGeminiResponse:
-    def __init__(self, payload: dict) -> None:
-        self.text = json.dumps(payload)
+    def __init__(self, payload: dict | None = None, *, text: str | None = None, parsed=None) -> None:
+        self.text = json.dumps(payload) if text is None else text
+        self.parsed = parsed
         self.usage_metadata = type("Usage", (), {"total_token_count": 42})()
 
 
@@ -98,6 +99,14 @@ class OCRLayerTests(unittest.TestCase):
         document = manifest.accepted_documents[0]
         return document, root / "uploads"
 
+    def _ingested_image(self, root: Path) -> tuple[SourceDocument, Path]:
+        source = root / "scene.png"
+        source.write_bytes(b"\x89PNG\r\n\x1a\nimage fixture")
+        manager = UploadManager(root / "uploads")
+        manifest = manager.ingest(uuid4(), (IncomingUpload(source_path=source, original_filename=source.name),))
+        document = manifest.accepted_documents[0]
+        return document, root / "uploads"
+
     def test_mocked_gemini_adapter_returns_multipage_raw_ocr(self) -> None:
         with TemporaryDirectory() as temp_dir:
             document, storage_root = self._ingested_document(Path(temp_dir))
@@ -120,6 +129,10 @@ class OCRLayerTests(unittest.TestCase):
             self.assertEqual(result.metadata.token_usage, 42)
             self.assertEqual(result.warnings, ("Low contrast on page 2",))
             self.assertEqual(len(fake_model.requests), 1)
+            self.assertEqual(fake_model.requests[0][1]["response_mime_type"], "application/json")
+            self.assertEqual(fake_model.requests[0][1]["response_json_schema"], GeminiOCRClient.RESPONSE_SCHEMA)
+            self.assertNotIn('"pages"', GeminiOCRClient.OCR_PROMPT)
+            self.assertFalse(hasattr(result, "accused"))
 
     def test_current_sdk_pdf_path_uploads_and_deletes_the_file(self) -> None:
         with TemporaryDirectory() as temp_dir:
@@ -129,6 +142,38 @@ class OCRLayerTests(unittest.TestCase):
             self.assertEqual(result.raw_text, "Page one")
             self.assertEqual(client_backend.files.uploads[0][1], {"mime_type": "application/pdf"})
             self.assertEqual(client_backend.files.deleted, ["files/fixture"])
+
+    def test_current_sdk_image_path_uses_an_inline_image_part(self) -> None:
+        with TemporaryDirectory() as temp_dir:
+            document, storage_root = self._ingested_image(Path(temp_dir))
+            client_backend = FakeGenAIClient({"pages": [{"page_number": 1, "text": "Image text"}], "language": "en", "warnings": []})
+
+            result = GeminiOCRClient(model_client=client_backend).extract(document, storage_root / document.storage_key)
+
+            request = client_backend.models.requests[0]
+            part = request[1][1]
+            self.assertEqual(result.raw_text, "Image text")
+            self.assertEqual(part.inline_data.mime_type, "image/png")
+            self.assertFalse(client_backend.files.uploads)
+
+    def test_sdk_parsed_response_is_used_when_response_text_is_not_json(self) -> None:
+        with TemporaryDirectory() as temp_dir:
+            document, storage_root = self._ingested_document(Path(temp_dir))
+            backend = FakeGeminiModel({})
+            backend.generate_content = lambda contents, generation_config: FakeGeminiResponse(
+                text="not JSON", parsed={"pages": [{"page_number": 1, "text": "Structured text"}], "language": "en", "warnings": []}
+            )
+
+            result = GeminiOCRClient(model_client=backend).extract(document, storage_root / document.storage_key)
+
+            self.assertEqual(result.raw_text, "Structured text")
+
+    def test_fenced_json_is_accepted_but_malformed_output_has_safe_diagnostics(self) -> None:
+        fenced = "```json\n{\"pages\":[{\"page_number\":1,\"text\":\"Fenced text\"}],\"language\":null,\"warnings\":[]}\n```"
+        payload = GeminiOCRClient._parse_payload(fenced)
+        self.assertEqual(payload["pages"][0]["text"], "Fenced text")
+        with self.assertRaisesRegex(Exception, r"received 9 characters"):
+            GeminiOCRClient._parse_payload("not json!")
 
     def test_ocr_artifacts_are_written_without_parsing_text(self) -> None:
         with TemporaryDirectory() as temp_dir:

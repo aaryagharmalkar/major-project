@@ -66,5 +66,5 @@ class EvidenceValidator:
 
     @staticmethod
     def _unresolved_entities(investigation: CanonicalInvestigation) -> tuple[ValidationIssue, ...]:
-        entities = investigation.victims + investigation.accused + investigation.witnesses + investigation.police_officers + investigation.doctors
+        entities = investigation.complainants + investigation.victims + investigation.accused + investigation.witnesses + investigation.police_officers + investigation.doctors
         return tuple(ValidationIssue(category=IssueCategory.ENTITY, severity=IssueSeverity.WARNING, description="Entity remains unidentified or ambiguous.", field_path=f"persons[{entity.id}].name", source_references=tuple(reference.source_reference for reference in entity.name.references), related_entity_ids=(entity.id,), status=IssueStatus.REVIEW_REQUIRED) for entity in entities if str(entity.name.value).casefold() in {"unknown", "unidentified", "ambiguous"})

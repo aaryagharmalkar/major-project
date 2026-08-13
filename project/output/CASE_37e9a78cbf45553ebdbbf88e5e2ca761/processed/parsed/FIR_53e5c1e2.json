@@ -1,0 +1,33 @@
+{
+  "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+  "document_type": "fir",
+  "ocr_text_sha256": "2b9322e10a222cc5170b1b64db680115e655e9c093315a26fb0900b099d8ec34",
+  "parse_metadata": {
+    "parser_name": "FIRParser",
+    "parse_duration_ms": 7064.884334002272,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "fir_number": "FIR No. 47/2026",
+  "crime_number": null,
+  "registration_date": "2026-08-14",
+  "police_station": "Shivaji Nagar Police Station",
+  "complainant_name": "Neha Patil",
+  "accused_names": [
+    "Rohan Mehta"
+  ],
+  "victim_names": [
+    "Amit Kulkarni"
+  ],
+  "vehicle_registrations": [
+    "MH-12-AB-4821"
+  ],
+  "occurrence_datetime": "2026-08-14T20:35:00Z",
+  "occurrence_location": "Senapati Road junction, Pune",
+  "jurisdiction": "Pune City",
+  "court": null,
+  "reported_sections": [],
+  "narrative_text": "On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim. The victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident."
+}

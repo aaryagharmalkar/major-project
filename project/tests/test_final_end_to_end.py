@@ -54,15 +54,19 @@ class FixtureOCR(OCRClient):
     def __init__(self, fail: bool = False): self.fail = fail
     def extract(self, document, source_path):
         if self.fail: raise RuntimeError("fixture OCR failure")
-        return OCRResult(document_id=document.id, pages=(OCRPage(page_number=1, text="Synthetic evidence", confidence=.9),), raw_text="Synthetic evidence", confidence=.9, metadata=OCRMetadata(provider="fixture", model="fixture", input_mime_type=document.media_type, processing_time_ms=1))
+        text = {
+            "FIR.pdf": "FIR 42/2026; Central PS; Complainant: Asha Devi; Accused: Raj Verma; Victim: Sameer Khan; Vehicle: KA01AB1234.",
+            "complaint.pdf": "Complaint; Complainant: Asha Devi; Person complained against: Raj Verma; Victim: Sameer Khan; Vehicle: KA01AB1234.",
+        }.get(document.original_filename, "Synthetic evidence")
+        return OCRResult(document_id=document.id, pages=(OCRPage(page_number=1, text=text, confidence=.9),), raw_text=text, confidence=.9, metadata=OCRMetadata(provider="fixture", model="fixture", input_mime_type=document.media_type, processing_time_ms=1))
 
 
 class FixtureParser(ParserClient):
     def __init__(self, fail: bool = False): self.fail = fail
     def generate_json(self, prompt):
         if self.fail: raise ParserError("fixture parser failure")
-        if '"FIR"' in prompt: return {"fir_number": "42/2026", "registration_date": "2026-01-02", "police_station": "Central PS", "complainant_name": "Asha Devi", "occurrence_datetime": "2026-01-01T10:00:00", "occurrence_location": "Market Road", "jurisdiction": "Central", "court": "Sessions Court", "reported_sections": ["115"], "confidence": .9}
-        if '"Complaint"' in prompt: return {"complaint_date": "2026-01-01", "complainant_name": "Asha Devi", "complaint_text": "Complaint at Market Road", "confidence": .9}
+        if '"FIR"' in prompt: return {"fir_number": "42/2026", "registration_date": "2026-01-02", "police_station": "Central PS", "complainant_name": "Asha Devi", "accused_names": ["Raj Verma"], "victim_names": ["Sameer Khan"], "vehicle_registrations": ["KA01AB1234"], "occurrence_datetime": "2026-01-01T10:00:00", "occurrence_location": "Market Road", "jurisdiction": "Central", "court": "Sessions Court", "reported_sections": ["115"], "confidence": .9}
+        if '"Complaint"' in prompt: return {"complaint_date": "2026-01-01", "complainant_name": "Asha Devi", "person_complained_against_names": ["Raj Verma"], "victim_names": ["Sameer Khan"], "vehicle_registrations": ["KA01AB1234"], "complaint_text": "Complaint at Market Road", "confidence": .9}
         if '"WitnessStatement"' in prompt: return {"witness_name": "Ravi Kumar", "statement_text": "Witness statement", "confidence": .9}
         if '"MedicalReport"' in prompt: return {"report_number": "MLC-1", "patient_name": "Asha Devi", "doctor_name": "Dr Sen", "observations": ["hurt"], "confidence": .9}
         if '"SeizureMemo"' in prompt: return {"memo_number": "SZ-1", "seizure_location": "Market Road", "seized_items": [{"description": "CCTV DVR", "exhibit_mark": "E1"}], "confidence": .9}

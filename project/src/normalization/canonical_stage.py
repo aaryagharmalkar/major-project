@@ -28,7 +28,7 @@ class CanonicalInvestigationStage(WorkflowStage):
             raise ValueError("Canonical investigation requires an Investigation Knowledge Graph")
         canonical = self.builder.build(graph)
         metrics = {
-            "canonical_persons": sum(len(group) for group in (canonical.victims, canonical.accused, canonical.witnesses, canonical.police_officers, canonical.doctors)),
+            "canonical_persons": sum(len(group) for group in (canonical.complainants, canonical.victims, canonical.accused, canonical.witnesses, canonical.police_officers, canonical.doctors)),
             "vehicles": len(canonical.vehicles), "evidence_items": len(canonical.evidence) + len(canonical.recovered_property),
             "timeline_events": len(canonical.timeline), "conflicts": len(canonical.conflicts),
             "unresolved_conflicts": sum(item.status.value == "unresolved" for item in canonical.conflicts),

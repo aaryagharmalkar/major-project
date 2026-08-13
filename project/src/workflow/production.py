@@ -43,11 +43,14 @@ STAGE_ORDER = (
 )
 
 
-def create_workflow_context(case_id: UUID, uploads: tuple[IncomingUpload, ...]) -> WorkflowContext:
+def create_workflow_context(case_id: UUID, uploads: tuple[IncomingUpload, ...], *, resume: bool = False, storage_root: Path | None = None) -> WorkflowContext:
     """Create the sole workflow input snapshot from transport-neutral uploads."""
+    manifest = UploadManager(storage_root).load_manifest(case_id) if resume and storage_root is not None else None
     return WorkflowContext(
         case_id=case_id,
+        resume=resume,
         pending_uploads=tuple(ContextItem(key=f"upload:{index}", value=upload) for index, upload in enumerate(uploads, 1)),
+        upload_manifest=manifest,
         execution_state=WorkflowState(case_id=case_id),
     )
 
@@ -65,6 +68,7 @@ def create_production_registry(
     legal_reference_version: str | None = None,
     legal_reasoner: LegalReasoner | None = None,
     evidence_validator: EvidenceValidator | None = None,
+    resume: bool = False,
 ) -> StageRegistry:
     """Compose the approved Phase 1-10 stages in their required execution order."""
     resolved_provider = legal_reference_provider or LocalLegalReferenceProvider.load(legal_reference_path, legal_reference_version)
@@ -73,8 +77,8 @@ def create_production_registry(
     resolved_parser_registry = parser_registry or create_default_parser_registry(resolved_parser_client)
     resolved_reasoner = legal_reasoner or LegalReasoner(resolved_provider)
     registry = StageRegistry((
-        DocumentIntakeStage(storage_root, UploadManager(storage_root, validator=FileValidator(Config.MAX_UPLOAD_FILE_SIZE_BYTES), max_case_size_bytes=Config.MAX_CASE_UPLOAD_SIZE_BYTES)),
-        OCRStage(storage_root, resolved_ocr_client),
+        DocumentIntakeStage(storage_root, UploadManager(storage_root, validator=FileValidator(Config.MAX_UPLOAD_FILE_SIZE_BYTES), max_case_size_bytes=Config.MAX_CASE_UPLOAD_SIZE_BYTES), resume=resume),
+        OCRStage(storage_root, resolved_ocr_client, resume=resume),
         ParserStage(storage_root, resolved_parser_registry),
         GraphStage(storage_root),
         CanonicalInvestigationStage(storage_root),

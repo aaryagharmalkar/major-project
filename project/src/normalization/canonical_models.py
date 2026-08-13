@@ -122,6 +122,7 @@ class CanonicalInvestigation(DomainModel):
     police_station: CanonicalFact | None = None
     court: CanonicalFact | None = None
     offences: tuple[CanonicalFact, ...] = ()
+    complainants: tuple[CanonicalPerson, ...] = ()
     victims: tuple[CanonicalPerson, ...] = ()
     accused: tuple[CanonicalPerson, ...] = ()
     witnesses: tuple[CanonicalPerson, ...] = ()

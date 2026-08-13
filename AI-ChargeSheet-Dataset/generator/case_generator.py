@@ -1,6 +1,6 @@
 """Master case orchestration for synthetic criminal investigation generation.
 
-This module coordinates reference data loading, prompt rendering, Gemini
+This module coordinates reference data loading, prompt rendering, LLM Provider
 invocation, Pydantic validation, and persistence of the canonical
 master_case.json artifact.
 """
@@ -15,7 +15,11 @@ from typing import Any, Mapping
 
 from pydantic import ValidationError
 
-from generator.llm.gemini import GeminiClient, GeminiRequestError, GeminiTemplateError
+from generator.llm.base import (
+    BaseLLMClient,
+    LLMRequestError,
+    LLMTemplateError,
+)
 from generator.schemas.master_case_schema import MasterCase
 from generator.utils.reference_loader import ReferenceDataLoader
 
@@ -47,7 +51,7 @@ class MasterCaseGenerator:
     def __init__(
         self,
         reference_loader: ReferenceDataLoader,
-        gemini_client: GeminiClient,
+        llm_client: BaseLLMClient,
         master_prompt_path: str | Path,
         output_directory: str | Path,
         *,
@@ -57,7 +61,7 @@ class MasterCaseGenerator:
 
         Args:
             reference_loader: Loader used to access reference JSON data.
-            gemini_client: Client used to render prompts and call Gemini.
+            llm_client: Client used to render prompts and communicate with the configured LLM provider.
             master_prompt_path: Path to generator/prompts/master_case.md.
             output_directory: Directory where master_case.json will be written.
             validation_retries: Number of times to retry when schema validation fails.
@@ -67,7 +71,7 @@ class MasterCaseGenerator:
             raise MasterCaseGenerationError("validation_retries must be at least 1.")
 
         self._reference_loader = reference_loader
-        self._gemini_client = gemini_client
+        self._llm_client = llm_client
         self._master_prompt_path = Path(master_prompt_path).expanduser().resolve()
         self._output_directory = Path(output_directory).expanduser().resolve()
         self._output_directory.mkdir(parents=True, exist_ok=True)
@@ -151,14 +155,28 @@ class MasterCaseGenerator:
     def _render_prompt(self, case_seed: Mapping[str, Any]) -> str:
         """Load the master prompt and render it with the supplied context."""
 
-        prompt_template = self._gemini_client.load_prompt_template(self._master_prompt_path)
-        prompt_context = self.build_prompt_context(case_seed)
-        rendered_prompt = self._gemini_client.render_prompt(prompt_template, prompt_context)
+        prompt_template = self._llm_client.load_prompt_template(
+            self._master_prompt_path
+        )
 
-        unresolved_placeholders = sorted({match.group(1) for match in self._PLACEHOLDER_PATTERN.finditer(rendered_prompt)})
+        prompt_context = self.build_prompt_context(case_seed)
+
+        rendered_prompt = self._llm_client.render_prompt(
+            prompt_template,
+            prompt_context,
+        )
+
+        unresolved_placeholders = sorted(
+            {
+                match.group(1)
+                for match in self._PLACEHOLDER_PATTERN.finditer(rendered_prompt)
+            }
+        )
+
         if unresolved_placeholders:
             raise MasterCasePromptError(
-                "Unresolved placeholders remain in the rendered prompt: " + ", ".join(unresolved_placeholders)
+                "Unresolved placeholders remain in the rendered prompt: "
+                + ", ".join(unresolved_placeholders)
             )
 
         return rendered_prompt
@@ -203,11 +221,22 @@ class MasterCaseGenerator:
             rendered_prompt = self._render_prompt(case_seed)
 
             try:
-                raw_json = self._gemini_client.send_prompt(rendered_prompt)
+                print()
+
+                print("=" * 60)
+
+                print("Prompt characters:", len(rendered_prompt))
+
+                print("Approx tokens:", len(rendered_prompt) // 4)
+
+                print("=" * 60)
+
+                print()
+                raw_json = self._llm_client.send_prompt(rendered_prompt)
                 validated_case = self.validate_case(raw_json)
-            except GeminiRequestError:
+            except LLMRequestError:
                 raise
-            except GeminiTemplateError as exc:
+            except LLMTemplateError as exc:
                 raise MasterCasePromptError(str(exc)) from exc
             except MasterCaseValidationError as exc:
                 last_validation_error = exc

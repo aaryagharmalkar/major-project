@@ -1,0 +1,25 @@
+{
+  "document_id": "53e5c1e2-7d4a-4046-a549-e7c93ffdf64a",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "FIRST INFORMATION REPORT\n\nFIR Number: FIR No. 47/2026\nPolice Station: Shivaji Nagar Police Station\nJurisdiction: Pune City\nDate of registration: 14 August 2026\nComplainant: Neha Patil\nDate/time of occurrence: 14 August 2026 at 20:35\nPlace of occurrence: Senapati Road junction, Pune\nVehicle involved: MH-12-AB-4821\nAccused named in complaint: Rohan Mehta\nVictim: Amit Kulkarni\nBrief facts: On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\n\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
+      "confidence": null
+    }
+  ],
+  "raw_text": "FIRST INFORMATION REPORT\n\nFIR Number: FIR No. 47/2026\nPolice Station: Shivaji Nagar Police Station\nJurisdiction: Pune City\nDate of registration: 14 August 2026\nComplainant: Neha Patil\nDate/time of occurrence: 14 August 2026 at 20:35\nPlace of occurrence: Senapati Road junction, Pune\nVehicle involved: MH-12-AB-4821\nAccused named in complaint: Rohan Mehta\nVictim: Amit Kulkarni\nBrief facts: On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\n\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
+  "confidence": null,
+  "warnings": [],
+  "language": "en",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-13T10:04:07.950823Z",
+    "processing_time_ms": 13863.515458004258,
+    "token_usage": 2095,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

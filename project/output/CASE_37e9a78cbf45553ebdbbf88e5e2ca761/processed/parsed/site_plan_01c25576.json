@@ -1,0 +1,26 @@
+{
+  "document_id": "01c25576-7c6d-4d17-b2e0-9293d98eb67a",
+  "document_type": "site_plan",
+  "ocr_text_sha256": "420240426a66ec9450a09e65e647cdfedd7c747d1c8b1082f51353d6fa2f4163",
+  "parse_metadata": {
+    "parser_name": "SitePlanParser",
+    "parse_duration_ms": 18866.947666996566,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "plan_number": null,
+  "plan_date": "2026-08-14",
+  "location": "Senapati Road junction, Pune",
+  "prepared_by": null,
+  "annotations": [
+    "northbound carriageway",
+    "pedestrian crossing",
+    "roadside shop",
+    "approximate position where the vehicle was found after the collision",
+    "Vehicle position marked with registration MH-12-AB-4821",
+    "Approximate pedestrian position marked for Amit Kulkarni",
+    "This is a synthetic demonstration fixture and not an official police document."
+  ]
+}

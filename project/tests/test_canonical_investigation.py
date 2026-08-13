@@ -6,7 +6,7 @@ import unittest
 from uuid import uuid4
 
 from src.domain.common import SourceReference
-from src.domain.parsed_documents import ParseMetadata, SeizureItem, SeizureMemo, VehicleInspection
+from src.domain.parsed_documents import FIR, ParseMetadata, SeizureItem, SeizureMemo, VehicleInspection
 from src.knowledge_graph.graph_builder import GraphBuilder
 from src.knowledge_graph.graph_models import GraphEdge, GraphNode, GraphNodeType, GraphProvenance, GraphRelationshipType, InvestigationKnowledgeGraph, PersonRole
 from src.normalization.canonical_builder import CanonicalBuilder
@@ -46,6 +46,13 @@ class CanonicalInvestigationTests(unittest.TestCase):
     def test_vehicle_projection(self):
         canonical = CanonicalBuilder().build(self._graph())
         self.assertEqual(canonical.vehicles[0].registration_number.value, "WB 12 AB 1234")
+
+    def test_explicit_fir_roles_project_to_distinct_canonical_collections(self):
+        fir = FIR(document_id=uuid4(), ocr_text_sha256="e" * 64, parse_metadata=meta(), complainant_name="Priya Sharma", accused_names=("Raj Verma",), victim_names=("Sameer Khan",), vehicle_registrations=("DL-01-AB-1234",))
+        canonical = CanonicalBuilder().build(GraphBuilder(uuid4()).build((fir,)))
+        self.assertEqual(canonical.complainants[0].name.value, "Priya Sharma")
+        self.assertEqual(canonical.accused[0].name.value, "Raj Verma")
+        self.assertEqual(canonical.victims[0].name.value, "Sameer Khan")
 
     def test_evidence_projection(self):
         canonical = CanonicalBuilder().build(self._graph())

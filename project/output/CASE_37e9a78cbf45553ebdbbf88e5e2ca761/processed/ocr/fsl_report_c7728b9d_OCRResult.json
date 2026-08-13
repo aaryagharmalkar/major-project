@@ -1,0 +1,25 @@
+{
+  "document_id": "c7728b9d-209b-47b0-b8cc-bbf90008a7c5",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "FORENSIC SCIENCE LABORATORY REPORT\nReference case: FIR No. 47/2026\nItems received: swab/sample from damaged front portion of vehicle and control material.\nLaboratory observation: the submitted sample contained biological material suitable for comparison testing.\nThe report records laboratory observations and does not independently establish the complete circumstances of the incident.",
+      "confidence": 0.99
+    }
+  ],
+  "raw_text": "FORENSIC SCIENCE LABORATORY REPORT\nReference case: FIR No. 47/2026\nItems received: swab/sample from damaged front portion of vehicle and control material.\nLaboratory observation: the submitted sample contained biological material suitable for comparison testing.\nThe report records laboratory observations and does not independently establish the complete circumstances of the incident.",
+  "confidence": 0.99,
+  "warnings": [],
+  "language": "en",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-13T10:05:56.088465Z",
+    "processing_time_ms": 14125.471999999718,
+    "token_usage": 1747,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

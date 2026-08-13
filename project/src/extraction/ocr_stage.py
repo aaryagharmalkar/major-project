@@ -6,6 +6,7 @@ import time
 from pathlib import Path
 
 from ..domain.documents import ExtractionState, ValidationStatus
+from ..intake.checksum import calculate_sha256
 from ..workflow.context import ContextItem, WorkflowContext
 from ..workflow.stage import WorkflowStage
 from .ocr_artifacts import OCRArtifactWriter
@@ -15,10 +16,11 @@ from .ocr_client import OCRClient
 class OCRStage(WorkflowStage):
     name = "ocr"
 
-    def __init__(self, storage_root: Path, client: OCRClient, artifact_writer: OCRArtifactWriter | None = None) -> None:
+    def __init__(self, storage_root: Path, client: OCRClient, artifact_writer: OCRArtifactWriter | None = None, *, resume: bool = False) -> None:
         self.storage_root = storage_root
         self.client = client
         self.artifact_writer = artifact_writer or OCRArtifactWriter(storage_root)
+        self.resume = resume
 
     def can_run(self, context: WorkflowContext) -> bool:
         return any(
@@ -36,6 +38,7 @@ class OCRStage(WorkflowStage):
         page_count = 0
         character_count = 0
         confidence_values: list[float] = []
+        reused_count = 0
 
         for document in context.uploaded_documents:
             if (
@@ -46,9 +49,15 @@ class OCRStage(WorkflowStage):
                 updated_documents.append(document)
                 continue
             source_path = self.storage_root / document.storage_key
-            result = self.client.extract(document, source_path)
+            loaded = self._load_resume_artifact(document, source_path) if self.resume else None
+            if loaded is not None:
+                result, existing_artifacts = loaded
+                artifacts.extend(existing_artifacts)
+                reused_count += 1
+            else:
+                result = self.client.extract(document, source_path)
+                artifacts.extend(self.artifact_writer.write(document, result))
             results.append(ContextItem(key=str(document.id), value=result))
-            artifacts.extend(self.artifact_writer.write(document, result))
             updated_documents.append(document.model_copy(update={"extraction_state": ExtractionState.COMPLETE}))
             page_count += result.page_count
             character_count += len(result.raw_text)
@@ -68,11 +77,21 @@ class OCRStage(WorkflowStage):
                         "characters_extracted": character_count,
                         "confidence": (sum(confidence_values) / len(confidence_values) if confidence_values else None),
                         "token_usage": None,
-                        "estimated_cost": None,
+                        "estimated_cost": None, "reused_ocr_results": reused_count,
                     },
                 ),
             ),
             execution_metadata=context.execution_metadata + (
-                ContextItem(key=self.name, value={"provider": type(self.client).__name__, "documents_processed": len(results) - len(context.ocr_results)}),
+                ContextItem(key=self.name, value={"provider": type(self.client).__name__, "documents_processed": len(results) - len(context.ocr_results), "reused_ocr_results": reused_count}),
             ),
         )
+
+    def _load_resume_artifact(self, document, source_path: Path):
+        if not source_path.is_file():
+            return None
+        try:
+            if calculate_sha256(source_path) != document.sha256:
+                return None
+        except OSError:
+            return None
+        return self.artifact_writer.load(document)

@@ -1,6 +1,7 @@
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest import TestCase, main
+from unittest.mock import patch
 from uuid import uuid4
 from datetime import date
 
@@ -15,6 +16,7 @@ from src.domain.documents import DocumentType
 from src.domain.parsed_documents import FIR, Complaint, ParseMetadata
 from src.knowledge_graph.graph_builder import GraphBuilder
 from src.normalization.canonical_builder import CanonicalBuilder
+from src.config import Config
 
 
 class NoopOCR(OCRClient):
@@ -70,8 +72,9 @@ class ProductionHardeningTests(TestCase):
     def test_production_clients_require_gemini_configuration_when_not_injected(self):
         with TemporaryDirectory() as directory:
             dataset = Path(__file__).parents[1] / "references" / "legal" / "bns_sections.json"
-            with self.assertRaises(ValueError):
-                create_production_registry(Path(directory), legal_reference_path=dataset, legal_reference_version="bns-2023-2024-07-01")
+            with patch.object(Config, "GEMINI_API_KEY", None):
+                with self.assertRaises(ValueError):
+                    create_production_registry(Path(directory), legal_reference_path=dataset, legal_reference_version="bns-2023-2024-07-01")
             registry = create_production_registry(Path(directory), ocr_client=NoopOCR(), parser_client=NoopParser(), legal_reference_path=dataset, legal_reference_version="bns-2023-2024-07-01")
             self.assertEqual(registry.stages[1].client.__class__, NoopOCR)
 
@@ -85,7 +88,7 @@ class ProductionHardeningTests(TestCase):
         self.assertEqual(canonical.police_station.value, "Central PS")
         self.assertEqual(canonical.court.value, "Sessions Court")
         self.assertEqual(canonical.offences[0].value, "115")
-        self.assertTrue(any(reference.document_id == complaint.document_id for reference in canonical.victims[0].name.references))
+        self.assertTrue(any(reference.document_id == complaint.document_id for reference in canonical.complainants[0].name.references))
 
 
 if __name__ == "__main__":

@@ -15,6 +15,7 @@ def project_entities(nodes: tuple[GraphNode, ...]):
     locations = tuple(CanonicalLocation(id=node.id, name=project_fact(node.label, node.provenance, f"graph.nodes[{node.id}].label")) for node in nodes if node.node_type == GraphNodeType.LOCATION)
     documents = tuple(CanonicalDocument(id=node.id, document_id=project_fact(node.attributes["document_id"], node.provenance, f"graph.nodes[{node.id}].attributes.document_id"), document_type=project_fact(node.attributes["document_type"], node.provenance, f"graph.nodes[{node.id}].attributes.document_type") if node.attributes.get("document_type") else None) for node in nodes if node.node_type == GraphNodeType.DOCUMENT)
     return {
+        "complainants": by_role(PersonRole.COMPLAINANT),
         "victims": by_role(PersonRole.VICTIM), "accused": by_role(PersonRole.ACCUSED),
         "witnesses": by_role(PersonRole.WITNESS), "police_officers": by_role(PersonRole.POLICE_OFFICER),
         "doctors": by_role(PersonRole.DOCTOR), "vehicles": vehicles, "locations": locations,

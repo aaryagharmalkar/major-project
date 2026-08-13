@@ -7,10 +7,10 @@ from uuid import uuid4
 
 from src.domain.documents import DocumentType
 from src.domain.parsed_documents import (
-    MedicalReport, ParseMetadata, SeizureItem, SeizureMemo, VehicleInspection,
+    Complaint, FIR, MedicalReport, ParseMetadata, SeizureItem, SeizureMemo, VehicleInspection,
 )
 from src.knowledge_graph.graph_builder import GraphBuilder
-from src.knowledge_graph.graph_models import GraphNodeType, GraphRelationshipType
+from src.knowledge_graph.graph_models import GraphNodeType, GraphRelationshipType, PersonRole
 from src.knowledge_graph.graph_stage import GraphStage
 from src.workflow.context import ContextItem, WorkflowContext
 from src.workflow.engine import WorkflowEngine
@@ -76,6 +76,29 @@ class KnowledgeGraphTests(unittest.TestCase):
         self.assertEqual(provenance.confidence, 0.8)
         self.assertIsNotNone(provenance.timestamp)
         self.assertTrue(all(edge.provenance for edge in graph.edges))
+
+    def test_fir_and_complaint_merge_matching_explicit_entities_and_keep_roles(self) -> None:
+        fir = FIR(document_id=uuid4(), ocr_text_sha256="e" * 64, parse_metadata=metadata(), complainant_name="Priya Sharma", accused_names=("Raj Verma",), victim_names=("Sameer Khan",), vehicle_registrations=("DL-01-AB-1234",))
+        complaint = Complaint(document_id=uuid4(), ocr_text_sha256="f" * 64, parse_metadata=metadata(), complainant_name="Priya Sharma", person_complained_against_names=("Raj Verma",), victim_names=("Sameer Khan",), vehicle_registrations=("DL01AB1234",))
+
+        graph = GraphBuilder(uuid4()).build((fir, complaint))
+        people = {node.label: node.roles for node in graph.nodes if node.node_type == GraphNodeType.PERSON}
+        vehicles = [node for node in graph.nodes if node.node_type == GraphNodeType.VEHICLE]
+
+        self.assertEqual(people["Priya Sharma"], frozenset({PersonRole.COMPLAINANT}))
+        self.assertEqual(people["Raj Verma"], frozenset({PersonRole.ACCUSED}))
+        self.assertEqual(people["Sameer Khan"], frozenset({PersonRole.VICTIM}))
+        self.assertEqual(len(vehicles), 1)
+
+    def test_different_explicit_identities_are_preserved_without_a_silent_merge(self) -> None:
+        fir = FIR(document_id=uuid4(), ocr_text_sha256="1" * 64, parse_metadata=metadata(), accused_names=("Raj Verma",))
+        complaint = Complaint(document_id=uuid4(), ocr_text_sha256="2" * 64, parse_metadata=metadata(), person_complained_against_names=("Ravi Verma",))
+
+        graph = GraphBuilder(uuid4()).build((fir, complaint))
+        accused = [node for node in graph.nodes if node.node_type == GraphNodeType.PERSON and PersonRole.ACCUSED in node.roles]
+
+        self.assertEqual({node.label for node in accused}, {"Raj Verma", "Ravi Verma"})
+        self.assertTrue(all(len(node.provenance) == 1 for node in accused))
 
     def test_graph_stage_writes_artifacts_and_updates_workflow_context(self) -> None:
         with TemporaryDirectory() as temp_dir:

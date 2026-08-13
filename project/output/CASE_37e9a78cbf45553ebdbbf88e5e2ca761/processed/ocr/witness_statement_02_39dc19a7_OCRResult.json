@@ -1,0 +1,25 @@
+{
+  "document_id": "39dc19a7-1335-468a-955e-34965191bfcf",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "WITNESS STATEMENT\n\nWitness: Suresh Joshi\nDate: 14 August 2026\nLocation: Senapati Road junction, Pune\n\nI was standing near a shop opposite the junction when I heard the collision and then saw the vehicle bearing\nMH-12-AB-4821 stopped near the pedestrian.\n\nI observed the driver leave the vehicle and remain near the scene until police arrived.",
+      "confidence": null
+    }
+  ],
+  "raw_text": "WITNESS STATEMENT\n\nWitness: Suresh Joshi\nDate: 14 August 2026\nLocation: Senapati Road junction, Pune\n\nI was standing near a shop opposite the junction when I heard the collision and then saw the vehicle bearing\nMH-12-AB-4821 stopped near the pedestrian.\n\nI observed the driver leave the vehicle and remain near the scene until police arrived.",
+  "confidence": null,
+  "warnings": [],
+  "language": "en",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-13T10:08:29.079513Z",
+    "processing_time_ms": 15745.655083999736,
+    "token_usage": 1592,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

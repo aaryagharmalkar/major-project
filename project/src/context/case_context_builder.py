@@ -15,7 +15,7 @@ class CaseContextBuilder:
             case_id=canonical.case_metadata.case_id, case_metadata=metadata, fir_details=canonical.fir_details,
             police_station=canonical.police_station, court=canonical.court,
             occurrence_details=tuple(event for event in canonical.timeline if "occurrence" in str(event.description.value).casefold() or "incident" in str(event.description.value).casefold()),
-            victims=canonical.victims, accused=canonical.accused, witnesses=canonical.witnesses,
+            complainants=canonical.complainants, victims=canonical.victims, accused=canonical.accused, witnesses=canonical.witnesses,
             relevant_timeline=canonical.timeline, evidence=canonical.evidence, medical_findings=canonical.medical_findings,
             forensic_findings=canonical.forensic_findings, vehicles=canonical.vehicles,
             recovered_property=canonical.recovered_property, investigation_actions=canonical.investigation_actions,

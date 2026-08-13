@@ -1,0 +1,25 @@
+{
+  "document_id": "2ea1a375-be5d-462b-90b2-6ba8337cc46e",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "FIRST INFORMATION REPORT\n\nFIR Number:\tFIR No. 47/2026\nPolice Station:\tShivaji Nagar Police Station\nJurisdiction:\tPune City\nDate of registration:\t14 August 2026\nComplainant:\tNeha Patil\nDate/time of occurrence:\t14 August 2026 at 20:35\nPlace of occurrence:\tSenapati Road junction, Pune\nVehicle involved:\tMH-12-AB-4821\nAccused named in complaint:\tRohan Mehta\nVictim:\tAmit Kulkarni\nBrief facts:\tOn the stated date and time, a road traffic collision occurred at the\njunction. The complainant states that the accused was driving the\nidentified vehicle when it struck the pedestrian victim.\n\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the\nincident.",
+      "confidence": 1.0
+    }
+  ],
+  "raw_text": "FIRST INFORMATION REPORT\n\nFIR Number:\tFIR No. 47/2026\nPolice Station:\tShivaji Nagar Police Station\nJurisdiction:\tPune City\nDate of registration:\t14 August 2026\nComplainant:\tNeha Patil\nDate/time of occurrence:\t14 August 2026 at 20:35\nPlace of occurrence:\tSenapati Road junction, Pune\nVehicle involved:\tMH-12-AB-4821\nAccused named in complaint:\tRohan Mehta\nVictim:\tAmit Kulkarni\nBrief facts:\tOn the stated date and time, a road traffic collision occurred at the\njunction. The complainant states that the accused was driving the\nidentified vehicle when it struck the pedestrian victim.\n\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the\nincident.",
+  "confidence": 1.0,
+  "warnings": [],
+  "language": "en",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-13T09:30:28.808717Z",
+    "processing_time_ms": 13147.90604099835,
+    "token_usage": 1697,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

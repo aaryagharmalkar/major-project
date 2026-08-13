@@ -1,0 +1,26 @@
+{
+  "document_id": "c8afb7b6-a7cb-4679-81f9-d7529dcba236",
+  "document_type": "complaint",
+  "ocr_text_sha256": "0b77b2f79cbe5421032874b05e0117463da18173639a9b2f2786ca4f0e721d4f",
+  "parse_metadata": {
+    "parser_name": "ComplaintParser",
+    "parse_duration_ms": 11951.313042001857,
+    "validation_success": true,
+    "retry_count": 0,
+    "confidence": null,
+    "warnings": []
+  },
+  "complaint_date": "2026-08-14",
+  "complainant_name": "Neha Patil",
+  "complainant_address": null,
+  "person_complained_against_names": [
+    "Rohan Mehta"
+  ],
+  "victim_names": [
+    "Amit Kulkarni"
+  ],
+  "vehicle_registrations": [
+    "MH-12-AB-4821"
+  ],
+  "complaint_text": "I was present near the junction and saw the vehicle approach the crossing. After the collision, I called for assistance and remained at the scene until police personnel arrived."
+}

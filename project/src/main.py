@@ -36,6 +36,7 @@ def _build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--output-dir", required=True, type=Path, help="Root directory for typed case artifacts")
     parser.add_argument("--gemini-api-key", default=Config.GEMINI_API_KEY, help="Gemini key; defaults to GEMINI_API_KEY")
     parser.add_argument("--gemini-model", default=Config.GEMINI_MODEL, help="Gemini model; defaults to GEMINI_MODEL")
+    parser.add_argument("--resume", action="store_true", help="Reuse only OCR artifacts validated against this case's persisted manifest.")
     return parser
 
 
@@ -48,7 +49,7 @@ def main(argv: list[str] | None = None) -> int:
         if not args.gemini_api_key:
             raise ValueError("GEMINI_API_KEY is required for OCR and document parsing")
         case_id = _case_id(args.case_id)
-        context = create_workflow_context(case_id, uploads)
+        context = create_workflow_context(case_id, uploads, resume=args.resume, storage_root=args.output_dir)
         result = run_production_workflow(
             args.output_dir,
             context,
@@ -56,6 +57,7 @@ def main(argv: list[str] | None = None) -> int:
             gemini_model=args.gemini_model,
             legal_reference_path=Path(Config.LEGAL_REFERENCE_PATH) if Config.LEGAL_REFERENCE_PATH else None,
             legal_reference_version=Config.LEGAL_REFERENCE_VERSION,
+            resume=args.resume,
         )
     except (ValueError, OSError) as exc:
         print(f"Configuration error: {exc}")

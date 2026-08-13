@@ -138,7 +138,13 @@ class GraphBuilder:
     @staticmethod
     def _map_fir(builder: "GraphBuilder", doc: ParsedDocument, document_node: object) -> None:
         assert isinstance(doc, FIR) and isinstance(document_node, GraphNode)
-        GraphBuilder._person(builder, doc.complainant_name, PersonRole.VICTIM, doc, document_node)
+        GraphBuilder._person(builder, doc.complainant_name, PersonRole.COMPLAINANT, doc, document_node)
+        for name in doc.accused_names:
+            GraphBuilder._person(builder, name, PersonRole.ACCUSED, doc, document_node)
+        for name in doc.victim_names:
+            GraphBuilder._person(builder, name, PersonRole.VICTIM, doc, document_node)
+        for registration in doc.vehicle_registrations:
+            builder.add_node(GraphNodeType.VEHICLE, registration, doc, attributes={"registration_number": registration}, document_node=document_node)
         if doc.occurrence_datetime or doc.narrative_text:
             event = builder.add_node(GraphNodeType.TIMELINE_EVENT, f"FIR occurrence {doc.document_id}", doc, attributes={"occurred_at": doc.occurrence_datetime, "description": doc.narrative_text}, document_node=document_node)
             builder.add_edge(event, document_node, GraphRelationshipType.SUPPORTED_BY, doc)
@@ -147,8 +153,13 @@ class GraphBuilder:
     @staticmethod
     def _map_complaint(builder: "GraphBuilder", doc: ParsedDocument, document_node: object) -> None:
         assert isinstance(doc, Complaint) and isinstance(document_node, GraphNode)
-        # The complaint remains an attributed document assertion; only the named complainant is projected.
-        GraphBuilder._person(builder, doc.complainant_name, PersonRole.VICTIM, doc, document_node)
+        GraphBuilder._person(builder, doc.complainant_name, PersonRole.COMPLAINANT, doc, document_node)
+        for name in doc.person_complained_against_names:
+            GraphBuilder._person(builder, name, PersonRole.ACCUSED, doc, document_node)
+        for name in doc.victim_names:
+            GraphBuilder._person(builder, name, PersonRole.VICTIM, doc, document_node)
+        for registration in doc.vehicle_registrations:
+            builder.add_node(GraphNodeType.VEHICLE, registration, doc, attributes={"registration_number": registration}, document_node=document_node)
 
     @staticmethod
     def _map_medical(builder: "GraphBuilder", doc: ParsedDocument, document_node: object) -> None:

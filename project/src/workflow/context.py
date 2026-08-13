@@ -43,6 +43,7 @@ class WorkflowContext(BaseModel):
     model_config = ConfigDict(frozen=True, extra="forbid", arbitrary_types_allowed=True)
 
     case_id: UUID
+    resume: bool = False
     pending_uploads: tuple[ContextItem, ...] = ()
     uploaded_documents: tuple[SourceDocument, ...] = ()
     upload_manifest: Any | None = None

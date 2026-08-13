@@ -1,0 +1,25 @@
+{
+  "document_id": "01c25576-7c6d-4d17-b2e0-9293d98eb67a",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "ROUGH SITE PLAN / SPOT PLAN\n\nLocation: Senapati Road junction, Pune\nDate of spot inspection: 14 August 2026\nReference points: northbound carriageway, pedestrian crossing, roadside shop, and\napproximate position where the vehicle was found after the collision.\n\nVehicle position marked with registration MH-12-AB-4821.\n\nApproximate pedestrian position marked for Amit Kulkarni.\n\nThis is a synthetic demonstration fixture and not an official police document.",
+      "confidence": null
+    }
+  ],
+  "raw_text": "ROUGH SITE PLAN / SPOT PLAN\n\nLocation: Senapati Road junction, Pune\nDate of spot inspection: 14 August 2026\nReference points: northbound carriageway, pedestrian crossing, roadside shop, and\napproximate position where the vehicle was found after the collision.\n\nVehicle position marked with registration MH-12-AB-4821.\n\nApproximate pedestrian position marked for Amit Kulkarni.\n\nThis is a synthetic demonstration fixture and not an official police document.",
+  "confidence": null,
+  "warnings": [],
+  "language": "en",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-flash-latest",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-13T10:06:43.542836Z",
+    "processing_time_ms": 17344.537584001955,
+    "token_usage": 1880,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

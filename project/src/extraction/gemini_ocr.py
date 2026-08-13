@@ -18,14 +18,28 @@ class GeminiOCRClient(OCRClient):
 
     supported_mime_types = frozenset({"application/pdf", "image/png", "image/jpeg"})
     OCR_PROMPT = """You are an OCR transcription service. Transcribe the supplied document exactly.
-Do not summarize, classify, identify people, extract fields, or infer facts.
-Return only JSON with this exact shape:
-{
-  "pages": [{"page_number": 1, "text": "verbatim page text", "confidence": 0.0}],
-  "language": "detected language or null",
-  "warnings": ["any transcription warnings"]
-}
-For multi-page PDFs, return one entry per page in page order."""
+Do not summarize, classify, identify people, extract document fields, or infer facts.
+Use the supplied response schema. For multi-page PDFs, return one entry per page in page order."""
+    RESPONSE_SCHEMA = {
+        "type": "object",
+        "properties": {
+            "pages": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "page_number": {"type": "integer"},
+                        "text": {"type": "string"},
+                        "confidence": {"anyOf": [{"type": "number"}, {"type": "null"}]},
+                    },
+                    "required": ["page_number", "text"],
+                },
+            },
+            "language": {"anyOf": [{"type": "string"}, {"type": "null"}]},
+            "warnings": {"type": "array", "items": {"type": "string"}},
+        },
+        "required": ["pages", "language", "warnings"],
+    }
 
     def __init__(self, api_key: str | None = None, model: str = "gemini-flash-latest", *, model_client: Any | None = None) -> None:
         self.model_name = model
@@ -51,12 +65,13 @@ For multi-page PDFs, return one entry per page in page order."""
         started = time.perf_counter()
         try:
             response = self._generate(source_path, document.media_type)
-            response_text = getattr(response, "text", "") or ""
+            payload = self._response_payload(response)
         except Exception as exc:
+            if isinstance(exc, OCRResponseError):
+                raise
             raise OCRProviderError(f"Gemini OCR request failed: {exc}") from exc
 
         processing_time_ms = (time.perf_counter() - started) * 1000
-        payload = self._parse_payload(response_text)
         pages = self._build_pages(payload)
         confidence_values = [page.confidence for page in pages if page.confidence is not None]
         usage = getattr(response, "usage_metadata", None)
@@ -80,7 +95,11 @@ For multi-page PDFs, return one entry per page in page order."""
 
     def _generate(self, source_path: Path, mime_type: str) -> Any:
         """Use Files API for PDFs; retain simple injectable test-client compatibility."""
-        config = {"temperature": 0, "response_mime_type": "application/json"}
+        config = {
+            "temperature": 0,
+            "response_mime_type": "application/json",
+            "response_json_schema": self.RESPONSE_SCHEMA,
+        }
         if self._injected_client and hasattr(self._model, "generate_content"):
             return self._model.generate_content(
                 [self.OCR_PROMPT, {"mime_type": mime_type, "data": source_path.read_bytes()}],
@@ -118,11 +137,32 @@ For multi-page PDFs, return one entry per page in page order."""
         return (getattr(state, "value", state) or "").upper() or None
 
     @staticmethod
+    def _response_payload(response: Any) -> dict[str, Any]:
+        """Read the SDK's structured value first, then tolerate legacy fenced JSON text."""
+
+        parsed = getattr(response, "parsed", None)
+        if isinstance(parsed, dict):
+            return parsed
+        if hasattr(parsed, "model_dump"):
+            model_dump = parsed.model_dump()
+            if isinstance(model_dump, dict):
+                return model_dump
+        return GeminiOCRClient._parse_payload(getattr(response, "text", "") or "")
+
+    @staticmethod
     def _parse_payload(response_text: str) -> dict[str, Any]:
+        text = response_text.strip()
+        if text.startswith("```"):
+            newline = text.find("\n")
+            if newline != -1 and text.endswith("```"):
+                text = text[newline + 1:-3].strip()
         try:
-            payload = json.loads(response_text)
+            payload = json.loads(text)
         except json.JSONDecodeError as exc:
-            raise OCRResponseError("Gemini OCR did not return valid JSON") from exc
+            raise OCRResponseError(
+                "Gemini OCR response was not valid JSON after structured output was requested "
+                f"(received {len(response_text)} characters)."
+            ) from exc
         if not isinstance(payload, dict):
             raise OCRResponseError("Gemini OCR response must be a JSON object")
         return payload

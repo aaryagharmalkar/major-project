@@ -144,3 +144,17 @@ class UploadManager:
             encoding="utf-8",
         )
         return output_path
+
+    def load_manifest(self, case_id: UUID) -> UploadManifest | None:
+        """Load one persisted manifest only when it belongs to the requested case."""
+
+        path = CaseStorageLayout(self.storage_root, case_id).processed_directory / "upload_manifest.json"
+        if not path.is_file():
+            return None
+        try:
+            manifest = UploadManifest.model_validate(json.loads(path.read_text(encoding="utf-8")))
+        except (OSError, json.JSONDecodeError, ValueError) as exc:
+            raise ValueError("Persisted upload manifest is invalid") from exc
+        if manifest.case_id != case_id:
+            raise ValueError("Persisted upload manifest belongs to another case")
+        return manifest

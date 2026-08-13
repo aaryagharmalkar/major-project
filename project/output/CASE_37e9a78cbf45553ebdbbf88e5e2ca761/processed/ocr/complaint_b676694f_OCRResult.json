@@ -1,0 +1,25 @@
+{
+  "document_id": "b676694f-cd11-4e07-98cd-45febdd94c25",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "WRITTEN COMPLAINT\n\nComplainant: Neha Patil\n\nPolice Station: Shivaji Nagar Police Station\n\nDate: 14 August 2026\n\nOccurrence: 14 August 2026 at approximately 20:35\n\nLocation: Senapati Road junction, Pune\n\nVehicle: MH-12-AB-4821\n\nPerson complained against: Rohan Mehta\n\nVictim: Amit Kulkarni\n\nStatement: I was present near the junction and saw the vehicle approach the crossing. After the collision, I called for assistance and remained at the scene until police personnel arrived.",
+      "confidence": 0.99
+    }
+  ],
+  "raw_text": "WRITTEN COMPLAINT\n\nComplainant: Neha Patil\n\nPolice Station: Shivaji Nagar Police Station\n\nDate: 14 August 2026\n\nOccurrence: 14 August 2026 at approximately 20:35\n\nLocation: Senapati Road junction, Pune\n\nVehicle: MH-12-AB-4821\n\nPerson complained against: Rohan Mehta\n\nVictim: Amit Kulkarni\n\nStatement: I was present near the junction and saw the vehicle approach the crossing. After the collision, I called for assistance and remained at the scene until police personnel arrived.",
+  "confidence": 0.99,
+  "warnings": [],
+  "language": "en",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-13T09:34:49.368965Z",
+    "processing_time_ms": 10133.31616600044,
+    "token_usage": 1745,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

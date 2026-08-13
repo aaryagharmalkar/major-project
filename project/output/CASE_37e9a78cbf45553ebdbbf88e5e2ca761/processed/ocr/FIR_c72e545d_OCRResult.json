@@ -1,0 +1,25 @@
+{
+  "document_id": "c72e545d-076c-4dae-9077-1bcf35dcdc46",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "FIRST INFORMATION REPORT\n\nFIR Number: FIR No. 47/2026\n\nPolice Station: Shivaji Nagar Police Station\n\nJurisdiction: Pune City\n\nDate of registration: 14 August 2026\n\nComplainant: Neha Patil\n\nDate/time of occurrence: 14 August 2026 at 20:35\n\nPlace of occurrence: Senapati Road junction, Pune\n\nVehicle involved: MH-12-AB-4821\n\nAccused named in complaint: Rohan Mehta\n\nVictim: Amit Kulkarni\n\nBrief facts: On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\n\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
+      "confidence": 0.99
+    }
+  ],
+  "raw_text": "FIRST INFORMATION REPORT\n\nFIR Number: FIR No. 47/2026\n\nPolice Station: Shivaji Nagar Police Station\n\nJurisdiction: Pune City\n\nDate of registration: 14 August 2026\n\nComplainant: Neha Patil\n\nDate/time of occurrence: 14 August 2026 at 20:35\n\nPlace of occurrence: Senapati Road junction, Pune\n\nVehicle involved: MH-12-AB-4821\n\nAccused named in complaint: Rohan Mehta\n\nVictim: Amit Kulkarni\n\nBrief facts: On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\n\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
+  "confidence": 0.99,
+  "warnings": [],
+  "language": "en",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-13T09:34:39.230994Z",
+    "processing_time_ms": 12730.732790994807,
+    "token_usage": 1926,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

@@ -1,0 +1,25 @@
+{
+  "document_id": "d82b1375-bea7-443a-aaf8-9556fa37a314",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "FIRST INFORMATION REPORT\n\nFIR Number: FIR No. 47/2026\n\nPolice Station: Shivaji Nagar Police Station\n\nJurisdiction: Pune City\n\nDate of registration: 14 August 2026\n\nComplainant: Neha Patil\n\nDate/time of occurrence: 14 August 2026 at 20:35\n\nPlace of occurrence: Senapati Road junction, Pune\n\nVehicle involved: MH-12-AB-4821\n\nAccused named in complaint: Rohan Mehta\n\nVictim: Amit Kulkarni\n\nBrief facts: On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\n\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
+      "confidence": 0.99
+    }
+  ],
+  "raw_text": "FIRST INFORMATION REPORT\n\nFIR Number: FIR No. 47/2026\n\nPolice Station: Shivaji Nagar Police Station\n\nJurisdiction: Pune City\n\nDate of registration: 14 August 2026\n\nComplainant: Neha Patil\n\nDate/time of occurrence: 14 August 2026 at 20:35\n\nPlace of occurrence: Senapati Road junction, Pune\n\nVehicle involved: MH-12-AB-4821\n\nAccused named in complaint: Rohan Mehta\n\nVictim: Amit Kulkarni\n\nBrief facts: On the stated date and time, a road traffic collision occurred at the junction. The complainant states that the accused was driving the identified vehicle when it struck the pedestrian victim.\n\nThe victim was taken to a nearby hospital for treatment. The complainant requested investigation of the incident.",
+  "confidence": 0.99,
+  "warnings": [],
+  "language": "en",
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "input_mime_type": "application/pdf",
+    "processed_at": "2026-08-13T09:32:57.647734Z",
+    "processing_time_ms": 10605.39220800274,
+    "token_usage": 1602,
+    "estimated_cost": null,
+    "provider_metadata": {}
+  },
+  "page_count": 1
+}

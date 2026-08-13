@@ -35,6 +35,9 @@ class FIR(ParsedDocument):
     registration_date: date | None = None
     police_station: str | None = None
     complainant_name: str | None = None
+    accused_names: tuple[str, ...] = ()
+    victim_names: tuple[str, ...] = ()
+    vehicle_registrations: tuple[str, ...] = ()
     occurrence_datetime: datetime | None = None
     occurrence_location: str | None = None
     jurisdiction: str | None = None
@@ -48,6 +51,9 @@ class Complaint(ParsedDocument):
     complaint_date: date | None = None
     complainant_name: str | None = None
     complainant_address: str | None = None
+    person_complained_against_names: tuple[str, ...] = ()
+    victim_names: tuple[str, ...] = ()
+    vehicle_registrations: tuple[str, ...] = ()
     complaint_text: str | None = None
 
 

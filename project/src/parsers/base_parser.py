@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import time
 from abc import ABC, abstractmethod
 from pathlib import Path
@@ -66,6 +67,7 @@ ParsedDocumentT = TypeVar("ParsedDocumentT", bound=ParsedDocument)
 class BaseDocumentParser(ABC, Generic[ParsedDocumentT]):
     document_type: DocumentType
     model_type: type[ParsedDocumentT]
+    supported_entity_fields: tuple[str, ...] = ()
 
     def __init__(self, client: ParserClient, *, max_attempts: int = 2) -> None:
         self.client = client
@@ -103,6 +105,7 @@ class BaseDocumentParser(ABC, Generic[ParsedDocumentT]):
         retry_count: int,
     ) -> ParsedDocumentT:
         controlled_payload = dict(payload)
+        self._validate_explicit_entities(controlled_payload, ocr_result)
         controlled_payload.update(
             {
                 "document_id": ocr_result.document_id,
@@ -119,15 +122,36 @@ class BaseDocumentParser(ABC, Generic[ParsedDocumentT]):
         )
         return self.model_type.model_validate(controlled_payload)
 
+    def _validate_explicit_entities(self, payload: dict[str, Any], ocr_result: OCRResult) -> None:
+        """Reject role/entity values that are not present in the supplied OCR text."""
+
+        normalized_ocr = self._normalize_for_support(ocr_result.raw_text)
+        for field in self.supported_entity_fields:
+            value = payload.get(field)
+            values = value if isinstance(value, (list, tuple)) else (value,)
+            for item in values:
+                if item is None:
+                    continue
+                if not isinstance(item, str) or not self._normalize_for_support(item) or self._normalize_for_support(item) not in normalized_ocr:
+                    raise ParserError(f"{self.name} returned {field} value that is not explicitly present in the OCR transcription")
+
+    @staticmethod
+    def _normalize_for_support(value: str) -> str:
+        return re.sub(r"[^a-z0-9]", "", value.casefold())
+
     def _build_prompt(self, ocr_result: OCRResult) -> str:
         schema = json.dumps(self.model_type.model_json_schema(), ensure_ascii=False)
         return (
             "Convert only explicitly stated information from the OCR transcription into the JSON schema below. "
             "Do not infer, summarize, classify evidence, identify legal sections, or add facts. "
             "Use null for unavailable scalar fields and [] for unavailable lists. "
+            f"{self._document_specific_instructions()} "
             "Return only a valid JSON object matching this schema.\n\n"
             f"Schema: {schema}\n\nOCR transcription (preserve its meaning; do not add information):\n{ocr_result.raw_text}"
         )
+
+    def _document_specific_instructions(self) -> str:
+        return ""
 
 
 class UnknownDocumentParser(BaseDocumentParser[ParsedDocumentT]):

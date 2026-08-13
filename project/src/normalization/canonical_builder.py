@@ -22,7 +22,7 @@ class CanonicalBuilder:
         conflicts = self.conflict_registry.find(graph.nodes, graph.edges)
         medical = tuple(project_fact(node.label, node.provenance, f"graph.nodes[{node.id}].label") for node in graph.nodes if node.node_type == GraphNodeType.MEDICAL_FINDING)
         forensic = tuple(project_fact(node.label, node.provenance, f"graph.nodes[{node.id}].label") for node in graph.nodes if node.node_type == GraphNodeType.FSL_FINDING)
-        all_facts = [person.name for group in (entities["victims"], entities["accused"], entities["witnesses"], entities["police_officers"], entities["doctors"]) for person in group]
+        all_facts = [person.name for group in (entities["complainants"], entities["victims"], entities["accused"], entities["witnesses"], entities["police_officers"], entities["doctors"]) for person in group]
         all_facts += [vehicle.registration_number for vehicle in entities["vehicles"]] + list(medical) + list(forensic)
         confidences = [fact.confidence for fact in all_facts if fact.confidence is not None]
         sources = tuple(dict.fromkeys(reference.source_reference for node in graph.nodes for reference in node.provenance))
@@ -40,7 +40,7 @@ class CanonicalBuilder:
         return CanonicalInvestigation(
             case_metadata=CanonicalCaseMetadata(case_id=graph.case_id, fir_number=fir_number, registration_date=registration_date),
             fir_details=fir_details, jurisdiction=jurisdiction, police_station=police_station, court=court, offences=offences,
-            victims=entities["victims"], accused=entities["accused"], witnesses=entities["witnesses"], police_officers=entities["police_officers"], doctors=entities["doctors"],
+            complainants=entities["complainants"], victims=entities["victims"], accused=entities["accused"], witnesses=entities["witnesses"], police_officers=entities["police_officers"], doctors=entities["doctors"],
             vehicles=entities["vehicles"], locations=entities["locations"], evidence=tuple(item for item in evidence if item.type == GraphNodeType.EVIDENCE.value),
             recovered_property=tuple(item for item in evidence if item.type == GraphNodeType.RECOVERED_PROPERTY.value), medical_findings=medical, forensic_findings=forensic,
             timeline=timeline, documents=entities["documents"], conflicts=conflicts, missing_information=missing, source_references=sources,

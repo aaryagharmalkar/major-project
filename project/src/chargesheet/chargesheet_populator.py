@@ -43,7 +43,7 @@ class ChargeSheetPopulator:
             detailed_facts=self._unavailable(),
             investigation_conducted=self._unavailable(),
             evidence_analysis=self._unavailable(),
-            victims=people(context.victims), accused=people(context.accused), witnesses=people(context.witnesses),
+            complainants=people(context.complainants), victims=people(context.victims), accused=people(context.accused), witnesses=people(context.witnesses),
             timeline=timeline, documentary_evidence=evidence, material_evidence=recovered,
             medical_findings=tuple(self._field(item, review) for item in context.medical_findings),
             forensic_findings=tuple(self._field(item, review) for item in context.forensic_findings),

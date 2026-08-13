@@ -1,61 +1,90 @@
-"""Run one synthetic Pune robbery master-case generation from the terminal."""
+"""
+Run one synthetic criminal investigation case generation.
+"""
 
 from __future__ import annotations
 
 import os
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 from generator.case_generator import MasterCaseGenerator
-from generator.llm.gemini import GeminiClient
+from generator.llm.factory import LLMFactory
 from generator.utils.reference_loader import ReferenceDataLoader
 
+# ==========================================================
+# Paths
+# ==========================================================
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-ENV_PATH = PROJECT_ROOT / ".env"
-OUTPUT_DIRECTORY = PROJECT_ROOT / "dataset" / "synthetic" / "CASE_001"
+
+load_dotenv(PROJECT_ROOT / ".env")
+
+OUTPUT_DIRECTORY = (
+    PROJECT_ROOT
+    / "dataset"
+    / "synthetic"
+    / "CASE_001"
+)
+
+# ==========================================================
+# Seed
+# ==========================================================
 
 CASE_SEED = {
     "crime_category": "Robbery",
     "state": "Maharashtra",
     "district": "Pune",
-    "location": "Pune city",
+    "location": "Pune City",
     "investigation_style": (
-        "Medium difficulty; one victim, two accused, and three witnesses; "
-        "include medical examination, forensic report, seizure memo, arrest memo, "
-        "spot panchanama, case diary, and charge sheet."
+        "Medium difficulty; one victim, two accused, "
+        "three witnesses; include seizure memo, "
+        "medical report, FSL report, arrest memo, "
+        "case diary and final charge sheet."
     ),
     "case_outcome": "Charge sheet filed",
 }
 
-
-def load_gemini_api_key() -> None:
-    """Load GEMINI_API_KEY from the local .env file without extra dependencies."""
-
-    if not ENV_PATH.is_file():
-        raise FileNotFoundError(f"Missing environment file: {ENV_PATH}")
-
-    for line in ENV_PATH.read_text(encoding="utf-8-sig").splitlines():
-        key, separator, value = line.partition("=")
-        if separator and key.strip() == "GEMINI_API_KEY" and value.strip():
-            os.environ["GEMINI_API_KEY"] = value.strip().strip('"').strip("'")
-            return
-
-    raise RuntimeError("GEMINI_API_KEY is missing or empty in .env.")
+# ==========================================================
+# Main
+# ==========================================================
 
 
 def main() -> None:
-    load_gemini_api_key()
+
+    provider = os.getenv(
+        "LLM_PROVIDER",
+        "openrouter",
+    )
+
+    print(f"Using LLM Provider : {provider}")
+
+    llm_client = LLMFactory.create()
 
     generator = MasterCaseGenerator(
         reference_loader=ReferenceDataLoader(PROJECT_ROOT),
-        gemini_client=GeminiClient(),
-        master_prompt_path=PROJECT_ROOT / "generator" / "prompts" / "master_case.md",
+        llm_client=llm_client,
+        master_prompt_path=(
+            PROJECT_ROOT
+            / "generator"
+            / "prompts"
+            / "master_case.md"
+        ),
         output_directory=OUTPUT_DIRECTORY,
     )
+
     master_case = generator.generate_case(CASE_SEED)
 
-    print(f"Generated {master_case.case_information.case_id}")
-    print(f"Saved: {OUTPUT_DIRECTORY / 'master_case.json'}")
+    print(
+        f"\nGenerated Case : "
+        f"{master_case.case_information.case_id}"
+    )
+
+    print(
+        f"Saved to : "
+        f"{OUTPUT_DIRECTORY/'master_case.json'}"
+    )
 
 
 if __name__ == "__main__":

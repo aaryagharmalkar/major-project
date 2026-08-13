@@ -1,1 +1,7 @@
-pydantic>=2,<3
+pydantic>=2
+
+requests>=2
+
+python-dotenv
+
+httpx

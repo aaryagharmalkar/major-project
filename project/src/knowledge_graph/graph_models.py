@@ -25,6 +25,7 @@ class GraphNodeType(StrEnum):
 
 
 class PersonRole(StrEnum):
+    COMPLAINANT = "complainant"
     VICTIM = "victim"
     ACCUSED = "accused"
     WITNESS = "witness"
@@ -81,4 +82,3 @@ class InvestigationKnowledgeGraph(DomainModel):
     case_id: UUID
     nodes: tuple[GraphNode, ...] = ()
     edges: tuple[GraphEdge, ...] = ()
-

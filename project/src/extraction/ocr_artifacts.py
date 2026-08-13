@@ -9,7 +9,7 @@ from pathlib import Path
 from ..domain.documents import SourceDocument
 from ..intake.storage_layout import CaseStorageLayout
 from ..workflow.context import GeneratedArtifact
-from .ocr_result import OCRResult
+from .ocr_result import OCRMetadata, OCRResult
 
 
 class OCRArtifactWriter:
@@ -34,6 +34,39 @@ class OCRArtifactWriter:
             encoding="utf-8",
         )
         return (
+            GeneratedArtifact(name="ocr_raw_text", storage_key=layout.relative_key(raw_text_path), media_type="text/plain"),
+            GeneratedArtifact(name="ocr_metadata", storage_key=layout.relative_key(metadata_path), media_type="application/json"),
+            GeneratedArtifact(name="ocr_result", storage_key=layout.relative_key(result_path), media_type="application/json"),
+        )
+
+    def load(self, document: SourceDocument) -> tuple[OCRResult, tuple[GeneratedArtifact, ...]] | None:
+        """Load an existing OCR result only when all deterministic artifacts validate."""
+
+        layout = CaseStorageLayout(self.storage_root, document.case_id)
+        ocr_directory = layout.processed_directory / "ocr"
+        base_name = self._artifact_base_name(document)
+        raw_text_path = ocr_directory / f"{base_name}_raw.txt"
+        metadata_path = ocr_directory / f"{base_name}_metadata.json"
+        result_path = ocr_directory / f"{base_name}_OCRResult.json"
+        if not all(path.is_file() for path in (raw_text_path, metadata_path, result_path)):
+            return None
+        try:
+            payload = json.loads(result_path.read_text(encoding="utf-8"))
+            page_count = payload.pop("page_count", None)
+            result = OCRResult.model_validate(payload)
+            metadata = OCRMetadata.model_validate(json.loads(metadata_path.read_text(encoding="utf-8")))
+            raw_text = raw_text_path.read_text(encoding="utf-8")
+        except (OSError, json.JSONDecodeError, TypeError, ValueError):
+            return None
+        if (
+            result.document_id != document.id
+            or page_count != result.page_count
+            or result.raw_text != raw_text
+            or result.metadata != metadata
+            or result.raw_text != "\n\n".join(page.text for page in result.pages)
+        ):
+            return None
+        return result, (
             GeneratedArtifact(name="ocr_raw_text", storage_key=layout.relative_key(raw_text_path), media_type="text/plain"),
             GeneratedArtifact(name="ocr_metadata", storage_key=layout.relative_key(metadata_path), media_type="application/json"),
             GeneratedArtifact(name="ocr_result", storage_key=layout.relative_key(result_path), media_type="application/json"),

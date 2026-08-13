@@ -6,11 +6,14 @@ import unittest
 from uuid import uuid4
 
 from src.domain.documents import DocumentType, ExtractionState, ParsingState
-from src.domain.parsed_documents import FIR
+from src.domain.parsed_documents import Complaint, FIR
 from src.extraction.ocr_result import OCRMetadata, OCRPage, OCRResult
 from src.intake.upload_manager import IncomingUpload, UploadManager
 from src.parsers.base_parser import GeminiParserClient, ParserClient
 from src.parsers.fir_parser import FIRParser
+from src.parsers.complaint_parser import ComplaintParser
+from src.knowledge_graph.graph_builder import GraphBuilder
+from src.normalization.canonical_builder import CanonicalBuilder
 from src.parsers.parser_artifacts import ParsedDocumentArtifactWriter
 from src.parsers.parser_registry import ParserRegistry, create_default_parser_registry
 from src.parsers.parser_stage import ParserStage
@@ -58,6 +61,13 @@ def make_ocr_result(document_id):
 
 
 class DocumentParserTests(unittest.TestCase):
+    def _ocr(self, text: str) -> OCRResult:
+        return OCRResult(
+            document_id=uuid4(), pages=(OCRPage(page_number=1, text=text, confidence=0.9),), raw_text=text,
+            confidence=0.9, language="en",
+            metadata=OCRMetadata(provider="mock", model="mock-ocr", input_mime_type="application/pdf", processing_time_ms=1),
+        )
+
     def _document_with_ocr(self, root: Path):
         source = root / "FIR.pdf"
         source.write_bytes(b"%PDF-1.4\nfixture")
@@ -148,6 +158,55 @@ class DocumentParserTests(unittest.TestCase):
             self.assertEqual(failed_run.context.execution_state.record_for("document_parsing").status, StageStatus.FAILED)
             self.assertEqual(retried_run.context.execution_state.record_for("document_parsing").status, StageStatus.COMPLETED)
             self.assertEqual(retried_run.context.uploaded_documents[0].parsing_state, ParsingState.COMPLETE)
+
+    def test_regression_fixture_entities_survive_parser_graph_and_canonical_projection(self) -> None:
+        ocr_root = Path(__file__).parents[1] / "output" / "CASE_37e9a78cbf45553ebdbbf88e5e2ca761" / "processed" / "ocr"
+        fir_ocr = self._ocr(json.loads((ocr_root / "FIR_d78b79f0_OCRResult.json").read_text(encoding="utf-8"))["raw_text"])
+        complaint_ocr = self._ocr(json.loads((ocr_root / "complaint_553a46f3_OCRResult.json").read_text(encoding="utf-8"))["raw_text"])
+        fir = FIRParser(QueueParserClient([{
+            "complainant_name": "Neha Patil", "accused_names": ["Rohan Mehta"],
+            "victim_names": ["Amit Kulkarni"], "vehicle_registrations": ["MH-12-AB-4821"],
+        }])).parse(fir_ocr)
+        complaint = ComplaintParser(QueueParserClient([{
+            "complainant_name": "Neha Patil", "person_complained_against_names": ["Rohan Mehta"],
+            "victim_names": ["Amit Kulkarni"], "vehicle_registrations": ["MH-12-AB-4821"],
+        }])).parse(complaint_ocr)
+
+        canonical = CanonicalBuilder().build(GraphBuilder(uuid4()).build((fir, complaint)))
+
+        self.assertEqual(tuple(person.name.value for person in canonical.complainants), ("Neha Patil",))
+        self.assertEqual(tuple(person.name.value for person in canonical.accused), ("Rohan Mehta",))
+        self.assertEqual(tuple(person.name.value for person in canonical.victims), ("Amit Kulkarni",))
+        self.assertEqual(tuple(vehicle.registration_number.value for vehicle in canonical.vehicles), ("MH-12-AB-4821",))
+
+    def test_different_explicit_entities_are_projected_without_case_specific_logic(self) -> None:
+        ocr = self._ocr(
+            "FIR\nComplainant: Priya Sharma\nAccused: Raj Verma\nVictim: Sameer Khan\nVehicle: DL-01-AB-1234"
+        )
+        parsed = FIRParser(QueueParserClient([{
+            "complainant_name": "Priya Sharma", "accused_names": ["Raj Verma"],
+            "victim_names": ["Sameer Khan"], "vehicle_registrations": ["DL-01-AB-1234"],
+        }])).parse(ocr)
+
+        canonical = CanonicalBuilder().build(GraphBuilder(uuid4()).build((parsed,)))
+
+        self.assertEqual(canonical.complainants[0].name.value, "Priya Sharma")
+        self.assertEqual(canonical.accused[0].name.value, "Raj Verma")
+        self.assertEqual(canonical.victims[0].name.value, "Sameer Khan")
+        self.assertEqual(canonical.vehicles[0].registration_number.value, "DL-01-AB-1234")
+
+    def test_absent_accused_is_not_invented_and_unsupported_entity_is_rejected(self) -> None:
+        ocr = self._ocr("WRITTEN COMPLAINT\nComplainant: Priya Sharma\nVictim: Sameer Khan")
+        parsed = ComplaintParser(QueueParserClient([{
+            "complainant_name": "Priya Sharma", "victim_names": ["Sameer Khan"],
+        }])).parse(ocr)
+        canonical = CanonicalBuilder().build(GraphBuilder(uuid4()).build((parsed,)))
+        self.assertFalse(canonical.accused)
+
+        with self.assertRaises(Exception):
+            ComplaintParser(QueueParserClient([{
+                "complainant_name": "Priya Sharma", "person_complained_against_names": ["Raj Verma"],
+            }])).parse(ocr)
 
 
 if __name__ == "__main__":
