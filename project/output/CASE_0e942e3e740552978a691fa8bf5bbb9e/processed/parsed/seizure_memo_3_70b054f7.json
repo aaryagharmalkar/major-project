@@ -4,7 +4,7 @@
   "ocr_text_sha256": "e883ee1108c72a74da4d73ac56909e793488d9bc86fb4286491b652f3358f5e7",
   "parse_metadata": {
     "parser_name": "SeizureMemoParser",
-    "parse_duration_ms": 4342.874100000699,
+    "parse_duration_ms": 4446.64560000092,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,

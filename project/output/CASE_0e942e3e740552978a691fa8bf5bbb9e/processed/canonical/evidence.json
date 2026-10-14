@@ -1,9 +1,9 @@
 [
   {
-    "evidence_id": "11cfbe00-aa0d-497c-823b-86537d43dcea",
+    "evidence_id": "e780422e-424e-4d6f-9017-928a4a2807ed",
     "type": "evidence",
     "description": {
-      "value": "Bajaj Pulsar 220F Motorcycle DL2SBP1234",
+      "value": "Exhibit No: EX-01, Evidence Id: EVD-0452-001, Description: Bajaj Pulsar 220F Motorcycle DL2SBP1234",
       "source_document_ids": [
         "253e838a-7aec-4cbd-847f-1904ac0d0b21"
       ],
@@ -13,7 +13,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "FSLParser",
-          "timestamp": "2026-08-13T19:33:04.973422Z",
+          "timestamp": "2026-08-14T03:39:57.902632Z",
           "source_reference": {
             "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
             "location": {
@@ -27,10 +27,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[11cfbe00-aa0d-497c-823b-86537d43dcea].label",
+      "source_path": "graph.nodes[e780422e-424e-4d6f-9017-928a4a2807ed].label",
       "confidence": null,
       "extraction_method": "FSLParser",
-      "timestamp": "2026-08-13T19:33:04.973422Z"
+      "timestamp": "2026-08-14T03:39:57.902632Z"
     },
     "source_documents": [
       "253e838a-7aec-4cbd-847f-1904ac0d0b21"
@@ -43,10 +43,10 @@
     "confidence": null
   },
   {
-    "evidence_id": "b94a6ca5-be39-44bc-a047-704b8241734f",
+    "evidence_id": "c07e4000-4dff-4e83-85c0-d7e941d28073",
     "type": "evidence",
     "description": {
-      "value": "Honda Activa 6G Scooter DL5SCT5678",
+      "value": "Exhibit No: EX-02, Evidence Id: EVD-0452-002, Description: Honda Activa 6G Scooter DL5SCT5678",
       "source_document_ids": [
         "253e838a-7aec-4cbd-847f-1904ac0d0b21"
       ],
@@ -56,7 +56,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "FSLParser",
-          "timestamp": "2026-08-13T19:33:04.973516Z",
+          "timestamp": "2026-08-14T03:39:57.903235Z",
           "source_reference": {
             "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
             "location": {
@@ -70,10 +70,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[b94a6ca5-be39-44bc-a047-704b8241734f].label",
+      "source_path": "graph.nodes[c07e4000-4dff-4e83-85c0-d7e941d28073].label",
       "confidence": null,
       "extraction_method": "FSLParser",
-      "timestamp": "2026-08-13T19:33:04.973516Z"
+      "timestamp": "2026-08-14T03:39:57.903235Z"
     },
     "source_documents": [
       "253e838a-7aec-4cbd-847f-1904ac0d0b21"
@@ -86,10 +86,10 @@
     "confidence": null
   },
   {
-    "evidence_id": "15ce8436-20b1-4b73-8fb2-3197da68cdd9",
+    "evidence_id": "38af22a9-e6be-4665-a055-998761bc3607",
     "type": "evidence",
     "description": {
-      "value": "Helmet - Accused (Steelbird, Black)",
+      "value": "Exhibit No: EX-03, Evidence Id: EVD-0452-006, Description: Helmet - Accused (Steelbird, Black)",
       "source_document_ids": [
         "253e838a-7aec-4cbd-847f-1904ac0d0b21"
       ],
@@ -99,7 +99,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "FSLParser",
-          "timestamp": "2026-08-13T19:33:04.973619Z",
+          "timestamp": "2026-08-14T03:39:57.903813Z",
           "source_reference": {
             "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
             "location": {
@@ -113,10 +113,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[15ce8436-20b1-4b73-8fb2-3197da68cdd9].label",
+      "source_path": "graph.nodes[38af22a9-e6be-4665-a055-998761bc3607].label",
       "confidence": null,
       "extraction_method": "FSLParser",
-      "timestamp": "2026-08-13T19:33:04.973619Z"
+      "timestamp": "2026-08-14T03:39:57.903813Z"
     },
     "source_documents": [
       "253e838a-7aec-4cbd-847f-1904ac0d0b21"
@@ -129,10 +129,10 @@
     "confidence": null
   },
   {
-    "evidence_id": "296e48c6-fe6b-4829-becf-bee58a487a36",
+    "evidence_id": "8ded3f80-f7d6-4b28-9691-399748d157e3",
     "type": "evidence",
     "description": {
-      "value": "Helmet - Victim (Vega, White)",
+      "value": "Exhibit No: EX-04, Evidence Id: EVD-0452-007, Description: Helmet - Victim (Vega, White)",
       "source_document_ids": [
         "253e838a-7aec-4cbd-847f-1904ac0d0b21"
       ],
@@ -142,7 +142,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "FSLParser",
-          "timestamp": "2026-08-13T19:33:04.973731Z",
+          "timestamp": "2026-08-14T03:39:57.904835Z",
           "source_reference": {
             "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
             "location": {
@@ -156,10 +156,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[296e48c6-fe6b-4829-becf-bee58a487a36].label",
+      "source_path": "graph.nodes[8ded3f80-f7d6-4b28-9691-399748d157e3].label",
       "confidence": null,
       "extraction_method": "FSLParser",
-      "timestamp": "2026-08-13T19:33:04.973731Z"
+      "timestamp": "2026-08-14T03:39:57.904835Z"
     },
     "source_documents": [
       "253e838a-7aec-4cbd-847f-1904ac0d0b21"
@@ -172,10 +172,10 @@
     "confidence": null
   },
   {
-    "evidence_id": "198c7ae6-d0af-41e8-b313-a017d0cfca32",
+    "evidence_id": "76471c03-dc68-4269-b49a-1b1b351c6070",
     "type": "evidence",
     "description": {
-      "value": "Broken vehicle parts from site",
+      "value": "Exhibit No: EX-05, Evidence Id: EVD-0452-008, Description: Broken vehicle parts from site",
       "source_document_ids": [
         "253e838a-7aec-4cbd-847f-1904ac0d0b21"
       ],
@@ -185,7 +185,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "FSLParser",
-          "timestamp": "2026-08-13T19:33:04.973937Z",
+          "timestamp": "2026-08-14T03:39:57.905444Z",
           "source_reference": {
             "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
             "location": {
@@ -199,10 +199,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[198c7ae6-d0af-41e8-b313-a017d0cfca32].label",
+      "source_path": "graph.nodes[76471c03-dc68-4269-b49a-1b1b351c6070].label",
       "confidence": null,
       "extraction_method": "FSLParser",
-      "timestamp": "2026-08-13T19:33:04.973937Z"
+      "timestamp": "2026-08-14T03:39:57.905444Z"
     },
     "source_documents": [
       "253e838a-7aec-4cbd-847f-1904ac0d0b21"
@@ -215,10 +215,10 @@
     "confidence": null
   },
   {
-    "evidence_id": "e4bd1e48-df6e-476a-b150-1dbecdad528a",
+    "evidence_id": "67bf27d0-5a9f-4d73-b6d8-2a60ddc10d19",
     "type": "evidence",
     "description": {
-      "value": "Blood sample - Accused (BLD-0452-A)",
+      "value": "Exhibit No: EX-06, Evidence Id: EVD-0452-010, Description: Blood sample - Accused (BLD-0452-A)",
       "source_document_ids": [
         "253e838a-7aec-4cbd-847f-1904ac0d0b21"
       ],
@@ -228,7 +228,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "FSLParser",
-          "timestamp": "2026-08-13T19:33:04.974152Z",
+          "timestamp": "2026-08-14T03:39:57.906010Z",
           "source_reference": {
             "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
             "location": {
@@ -242,10 +242,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[e4bd1e48-df6e-476a-b150-1dbecdad528a].label",
+      "source_path": "graph.nodes[67bf27d0-5a9f-4d73-b6d8-2a60ddc10d19].label",
       "confidence": null,
       "extraction_method": "FSLParser",
-      "timestamp": "2026-08-13T19:33:04.974152Z"
+      "timestamp": "2026-08-14T03:39:57.906010Z"
     },
     "source_documents": [
       "253e838a-7aec-4cbd-847f-1904ac0d0b21"
@@ -258,10 +258,10 @@
     "confidence": null
   },
   {
-    "evidence_id": "e6bb8976-1244-4194-ae0d-2acbf66e5bae",
+    "evidence_id": "10280e4d-5d0b-4b2a-8923-6658f5678caa",
     "type": "evidence",
     "description": {
-      "value": "Blood sample - Victim (BLD-0452-B)",
+      "value": "Exhibit No: EX-07, Evidence Id: EVD-0452-011, Description: Blood sample - Victim (BLD-0452-B)",
       "source_document_ids": [
         "253e838a-7aec-4cbd-847f-1904ac0d0b21"
       ],
@@ -271,7 +271,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "FSLParser",
-          "timestamp": "2026-08-13T19:33:04.974268Z",
+          "timestamp": "2026-08-14T03:39:57.906560Z",
           "source_reference": {
             "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
             "location": {
@@ -285,10 +285,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[e6bb8976-1244-4194-ae0d-2acbf66e5bae].label",
+      "source_path": "graph.nodes[10280e4d-5d0b-4b2a-8923-6658f5678caa].label",
       "confidence": null,
       "extraction_method": "FSLParser",
-      "timestamp": "2026-08-13T19:33:04.974268Z"
+      "timestamp": "2026-08-14T03:39:57.906560Z"
     },
     "source_documents": [
       "253e838a-7aec-4cbd-847f-1904ac0d0b21"
@@ -301,10 +301,10 @@
     "confidence": null
   },
   {
-    "evidence_id": "0edc44d9-ab8c-45a6-bd27-e99923780b40",
+    "evidence_id": "7e1df04e-1709-4348-8c10-35a1faaca5b3",
     "type": "evidence",
     "description": {
-      "value": "Digital photographs (SD Card, 32GB)",
+      "value": "Exhibit No: EX-08, Evidence Id: EVD-0452-012, Description: Digital photographs (SD Card, 32GB)",
       "source_document_ids": [
         "253e838a-7aec-4cbd-847f-1904ac0d0b21"
       ],
@@ -314,7 +314,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "FSLParser",
-          "timestamp": "2026-08-13T19:33:04.974369Z",
+          "timestamp": "2026-08-14T03:39:57.907193Z",
           "source_reference": {
             "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
             "location": {
@@ -328,10 +328,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[0edc44d9-ab8c-45a6-bd27-e99923780b40].label",
+      "source_path": "graph.nodes[7e1df04e-1709-4348-8c10-35a1faaca5b3].label",
       "confidence": null,
       "extraction_method": "FSLParser",
-      "timestamp": "2026-08-13T19:33:04.974369Z"
+      "timestamp": "2026-08-14T03:39:57.907193Z"
     },
     "source_documents": [
       "253e838a-7aec-4cbd-847f-1904ac0d0b21"
@@ -344,10 +344,10 @@
     "confidence": null
   },
   {
-    "evidence_id": "d28192aa-4263-4c6c-9278-7c4917503549",
+    "evidence_id": "a6af4f2d-fd27-48ce-a253-5f59fe1cfa8d",
     "type": "evidence",
     "description": {
-      "value": "CCTV DVR Hard Disk (1TB)",
+      "value": "Exhibit No: EX-09, Evidence Id: EVD-0452-013, Description: CCTV DVR Hard Disk (1TB)",
       "source_document_ids": [
         "253e838a-7aec-4cbd-847f-1904ac0d0b21"
       ],
@@ -357,7 +357,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "FSLParser",
-          "timestamp": "2026-08-13T19:33:04.974464Z",
+          "timestamp": "2026-08-14T03:39:57.907778Z",
           "source_reference": {
             "document_id": "253e838a-7aec-4cbd-847f-1904ac0d0b21",
             "location": {
@@ -371,10 +371,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[d28192aa-4263-4c6c-9278-7c4917503549].label",
+      "source_path": "graph.nodes[a6af4f2d-fd27-48ce-a253-5f59fe1cfa8d].label",
       "confidence": null,
       "extraction_method": "FSLParser",
-      "timestamp": "2026-08-13T19:33:04.974464Z"
+      "timestamp": "2026-08-14T03:39:57.907778Z"
     },
     "source_documents": [
       "253e838a-7aec-4cbd-847f-1904ac0d0b21"
@@ -387,7 +387,7 @@
     "confidence": null
   },
   {
-    "evidence_id": "0663c54c-e394-4def-8e66-8b8f2d5a3336",
+    "evidence_id": "e8881110-b047-40eb-ba42-9c714aaf5da9",
     "type": "recovered_property",
     "description": {
       "value": "Bajaj Pulsar 220F Motorcycle, Red Color\nRegistration: DL2SBP1234\nChassis Number: MD2A18FX5LCK12345\nEngine Number: DHYCJ51678\nCondition: Damaged - Front fairing broken, headlight smashed, right handlebar bent\nKeys: One set with Zomato keychain\nOwner: Amit Verma",
@@ -400,7 +400,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.978284Z",
+          "timestamp": "2026-08-14T03:39:57.939249Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -414,10 +414,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[0663c54c-e394-4def-8e66-8b8f2d5a3336].label",
+      "source_path": "graph.nodes[e8881110-b047-40eb-ba42-9c714aaf5da9].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.978284Z"
+      "timestamp": "2026-08-14T03:39:57.939249Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -434,7 +434,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.978284Z",
+            "timestamp": "2026-08-14T03:39:57.939249Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -448,10 +448,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[25026867-4305-41ae-8811-d9d489f306f3]",
+        "source_path": "graph.edges[b3e54992-cd84-471e-b439-97cab21f6991]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.978284Z"
+        "timestamp": "2026-08-14T03:39:57.939249Z"
       }
     ],
     "custody_information": [
@@ -466,7 +466,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.978284Z",
+            "timestamp": "2026-08-14T03:39:57.939249Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -480,21 +480,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[199981a6-03f4-4780-a768-a86e89c73a47]",
+        "source_path": "graph.edges[954ffd7c-febf-4372-bfbe-792cfe3876d0]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.978284Z"
+        "timestamp": "2026-08-14T03:39:57.939249Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "794b4ed0-e29a-4785-a7ba-f201f12d3ab9",
+    "evidence_id": "09ac22b9-897c-444e-a248-6fe9d161d3e7",
     "type": "recovered_property",
     "description": {
       "value": "Honda Activa 6G Scooter, White Color\nRegistration: DL5SCT5678\nChassis Number: ME4JF614AMT67890\nEngine Number: JF61E3456789\nCondition: Damaged - Right body panel scraped, right mirror broken, brake lever bent\nKeys: One set, found in ignition\nOwner: Rajesh Kumar Sharma",
@@ -507,7 +507,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.978452Z",
+          "timestamp": "2026-08-14T03:39:57.940360Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -521,10 +521,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[794b4ed0-e29a-4785-a7ba-f201f12d3ab9].label",
+      "source_path": "graph.nodes[09ac22b9-897c-444e-a248-6fe9d161d3e7].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.978452Z"
+      "timestamp": "2026-08-14T03:39:57.940360Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -541,7 +541,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.978452Z",
+            "timestamp": "2026-08-14T03:39:57.940360Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -555,10 +555,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[5a6ef3d7-55f4-42f9-b6c5-9d57f6a5b921]",
+        "source_path": "graph.edges[7e439ea8-ebc9-46cb-a2bd-c3317d36945e]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.978452Z"
+        "timestamp": "2026-08-14T03:39:57.940360Z"
       }
     ],
     "custody_information": [
@@ -573,7 +573,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.978452Z",
+            "timestamp": "2026-08-14T03:39:57.940360Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -587,21 +587,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[b18b395f-17c7-4746-a75f-626cb0708046]",
+        "source_path": "graph.edges[7b3a793d-d286-455d-8d33-9e2c5987c418]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.978452Z"
+        "timestamp": "2026-08-14T03:39:57.940360Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "23174199-fbf5-4842-acb4-34ee80e67031",
+    "evidence_id": "9261beec-338c-4695-93cb-46fd12333ddc",
     "type": "recovered_property",
     "description": {
       "value": "Smartphone Samsung Galaxy M32, Black Color\nImei: 358123456789012\nCondition: Working, screen intact\nBelongs To: Amit Verma (Accused)",
@@ -614,7 +614,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.978629Z",
+          "timestamp": "2026-08-14T03:39:57.941630Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -628,10 +628,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[23174199-fbf5-4842-acb4-34ee80e67031].label",
+      "source_path": "graph.nodes[9261beec-338c-4695-93cb-46fd12333ddc].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.978629Z"
+      "timestamp": "2026-08-14T03:39:57.941630Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -648,7 +648,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.978629Z",
+            "timestamp": "2026-08-14T03:39:57.941630Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -662,10 +662,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[ade7566e-9765-45b6-8ea5-f618815f48ea]",
+        "source_path": "graph.edges[6a373a0a-6e84-4206-9c2a-2112b5146711]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.978629Z"
+        "timestamp": "2026-08-14T03:39:57.941630Z"
       }
     ],
     "custody_information": [
@@ -680,7 +680,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.978629Z",
+            "timestamp": "2026-08-14T03:39:57.941630Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -694,21 +694,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[70cb7091-f3a2-46fb-99a5-64a3ba821d07]",
+        "source_path": "graph.edges[dc5dc86c-97c8-4122-ae74-9999f4b769a1]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.978629Z"
+        "timestamp": "2026-08-14T03:39:57.941630Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "315d8735-6abf-4e98-872b-2273b1f98d44",
+    "evidence_id": "dd60fa10-610e-42e8-8ab3-bbda521c8698",
     "type": "recovered_property",
     "description": {
       "value": "Driving License - Amit Verma\nLicense Number: DL/032021/0789456\nIssued By: RTO Moradabad, UP\nValid Till: 28-02-2035\nCategory: MCWG",
@@ -721,7 +721,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.978783Z",
+          "timestamp": "2026-08-14T03:39:57.942668Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -735,10 +735,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[315d8735-6abf-4e98-872b-2273b1f98d44].label",
+      "source_path": "graph.nodes[dd60fa10-610e-42e8-8ab3-bbda521c8698].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.978783Z"
+      "timestamp": "2026-08-14T03:39:57.942668Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -755,7 +755,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.978783Z",
+            "timestamp": "2026-08-14T03:39:57.942668Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -769,10 +769,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[3db054a2-314c-4c95-8cfa-040b48c9025c]",
+        "source_path": "graph.edges[ff79ecbe-f472-4cc1-a47b-7c693090241d]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.978783Z"
+        "timestamp": "2026-08-14T03:39:57.942668Z"
       }
     ],
     "custody_information": [
@@ -787,7 +787,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.978783Z",
+            "timestamp": "2026-08-14T03:39:57.942668Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -801,21 +801,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[6eecc20e-d723-44ed-a891-dc844c8e45dc]",
+        "source_path": "graph.edges[4ad6db9e-8eaa-4b9e-a11e-0e7cdb2e4626]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.978783Z"
+        "timestamp": "2026-08-14T03:39:57.942668Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "634e4ac0-b484-4fd7-843b-c19f1c814d0c",
+    "evidence_id": "c58e6034-3fb3-4ba8-abfb-d908cae87a2a",
     "type": "recovered_property",
     "description": {
       "value": "Driving License - Rajesh Kumar Sharma\nLicense Number: DL/042018/0456789\nIssued By: RTO Sheikh Sarai, Delhi\nValid Till: 15-07-2032\nCategory: MCWG + LMV",
@@ -828,7 +828,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.978944Z",
+          "timestamp": "2026-08-14T03:39:57.943739Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -842,10 +842,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[634e4ac0-b484-4fd7-843b-c19f1c814d0c].label",
+      "source_path": "graph.nodes[c58e6034-3fb3-4ba8-abfb-d908cae87a2a].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.978944Z"
+      "timestamp": "2026-08-14T03:39:57.943739Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -862,7 +862,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.978944Z",
+            "timestamp": "2026-08-14T03:39:57.943739Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -876,10 +876,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[5c2bd94b-1676-40a9-ba6f-9b95ffd7ab2c]",
+        "source_path": "graph.edges[da208437-932b-4773-b461-29b7ccc11625]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.978944Z"
+        "timestamp": "2026-08-14T03:39:57.943739Z"
       }
     ],
     "custody_information": [
@@ -894,7 +894,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.978944Z",
+            "timestamp": "2026-08-14T03:39:57.943739Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -908,21 +908,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[33a1c0de-79b3-4e5a-832f-f64dfc51d46f]",
+        "source_path": "graph.edges[0e2b8551-dd7f-4ff7-a77e-bc9e30940071]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.978944Z"
+        "timestamp": "2026-08-14T03:39:57.943739Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "67e2046f-8866-46c8-bbf6-dadbc4ac207a",
+    "evidence_id": "38e62d0f-242a-49d7-b97d-ee5765bb7cfd",
     "type": "recovered_property",
     "description": {
       "value": "Helmet - Accused (Steelbird, Black, Full Face)\nCondition: Scratches on left side, visor missing, chin strap torn\nIsi Mark: Yes",
@@ -935,7 +935,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.979107Z",
+          "timestamp": "2026-08-14T03:39:57.944789Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -949,10 +949,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[67e2046f-8866-46c8-bbf6-dadbc4ac207a].label",
+      "source_path": "graph.nodes[38e62d0f-242a-49d7-b97d-ee5765bb7cfd].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.979107Z"
+      "timestamp": "2026-08-14T03:39:57.944789Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -969,7 +969,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979107Z",
+            "timestamp": "2026-08-14T03:39:57.944789Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -983,10 +983,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[ab4883f6-fbf1-4fa4-b377-3048f7f99df4]",
+        "source_path": "graph.edges[cbeda072-f346-4b29-aff7-d046f82e0afc]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979107Z"
+        "timestamp": "2026-08-14T03:39:57.944789Z"
       }
     ],
     "custody_information": [
@@ -1001,7 +1001,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979107Z",
+            "timestamp": "2026-08-14T03:39:57.944789Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1015,21 +1015,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[99c8e747-6e89-4cf8-b058-a700e58f1f89]",
+        "source_path": "graph.edges[4b737bfd-f3de-416a-bcb2-1a4fd5afaa0c]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979107Z"
+        "timestamp": "2026-08-14T03:39:57.944789Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "b1b674f0-b17a-4a51-8b62-b8c2f0be942e",
+    "evidence_id": "46d4183f-7424-4ff7-be38-ccc23afc6900",
     "type": "recovered_property",
     "description": {
       "value": "Helmet - Victim (Vega, White, Full Face)\nCondition: Multiple cracks on right side, impact marks, blood stains inside\nIsi Mark: Yes",
@@ -1042,7 +1042,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.979265Z",
+          "timestamp": "2026-08-14T03:39:57.945907Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -1056,10 +1056,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[b1b674f0-b17a-4a51-8b62-b8c2f0be942e].label",
+      "source_path": "graph.nodes[46d4183f-7424-4ff7-be38-ccc23afc6900].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.979265Z"
+      "timestamp": "2026-08-14T03:39:57.945907Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -1076,7 +1076,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979265Z",
+            "timestamp": "2026-08-14T03:39:57.945907Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1090,10 +1090,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[74f13d12-1b6c-46f1-bb8b-93e85d937ce1]",
+        "source_path": "graph.edges[5e99588e-2706-4767-84a3-6bf2a4f25446]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979265Z"
+        "timestamp": "2026-08-14T03:39:57.945907Z"
       }
     ],
     "custody_information": [
@@ -1108,7 +1108,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979265Z",
+            "timestamp": "2026-08-14T03:39:57.945907Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1122,21 +1122,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[6fa9989c-330c-4639-b498-09f1f2d7b791]",
+        "source_path": "graph.edges[c34095d4-cc32-44f4-b852-bf138d3b83a3]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979265Z"
+        "timestamp": "2026-08-14T03:39:57.945907Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "aa3759c9-4440-456a-857e-a6c1e896085c",
+    "evidence_id": "247866a5-78bd-4c86-9339-802e87f91c6a",
     "type": "recovered_property",
     "description": {
       "value": "Broken vehicle parts from accident site\nDETAILS\nItem 1:\nRed plastic fairing pieces (from Pulsar)\nItem 2:\nWhite plastic body panel pieces (from Activa)\nItem 3:\nRight side rear view mirror (broken)\nItem 4:\nHeadlamp glass fragments\nCollected From: Accident spot at Shankar Road T-Point",
@@ -1149,7 +1149,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.979427Z",
+          "timestamp": "2026-08-14T03:39:57.947176Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -1163,10 +1163,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[aa3759c9-4440-456a-857e-a6c1e896085c].label",
+      "source_path": "graph.nodes[247866a5-78bd-4c86-9339-802e87f91c6a].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.979427Z"
+      "timestamp": "2026-08-14T03:39:57.947176Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -1183,7 +1183,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979427Z",
+            "timestamp": "2026-08-14T03:39:57.947176Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1197,10 +1197,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[0c047629-1d41-4305-b9af-92ba55bbd4b9]",
+        "source_path": "graph.edges[381f96a4-21b8-4c8e-ba3c-c27bc8bd552a]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979427Z"
+        "timestamp": "2026-08-14T03:39:57.947176Z"
       }
     ],
     "custody_information": [
@@ -1215,7 +1215,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979427Z",
+            "timestamp": "2026-08-14T03:39:57.947176Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1229,21 +1229,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[21b129ee-9f4e-4623-8230-c99e895dfa8f]",
+        "source_path": "graph.edges[4a880ef1-3d95-4444-99fc-42005d4e00e3]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979427Z"
+        "timestamp": "2026-08-14T03:39:57.947176Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "24f1d03b-f197-49fa-b3f2-3364927d1f10",
+    "evidence_id": "85369fbd-e803-44c8-9a8d-48b43b1e96d2",
     "type": "recovered_property",
     "description": {
       "value": "Zomato Delivery Bag, Red Color\nCondition: Empty, torn at one corner\nBelongs To: Amit Verma",
@@ -1256,7 +1256,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.979589Z",
+          "timestamp": "2026-08-14T03:39:57.948353Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -1270,10 +1270,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[24f1d03b-f197-49fa-b3f2-3364927d1f10].label",
+      "source_path": "graph.nodes[85369fbd-e803-44c8-9a8d-48b43b1e96d2].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.979589Z"
+      "timestamp": "2026-08-14T03:39:57.948353Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -1290,7 +1290,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979589Z",
+            "timestamp": "2026-08-14T03:39:57.948353Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1304,10 +1304,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[7b6fb1dc-f79e-43f2-bbb7-757b48f7b5f6]",
+        "source_path": "graph.edges[c3c51460-6042-43b2-9edc-40625f9b1b88]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979589Z"
+        "timestamp": "2026-08-14T03:39:57.948353Z"
       }
     ],
     "custody_information": [
@@ -1322,7 +1322,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979589Z",
+            "timestamp": "2026-08-14T03:39:57.948353Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1336,21 +1336,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[d089cdc8-5b1e-4558-8071-dd1abe58e153]",
+        "source_path": "graph.edges[5c29feed-1089-43aa-a0c2-d66474555904]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979589Z"
+        "timestamp": "2026-08-14T03:39:57.948353Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "4bd77ea0-a5aa-443d-ab8f-a9ca882bcdde",
+    "evidence_id": "be07c70e-698e-4b06-b556-eca7399f5e10",
     "type": "recovered_property",
     "description": {
       "value": "Blood sample - Accused (2ml in EDTA vial)\nVial Id: BLD-0452-A\nCollected At: RML Hospital, 19:45 hours",
@@ -1363,7 +1363,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.979769Z",
+          "timestamp": "2026-08-14T03:39:57.949452Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -1377,10 +1377,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[4bd77ea0-a5aa-443d-ab8f-a9ca882bcdde].label",
+      "source_path": "graph.nodes[be07c70e-698e-4b06-b556-eca7399f5e10].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.979769Z"
+      "timestamp": "2026-08-14T03:39:57.949452Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -1397,7 +1397,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979769Z",
+            "timestamp": "2026-08-14T03:39:57.949452Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1411,10 +1411,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[774bbc28-7675-48e2-9026-276ca9c0f66e]",
+        "source_path": "graph.edges[a5b4b355-9591-44f7-8759-e1c8a5e13e58]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979769Z"
+        "timestamp": "2026-08-14T03:39:57.949452Z"
       }
     ],
     "custody_information": [
@@ -1429,7 +1429,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979769Z",
+            "timestamp": "2026-08-14T03:39:57.949452Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1443,21 +1443,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[3284fa54-b78f-44b2-851a-b8bfb669ea7d]",
+        "source_path": "graph.edges[4cd7f0af-4503-4c30-9061-3a5dfbf2afcc]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979769Z"
+        "timestamp": "2026-08-14T03:39:57.949452Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "aa6453a4-fbb5-4c66-952b-03aa69b7f8a1",
+    "evidence_id": "111fdae8-e164-4c3e-bc2d-89a0be271419",
     "type": "recovered_property",
     "description": {
       "value": "Blood sample - Victim (2ml in EDTA vial)\nVial Id: BLD-0452-B\nCollected At: St. Stephen's Hospital, 19:30 hours",
@@ -1470,7 +1470,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.979948Z",
+          "timestamp": "2026-08-14T03:39:57.950557Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -1484,10 +1484,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[aa6453a4-fbb5-4c66-952b-03aa69b7f8a1].label",
+      "source_path": "graph.nodes[111fdae8-e164-4c3e-bc2d-89a0be271419].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.979948Z"
+      "timestamp": "2026-08-14T03:39:57.950557Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -1504,7 +1504,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979948Z",
+            "timestamp": "2026-08-14T03:39:57.950557Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1518,10 +1518,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[492527fb-1a47-4445-98f8-8e6fb2148404]",
+        "source_path": "graph.edges[e331dc5d-c27a-4f34-86ae-681460d50314]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979948Z"
+        "timestamp": "2026-08-14T03:39:57.950557Z"
       }
     ],
     "custody_information": [
@@ -1536,7 +1536,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.979948Z",
+            "timestamp": "2026-08-14T03:39:57.950557Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1550,21 +1550,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[971efff9-e07f-4548-bd60-d6755b6c8b39]",
+        "source_path": "graph.edges[d29db9a8-1332-41c1-83f3-cf85263a868d]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.979948Z"
+        "timestamp": "2026-08-14T03:39:57.950557Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "6d5fe766-102d-4da3-853d-7f7a4b05ff5b",
+    "evidence_id": "1d205638-7976-4fdb-9e3b-b10e8fdc32c4",
     "type": "recovered_property",
     "description": {
       "value": "Photographs - Digital, 25 Frames\nDetails: Accident spot, vehicle positions, road marks, injuries (with doctor consent)\nCamera: Canon EOS 1300D, PS Rajinder Nagar\nPhotographer: HC Ramesh Kumar, Photography Section",
@@ -1577,7 +1577,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.980132Z",
+          "timestamp": "2026-08-14T03:39:57.951684Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -1591,10 +1591,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[6d5fe766-102d-4da3-853d-7f7a4b05ff5b].label",
+      "source_path": "graph.nodes[1d205638-7976-4fdb-9e3b-b10e8fdc32c4].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.980132Z"
+      "timestamp": "2026-08-14T03:39:57.951684Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -1611,7 +1611,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.980132Z",
+            "timestamp": "2026-08-14T03:39:57.951684Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1625,10 +1625,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[353ee769-623a-43b1-ad83-1bbd2bcab07d]",
+        "source_path": "graph.edges[d9eea1d6-42f8-4714-9b28-19400fd10ac3]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.980132Z"
+        "timestamp": "2026-08-14T03:39:57.951684Z"
       }
     ],
     "custody_information": [
@@ -1643,7 +1643,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.980132Z",
+            "timestamp": "2026-08-14T03:39:57.951684Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1657,21 +1657,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[94831230-929e-422d-8264-254fd28e1e96]",
+        "source_path": "graph.edges[543cb3a5-1221-4c8f-a5e7-a7d4e91a52a5]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.980132Z"
+        "timestamp": "2026-08-14T03:39:57.951684Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "68d17e90-67dd-40e4-b446-b69e78df8cf6",
+    "evidence_id": "e283ba58-d38c-4b52-bf6f-9eaf0bb7d7f6",
     "type": "recovered_property",
     "description": {
       "value": "CCTV Footage DVR Hard Disk\nSource: St. Stephen's Hospital Gate 2, Camera ID: CAM-SSH-G2-03\nCapacity: 1TB\nTime Stamp Extracted: 18:10 to 18:35, 15-10-2024",
@@ -1684,7 +1684,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.980328Z",
+          "timestamp": "2026-08-14T03:39:57.952813Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -1698,10 +1698,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[68d17e90-67dd-40e4-b446-b69e78df8cf6].label",
+      "source_path": "graph.nodes[e283ba58-d38c-4b52-bf6f-9eaf0bb7d7f6].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.980328Z"
+      "timestamp": "2026-08-14T03:39:57.952813Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -1718,7 +1718,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.980328Z",
+            "timestamp": "2026-08-14T03:39:57.952813Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1732,10 +1732,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[c931635a-3be4-4a61-9310-9609de2bdcb2]",
+        "source_path": "graph.edges[89a8703e-ed4a-4350-8f82-8281ce1a0925]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.980328Z"
+        "timestamp": "2026-08-14T03:39:57.952813Z"
       }
     ],
     "custody_information": [
@@ -1750,7 +1750,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.980328Z",
+            "timestamp": "2026-08-14T03:39:57.952813Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1764,21 +1764,21 @@
             }
           }
         ],
-        "source_path": "graph.edges[8eeb1b8b-0f26-4b37-9e20-1cadc9e5fa56]",
+        "source_path": "graph.edges[3f4b53e9-c0a2-418b-9a87-47202806e49e]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.980328Z"
+        "timestamp": "2026-08-14T03:39:57.952813Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],
     "confidence": null
   },
   {
-    "evidence_id": "4b8e74ca-6afa-4571-b777-ee01dad52a48",
+    "evidence_id": "20722408-0742-433e-a51e-65e43a05ca1d",
     "type": "recovered_property",
     "description": {
       "value": "CCTV Footage Pen Drive\nSource: Canara Bank ATM, Shankar Road\nCamera Id: CAM-CB-ATM-01\nTime Stamp Extracted: 18:15 to 18:25, 15-10-2024",
@@ -1791,7 +1791,7 @@
           "page": null,
           "confidence": null,
           "parser_name": "SeizureMemoParser",
-          "timestamp": "2026-08-13T19:33:04.980510Z",
+          "timestamp": "2026-08-14T03:39:57.953977Z",
           "source_reference": {
             "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
             "location": {
@@ -1805,10 +1805,10 @@
           }
         }
       ],
-      "source_path": "graph.nodes[4b8e74ca-6afa-4571-b777-ee01dad52a48].label",
+      "source_path": "graph.nodes[20722408-0742-433e-a51e-65e43a05ca1d].label",
       "confidence": null,
       "extraction_method": "SeizureMemoParser",
-      "timestamp": "2026-08-13T19:33:04.980510Z"
+      "timestamp": "2026-08-14T03:39:57.953977Z"
     },
     "source_documents": [
       "70b054f7-edb1-47be-ac88-3956f8a35368"
@@ -1825,7 +1825,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.980510Z",
+            "timestamp": "2026-08-14T03:39:57.953977Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1839,10 +1839,10 @@
             }
           }
         ],
-        "source_path": "graph.edges[85a25563-61e0-4278-a676-b4aae7a6bba5]",
+        "source_path": "graph.edges[f95a4c7e-06de-47f6-80b2-683c81a2e525]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.980510Z"
+        "timestamp": "2026-08-14T03:39:57.953977Z"
       }
     ],
     "custody_information": [
@@ -1857,7 +1857,7 @@
             "page": null,
             "confidence": null,
             "parser_name": "SeizureMemoParser",
-            "timestamp": "2026-08-13T19:33:04.980510Z",
+            "timestamp": "2026-08-14T03:39:57.953977Z",
             "source_reference": {
               "document_id": "70b054f7-edb1-47be-ac88-3956f8a35368",
               "location": {
@@ -1871,14 +1871,14 @@
             }
           }
         ],
-        "source_path": "graph.edges[8deaafb3-ab61-479a-b355-438f77e16c80]",
+        "source_path": "graph.edges[cee58290-2d29-41fe-acd4-f1327f4f2318]",
         "confidence": null,
         "extraction_method": "SeizureMemoParser",
-        "timestamp": "2026-08-13T19:33:04.980510Z"
+        "timestamp": "2026-08-14T03:39:57.953977Z"
       }
     ],
     "related_person_ids": [
-      "b5ac7c2c-8ae3-4136-9649-dea0e14e907b"
+      "6e607ca4-cd93-458c-baed-2f25c1498684"
     ],
     "related_vehicle_ids": [],
     "related_event_ids": [],

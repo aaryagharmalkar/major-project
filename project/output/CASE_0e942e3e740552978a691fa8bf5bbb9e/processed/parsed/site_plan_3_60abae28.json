@@ -4,7 +4,7 @@
   "ocr_text_sha256": "70d728087cb284a64d487be6175e5b5be5824c32c27db8245abca1391104e33d",
   "parse_metadata": {
     "parser_name": "SitePlanParser",
-    "parse_duration_ms": 1794.5765999993455,
+    "parse_duration_ms": 2265.7325999971363,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,
@@ -12,7 +12,24 @@
   },
   "plan_number": "SP/PSRKP/0452/2024",
   "plan_date": "2024-10-16",
-  "location": null,
+  "location": "Shankar Road / Rajinder Nagar Main Road",
   "prepared_by": "Inspector Suresh Chandra, IO",
-  "annotations": []
+  "annotations": [
+    "Circle Filled: Impact point",
+    "Rectangle Red: Bajaj Pulsar DL2SBP1234 - Final position",
+    "Rectangle White: Honda Activa DL5SCT5678 - Final position",
+    "Dashed Line Pulsar: Pre-impact path of Pulsar",
+    "Dashed Line Activa: Pre-impact path of Activa",
+    "Wavy Line Skid: Skid mark (4.2m)",
+    "Star Red: Blood stain location",
+    "Triangle Camera: CCTV Camera locations",
+    "Circle Streetlight: Street light poles",
+    "Shaded Building: St. Stephen's Hospital",
+    "Square Atm: Canara Bank ATM",
+    "Square Shop: Joshi Tea Stall",
+    "Dotted Divider: Road divider",
+    "Solid Zebra: Zebra crossing",
+    "Thick Stopline: Stop line",
+    "Crossed Signal: Non-functional traffic signal"
+  ]
 }

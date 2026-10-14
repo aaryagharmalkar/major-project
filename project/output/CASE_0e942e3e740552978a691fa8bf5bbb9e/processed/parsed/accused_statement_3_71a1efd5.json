@@ -4,7 +4,7 @@
   "ocr_text_sha256": "192b70580f499e199e8595bc91fc8f7e67cbde7b089aacc7b9aaef94b7eb1c7c",
   "parse_metadata": {
     "parser_name": "UnknownDocumentParser",
-    "parse_duration_ms": 0.07159999950090423,
+    "parse_duration_ms": 0.019400002202019095,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,

@@ -4,7 +4,7 @@
   "ocr_text_sha256": "949548ab1de67011dfb75d34240df7aa61fd4f6d3936d4203cd6ba422f686f19",
   "parse_metadata": {
     "parser_name": "CaseDiaryParser",
-    "parse_duration_ms": 8678.74699999993,
+    "parse_duration_ms": 9108.655500000168,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,

@@ -4,7 +4,7 @@
   "ocr_text_sha256": "73c0827b3fa0ff428d26e6f7013907dcaff62a28bb4b597c3e1165009e7e20ec",
   "parse_metadata": {
     "parser_name": "MedicalReportParser",
-    "parse_duration_ms": 2314.1260000011243,
+    "parse_duration_ms": 4277.982299994619,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,
@@ -26,7 +26,30 @@
     "Respiratory Rate: 24/min",
     "Temperature: 98.4°F",
     "Spo2: 94% on room air",
-    "Pain Score: 9/10"
+    "Pain Score: 9/10",
+    "Item 1: Injury Id: INJ-001, Type: Laceration, Location: Scalp, right parietal region, Size: 6cm x 2cm x 1cm deep, Description: Irregular wound with active bleeding, visible periosteum, no skull bone visible, Cause: Impact with road surface",
+    "Item 2: Injury Id: INJ-002, Type: Abrasion, Location: Face, right cheek and forehead, Size: Multiple, covering 12cm x 8cm area, Description: Road rash, dirt and debris embedded in wounds, Cause: Sliding on road surface",
+    "Item 3: Injury Id: INJ-003, Type: Closed fracture, Location: Right femur, mid-shaft, Description: Deformity of right thigh, swelling, abnormal mobility, crepitus present. X-ray confirmed comminuted fracture mid-shaft femur with displacement., Cause: Direct impact from vehicle collision",
+    "Item 4: Injury Id: INJ-004, Type: Fracture, Location: Right clavicle, middle third, Description: Tenderness and deformity over right clavicle. X-ray confirmed displaced fracture., Cause: Fall on right shoulder",
+    "Item 5: Injury Id: INJ-005, Type: Fractures, Location: Ribs 3rd, 4th, 5th on right side, anterior, Description: Chest X-ray shows fractures of right 3rd, 4th, 5th ribs anteriorly. No flail segment. Lung fields clear., Cause: Impact trauma",
+    "Item 6: Injury Id: INJ-006, Type: Abrasion, Location: Right forearm and elbow, Size: 15cm x 6cm, Description: Deep abrasion, oozing, Cause: Road contact",
+    "Item 7: Injury Id: INJ-007, Type: Abrasion, Location: Left knee, Size: 5cm x 4cm, Description: Superficial abrasion, Cause: Road contact",
+    "Test: X-Ray Skull AP and Lateral - Finding: No skull fracture. Normal study.",
+    "Test: X-Ray Right Femur AP and Lateral - Finding: Comminuted fracture mid-shaft right femur. 2.5cm shortening. Angulation present.",
+    "Test: X-Ray Right Clavicle - Finding: Displaced fracture middle third right clavicle.",
+    "Test: X-Ray Chest PA - Finding: Fracture right 3rd, 4th, 5th ribs anteriorly. No pneumothorax or hemothorax. Lung fields clear.",
+    "Test: CT Scan Head (Plain) - Finding: Small subdural hematoma right fronto-parietal region (8mm thickness, 3cm x 4cm). Midline shift 4mm to left. No mass effect. Basal cisterns patent.",
+    "Test: FAST Ultrasound Abdomen - Finding: Grade II liver laceration right lobe (3cm x 2cm). No free fluid in Morrison's pouch, splenorenal recess, or pelvis. Other organs normal.",
+    "Hemoglobin: 10.2 gm/dL",
+    "Tlc: 12000/cumm",
+    "Platelets: 2.4 lakhs/cumm",
+    "Blood Sugar: 130 mg/dL (Random)",
+    "Blood Urea: 32 mg/dL",
+    "Serum Creatinine: 0.9 mg/dL",
+    "Liver Function: Normal",
+    "Hiv Hbsag Hcv: Negative",
+    "Blood Alcohol Level: Nil (0 mg/dL)",
+    "Toxicology Screen: Negative for common drugs of abuse"
   ],
-  "opinion_text": "Nature Of Injuries: Grievous\nDanger To Life: Yes, at time of admission due to head injury and potential for deterioration\nWeapon Used: Not applicable - Injuries due to road traffic accident\nAlcohol Intoxication: Not detected\nConsistency With Alleged History: Injuries are consistent with high-velocity side impact from motorcycle and subsequent fall on road. Pattern of injuries matches described mechanism.\nDuration Of Hospitalization: Expected 3-4 weeks minimum\nPermanent Disability Likely: Possible - Right lower limb may have residual shortening/limitation\nDoctor Signature: Dr. Anjali Mehta, MBBS, MS (Ortho), Reg. No. DMC/R/2010/45678\nDate: 2024-10-15\nTime: 20:30"
+  "opinion_text": "Nature Of Injuries: Grievous\nDanger To Life: Yes, at time of admission due to head injury and potential for deterioration\nWeapon Used: Not applicable - Injuries due to road traffic accident\nAlcohol Intoxication: Not detected\nConsistency With Alleged History: Injuries are consistent with high-velocity side impact from motorcycle and subsequent fall on road. Pattern of injuries matches described mechanism.\nDuration Of Hospitalization: Expected 3-4 weeks minimum\nPermanent Disability Likely: Possible - Right lower limb may have residual shortening/limitation"
 }

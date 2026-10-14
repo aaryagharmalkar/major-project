@@ -4,7 +4,7 @@
   "ocr_text_sha256": "2781847be8d4f12b8d6b5076535ace6625611d80f630e7707d03db1c1777106b",
   "parse_metadata": {
     "parser_name": "FIRParser",
-    "parse_duration_ms": 2215.0550999995176,
+    "parse_duration_ms": 2410.5849000043236,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,
@@ -27,7 +27,7 @@
   ],
   "occurrence_datetime": "2024-10-15T18:20:00",
   "occurrence_location": "Shankar Road T-Point, Near St. Stephen's Hospital Gate No. 2, Rajinder Nagar, New Delhi",
-  "jurisdiction": null,
+  "jurisdiction": "Central Delhi",
   "court": "Ld. Metropolitan Magistrate, Tis Hazari Courts",
   "reported_sections": [
     "Section 281",

@@ -4,7 +4,7 @@
   "ocr_text_sha256": "95f5270895babd6639ba1a33a53de310141d40b58a9810b72f14c829808d9067",
   "parse_metadata": {
     "parser_name": "ArrestMemoParser",
-    "parse_duration_ms": 1787.6463000011427,
+    "parse_duration_ms": 2058.0904000016744,
     "validation_success": true,
     "retry_count": 0,
     "confidence": null,
