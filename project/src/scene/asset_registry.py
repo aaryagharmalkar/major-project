@@ -226,12 +226,34 @@ class AssetRegistry:
         if asset:
             return asset
 
-        return self.find(
-            "generic vehicle",
-            category="vehicle",
-        )
+    def resolve_with_trellis_fallback(
+        self,
+        query: str,
+        category: str = "vehicle",
+        reference_image: str | None = None,
+    ) -> str:
+        """
+        Attempts to resolve an existing local 3D asset first;
+        If not found and reference image or prompt exists, generates on-demand via TRELLIS.
+        """
+        existing = self.find(query, category=category)
+        if existing and existing.asset_id not in ("generic_vehicle", "generic_person"):
+            return f"/assets/{existing.path}"
 
-    # ========================================================
+        # If custom model is requested, check if generated via TRELLIS
+        from .trellis_generator import TrellisAssetGenerator
+        generator = TrellisAssetGenerator()
+        clean_id = re.sub(r"[^a-zA-Z0-9_]", "_", query.lower().strip())
+
+        if reference_image and Path(reference_image).exists():
+            res = generator.generate_from_image(reference_image, asset_id=clean_id)
+            if res.get("success"):
+                return res["public_path"]
+
+        # Default fallback
+        if existing:
+            return f"/assets/{existing.path}"
+        return "/assets/vehicles/bajaj_pulsar_150.glb"
 
     def resolve_person(
         self,

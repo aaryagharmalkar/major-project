@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import { resolveEntityWaypoints, sampleEntityState } from "./kinematics";
+import { SCENARIO_REGISTRY } from "./scenarios";
 
 export default function ArkhamHUD({
   currentTime,
@@ -14,6 +15,8 @@ export default function ArkhamHUD({
   setSelectedTargetId,
   cameraPreset,
   setCameraPreset,
+  selectedCaseId,
+  onSelectCase,
   scene = {},
 }) {
   const formatTime = (seconds) => {
@@ -25,7 +28,6 @@ export default function ArkhamHUD({
   const metadata = scene.metadata || {};
   const vehicles = scene.vehicles || [];
   const people = scene.people || [];
-  const evidence = scene.evidence || [];
   const timeline = scene.timeline || [];
   const conflicts = scene.conflicts || [];
 
@@ -50,11 +52,6 @@ export default function ArkhamHUD({
   // Active Keyframe Event Detection from dynamic timeline
   const currentEvent = useMemo(() => {
     if (!timeline || timeline.length === 0) return null;
-    // Find closest timeline event to currentTime
-    let active = timeline[0];
-    for (const ev of timeline) {
-      active = ev;
-    }
     const idx = Math.min(timeline.length - 1, Math.floor((currentTime / 10.0) * timeline.length));
     return timeline[idx] || timeline[0];
   }, [timeline, currentTime]);
@@ -79,7 +76,7 @@ export default function ArkhamHUD({
       }}
     >
       {/* ============================================================ */}
-      {/* TOP BAR: CASE HEADER & DYNAMIC HYPOTHESIS SWITCHER           */}
+      {/* TOP BAR: CASE HEADER, SCENARIO SELECTOR, & HYPOTHESES        */}
       {/* ============================================================ */}
       <div
         style={{
@@ -90,7 +87,7 @@ export default function ArkhamHUD({
           pointerEvents: "none",
         }}
       >
-        {/* Left: Project Header */}
+        {/* Left: Project Header & Case Switcher Dropdown */}
         <div
           style={{
             pointerEvents: "auto",
@@ -113,16 +110,38 @@ export default function ArkhamHUD({
               }}
             />
             <span style={{ fontSize: 16, fontWeight: "bold", letterSpacing: 2 }}>
-              SENTINEL // DETECTIVE RECONSTRUCTION
+              SENTINEL // RECONSTRUCTION
             </span>
           </div>
 
-          <div style={{ fontSize: 12, color: "#8bd0db", marginTop: 4 }}>
-            LOCATION: <span style={{ color: "#fff" }}>{metadata.location_name || "Forensic Scene"}</span>
+          {/* Scenario / Case Selector */}
+          <div style={{ marginTop: 8, display: "flex", alignItems: "center", gap: 6 }}>
+            <span style={{ fontSize: 10, color: "#ffb700", letterSpacing: 1 }}>CASE:</span>
+            <select
+              value={selectedCaseId}
+              onChange={(e) => onSelectCase && onSelectCase(e.target.value)}
+              style={{
+                background: "rgba(0, 240, 255, 0.1)",
+                border: "1px solid #00f0ff",
+                color: "#fff",
+                padding: "3px 8px",
+                fontSize: 11,
+                fontFamily: "inherit",
+                borderRadius: 4,
+                outline: "none",
+                cursor: "pointer",
+              }}
+            >
+              {Object.values(SCENARIO_REGISTRY).map((sc) => (
+                <option key={sc.id} value={sc.id} style={{ background: "#0c1322", color: "#fff" }}>
+                  {sc.name}
+                </option>
+              ))}
+            </select>
           </div>
 
-          <div style={{ fontSize: 11, color: "#ffb700", marginTop: 4, letterSpacing: 1 }}>
-            SCENE TYPE: {(metadata.scene_type || "GENERIC").toUpperCase()}
+          <div style={{ fontSize: 11, color: "#8bd0db", marginTop: 6 }}>
+            LOCATION: <span style={{ color: "#fff" }}>{metadata.location_name}</span>
           </div>
         </div>
 
@@ -146,7 +165,7 @@ export default function ArkhamHUD({
             {conflicts.map((conflict) => {
               const fieldName = conflict.field || conflict.key || "Parameter";
               const hyps = conflict.hypotheses || [];
-              const activeHypId = activeHypotheses[conflict.id] || (hyps[0]?.id);
+              const activeHypId = activeHypotheses[conflict.id] || hyps[0]?.id;
 
               return (
                 <div key={conflict.id} style={{ marginBottom: 4 }}>
@@ -230,7 +249,7 @@ export default function ArkhamHUD({
             {[
               { id: "tactical", label: "TACTICAL 45°" },
               { id: "overhead", label: "OVERHEAD" },
-              { id: "impact", label: "IMPACT FOCUS" },
+              { id: "impact", label: "FOCUS POINT" },
             ].map((cam) => (
               <button
                 key={cam.id}
@@ -383,12 +402,7 @@ export default function ArkhamHUD({
             </div>
 
             <div style={{ fontSize: 11, color: "#a5b9bc", marginBottom: 8, lineHeight: 1.4 }}>
-              {currentEvent.description ||
-                (currentTime >= 4.8 && currentTime <= 5.5
-                  ? "Point of critical collision / physical event."
-                  : currentTime < 2.0
-                  ? "Initial approach trajectory."
-                  : "Post-event physical displacement.")}
+              {currentEvent.description || "Forensic event observed at documented timestamp."}
             </div>
 
             <div style={{ fontSize: 10, color: "#ffb700" }}>

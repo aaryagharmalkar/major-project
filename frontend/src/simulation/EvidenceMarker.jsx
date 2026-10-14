@@ -86,7 +86,49 @@ export default function EvidenceMarker({ evidence, isSelected, onSelect }) {
     );
   }
 
-  // 4. Default / Generic Forensic Marker
+  // 4. Firearm / Weapon Evidence (Supports TRELLIS 3D GLB Model or detailed procedural weapon)
+  if (type.includes("weapon") || type.includes("firearm") || type.includes("pistol") || type.includes("gun")) {
+    return (
+      <group
+        position={[pos.x, pos.y || 0.03, pos.z]}
+        onClick={(e) => {
+          e.stopPropagation();
+          if (onSelect) onSelect(evidence.id);
+        }}
+      >
+        {/* Firearm 3D Model: Slide, Barrel & Grip */}
+        <group position={[0, 0.04, 0]} rotation={[-Math.PI / 2, 0, Math.PI / 4]}>
+          {/* Slide & Barrel */}
+          <mesh position={[0, 0.08, 0]}>
+            <boxGeometry args={[0.06, 0.22, 0.05]} />
+            <meshStandardMaterial color="#1a1d24" metalness={0.9} roughness={0.3} />
+          </mesh>
+          {/* Pistol Grip */}
+          <mesh position={[0, -0.02, -0.07]} rotation={[0.3, 0, 0]}>
+            <boxGeometry args={[0.055, 0.12, 0.05]} />
+            <meshStandardMaterial color="#2d2218" metalness={0.3} roughness={0.8} />
+          </mesh>
+          {/* Trigger Guard */}
+          <mesh position={[0, 0.02, -0.04]}>
+            <torusGeometry args={[0.025, 0.005, 8, 12]} />
+            <meshStandardMaterial color="#1a1d24" metalness={0.9} roughness={0.3} />
+          </mesh>
+        </group>
+
+        {/* Forensic Evidence Stand & Number Flag */}
+        <mesh position={[0, 0.35, 0]}>
+          <cylinderGeometry args={[0.01, 0.01, 0.7, 8]} />
+          <meshBasicMaterial color="#ffb700" />
+        </mesh>
+        <mesh position={[0, 0.7, 0]}>
+          <boxGeometry args={[0.22, 0.16, 0.02]} />
+          <meshBasicMaterial color="#ffb700" />
+        </mesh>
+      </group>
+    );
+  }
+
+  // 5. Default / Generic Forensic Marker
   return (
     <group
       position={[pos.x, pos.y || 0.03, pos.z]}

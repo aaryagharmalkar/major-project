@@ -41,6 +41,14 @@ export default function PersonModel({
     [roleColor]
   );
 
+  // Dynamic Posture State: If victim struck by impact/gunshot, transition into collapsed pose
+  const isFallen = (role.includes("victim") || role.includes("casualty")) && currentTime >= 5.0;
+  const fallProgress = isFallen ? Math.min(1.0, (currentTime - 5.0) / 0.8) : 0.0;
+  
+  // Dynamic body group orientation: pivots 90 degrees backwards onto the floor
+  const bodyPitch = fallProgress * (Math.PI / 2); // 0 -> 90 deg tilt
+  const bodyElevation = (1 - fallProgress) * 0.85 + 0.12; // lower center of mass to floor
+
   return (
     <group
       position={[position.x, Math.max(0.04, position.y), position.z]}
@@ -50,8 +58,8 @@ export default function PersonModel({
         if (onSelect) onSelect(person.id);
       }}
     >
-      {/* 1. Standing / Walking Mannequin Mesh */}
-      <group position={[0, 0.85, 0]}>
+      {/* 1. Standing / Walking / Fallen Mannequin Mesh */}
+      <group position={[0, bodyElevation, 0]} rotation={[bodyPitch, 0, 0]}>
         {/* Head & Visor */}
         <mesh position={[0, 0.65, 0]} material={suitMaterial}>
           <sphereGeometry args={[0.13, 16, 16]} />

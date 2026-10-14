@@ -6,36 +6,37 @@ import * as THREE from "three";
 import VehicleModel from "./VehicleModel";
 import PersonModel from "./PersonModel";
 import Road from "./Road";
+import RoomEnvironment from "./RoomEnvironment";
 import EvidenceMarker from "./EvidenceMarker";
 import TrajectoryPath from "./TrajectoryPath";
 import ImpactWave from "./ImpactWave";
 
-function CameraController({ cameraPreset }) {
+function CameraController({ cameraPreset, isIndoor }) {
   const { camera } = useThree();
   const controlsRef = useRef();
 
   useEffect(() => {
     if (cameraPreset === "overhead") {
-      camera.position.set(0, 22, 0.1);
+      camera.position.set(0, isIndoor ? 14 : 22, 0.1);
       if (controlsRef.current) {
         controlsRef.current.target.set(0, 0, 0);
         controlsRef.current.update();
       }
     } else if (cameraPreset === "impact") {
-      camera.position.set(4, 3, 5);
+      camera.position.set(isIndoor ? 2.5 : 4, isIndoor ? 1.8 : 3, isIndoor ? 3 : 5);
       if (controlsRef.current) {
         controlsRef.current.target.set(0, 0, 0);
         controlsRef.current.update();
       }
     } else {
       // Tactical 45-degree isometric default
-      camera.position.set(12, 10, 15);
+      camera.position.set(isIndoor ? 8 : 12, isIndoor ? 6 : 10, isIndoor ? 10 : 15);
       if (controlsRef.current) {
         controlsRef.current.target.set(0, 0, 0);
         controlsRef.current.update();
       }
     }
-  }, [cameraPreset, camera]);
+  }, [cameraPreset, camera, isIndoor]);
 
   return (
     <OrbitControls
@@ -45,7 +46,7 @@ function CameraController({ cameraPreset }) {
       enableZoom={true}
       enablePan={true}
       enableRotate={true}
-      minDistance={2}
+      minDistance={1.5}
       maxDistance={60}
       maxPolarAngle={Math.PI / 2 - 0.02}
     />
@@ -59,16 +60,18 @@ export default function SceneCanvas({
   setSelectedTargetId,
   cameraPreset = "tactical",
 }) {
+  const isIndoor = scene.metadata?.scene_type === "indoor_crime_scene" || !!scene.room;
   const roads = scene.roads || [];
   const vehicles = scene.vehicles || [];
   const people = scene.people || [];
   const evidence = scene.evidence || [];
   const timeline = scene.timeline || [];
+  const ballistics = scene.ballistics || [];
 
   return (
     <Canvas
       camera={{
-        position: [12, 10, 15],
+        position: [isIndoor ? 8 : 12, isIndoor ? 6 : 10, isIndoor ? 10 : 15],
         fov: 45,
       }}
       style={{
@@ -79,7 +82,7 @@ export default function SceneCanvas({
       }}
     >
       {/* Fog for Tactical Depth */}
-      <fog attach="fog" args={["#05080f", 20, 65]} />
+      <fog attach="fog" args={["#05080f", isIndoor ? 15 : 20, isIndoor ? 45 : 65]} />
 
       {/* Cyber-Forensic Ambient & Directional Lighting */}
       <ambientLight intensity={0.9} />
@@ -104,16 +107,25 @@ export default function SceneCanvas({
         cellColor="#102538"
         sectionSize={5}
         sectionColor="#00f0ff"
-        fadeDistance={50}
+        fadeDistance={isIndoor ? 35 : 50}
         fadeStrength={1.5}
       />
 
-      {/* Render Roads Dynamically */}
-      {roads.map((road) => (
+      {/* 1. Render Indoor Room Environment if Indoor Case */}
+      {isIndoor && scene.room && (
+        <RoomEnvironment
+          room={scene.room}
+          ballistics={ballistics}
+          currentTime={currentTime}
+        />
+      )}
+
+      {/* 2. Render Outdoor Roads if Road Collision Case */}
+      {!isIndoor && roads.map((road) => (
         <Road key={road.id} road={road} />
       ))}
 
-      {/* Render Holographic Trajectory Ribbons for Vehicles */}
+      {/* 3. Render Holographic Trajectory Ribbons for Vehicles */}
       {vehicles.map((vehicle, idx) => (
         <TrajectoryPath
           key={`traj_${vehicle.id}`}
@@ -124,7 +136,7 @@ export default function SceneCanvas({
         />
       ))}
 
-      {/* Render Holographic Trajectory Ribbons for Moving People */}
+      {/* 4. Render Holographic Trajectory Ribbons for Moving People */}
       {people.map((person, idx) => (
         <TrajectoryPath
           key={`traj_person_${person.id}`}
@@ -135,10 +147,10 @@ export default function SceneCanvas({
         />
       ))}
 
-      {/* Render Collision Epicenter & Shockwave Beacon */}
-      <ImpactWave position={[0, 0.04, 0]} currentTime={currentTime} />
+      {/* 5. Render Collision Epicenter & Shockwave Beacon (Outdoor only) */}
+      {!isIndoor && <ImpactWave position={[0, 0.04, 0]} currentTime={currentTime} />}
 
-      {/* Render Vehicles Dynamically */}
+      {/* 6. Render Vehicles Dynamically */}
       {vehicles.map((vehicle) => (
         <VehicleModel
           key={vehicle.id}
@@ -150,7 +162,7 @@ export default function SceneCanvas({
         />
       ))}
 
-      {/* Render Standalone People / Pedestrians / Witnesses */}
+      {/* 7. Render Standalone People / Pedestrians / Suspects / Victims */}
       {people.map((person) => (
         <PersonModel
           key={person.id}
@@ -162,7 +174,7 @@ export default function SceneCanvas({
         />
       ))}
 
-      {/* Render Forensic Evidence Markers */}
+      {/* 8. Render Forensic Evidence Markers */}
       {evidence.map((ev) => (
         <EvidenceMarker
           key={ev.id}
@@ -173,7 +185,7 @@ export default function SceneCanvas({
       ))}
 
       {/* Camera Preset Manager & Controls */}
-      <CameraController cameraPreset={cameraPreset} />
+      <CameraController cameraPreset={cameraPreset} isIndoor={isIndoor} />
     </Canvas>
   );
 }
